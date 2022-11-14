@@ -38,3 +38,7 @@ ascii: true
 # IV. Le webscraping chez Eurostat
 
 {{< include sections/04_Use_cases_Eurostat/index_04.qmd >}}
+
+# V. Conclusion
+
+{{< include sections/05_Conclusion.qmd >}}

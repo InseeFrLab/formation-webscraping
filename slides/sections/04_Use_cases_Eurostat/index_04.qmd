@@ -1,0 +1,11 @@
+# Le scraping chez Eurostat
+
+{{< include 04_01_scraping_Eurostat.qmd >}}
+
+# Cas d'usage d'Eurostat
+
+{{< include 04_02_use_cases_INSEE.qmd >}}
+
+# Interlocuteurs à privilégier
+
+{{< include 04_03_interlocuteurs.qmd >}}
