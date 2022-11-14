@@ -23,18 +23,18 @@ from: markdown+emoji
 ascii: true
 ---
 
-# Introduction au webscraping
+# I. Introduction au webscraping
 
 {{< include sections/01_Introduction/index_01.qmd >}}
 
-# Mise en pratique
+# II. Mise en pratique
 
 {{< include sections/02_TP/index_02.qmd >}}
 
-# Divers cas d'usage
+# III. Divers cas d'usage
 
 {{< include sections/03_Use_cases_INSEE/index_03.qmd >}}
 
-# Le webscraping chez Eurostat
+# IV. Le webscraping chez Eurostat
 
 {{< include sections/04_Use_cases_Eurostat/index_04.qmd >}}
