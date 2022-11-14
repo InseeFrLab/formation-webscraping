@@ -4,7 +4,7 @@
 
 # Cas d'usage d'Eurostat
 
-{{< include 04_02_use_cases_INSEE.qmd >}}
+{{< include 04_02_use_cases_Eurostat.qmd >}}
 
 # Interlocuteurs à privilégier
 

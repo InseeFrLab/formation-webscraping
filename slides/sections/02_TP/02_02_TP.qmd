@@ -1,0 +1,11 @@
+## Travaux pratiques : présentation du SSP Cloud
+
+xxx
+
+## Travaux pratiques : utilisation du SSP Cloud
+
+xxx
+
+## TP : Approfondissement sur BeautifulSoup et introduction à Selenium
+
+Insérer TP de Lino

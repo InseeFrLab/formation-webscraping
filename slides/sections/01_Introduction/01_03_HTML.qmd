@@ -1,0 +1,19 @@
+## Comprendre la nature d'une page web
+
+xxx
+
+## Inspecter une page web
+
+xxx
+
+## Hiérarchisation d'une page web : les balises HTML
+
+xxx
+
+## Les différents types de balises
+
+xxx
+
+## Pages web et webscraping
+
+xxx

@@ -1,0 +1,23 @@
+## Le webscraping, est-ce légal ?
+
+xxx
+
+## Les limites du webscraping
+
+xxx
+
+## Le webscraping, dans quels cas l'envisager ?
+
+xxx
+
+## Les guidelines d'Eurostat
+
+xxx
+
+## Pour un scraping "éthique"
+
+xxx
+
+## Ce qu'il ne faut pas faire
+
+xxx
