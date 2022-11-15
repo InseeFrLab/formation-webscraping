@@ -1,6 +1,8 @@
 ## Qu'est-ce que le webscraping ?
 
-xxx
+- Le [webscraping](https://fr.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'extraction de contenu sur des sites internet.
+
+- 
 
 ## Exemples introductifs
 
