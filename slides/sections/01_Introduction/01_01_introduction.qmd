@@ -1,16 +1,24 @@
 ## Qu'est-ce que le webscraping ?
 
-- Le [webscraping](https://fr.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'extraction de contenu sur des sites internet.
+- Le [webscraping](https://en.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'extraction de contenu sur des sites internet.
 
-- 
+- Le terme fait généralement référence à l'usage de [bots](https://en.wikipedia.org/wiki/Internet_bot) pour collecter ces contenus automatiquement.
+
 
 ## Exemples introductifs
 
-xxx
+- On souhaite accéder à la [liste des présidents des États-Unis](https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis) et réunir les dates de mandat dans un Excel.
 
-## Cas d'usage en pratique : 
+- On souhaite télécharger le [classement QS 2023 des universités](https://www.universityrankings.ch/results/QS/2023).
 
-xxx
+
+## Cas d'usage pratiques : études de marché et avantages compétitifs
+
+- Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement
+
+- Glaner des informations sur les sites d'entreprises concurrentes
+    - Ex : Dans le domaine des expressions idiomatiques, il est facile de dérober les contenus les uns des autres (ex : )
+
 
 ## Cas d'usage pour un INS : 
 
