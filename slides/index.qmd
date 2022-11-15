@@ -1,9 +1,9 @@
 ---
 title: Formation au webscraping 
 subtitle: |
-  **[xxx]{.orange}**
+  **[Rabat - Coopération internationale]{.orange}**
 author: |
-  [Antoine Palazzolo](https://github.com/antoine-palazz/),
+  [Antoine Palazzolo, INSEE](https://github.com/antoine-palazz/),
 date: Décembre 2022
 slide-number: true
 # uncomment for French presentations:

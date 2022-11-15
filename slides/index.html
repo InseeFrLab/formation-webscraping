@@ -9,7 +9,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <meta name="author" content="Antoine Palazzolo,">
+  <meta name="author" content="Antoine Palazzolo, INSEE,">
   <title>Formation au webscraping</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -328,8 +328,8 @@
 
 <section id="title-slide" data-background-size="contain" class="center">
   <h1 class="title">Formation au webscraping</h1>
-  <p class="subtitle"></p><p><strong><span class="orange">xxx</span></strong></p><p></p>
-  <p class="author"></p><p><a href="https://github.com/antoine-palazz/">Antoine Palazzolo</a>,</p><p></p>
+  <p class="subtitle"></p><p><strong><span class="orange">Rabat - Coopération internationale</span></strong></p><p></p>
+  <p class="author"></p><p><a href="https://github.com/antoine-palazz/">Antoine Palazzolo, INSEE</a>,</p><p></p>
   <p class="date">Décembre 2022</p>
 </section>
 
@@ -345,19 +345,57 @@
 </section>
 <section id="quest-ce-que-le-webscraping" class="slide level2" data-background-size="contain">
 <h2>Qu’est-ce que le webscraping ?</h2>
-<p>xxx</p>
+<ul>
+<li><p>Le <a href="https://en.wikipedia.org/wiki/Web_scraping">webscraping</a> désigne un ensemble de techniques d’extraction de contenu sur des sites internet.</p></li>
+<li><p>Le terme fait généralement référence à l’usage de <a href="https://en.wikipedia.org/wiki/Internet_bot">bots</a> pour collecter ces contenus automatiquement.</p></li>
+</ul>
 </section>
 <section id="exemples-introductifs" class="slide level2" data-background-size="contain">
 <h2>Exemples introductifs</h2>
-<p>xxx</p>
+<ul>
+<li><p>On souhaite accéder à la <a href="https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis">liste des présidents des États-Unis</a> et réunir les dates de mandat dans un Excel.</p></li>
+<li><p>On souhaite télécharger le <a href="https://www.universityrankings.ch/results/QS/2023">classement QS 2023 des universités</a> et filtrer les universités italiennes.</p></li>
+<li><p>On souhaite accéder à un <a href="https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais">répertoire d’expressions idiomatiques</a> et trouver toutes celles contenant le mot “nez”.</p></li>
+</ul>
 </section>
-<section id="cas-dusage-en-pratique" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage en pratique :</h2>
-<p>xxx</p>
+<section id="cas-dusage-pratiques-études-de-marché-et-intelligence-économique" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques : études de marché et intelligence économique</h2>
+<ul>
+<li><p>Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement</p></li>
+<li><p>Glaner des informations sur les sites d’entreprises concurrentes</p>
+<ul>
+<li>Ex : Dans les répertoires d’expressions idiomatiques, il est facile de “dérober” les contenus les uns des autres (<a href="https://www.expressio.fr/toutes-les-expressions">Expressio</a>, <a href="https://www.expressions-francaises.fr/">Expressions Françaises</a>, <a href="https://www.linternaute.fr/expression/">Linternaute</a>, …)</li>
+</ul></li>
+</ul>
+</section>
+<section id="cas-dusage-pratiques-analyses-de-sentiment-et-génération-de-leads" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques : analyses de sentiment et génération de leads</h2>
+<ul>
+<li><p>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus</p></li>
+<li><p>Obtenir une liste de clients potentiels ou plus généralement de contacts répondant à des critères spécifiques à partir de sites comme les <a href="https://www.pagesjaunes.fr/pagesblanches">Pages Jaunes</a> ou <a href="https://www.google.com/business/">Google Maps</a> pour les entreprises</p></li>
+</ul>
+</section>
+<section id="cas-dusage-pratiques-obtenir-des-données-pour-alimenter-des-modèles-de-ml" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques : obtenir des données pour alimenter des modèles de ML</h2>
+<ul>
+<li><p>Regrouper divers indicateurs et séries temporelles via les <a href="https://trends.google.fr/trends/?geo=FR">Google Trends</a> pour améliorer les performances de modèles de prédiction</p></li>
+<li><p>Surveiller les valeurs de stocks boursiers et mouvements de marché sur <a href="https://fr.finance.yahoo.com/">Yahoo Finance</a> et les inclure dans des modèles</p></li>
+</ul>
+</section>
+<section id="cas-dusage-pratiques-très-utiles-dans-des-domaines-précis" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques : très utiles dans des domaines précis</h2>
+<ul>
+<li><p>Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer</p></li>
+<li><p>Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies. Ce n’est d’ailleurs pas spécifique qu’au domaine du transport (on pourra par exemple citer les hôtels).</p></li>
+<li><p>Dans le domaine des paris, il est courant de scraper les sites de statistiques sportives afin d’adapter l’offre des paris.</p></li>
+</ul>
 </section>
 <section id="cas-dusage-pour-un-ins" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pour un INS :</h2>
-<p>xxx</p>
+<ul>
+<li><p>Scraper divers sites de ventes afin d’obtenir des données de prix pour le calcul de l’indice des prix à la consommation</p></li>
+<li><p>Compléter des données de statistiques d’entreprises avec des informations disponibles en ligne</p></li>
+</ul>
 </section></section>
 <section>
 <section id="risques-juridiques-et-scraping-éthique" class="title-slide slide level1 center" data-background-size="contain">
