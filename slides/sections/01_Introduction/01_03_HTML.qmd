@@ -1,10 +1,21 @@
 ## Comprendre la nature d'une page web
 
-xxx
+- Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.
+
+- Les 3 langages principaux pour les coder sont :
+ - HTML : pour composer la structure des pages via un système de balises
+ - CSS : des feuilles de style pour décrire la présentation de pages HTML
+ - Javascript : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
+
 
 ## Inspecter une page web
 
-xxx
+- Il est possible d'afficher le code source des pages Web, parmi lequel les scrapeurs doivent naviguer.
+
+- Clic droit sur la page +
+ - "Inspecter l'élément" pour observer un endroit spécifique de la page
+ - "Afficher le code source de la page" pour afficher le code de toute la page
+
 
 ## Hiérarchisation d'une page web : les balises HTML
 

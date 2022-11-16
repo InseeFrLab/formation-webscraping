@@ -1,3 +1,7 @@
 ## Scraping éthique : les points techniques à retenir
 
 xxx
+
+## Contourner les défenses
+
+xxx

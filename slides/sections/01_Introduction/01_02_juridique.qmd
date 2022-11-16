@@ -62,16 +62,16 @@
 
 - Créer des pages "Honeypot" qu'un humain ne visiterait jamais pour identifier puis bloquer des bots
 
-- Utiliser des CAPTCHAs lorsqu'une activité suspecte est repérée
+- Utiliser des CAPTCHAs lorsqu'une activité suspecte est repérée ou bien nécessiter une connexion au site
 
 
 ## Les limites du webscraping
 
 - La qualité des données obtenues par scraping n'est pas toujours au rendez-vous.
 
-- Les risques légaux sont existants, et plus généralement cela peut nuire à l'image d'un INS.
+- Il faut 'lutter' contre les sites qui se défendent contre le scraping, ce qui n'est pas sans effort.
 
-- Il vaut mieux favoriser des relations de confiance avec les sites concernés.
+- Les risques légaux sont existants, et plus généralement cela peut nuire à l'image d'un INS. De plus, il vaut mieux favoriser des relations de confiance avec les sites concernés.
 
 
 ## Dans ces conditions, quand envisager le webscraping ?
@@ -107,7 +107,7 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 
 - Privilégier les heures creuses du site pour les opérations de scraping
 
-- Étaler les requêtes en laissant un temps de 'pause' entrre chaque requête sur site
+- Étaler les requêtes en laissant un temps de 'pause' entre chaque requête sur site
 
 
 ## Les guidelines du Système Statistique Européen : confiance
@@ -121,4 +121,7 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 
 ## Ce qu'il ne faut pas faire
 
-xxx
+- Consciemment déroger aux règlementations données et manquer de transparence
+
+- Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois
+
