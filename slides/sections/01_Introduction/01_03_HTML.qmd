@@ -3,9 +3,9 @@
 - Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.
 
 - Les 3 langages principaux pour les coder sont :
- - HTML : pour composer la structure des pages via un système de balises
- - CSS : des feuilles de style pour décrire la présentation de pages HTML
- - Javascript : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
+    - HTML : pour composer la structure des pages via un système de balises
+    - CSS : des feuilles de style pour décrire la présentation de pages HTML
+    - Javascript : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
 
 
 ## Inspecter une page web
@@ -13,18 +13,83 @@
 - Il est possible d'afficher le code source des pages Web, parmi lequel les scrapeurs doivent naviguer.
 
 - Clic droit sur la page +
- - "Inspecter l'élément" pour observer un endroit spécifique de la page
- - "Afficher le code source de la page" pour afficher le code de toute la page
+    - "Inspecter l'élément" pour observer un endroit spécifique de la page
+    - "Afficher le code source de la page" pour afficher le code de toute la page
 
 
 ## Hiérarchisation d'une page web : les balises HTML
 
-xxx
+- Sur une page web, vous trouverez à coup sûr des éléments comme ``<head>``, ``<title>``, etc. Il  s'agit des codes qui vous permettent de structurer le contenu d'une page *HTML* et qui s'appellent des **balises**. 
+    - Citons, par exemple, les balises ``<p>``, ``<h1>``, ``<h2>``, ``<h3>``, ``<strong>`` ou ``<em>``.
 
-## Les différents types de balises
+- Le symbole ``< >`` est une balise : il sert à indiquer le début d'une partie. Le symbole ``</ >`` indique la fin de cette partie. La plupart des balises vont par paires, avec une *balise ouvrante* et une *balise fermante* (par exemple ``<p>`` et ``</p>``).
 
-xxx
 
-## Pages web et webscraping
+## Exemple : les balises de tableau
 
-xxx
+
+| Balise      | Description                        |
+|-------------|------------------------------------|
+| `<table>`   | Tableau                            |
+| `<caption>` | Titre du tableau                   |
+| `<tr>`      | Ligne de tableau                   |
+| `<th>`      | Cellule d'en-tête                  |
+| `<td>`      | Cellule                            |
+| `<thead>`   | Section de l'en-tête du tableau    |
+| `<tbody>`   | Section du corps du tableau        |
+| `<tfoot>`   | Section du pied du tableau         |
+
+
+## Un exemple : le code *HTML*
+
+```{html}
+<table>
+<caption> Le Titre de mon tableau </caption>
+   <tr>
+      <th>Prénom</th>
+      <th>Nom</th>
+      <th>Profession</th>
+   </tr>
+   <tr>
+      <td>Mike </td>
+      <td>Stuntman</td>
+      <td>Cascadeur</td>
+   </tr>
+   <tr>
+      <td>Mister</td>
+      <td>Pink</td>
+      <td>Gangster</td>
+   </tr>
+</table>
+```
+
+## Un exemple : le rendu du code *HTML*
+
+<table>
+<caption> Le Titre de mon tableau </caption>
+
+   <tr>
+      <th>Prénom</th>
+      <th>Nom</th>
+      <th>Profession</th>
+   </tr>
+   <tr>
+      <td>Mike </td>
+      <td>Stuntman</td>
+      <td>Cascadeur</td>
+   </tr>
+   <tr>
+      <td>Mister</td>
+      <td>Pink</td>
+      <td>Gangster</td>
+   </tr>
+</table>
+
+
+## Scraping d'une page web
+
+- Le webscraping consiste à naviguer parmi ces balises *HTML* pour extraire le contenu désiré (textes, tableaux, images, ...).
+
+- Il est aussi possible de récupérer d'autres url sur une page pour s'y rendre et les scraper ensuite.
+
+- Dans certains cas plus complexes, lire le contenu *HTML* ne suffit pas, par exemple s'il faut cliquer sur des boutons pour faire apparaître le contenu désiré.

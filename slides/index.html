@@ -28,6 +28,70 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link rel="stylesheet" href="custom.css">
@@ -464,15 +528,15 @@
 <ul>
 <li><p>Modifier régulièrement le format HTML du contenu pour empêcher l’automatisation du scraping par autrui</p></li>
 <li><p>Créer des pages “Honeypot” qu’un humain ne visiterait jamais pour identifier puis bloquer des bots</p></li>
-<li><p>Utiliser des CAPTCHAs lorsqu’une activité suspecte est repérée</p></li>
+<li><p>Utiliser des CAPTCHAs lorsqu’une activité suspecte est repérée ou bien nécessiter une connexion au site</p></li>
 </ul>
 </section>
 <section id="les-limites-du-webscraping" class="slide level2" data-background-size="contain">
 <h2>Les limites du webscraping</h2>
 <ul>
 <li><p>La qualité des données obtenues par scraping n’est pas toujours au rendez-vous.</p></li>
-<li><p>Les risques légaux sont existants, et plus généralement cela peut nuire à l’image d’un INS.</p></li>
-<li><p>Il vaut mieux favoriser des relations de confiance avec les sites concernés.</p></li>
+<li><p>Il faut ‘lutter’ contre les sites qui se défendent contre le scraping, ce qui n’est pas sans effort.</p></li>
+<li><p>Les risques légaux sont existants, et plus généralement cela peut nuire à l’image d’un INS. De plus, il vaut mieux favoriser des relations de confiance avec les sites concernés.</p></li>
 </ul>
 </section>
 <section id="dans-ces-conditions-quand-envisager-le-webscraping" class="slide level2" data-background-size="contain">
@@ -486,8 +550,11 @@
 </section>
 <section id="pour-un-scraping-éthique" class="slide level2" data-background-size="contain">
 <h2>Pour un scraping “éthique”</h2>
-<p>Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s’en priver.</p>
-<p>Cependant, il existe des moyens de scraper de façon “éthique” et en minimisant la charge sur le site scrapé.</p>
+<ul>
+<li><p>Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s’en priver.</p></li>
+<li><p>Cependant, il existe des moyens de scraper de façon “éthique” et en minimisant la charge sur le site scrapé.</p></li>
+<li><p>Cela passe par exemple par demander la permission aux sites à scraper.</p></li>
+</ul>
 </section>
 <section id="les-guidelines-du-système-statistique-européen-transparence" class="slide level2" data-background-size="contain">
 <h2>Les guidelines du Système Statistique Européen : transparence</h2>
@@ -502,7 +569,7 @@
 <ul>
 <li><p>Toujours chercher à minimiser l’impact sur les serveurs du site scrapé, notamment en limitant les requêtes effectuées au minimum requis</p></li>
 <li><p>Privilégier les heures creuses du site pour les opérations de scraping</p></li>
-<li><p>Étaler les requêtes en laissant un temps de ‘pause’ entrre chaque requête sur site</p></li>
+<li><p>Étaler les requêtes en laissant un temps de ‘pause’ entre chaque requête sur site</p></li>
 </ul>
 </section>
 <section id="les-guidelines-du-système-statistique-européen-confiance" class="slide level2" data-background-size="contain">
@@ -515,7 +582,10 @@
 </section>
 <section id="ce-quil-ne-faut-pas-faire" class="slide level2" data-background-size="contain">
 <h2>Ce qu’il ne faut pas faire</h2>
-<p>xxx</p>
+<ul>
+<li><p>Consciemment déroger aux règlementations données et manquer de transparence</p></li>
+<li><p>Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois</p></li>
+</ul>
 </section></section>
 <section>
 <section id="rappels-sur-html" class="title-slide slide level1 center" data-background-size="contain">
@@ -524,23 +594,153 @@
 </section>
 <section id="comprendre-la-nature-dune-page-web" class="slide level2" data-background-size="contain">
 <h2>Comprendre la nature d’une page web</h2>
-<p>xxx</p>
+<ul>
+<li><p>Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.</p></li>
+<li><p>Les 3 langages principaux pour les coder sont :</p>
+<ul>
+<li>HTML : pour composer la structure des pages via un système de balises</li>
+<li>CSS : des feuilles de style pour décrire la présentation de pages HTML</li>
+<li>Javascript : pour tout ce qui est relatif à l’interactivité d’un site (ex : boutons)</li>
+</ul></li>
+</ul>
 </section>
 <section id="inspecter-une-page-web" class="slide level2" data-background-size="contain">
 <h2>Inspecter une page web</h2>
-<p>xxx</p>
+<ul>
+<li><p>Il est possible d’afficher le code source des pages Web, parmi lequel les scrapeurs doivent naviguer.</p></li>
+<li><p>Clic droit sur la page +</p>
+<ul>
+<li>“Inspecter l’élément” pour observer un endroit spécifique de la page</li>
+<li>“Afficher le code source de la page” pour afficher le code de toute la page</li>
+</ul></li>
+</ul>
 </section>
 <section id="hiérarchisation-dune-page-web-les-balises-html" class="slide level2" data-background-size="contain">
 <h2>Hiérarchisation d’une page web : les balises HTML</h2>
-<p>xxx</p>
+<ul>
+<li>Sur une page web, vous trouverez à coup sûr des éléments comme <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, etc. Il s’agit des codes qui vous permettent de structurer le contenu d’une page <em>HTML</em> et qui s’appellent des <strong>balises</strong>.
+<ul>
+<li>Citons, par exemple, les balises <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;strong&gt;</code> ou <code>&lt;em&gt;</code>.</li>
+</ul></li>
+<li>Le symbole <code>&lt; &gt;</code> est une balise : il sert à indiquer le début d’une partie. Le symbole <code>&lt;/ &gt;</code> indique la fin de cette partie. La plupart des balises vont par paires, avec une <em>balise ouvrante</em> et une <em>balise fermante</em> (par exemple <code>&lt;p&gt;</code> et <code>&lt;/p&gt;</code>).</li>
+</ul>
 </section>
-<section id="les-différents-types-de-balises" class="slide level2" data-background-size="contain">
-<h2>Les différents types de balises</h2>
-<p>xxx</p>
+<section id="exemple-les-balises-de-tableau" class="slide level2" data-background-size="contain">
+<h2>Exemple : les balises de tableau</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Balise</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>&lt;table&gt;</code></td>
+<td>Tableau</td>
+</tr>
+<tr class="even">
+<td><code>&lt;caption&gt;</code></td>
+<td>Titre du tableau</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;tr&gt;</code></td>
+<td>Ligne de tableau</td>
+</tr>
+<tr class="even">
+<td><code>&lt;th&gt;</code></td>
+<td>Cellule d’en-tête</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;td&gt;</code></td>
+<td>Cellule</td>
+</tr>
+<tr class="even">
+<td><code>&lt;thead&gt;</code></td>
+<td>Section de l’en-tête du tableau</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;tbody&gt;</code></td>
+<td>Section du corps du tableau</td>
+</tr>
+<tr class="even">
+<td><code>&lt;tfoot&gt;</code></td>
+<td>Section du pied du tableau</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="pages-web-et-webscraping" class="slide level2" data-background-size="contain">
-<h2>Pages web et webscraping</h2>
-<p>xxx</p>
+<section id="un-exemple-le-code-html" class="slide level2" data-background-size="contain">
+<h2>Un exemple : le code <em>HTML</em></h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {html} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>&lt;table&gt;</span>
+<span id="cb1-2"><a href="#cb1-2"></a>&lt;caption&gt; Le Titre de mon tableau &lt;/caption&gt;</span>
+<span id="cb1-3"><a href="#cb1-3"></a>   &lt;tr&gt;</span>
+<span id="cb1-4"><a href="#cb1-4"></a>      &lt;th&gt;Prénom&lt;/th&gt;</span>
+<span id="cb1-5"><a href="#cb1-5"></a>      &lt;th&gt;Nom&lt;/th&gt;</span>
+<span id="cb1-6"><a href="#cb1-6"></a>      &lt;th&gt;Profession&lt;/th&gt;</span>
+<span id="cb1-7"><a href="#cb1-7"></a>   &lt;/tr&gt;</span>
+<span id="cb1-8"><a href="#cb1-8"></a>   &lt;tr&gt;</span>
+<span id="cb1-9"><a href="#cb1-9"></a>      &lt;td&gt;Mike &lt;/td&gt;</span>
+<span id="cb1-10"><a href="#cb1-10"></a>      &lt;td&gt;Stuntman&lt;/td&gt;</span>
+<span id="cb1-11"><a href="#cb1-11"></a>      &lt;td&gt;Cascadeur&lt;/td&gt;</span>
+<span id="cb1-12"><a href="#cb1-12"></a>   &lt;/tr&gt;</span>
+<span id="cb1-13"><a href="#cb1-13"></a>   &lt;tr&gt;</span>
+<span id="cb1-14"><a href="#cb1-14"></a>      &lt;td&gt;Mister&lt;/td&gt;</span>
+<span id="cb1-15"><a href="#cb1-15"></a>      &lt;td&gt;Pink&lt;/td&gt;</span>
+<span id="cb1-16"><a href="#cb1-16"></a>      &lt;td&gt;Gangster&lt;/td&gt;</span>
+<span id="cb1-17"><a href="#cb1-17"></a>   &lt;/tr&gt;</span>
+<span id="cb1-18"><a href="#cb1-18"></a>&lt;/table&gt;</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="un-exemple-le-rendu-du-code-html" class="slide level2" data-background-size="contain">
+<h2>Un exemple : le rendu du code <em>HTML</em></h2>
+
+<table>
+<caption>
+Le Titre de mon tableau
+</caption>
+<tbody><tr>
+<th>
+Prénom
+</th>
+<th>
+Nom
+</th>
+<th>
+Profession
+</th>
+</tr>
+<tr>
+<td>
+Mike
+</td>
+<td>
+Stuntman
+</td>
+<td>
+Cascadeur
+</td>
+</tr>
+<tr>
+<td>
+Mister
+</td>
+<td>
+Pink
+</td>
+<td>
+Gangster
+</td>
+</tr>
+
+</tbody></table>
+</section>
+<section id="scraping-dune-page-web" class="slide level2" data-background-size="contain">
+<h2>Scraping d’une page web</h2>
+<ul>
+<li><p>Le webscraping consiste à naviguer parmi ces balises <em>HTML</em> pour extraire le contenu désiré (textes, tableaux, images, …).</p></li>
+<li><p>Il est aussi possible de récupérer d’autres url sur une page pour s’y rendre et les scraper ensuite.</p></li>
+<li><p>Dans certains cas plus complexes, lire le contenu <em>HTML</em> ne suffit pas, par exemple s’il faut cliquer sur des boutons pour faire apparaître le contenu désiré.</p></li>
+</ul>
 </section></section>
 <section id="ii.-mise-en-pratique" class="title-slide slide level1 center" data-background-size="contain">
 <h1>II. Mise en pratique</h1>
@@ -584,6 +784,10 @@
 </section>
 <section id="scraping-éthique-les-points-techniques-à-retenir" class="slide level2" data-background-size="contain">
 <h2>Scraping éthique : les points techniques à retenir</h2>
+<p>xxx</p>
+</section>
+<section id="contourner-les-défenses" class="slide level2" data-background-size="contain">
+<h2>Contourner les défenses</h2>
 <p>xxx</p>
 </section></section>
 <section>
