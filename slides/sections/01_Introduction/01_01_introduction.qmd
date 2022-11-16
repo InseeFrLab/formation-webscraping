@@ -50,3 +50,5 @@
 - Scraper divers sites de ventes afin d'obtenir des données de prix pour le calcul de l'indice des prix à la consommation
 
 - Compléter des données de statistiques d'entreprises avec des informations disponibles en ligne
+
+- Minimiser les fardeaux de réponse lors des enquêtes en favorisant le scraping

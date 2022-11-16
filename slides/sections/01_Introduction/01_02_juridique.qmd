@@ -28,7 +28,7 @@
 - Le droit [sui generis](https://fr.wikipedia.org/wiki/Sui_generis), à l'échelle européenne, protégeant les bases de données ayant nécessité un "investissement substantiel"
 
 - Certaines directives relatives à la protection des bases de données en Europe.
-    - Ex : [DIRECTIVE 96/9/CE DU PARLEMENT EUROPÉEN ET DU CONSEIL](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML)
+    - Ex : [Directive 96/9/CE du Parlement Européen et du conseil](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML)
 
 
 ## Les principales règlementations autour du webscraping - Encore d'autres
@@ -42,19 +42,82 @@
 
 ## Outre les protections légales, les sites se protègent eux-mêmes
 
-xxx
+- Afin d'éviter la réutilisation de leur contenu par des concurrents et lutter contre l'espionnage
 
-## Le webscraping, dans quels cas l'envisager ?
+- Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l'accès au site, et qui peuvent s'assimiler à une [attaque DDoS](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service)
 
-xxx
 
-## Les guidelines d'Eurostat
+## Les méthodes mises en place pour se protéger du scraping (1/2)
 
-xxx
+- Mettre en place des conditions d'utilisation contraignantes et instructions explicites pour se protéger d'un point de vue légal
+
+- Repérer les adresses IP suspectes et bloquer leur accès au site, temporairement ou de façon permanente
+
+- Identifier les bots et leur afficher un contenu différent des utilisateurs classiques, pour par exemple renvoyer de fausses données
+
+
+## Les méthodes mises en place pour se protéger du scraping (2/2)
+
+- Modifier régulièrement le format HTML du contenu pour empêcher l'automatisation du scraping par autrui
+
+- Créer des pages "Honeypot" qu'un humain ne visiterait jamais pour identifier puis bloquer des bots
+
+- Utiliser des CAPTCHAs lorsqu'une activité suspecte est repérée
+
+
+## Les limites du webscraping
+
+- La qualité des données obtenues par scraping n'est pas toujours au rendez-vous.
+
+- Les risques légaux sont existants, et plus généralement cela peut nuire à l'image d'un INS.
+
+- Il vaut mieux favoriser des relations de confiance avec les sites concernés.
+
+
+## Dans ces conditions, quand envisager le webscraping ?
+
+La politique de l'INSEE est de garder le webscraping comme dernière option. Les premières étapes recommandées sont d'abord de :
+
+- Demander directement aux sites concernés l'accès à leurs données et nouer d'éventuels partenariats, par exemple avec une contrepartie
+- Chercher s'il existe une API du site permettant d'accéder aux données
+- Chercher des alternatives, comme accéder à des données similaires via un moyen moins contraignant
+
 
 ## Pour un scraping "éthique"
 
-xxx
+- Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s'en priver.
+
+- Cependant, il existe des moyens de scraper de façon "éthique" et en minimisant la charge sur le site scrapé.
+
+- Cela passe par exemple par demander la permission aux sites à scraper.
+
+
+## Les guidelines du Système Statistique Européen : transparence
+
+- Rendre publique la liste des collectes de données par scraping de l'INS, autrement dit être transparent
+
+- Si l'impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné
+
+- S'identifier auprès du site lors de l'opération de scraping (sauf cas particuliers)
+
+
+## Les guidelines du Système Statistique Européen : minimiser l'impact
+
+- Toujours chercher à minimiser l'impact sur les serveurs du site scrapé, notamment en limitant les requêtes effectuées au minimum requis
+
+- Privilégier les heures creuses du site pour les opérations de scraping
+
+- Étaler les requêtes en laissant un temps de 'pause' entrre chaque requête sur site
+
+
+## Les guidelines du Système Statistique Européen : confiance
+
+- Favoriser les échanges avec les propriétaires des sites : partenariats, échanges de données, requêtes d'API, ...
+
+- Se plier aux conditions d'utilisation des sites concernés et aux règlementations de la zone concernée
+
+- Manipuler de façon sécurisée les données scrapées
+
 
 ## Ce qu'il ne faut pas faire
 

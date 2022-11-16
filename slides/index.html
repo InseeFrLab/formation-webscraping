@@ -395,6 +395,7 @@
 <ul>
 <li><p>Scraper divers sites de ventes afin d’obtenir des données de prix pour le calcul de l’indice des prix à la consommation</p></li>
 <li><p>Compléter des données de statistiques d’entreprises avec des informations disponibles en ligne</p></li>
+<li><p>Minimiser les fardeaux de réponse lors des enquêtes en favorisant le scraping</p></li>
 </ul>
 </section></section>
 <section>
@@ -431,7 +432,7 @@
 <li><p>Le droit <a href="https://fr.wikipedia.org/wiki/Sui_generis">sui generis</a>, à l’échelle européenne, protégeant les bases de données ayant nécessité un “investissement substantiel”</p></li>
 <li><p>Certaines directives relatives à la protection des bases de données en Europe.</p>
 <ul>
-<li>Ex : <a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML">DIRECTIVE 96/9/CE DU PARLEMENT EUROPÉEN ET DU CONSEIL</a></li>
+<li>Ex : <a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML">Directive 96/9/CE du Parlement Européen et du conseil</a></li>
 </ul></li>
 </ul>
 </section>
@@ -445,19 +446,72 @@
 </section>
 <section id="outre-les-protections-légales-les-sites-se-protègent-eux-mêmes" class="slide level2" data-background-size="contain">
 <h2>Outre les protections légales, les sites se protègent eux-mêmes</h2>
-<p>xxx</p>
+<ul>
+<li><p>Afin d’éviter la réutilisation de leur contenu par des concurrents et lutter contre l’espionnage</p></li>
+<li><p>Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l’accès au site, et qui peuvent s’assimiler à une <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service">attaque DDoS</a></p></li>
+</ul>
 </section>
-<section id="le-webscraping-dans-quels-cas-lenvisager" class="slide level2" data-background-size="contain">
-<h2>Le webscraping, dans quels cas l’envisager ?</h2>
-<p>xxx</p>
+<section id="les-méthodes-mises-en-place-pour-se-protéger-du-scraping-12" class="slide level2" data-background-size="contain">
+<h2>Les méthodes mises en place pour se protéger du scraping (1/2)</h2>
+<ul>
+<li><p>Mettre en place des conditions d’utilisation contraignantes et instructions explicites pour se protéger d’un point de vue légal</p></li>
+<li><p>Repérer les adresses IP suspectes et bloquer leur accès au site, temporairement ou de façon permanente</p></li>
+<li><p>Identifier les bots et leur afficher un contenu différent des utilisateurs classiques, pour par exemple renvoyer de fausses données</p></li>
+</ul>
 </section>
-<section id="les-guidelines-deurostat" class="slide level2" data-background-size="contain">
-<h2>Les guidelines d’Eurostat</h2>
-<p>xxx</p>
+<section id="les-méthodes-mises-en-place-pour-se-protéger-du-scraping-22" class="slide level2" data-background-size="contain">
+<h2>Les méthodes mises en place pour se protéger du scraping (2/2)</h2>
+<ul>
+<li><p>Modifier régulièrement le format HTML du contenu pour empêcher l’automatisation du scraping par autrui</p></li>
+<li><p>Créer des pages “Honeypot” qu’un humain ne visiterait jamais pour identifier puis bloquer des bots</p></li>
+<li><p>Utiliser des CAPTCHAs lorsqu’une activité suspecte est repérée</p></li>
+</ul>
+</section>
+<section id="les-limites-du-webscraping" class="slide level2" data-background-size="contain">
+<h2>Les limites du webscraping</h2>
+<ul>
+<li><p>La qualité des données obtenues par scraping n’est pas toujours au rendez-vous.</p></li>
+<li><p>Les risques légaux sont existants, et plus généralement cela peut nuire à l’image d’un INS.</p></li>
+<li><p>Il vaut mieux favoriser des relations de confiance avec les sites concernés.</p></li>
+</ul>
+</section>
+<section id="dans-ces-conditions-quand-envisager-le-webscraping" class="slide level2" data-background-size="contain">
+<h2>Dans ces conditions, quand envisager le webscraping ?</h2>
+<p>La politique de l’INSEE est de garder le webscraping comme dernière option. Les premières étapes recommandées sont d’abord de :</p>
+<ul>
+<li>Demander directement aux sites concernés l’accès à leurs données et nouer d’éventuels partenariats, par exemple avec une contrepartie</li>
+<li>Chercher s’il existe une API du site permettant d’accéder aux données</li>
+<li>Chercher des alternatives, comme accéder à des données similaires via un moyen moins contraignant</li>
+</ul>
 </section>
 <section id="pour-un-scraping-éthique" class="slide level2" data-background-size="contain">
 <h2>Pour un scraping “éthique”</h2>
-<p>xxx</p>
+<p>Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s’en priver.</p>
+<p>Cependant, il existe des moyens de scraper de façon “éthique” et en minimisant la charge sur le site scrapé.</p>
+</section>
+<section id="les-guidelines-du-système-statistique-européen-transparence" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du Système Statistique Européen : transparence</h2>
+<ul>
+<li><p>Rendre publique la liste des collectes de données par scraping de l’INS, autrement dit être transparent</p></li>
+<li><p>Si l’impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné</p></li>
+<li><p>S’identifier auprès du site lors de l’opération de scraping (sauf cas particuliers)</p></li>
+</ul>
+</section>
+<section id="les-guidelines-du-système-statistique-européen-minimiser-limpact" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du Système Statistique Européen : minimiser l’impact</h2>
+<ul>
+<li><p>Toujours chercher à minimiser l’impact sur les serveurs du site scrapé, notamment en limitant les requêtes effectuées au minimum requis</p></li>
+<li><p>Privilégier les heures creuses du site pour les opérations de scraping</p></li>
+<li><p>Étaler les requêtes en laissant un temps de ‘pause’ entrre chaque requête sur site</p></li>
+</ul>
+</section>
+<section id="les-guidelines-du-système-statistique-européen-confiance" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du Système Statistique Européen : confiance</h2>
+<ul>
+<li><p>Favoriser les échanges avec les propriétaires des sites : partenariats, échanges de données, requêtes d’API, …</p></li>
+<li><p>Se plier aux conditions d’utilisation des sites concernés et aux règlementations de la zone concernée</p></li>
+<li><p>Manipuler de façon sécurisée les données scrapées</p></li>
+</ul>
 </section>
 <section id="ce-quil-ne-faut-pas-faire" class="slide level2" data-background-size="contain">
 <h2>Ce qu’il ne faut pas faire</h2>
