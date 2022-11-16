@@ -35,9 +35,10 @@
 
 - Surveiller les valeurs de stocks boursiers et mouvements de marché sur [Yahoo Finance](https://fr.finance.yahoo.com/) et les inclure dans des modèles
 
+
 ## Cas d'usage pratiques : très utiles dans des domaines précis
 
-- Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer
+- Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer.
 
 - Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies. Ce n'est d'ailleurs pas spécifique qu'au domaine du transport (ex: hébergement touristique).
 
