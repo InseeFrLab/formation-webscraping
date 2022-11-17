@@ -1,7 +1,41 @@
 ## Les librairies principales sur Python
 
-xxx
+- Plusieurs librairies premettent de faire du scraping en Python. Les principales sont :
+    - Requests
+    - Urllib
+    - BeautifulSoup
+    - Selenium
+    - Scrapy
 
-## Quelques librairies dans d'autres langages
+
+## Extraire les codes sources HTML : Requests et Urllib
+
+- Rôle :
+    - Créer des requêtes HTTP pour récupérer le contenu des pages web
+
+- Requests un peu plus simpliste que Urllib
+
+
+## Analyser les codes HTML : BeautifulSoup
+
+
+
+
+## Interagir avec une page : Sélénium
+
+
+
+
+## Un outil plus complet : Scrapy
+
+
+
+
+## Quelques librairies sur R
+
+polite, rvest
+
+
+## Quelques librairies en Java
 
 xxx
