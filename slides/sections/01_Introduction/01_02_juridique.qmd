@@ -1,6 +1,6 @@
 ## Le webscraping, est-ce légal ?
 
-- Le webscraping en lui-même n'est pas une pratique illégale, mais l'utilisation faite des données scrapées peut être soumise à règlementation.
+- Le webscraping en lui-même n'est pas une pratique illégale, mais l'utilisation faite des données scrapées peut être soumise à règlementation. Ces règles dépendent alors du pays dans lequel on se trouve.
 
 - Ainsi, scraper un site pour conserver les données sur son ordinateur est légal.
 
@@ -12,6 +12,14 @@
 - Les législations spécifiques au webscraping sont peu nombreuses. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.
 
 - Les [cas portés en justice](https://devm.io/law-net-culture/data-scraping-cases-165385) ont des dénouements parfois différents les uns les autres, notamment d'un pays à l'autre, montrant bien qu'il s'agit là d'une zone parfois grise.
+
+
+## Une pratique pourtant très répandue
+
+- Les cas d'usage, y compris dans de grandes entreprises, sont très nombreux.
+
+- Les articles discutant de webscraping et de leur légalité sont tout aussi proliférant, mais pas toujours d'accord les uns avec les autres.
+    - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL), ...
 
 
 ## Les principales règlementations autour du webscraping - En France
@@ -29,6 +37,8 @@
 
 - Certaines directives relatives à la protection des bases de données en Europe.
     - Ex : [Directive 96/9/CE du Parlement Européen et du conseil](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML)
+
+- Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données (parfois personnelles)
 
 
 ## Les principales règlementations autour du webscraping - Encore d'autres
@@ -124,4 +134,3 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Consciemment déroger aux règlementations données et manquer de transparence
 
 - Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois
-

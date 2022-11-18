@@ -422,6 +422,12 @@
 <li><p>On souhaite accéder à un <a href="https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais">répertoire d’expressions idiomatiques</a> et trouver toutes celles contenant le mot “nez”.</p></li>
 </ul>
 </section>
+<section id="webscraping-webcrawling-screen-scraping-quelles-différences" class="slide level2" data-background-size="contain">
+<h2>Webscraping, webcrawling, screen scraping, quelles différences ?</h2>
+<ul>
+<li>xxx</li>
+</ul>
+</section>
 <section id="cas-dusage-pratiques-études-de-marché-et-intelligence-économique" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pratiques : études de marché et intelligence économique</h2>
 <ul>
@@ -435,7 +441,7 @@
 <section id="cas-dusage-pratiques-analyses-de-sentiment-et-génération-de-leads" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pratiques : analyses de sentiment et génération de leads</h2>
 <ul>
-<li><p>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus</p></li>
+<li><p>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus et faire du sentiment analysis</p></li>
 <li><p>Obtenir une liste de clients potentiels ou plus généralement de contacts répondant à des critères spécifiques à partir de sites comme les <a href="https://www.pagesjaunes.fr/pagesblanches">Pages Jaunes</a> ou <a href="https://www.google.com/business/">Google Maps</a> pour les entreprises</p></li>
 </ul>
 </section>
@@ -470,7 +476,7 @@
 <section id="le-webscraping-est-ce-légal" class="slide level2" data-background-size="contain">
 <h2>Le webscraping, est-ce légal ?</h2>
 <ul>
-<li><p>Le webscraping en lui-même n’est pas une pratique illégale, mais l’utilisation faite des données scrapées peut être soumise à règlementation.</p></li>
+<li><p>Le webscraping en lui-même n’est pas une pratique illégale, mais l’utilisation faite des données scrapées peut être soumise à règlementation. Ces règles dépendent alors du pays dans lequel on se trouve.</p></li>
 <li><p>Ainsi, scraper un site pour conserver les données sur son ordinateur est légal.</p></li>
 <li><p>En revanche, diffuser ou commercialiser ces données ou un quelconque travail réutilisant ces données n’est pas sans conséquence.</p></li>
 </ul>
@@ -480,6 +486,16 @@
 <ul>
 <li><p>Les législations spécifiques au webscraping sont peu nombreuses. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.</p></li>
 <li><p>Les <a href="https://devm.io/law-net-culture/data-scraping-cases-165385">cas portés en justice</a> ont des dénouements parfois différents les uns les autres, notamment d’un pays à l’autre, montrant bien qu’il s’agit là d’une zone parfois grise.</p></li>
+</ul>
+</section>
+<section id="une-pratique-pourtant-très-répandue" class="slide level2" data-background-size="contain">
+<h2>Une pratique pourtant très répandue</h2>
+<ul>
+<li><p>Les cas d’usage, y compris dans de grandes entreprises, sont très nombreux.</p></li>
+<li><p>Les articles discutant de webscraping et de leur légalité sont tout aussi proliférant, mais pas toujours d’accord les uns avec les autres.</p>
+<ul>
+<li>Quelques ressources : <a href="https://www.imperva.com/blog/is-web-scraping-illegal/">Imperva</a>, <a href="https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/">Islean Consulting</a>, <a href="https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL">TechCrunch</a>, …</li>
+</ul></li>
 </ul>
 </section>
 <section id="les-principales-règlementations-autour-du-webscraping---en-france" class="slide level2" data-background-size="contain">
@@ -498,6 +514,7 @@
 <ul>
 <li>Ex : <a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML">Directive 96/9/CE du Parlement Européen et du conseil</a></li>
 </ul></li>
+<li><p>Le <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">RGPD</a>, sur l’utilisation des données (parfois personnelles)</p></li>
 </ul>
 </section>
 <section id="les-principales-règlementations-autour-du-webscraping---encore-dautres" class="slide level2" data-background-size="contain">
@@ -593,14 +610,14 @@
 
 </section>
 <section id="comprendre-la-nature-dune-page-web" class="slide level2" data-background-size="contain">
-<h2>Comprendre la nature d’une page web</h2>
+<h2><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web">Comprendre la nature d’une page web</a></h2>
 <ul>
 <li><p>Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.</p></li>
 <li><p>Les 3 langages principaux pour les coder sont :</p>
 <ul>
-<li>HTML : pour composer la structure des pages via un système de balises</li>
-<li>CSS : des feuilles de style pour décrire la présentation de pages HTML</li>
-<li>Javascript : pour tout ce qui est relatif à l’interactivité d’un site (ex : boutons)</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML">HTML</a> : pour composer la structure des pages via un système de balises</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/CSS">CSS</a> : des feuilles de style pour décrire la présentation de pages HTML</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">Javascript</a> : pour tout ce qui est relatif à l’interactivité d’un site (ex : boutons)</li>
 </ul></li>
 </ul>
 </section>
@@ -753,12 +770,75 @@ Gangster
 
 </section>
 <section id="les-librairies-principales-sur-python" class="slide level2" data-background-size="contain">
-<h2>Les librairies principales sur Python</h2>
-<p>xxx</p>
+<h2>Les <a href="https://www.projectpro.io/article/python-libraries-for-web-scraping/625#mcetoc_1gb5hj7o81i">librairies principales</a> sur Python</h2>
+<ul>
+<li>Plusieurs librairies permettent de faire du scraping en Python. Les principales sont :
+<ul>
+<li><a href="https://requests.readthedocs.io/en/latest/">Requests</a></li>
+<li><a href="https://docs.python.org/fr/3/library/urllib.html">Urllib</a></li>
+<li><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a></li>
+<li><a href="https://selenium-python.readthedocs.io/">Selenium</a></li>
+<li><a href="https://scrapy.org/">Scrapy</a></li>
+</ul></li>
+</ul>
 </section>
-<section id="quelques-librairies-dans-dautres-langages" class="slide level2" data-background-size="contain">
-<h2>Quelques librairies dans d’autres langages</h2>
-<p>xxx</p>
+<section id="extraire-les-codes-sources-html-requests-et-urllib" class="slide level2" data-background-size="contain">
+<h2>Extraire les codes sources HTML : Requests et Urllib</h2>
+<ul>
+<li>Rôle :
+<ul>
+<li>Créer des requêtes HTTP pour récupérer le contenu des pages web</li>
+<li>Des headers peuvent être ajoutés aux requêtes pour s’identifier auprès du site</li>
+</ul></li>
+<li>Requests un peu plus simpliste que Urllib</li>
+</ul>
+</section>
+<section id="analyser-les-codes-html-beautifulsoup" class="slide level2" data-background-size="contain">
+<h2>Analyser les codes HTML : BeautifulSoup</h2>
+<ul>
+<li>Permet de formater des documents HTML ou XML en une structure arborescente</li>
+<li>Permet ensuite de naviguer dans la structure pour scraper le contenu désiré</li>
+<li>Très intuitif à utiliser</li>
+</ul>
+</section>
+<section id="interagir-avec-une-page-selenium" class="slide level2" data-background-size="contain">
+<h2>Interagir avec une page : Selenium</h2>
+<ul>
+<li>Les librairies précédentes ne permettent pas d’interagir avec une page utilisant Javascript
+<ul>
+<li>Ex: Appuyer sur un bouton, rentrer ses identifiants, …</li>
+</ul></li>
+<li>Selenium permet de simuler un navigateur puis d’interagir avec les éléments Javascript du site “comme un utilisateur”</li>
+</ul>
+</section>
+<section id="un-outil-plus-complet-scrapy" class="slide level2" data-background-size="contain">
+<h2>Un outil plus complet : Scrapy</h2>
+<ul>
+<li>Un outil plus plus complet mais aussi plus complexe</li>
+<li>Très utile pour les opérations de web crawling</li>
+<li>Davantage recommandé pour de gros projets</li>
+</ul>
+</section>
+<section id="quelques-librairies-sur-r" class="slide level2" data-background-size="contain">
+<h2>Quelques librairies sur R</h2>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/polite/index.html">polite</a>
+<ul>
+<li>Particulièrement orienté scraping éthique</li>
+</ul></li>
+<li><a href="https://thinkr.fr/rvest/">rvest</a>
+<ul>
+<li>Librairie la plus utilisée et donc documentée</li>
+</ul></li>
+<li>D’autres librairies : <a href="https://cran.r-project.org/web/packages/Rcrawler/Rcrawler.pdf">RCrawler</a>, <a href="https://cran.r-project.org/web/packages/RSelenium/index.html">RSelenium</a></li>
+</ul>
+</section>
+<section id="quelques-librairies-en-java" class="slide level2" data-background-size="contain">
+<h2>Quelques librairies en Java</h2>
+<ul>
+<li><p>Java est également beaucoup utilisé dans le domaine du webscraping</p></li>
+<li><p>Documentation extensive disponible sur Internet</p></li>
+</ul>
 </section></section>
 <section>
 <section id="travaux-pratiques" class="title-slide slide level1 center" data-background-size="contain">

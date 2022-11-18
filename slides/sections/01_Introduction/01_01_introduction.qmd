@@ -14,6 +14,11 @@
 - On souhaite accéder à un [répertoire d'expressions idiomatiques](https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais) et trouver toutes celles contenant le mot "nez".
 
 
+## Webscraping, webcrawling, screen scraping, quelles différences ?
+
+- xxx
+
+
 ## Cas d'usage pratiques : études de marché et intelligence économique
 
 - Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement
@@ -24,7 +29,7 @@
 
 ## Cas d'usage pratiques : analyses de sentiment et génération de leads
 
-- Récupérer les commentaires d'un produit ou d'une entreprise sur un site tiers afin d'analyser les retours obtenus
+- Récupérer les commentaires d'un produit ou d'une entreprise sur un site tiers afin d'analyser les retours obtenus et faire du sentiment analysis
 
 - Obtenir une liste de clients potentiels ou plus généralement de contacts répondant à des critères spécifiques à partir de sites comme les [Pages Jaunes](https://www.pagesjaunes.fr/pagesblanches) ou [Google Maps](https://www.google.com/business/) pour les entreprises
 

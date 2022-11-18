@@ -1,41 +1,55 @@
-## Les librairies principales sur Python
+## Les [librairies principales](https://www.projectpro.io/article/python-libraries-for-web-scraping/625#mcetoc_1gb5hj7o81i) sur Python
 
-- Plusieurs librairies premettent de faire du scraping en Python. Les principales sont :
-    - Requests
-    - Urllib
-    - BeautifulSoup
-    - Selenium
-    - Scrapy
+- Plusieurs librairies permettent de faire du scraping en Python. Les principales sont :
+    - [Requests](https://requests.readthedocs.io/en/latest/)
+    - [Urllib](https://docs.python.org/fr/3/library/urllib.html)
+    - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+    - [Selenium](https://selenium-python.readthedocs.io/)
+    - [Scrapy](https://scrapy.org/)
 
 
 ## Extraire les codes sources HTML : Requests et Urllib
 
 - Rôle :
     - Créer des requêtes HTTP pour récupérer le contenu des pages web
+    - Des headers peuvent être ajoutés aux requêtes pour s'identifier auprès du site
 
 - Requests un peu plus simpliste que Urllib
 
 
 ## Analyser les codes HTML : BeautifulSoup
 
+- Permet de formater des documents HTML ou XML en une structure arborescente
+- Permet ensuite de naviguer dans la structure pour scraper le contenu désiré
+- Très intuitif à utiliser
 
 
+## Interagir avec une page : Selenium
 
-## Interagir avec une page : Sélénium
-
-
+- Les librairies précédentes ne permettent pas d'interagir avec une page utilisant Javascript
+    - Ex: Appuyer sur un bouton, rentrer ses identifiants, ...
+- Selenium permet de simuler un navigateur puis d'interagir avec les éléments Javascript du site "comme un utilisateur"
 
 
 ## Un outil plus complet : Scrapy
 
-
+- Un outil plus plus complet mais aussi plus complexe
+- Très utile pour les opérations de web crawling
+- Davantage recommandé pour de gros projets
 
 
 ## Quelques librairies sur R
 
-polite, rvest
+- [polite](https://cran.r-project.org/web/packages/polite/index.html)
+    - Particulièrement orienté scraping éthique
 
+- [rvest](https://thinkr.fr/rvest/)
+    - Librairie la plus utilisée et donc documentée
+
+- D'autres librairies : [RCrawler](https://cran.r-project.org/web/packages/Rcrawler/Rcrawler.pdf), [RSelenium](https://cran.r-project.org/web/packages/RSelenium/index.html)
 
 ## Quelques librairies en Java
 
-xxx
+- Java est également beaucoup utilisé dans le domaine du webscraping
+
+- Documentation extensive disponible sur Internet

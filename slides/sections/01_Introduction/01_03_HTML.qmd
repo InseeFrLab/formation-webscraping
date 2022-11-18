@@ -1,11 +1,11 @@
-## Comprendre la nature d'une page web
+## [Comprendre la nature d'une page web](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web)
 
 - Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.
 
 - Les 3 langages principaux pour les coder sont :
-    - HTML : pour composer la structure des pages via un système de balises
-    - CSS : des feuilles de style pour décrire la présentation de pages HTML
-    - Javascript : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
+    - [HTML](https://developer.mozilla.org/fr/docs/Web/HTML) : pour composer la structure des pages via un système de balises
+    - [CSS](https://developer.mozilla.org/fr/docs/Web/CSS) : des feuilles de style pour décrire la présentation de pages HTML
+    - [Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript) : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
 
 
 ## Inspecter une page web
