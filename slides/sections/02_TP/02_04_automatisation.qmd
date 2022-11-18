@@ -1,7 +1,22 @@
-## Automatiser les processus de scraping
+## Pré-requis
 
-xxx
+- Accès Internet au sein de l'INS avec un proxy bien configuré si existant
 
-## Industrialiser les processus de scraping ?
+- Les sites scrapés doivent être dans l'allow-list et ne doivent pas avoir déjà bloqué l'adresse IP
 
-xxx
+
+## Automatiser et industrialiser les processus de scraping
+
+- En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièrement),
+    - Minimiser les interactions humaines est quasiment impossible
+    - Industrialiser les processus nécessite des révisions régulières
+
+- Automatiser les méthodes peut reposer sur un cronjob ou autre orchestrateur
+
+
+## Stocker les données
+
+- En général, les données brutes (ex : les pages web) sont stockées dans une base NoSQL et sont traitées ensuite.
+
+- Problème méthodologique courant : différencier le stock du flux.
+    - La page web que je viens de scraper est-elle nouvelle ou est-ce la même que celle d’hier ?
