@@ -1,11 +1,13 @@
-## Travaux pratiques : présentation du SSP Cloud
+## Une plateforme de travail : Onyxia
 
 xxx
 
-## Travaux pratiques : utilisation du SSP Cloud
+
+## Comment utiliser Onyxia ?
 
 xxx
 
-## TP : Approfondissement sur BeautifulSoup et introduction à Selenium
 
-Insérer TP de Lino
+## Mise en pratique : se familiariser à BeautifulSoup et Selenium
+
+xxx

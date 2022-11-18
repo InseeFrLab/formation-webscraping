@@ -1,7 +1,29 @@
-## Scraping éthique : les points techniques à retenir
+## Les guidelines du SSE : s'identifier
 
-xxx
+- S'identifier via le champ ["user-agent"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent), l'un des headers renseignables lors d'une requête HTTP
 
-## Contourner les défenses
+- Un autre champ parmi les headers possible : "from"
 
-xxx
+- Renseigner son nom, entité, coordonnées
+
+- On peut aussi inclure l'url contenant les informations liées à la collecte ou une explication sur les données prélevées
+
+
+## Les guidelines du SSE : suivre les conventions
+
+- Il existe plusieurs conventions liées à l'utilisation d'Internet et du scraping qu'il faut tâcher de respecter.
+
+- On citera le [Word Wide Web Consurtium](https://www.w3.org/TR/dwbp/) (W3C), notamment sur les protocoles de transfert hypertexte.
+
+- Essentiel pour le scraping, il est vivement recommandé de se plier au [protocole d'exclusion des robots](https://en.wikipedia.org/wiki/Robots_exclusion_standard).
+    - En tapant un url suivi de '/robots.txt', on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.
+    - Les crawlers peuvent lire ces fichiers et s'y plier d'eux-mêmes (cf [IBM](https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol)).
+
+
+## Contourner les défenses des sites
+
+Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
+
+- Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (time.sleep() en Python)
+
+- Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer

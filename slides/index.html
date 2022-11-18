@@ -841,34 +841,55 @@ Gangster
 </ul>
 </section></section>
 <section>
-<section id="travaux-pratiques" class="title-slide slide level1 center" data-background-size="contain">
-<h1>Travaux pratiques</h1>
+<section id="partie-pratique" class="title-slide slide level1 center" data-background-size="contain">
+<h1>Partie pratique</h1>
 
 </section>
-<section id="travaux-pratiques-présentation-du-ssp-cloud" class="slide level2" data-background-size="contain">
-<h2>Travaux pratiques : présentation du SSP Cloud</h2>
+<section id="une-plateforme-de-travail-onyxia" class="slide level2" data-background-size="contain">
+<h2>Une plateforme de travail : Onyxia</h2>
 <p>xxx</p>
 </section>
-<section id="travaux-pratiques-utilisation-du-ssp-cloud" class="slide level2" data-background-size="contain">
-<h2>Travaux pratiques : utilisation du SSP Cloud</h2>
+<section id="comment-utiliser-onyxia" class="slide level2" data-background-size="contain">
+<h2>Comment utiliser Onyxia ?</h2>
 <p>xxx</p>
 </section>
-<section id="tp-approfondissement-sur-beautifulsoup-et-introduction-à-selenium" class="slide level2" data-background-size="contain">
-<h2>TP : Approfondissement sur BeautifulSoup et introduction à Selenium</h2>
-<p>Insérer TP de Lino</p>
+<section id="mise-en-pratique-se-familiariser-à-beautifulsoup-et-selenium" class="slide level2" data-background-size="contain">
+<h2>Mise en pratique : se familiariser à BeautifulSoup et Selenium</h2>
+<p>xxx</p>
 </section></section>
 <section>
 <section id="aspects-techniques-du-scraping-éthique" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Aspects techniques du scraping éthique</h1>
 
 </section>
-<section id="scraping-éthique-les-points-techniques-à-retenir" class="slide level2" data-background-size="contain">
-<h2>Scraping éthique : les points techniques à retenir</h2>
-<p>xxx</p>
+<section id="les-guidelines-du-sse-sidentifier" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du SSE : s’identifier</h2>
+<ul>
+<li><p>S’identifier via le champ <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent">“user-agent”</a>, l’un des headers renseignables lors d’une requête HTTP</p></li>
+<li><p>Un autre champ parmi les headers possible : “from”</p></li>
+<li><p>Renseigner son nom, entité, coordonnées</p></li>
+<li><p>On peut aussi inclure l’url contenant les informations liées à la collecte ou une explication sur les données prélevées</p></li>
+</ul>
 </section>
-<section id="contourner-les-défenses" class="slide level2" data-background-size="contain">
-<h2>Contourner les défenses</h2>
-<p>xxx</p>
+<section id="les-guidelines-du-sse-suivre-les-conventions" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du SSE : suivre les conventions</h2>
+<ul>
+<li><p>Il existe plusieurs conventions liées à l’utilisation d’Internet et du scraping qu’il faut tâcher de respecter.</p></li>
+<li><p>On citera le <a href="https://www.w3.org/TR/dwbp/">Word Wide Web Consurtium</a> (W3C), notamment sur les protocoles de transfert hypertexte.</p></li>
+<li><p>Essentiel pour le scraping, il est vivement recommandé de se plier au <a href="https://en.wikipedia.org/wiki/Robots_exclusion_standard">protocole d’exclusion des robots</a>.</p>
+<ul>
+<li>En tapant un url suivi de ‘/robots.txt’, on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.</li>
+<li>Les crawlers peuvent lire ces fichiers et s’y plier d’eux-mêmes (cf <a href="https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol">IBM</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="contourner-les-défenses-des-sites" class="slide level2" data-background-size="contain">
+<h2>Contourner les défenses des sites</h2>
+<p>Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :</p>
+<ul>
+<li><p>Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu’un utilisateur ne le pourrait (time.sleep() en Python)</p></li>
+<li><p>Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer</p></li>
+</ul>
 </section></section>
 <section>
 <section id="automatisation-et-industrialisation" class="title-slide slide level1 center" data-background-size="contain">

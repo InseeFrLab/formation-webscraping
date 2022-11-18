@@ -2,7 +2,7 @@
 
 {{< include 02_01_librairies.qmd >}}
 
-# Travaux pratiques
+# Partie pratique
 
 {{< include 02_02_TP.qmd >}}
 
