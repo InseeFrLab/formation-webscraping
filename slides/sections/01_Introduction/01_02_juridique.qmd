@@ -136,3 +136,5 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Consciemment déroger aux règlementations données et manquer de transparence
 
 - Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois
+
+- Paralléliser les requêtes ou faire ces dernières en heures pleines

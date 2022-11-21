@@ -1,13 +1,13 @@
-## Une plateforme de travail : Onyxia
+## Une plateforme de travail : Onyxia et le SSP Cloud
 
-xxx
+Insérer courte présentation SSP Cloud + Onyxia
 
 
-## Comment utiliser Onyxia ?
+## Comment utiliser le SSP Cloud ?
 
-xxx
+Insérer rapides explications utilisation
 
 
 ## Mise en pratique : se familiariser à BeautifulSoup et Selenium
 
-xxx
+Insérer TP webscraping Lino cours Python
