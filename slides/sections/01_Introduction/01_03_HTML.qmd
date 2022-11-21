@@ -93,3 +93,12 @@
 - Il est aussi possible de récupérer d'autres url sur une page pour s'y rendre et les scraper ensuite.
 
 - Dans certains cas plus complexes, lire le contenu *HTML* ne suffit pas, par exemple s'il faut cliquer sur des boutons pour faire apparaître le contenu désiré.
+
+
+## [XPath](https://librarycarpentry.org/lc-webscraping/02-xpath/index.html)
+
+- Une page web peut aussi se présenter sous le format XML, proche du HTML.
+
+- Afin de justement naviguer dans une page HTML ou XML, on fait appel à un langage d'expressions appelé XPath.
+   - Ce sont des expressions XPath qui seront utilisées en appel des fonctions.
+   - XPath permet ainsi de se déplacer de noeud en noeud dans la structure arborescente d'une page.
