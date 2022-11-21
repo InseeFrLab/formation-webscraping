@@ -23,3 +23,6 @@
 - Pour plus d'informations, contacter Adrien Montbroussous (adrien.montbroussous@insee.fr), INSEE.
 
 
+## Scraping de la SNCF
+
+Si autorisé, insérer slides scraping SNCF

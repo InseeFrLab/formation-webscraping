@@ -35,7 +35,7 @@ ascii: true
 
 {{< include sections/03_Use_cases_INSEE/index_03.qmd >}}
 
-# IV. Le webscraping chez Eurostat
+# IV. D'autres organisations adeptes de scraping
 
 {{< include sections/04_Use_cases_Eurostat/index_04.qmd >}}
 
