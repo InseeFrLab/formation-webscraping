@@ -27,7 +27,7 @@
 - Verdict : Différent selon les pays, mais en France Rayanair a été débouté à deux reprises
 
 
-## [Ryanair v. Opodo (2010)](https://www.legalis.net/jurisprudences/tribunal-de-grande-instance-de-paris-3eme-chambre-2eme-section-jugement-du-09-avril-2010/) - Les conclusions
+## Ryanair v. Opodo (2010) - Les conclusions
 
 - Le Tribunal de Paris :
     - Rejette l'intégralité des demandes de Ryanair
@@ -70,7 +70,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 - Verdict : Première défaite de Kiwi.com, puis victoire en appel auprès de la Cour Constitutionnelle Tchèque
 
 
-## [Ryanair v. Kiwi.com (2021)](https://www.expats.cz/czech-news/article/czech-ticket-seller-kiwi-com-wins-dispute-with-ryanair-over-handling-of-passenger-data) - Les conclusions
+## Ryanair v. Kiwi.com (2021) - Les conclusions
 
 - La cour régionale de Brno avait imposé à Kiwi.com de se plier aux CGU de Ryanair. Cela impliquait notamment que Kiwi.com devait transmettre à Ryanair plusieurs données personnelles sur ses clients ayant acheté un billet de la compagnie sur la plateforme.
 

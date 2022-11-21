@@ -2,14 +2,14 @@
 
 - Le webscraping en lui-même n'est pas une pratique illégale, mais l'utilisation faite des données scrapées peut être soumise à règlementation. Ces règles dépendent alors du pays dans lequel on se trouve.
 
-- Ainsi, scraper un site pour conserver les données sur son ordinateur est légal.
+- Ainsi, scraper un site pour conserver les données sur son ordinateur est légal (tant qu'on ne casse pas le site en question). Un bot de scraping n'a en effet pas accès à davantage qu'un utilisateur lambda.
 
 - En revanche, diffuser ou commercialiser ces données ou un quelconque travail réutilisant ces données n'est pas sans conséquence.
 
 
 ## Une frontière floue
 
-- Les législations spécifiques au webscraping sont peu nombreuses. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.
+- Les législations spécifiques au webscraping sont peu nombreuses et différentes d'un pays à l'autre. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.
 
 - Les [cas portés en justice](https://devm.io/law-net-culture/data-scraping-cases-165385) ont des dénouements parfois différents les uns les autres, notamment d'un pays à l'autre, montrant bien qu'il s'agit là d'une zone parfois grise.
 
@@ -95,13 +95,13 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Chercher des alternatives, comme accéder à des données similaires via un moyen moins contraignant
 
 
-## Pour un scraping "éthique"
+## Pour un scraping "éthique" (et légal !)
 
 - Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s'en priver.
 
 - Cependant, il existe des moyens de scraper de façon "éthique" et en minimisant la charge sur le site scrapé.
 
-- Cela passe par exemple par demander la permission aux sites à scraper.
+- Cela passe par exemple par **demander la permission** aux sites à scraper, ce qui peut aussi conduire à un éventuel partenariat.
 
 
 ## Les guidelines du Système Statistique Européen : transparence
@@ -109,6 +109,7 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Rendre publique la liste des collectes de données par scraping de l'INS, autrement dit être transparent
 
 - Si l'impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné
+    - Plus généralement, prendre le réflexe de demander la permission
 
 - S'identifier auprès du site lors de l'opération de scraping (sauf cas particuliers)
 
@@ -138,3 +139,14 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois
 
 - Paralléliser les requêtes ou faire ces dernières en heures pleines
+
+- Diffuser de façon non autorisée des données scrapées non publiques ou soumises à droit d'auteur
+
+
+## Avertissements
+
+- Selon les pays, il existe des données, même si publiques, dont le scraping est illégal. Il faut donc bien se renseigner sur les lois locales.
+    - Par exemple, les données de contact en Australie
+
+- Dans le doute, ne pas hésiter à se renseigner davantage.
+    - Exemples de ressources : [librarycarpentry](https://librarycarpentry.org/lc-webscraping/05-conclusion/index.html), [Rubyroidlabs](https://rubyroidlabs.com/blog/2016/04/web-scraping-1/), ...

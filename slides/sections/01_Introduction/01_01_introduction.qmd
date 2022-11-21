@@ -1,8 +1,10 @@
-## Qu'est-ce que le webscraping ?
+## Qu'est-ce que le [webscraping](https://librarycarpentry.org/lc-webscraping/01-introduction/index.html) ?
 
 - Le [webscraping](https://en.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'extraction de contenu sur des sites internet.
 
 - Le terme fait généralement référence à l'usage de [bots](https://en.wikipedia.org/wiki/Internet_bot) pour collecter ces contenus automatiquement.
+
+- Plusieurs
 
 
 ## Exemples introductifs
