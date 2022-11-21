@@ -1,4 +1,4 @@
-## Les prix dans le domaine de l'hôtellerie
+## Les prix dans le domaine de l'hôtellerie : Booking.com
 
 - Un travail ayant donné lieu à une [publication](https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf) :
     - *Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index*
@@ -6,6 +6,20 @@
 
 - Une [présentation](http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf) plus accessible
 
-## Scraping dans l'hôtellerie en quelques mots
 
-- 
+## Scraping de Booking.com : le code
+
+- La partie 'scraping' du projet est disponible [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-hotel).
+
+- Pour plus d'informations, contacter Adrien Montbroussous (adrien.montbroussous@insee.fr), INSEE.
+
+
+## Ventes d'articles électroniques
+
+- Scraping de [Boulanger](https://www.boulanger.com/) : [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/boulanger)
+
+- Scraping de [Rue du Commerce](https://www.rueducommerce.fr/) : [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/rue-du-commerce)
+
+- Pour plus d'informations, contacter Adrien Montbroussous (adrien.montbroussous@insee.fr), INSEE.
+
+

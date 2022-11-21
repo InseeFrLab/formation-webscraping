@@ -5,6 +5,9 @@
     - Utilisation d'API (ex : Qwant)
     - Sources de données publiques
 
+- Le webscraping devient cependant une source de données grandissante.
+
+
 ## Les utilisations du scraping à l'INSEE
 
 - Enquêtes ménages

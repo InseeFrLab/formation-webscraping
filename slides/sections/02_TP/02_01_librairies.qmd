@@ -36,6 +36,7 @@
 - Un outil plus plus complet mais aussi plus complexe
 - Très utile pour les opérations de web crawling
 - Davantage recommandé pour de gros projets
+- Un tutoriel par [Library Carpentry](https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html)
 
 
 ## Quelques librairies sur R
