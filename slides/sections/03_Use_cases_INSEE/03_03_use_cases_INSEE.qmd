@@ -13,6 +13,9 @@
 
 - Pour plus d'informations, contacter Adrien Montbroussous (adrien.montbroussous@insee.fr), INSEE.
 
+- La conférence associée aux présentations : [ici](https://www.ottawagroup.org/ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/c7e600e0bec85d82ca25888400059a93?OpenDocument#Meeting%2017%20Rome)
+    - D'autres projets similaires de scraping mentionnés
+
 
 ## Ventes d'articles électroniques
 
@@ -26,3 +29,9 @@
 ## Scraping de la SNCF
 
 Si autorisé, insérer slides scraping SNCF
+
+
+## D'autres ressources pour le scraping lié à l'IPC
+
+- [Guidelines d'Eurostat](https://ec.europa.eu/eurostat/documents/272892/12032198/Guidelines-web-scraping-HICP-11-2020.pdf/) sur le scraping lié à l'indice des prix à la consommation
+    - Annexe 3 consacrée aux travaux de l'INSEE sur Boulanger et Rue du Commerce
