@@ -1,16 +1,73 @@
 ## Le work package 2 du WIN
 
 - Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
-    - [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (OJA)
+    - [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (OJA) / Online Job Vacancies (OJV)
     - [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (OBEC)
 
 - Les deux projets faisaient également partie du '[Implementation Track](https://ec.europa.eu/eurostat/cros/content/implementation-track-0_en)' de l'ESSnet Big Data II.
-    - Au sein du même track, on pourra aussi citer le projet '[Process and architecture](https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en)', qui a donné naissance au [BREAL](https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en). Cela représente désormais le work package 4 du WIN.
+    - Au sein du même track, on pourra aussi citer le projet '[Process and architecture](https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en)', qui a donné naissance au [BREAL](https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en). Cela représente désormais le work package 4 du WIN. Tous les rapports disponibles [ici](https://ec.europa.eu/eurostat/cros/content/wpf-milestones-and-deliverables_en).
 
 
-## Online Job Advertisements / Online Job Vacancies
+## Online Job Advertisements - Contexte
 
-xxx
+- Besoin de statistiques sur les offres d'emploi les plus à jour possible pour adapter les politiques d'emploi et d'éducation
+
+- Les offres d'emploi étant de plus en plus en ligne, collecter ces données sur Internet devient particulièrement intéressant
+
+- Les collectes de données traditionelles sur les offres d'emploi sont assez peu efficaces
+
+- Le webscraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles
+
+
+## Online Job Advertisements - Avantages du webscraping
+
+- Possibilité de passer de données trimestrielles à des données journalières
+
+- Sur les sites d'offres, celles-ci sont souvent déjà découpées par secteur, région, niveau d'éducation, ...
+
+- Réduire le fardeau de réponse des entreprises
+
+
+## Online Job Advertisements - Quelques challenges (1/2)
+
+- Bien définir l'étude, par exemple restreindre aux secteurs avec une offre en grande partie en ligne
+
+- Dédoublonner les offres présentes sur plusieurs plateformes (ex : les champs différant légèrement d'un site à l'autre à offre égale)
+
+- Traiter à la fois des données structurées et non structurées (selon les sites)
+
+- Savoir travailler avec les différents niveaux de détail ou unités de mesure qu'offre chaque site
+
+
+## Online Job Advertisements - Quelques challenges (2/2)
+
+- Gérer la qualité parfois assez basse des données et les erreurs de scraping qui pourraient ressortir
+
+- Bien respecter les règles en vigueur pour chaque site et pays au sujet du webscraping
+
+- Gérer l'aspect temporel : comparer les données du jour A à celles collectées la veille ou évaluer la durée de validité des offres
+
+- Gérer l'aspect "proxy" des donnés OJA et le fait qu'il manque beaucoup d'offres non publiées en ligne (biais de sélection)
+
+
+## Online Job Advertisements - Méthodes utilisées
+
+- Scraping de nombreux sites d'offre d'emploi
+
+- Méthodes poussées de NLP :
+    - Détection de langue
+    - Traitements divers de texte
+    - Comparaisons de texte
+    - Classification par Machine Learning
+
+
+## Online Job Advertisements - Conclusions
+
+- En France, la [DARES](https://dares.travail-emploi.gouv.fr/) participe à ce travail.
+
+- Projet encore en cours, mais résultats très encourageants
+    - Les rapports publiés : [ici](https://ec.europa.eu/eurostat/cros/content/wpb-milestones-and-deliverables-0_en)
+    - Détails méthodologiques : [ici](https://ec.europa.eu/eurostat/cros/sites/default/files/ESSNet_II_WPB_OJV_Methodological_framework_V2.pdf)
 
 
 ## Online-Based Enterprise Characteristics

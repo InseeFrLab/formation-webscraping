@@ -594,7 +594,7 @@
 <ul>
 <li><p>Toujours chercher à minimiser l’impact sur les serveurs du site scrapé, notamment en limitant les requêtes effectuées au minimum requis</p></li>
 <li><p>Privilégier les heures creuses du site pour les opérations de scraping</p></li>
-<li><p>Étaler les requêtes en laissant un temps de ‘pause’ entre chaque requête sur site</p></li>
+<li><p>Étaler les requêtes en laissant un temps de ‘pause’ entre chaque requête sur site, surtout sur un même domaine</p></li>
 </ul>
 </section>
 <section id="les-guidelines-du-système-statistique-européen-confiance" class="slide level2" data-background-size="contain">
@@ -1279,26 +1279,81 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <ul>
 <li>Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
 <ul>
-<li><a href="https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en">Online Job Advertisements</a> (OJA)</li>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en">Online Job Advertisements</a> (OJA) / Online Job Vacancies (OJV)</li>
 <li><a href="https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en">Online-Based Enterprise Characteristics</a> (OBEC)</li>
 </ul></li>
 <li>Les deux projets faisaient également partie du ‘<a href="https://ec.europa.eu/eurostat/cros/content/implementation-track-0_en">Implementation Track</a>’ de l’ESSnet Big Data II.
 <ul>
-<li>Au sein du même track, on pourra aussi citer le projet ‘<a href="https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en">Process and architecture</a>’, qui a donné naissance au <a href="https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en">BREAL</a>. Cela représente désormais le work package 4 du WIN.</li>
+<li>Au sein du même track, on pourra aussi citer le projet ‘<a href="https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en">Process and architecture</a>’, qui a donné naissance au <a href="https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en">BREAL</a>. Cela représente désormais le work package 4 du WIN. Tous les rapports disponibles <a href="https://ec.europa.eu/eurostat/cros/content/wpf-milestones-and-deliverables_en">ici</a>.</li>
 </ul></li>
 </ul>
 </section>
-<section id="online-job-advertisements-online-job-vacancies" class="slide level2" data-background-size="contain">
-<h2>Online Job Advertisements / Online Job Vacancies</h2>
-<p>xxx</p>
+<section id="online-job-advertisements---contexte" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements - Contexte</h2>
+<ul>
+<li><p>Besoin de statistiques sur les offres d’emploi les plus à jour possible pour adapter les politiques d’emploi et d’éducation</p></li>
+<li><p>Les offres d’emploi étant de plus en plus en ligne, collecter ces données sur Internet devient particulièrement intéressant</p></li>
+<li><p>Les collectes de données traditionelles sur les offres d’emploi sont assez peu efficaces</p></li>
+<li><p>Le webscraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles</p></li>
+</ul>
+</section>
+<section id="online-job-advertisements---avantages-du-webscraping" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements - Avantages du webscraping</h2>
+<ul>
+<li><p>Possibilité de passer de données trimestrielles à des données journalières</p></li>
+<li><p>Sur les sites d’offres, celles-ci sont souvent déjà découpées par secteur, région, niveau d’éducation, …</p></li>
+<li><p>Réduire le fardeau de réponse des entreprises</p></li>
+</ul>
+</section>
+<section id="online-job-advertisements---quelques-challenges-12" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements - Quelques challenges (1/2)</h2>
+<ul>
+<li><p>Bien définir l’étude, par exemple restreindre aux secteurs avec une offre en grande partie en ligne</p></li>
+<li><p>Dédoublonner les offres présentes sur plusieurs plateformes (ex : les champs différant légèrement d’un site à l’autre à offre égale)</p></li>
+<li><p>Traiter à la fois des données structurées et non structurées (selon les sites)</p></li>
+<li><p>Savoir travailler avec les différents niveaux de détail ou unités de mesure qu’offre chaque site</p></li>
+</ul>
+</section>
+<section id="online-job-advertisements---quelques-challenges-22" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements - Quelques challenges (2/2)</h2>
+<ul>
+<li><p>Gérer la qualité parfois assez basse des données et les erreurs de scraping qui pourraient ressortir</p></li>
+<li><p>Bien respecter les règles en vigueur pour chaque site et pays au sujet du webscraping</p></li>
+<li><p>Gérer l’aspect temporel : comparer les données du jour A à celles collectées la veille ou évaluer la durée de validité des offres</p></li>
+<li><p>Gérer l’aspect “proxy” des donnés OJA et le fait qu’il manque beaucoup d’offres non publiées en ligne (biais de sélection)</p></li>
+</ul>
+</section>
+<section id="online-job-advertisements---méthodes-utilisées" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements - Méthodes utilisées</h2>
+<ul>
+<li><p>Scraping de nombreux sites d’offre d’emploi</p></li>
+<li><p>Méthodes poussées de NLP :</p>
+<ul>
+<li>Détection de langue</li>
+<li>Traitements divers de texte</li>
+<li>Comparaisons de texte</li>
+<li>Classification par Machine Learning</li>
+</ul></li>
+</ul>
+</section>
+<section id="online-job-advertisements---conclusions" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements - Conclusions</h2>
+<ul>
+<li><p>En France, la <a href="https://dares.travail-emploi.gouv.fr/">DARES</a> participe à ce travail.</p></li>
+<li><p>Projet encore en cours, mais résultats très encourageants</p>
+<ul>
+<li>Les rapports publiés : <a href="https://ec.europa.eu/eurostat/cros/content/wpb-milestones-and-deliverables-0_en">ici</a></li>
+<li>Détails méthodologiques : <a href="https://ec.europa.eu/eurostat/cros/sites/default/files/ESSNet_II_WPB_OJV_Methodological_framework_V2.pdf">ici</a></li>
+</ul></li>
+</ul>
 </section>
 <section id="online-based-enterprise-characteristics" class="slide level2" data-background-size="contain">
 <h2>Online-Based Enterprise Characteristics</h2>
 <p>xxx</p>
 </section></section>
 <section>
-<section id="quelques-interlocuteurs" class="title-slide slide level1 center" data-background-size="contain">
-<h1>Quelques interlocuteurs</h1>
+<section id="webscraping-dans-un-ins---quelques-interlocuteurs" class="title-slide slide level1 center" data-background-size="contain">
+<h1>Webscraping dans un INS - Quelques interlocuteurs</h1>
 
 </section>
 <section id="le-web-intelligence-network" class="slide level2" data-background-size="contain">
@@ -1340,7 +1395,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <h2>L’INS du Royaume-Uni : l’<a href="https://www.ons.gov.uk/">ONS</a></h2>
 <ul>
 <li><p>Un <a href="https://datasciencecampus.ons.gov.uk/">blog</a> consacré à la data science alimenté régulièrement</p></li>
-<li><p>Une politique de webscraping mature, disponible <a href="https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy">ici</a> et <a href="https://www.ons.gov.uk/file?uri=/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy/webscrapingpolicy.pdf">ici</a></p></li>
+<li><p>Une politique de webscraping très mature, disponible <a href="https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy">ici</a> et <a href="https://www.ons.gov.uk/file?uri=/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy/webscrapingpolicy.pdf">ici</a></p>
+<ul>
+<li>Ne pas hésiter à lire leur liste des bonnes pratiques, très bien faite</li>
+</ul></li>
 <li><p>Prompts à multiplier les <a href="https://datasciencecampus.ons.gov.uk/partnerships/">partenariats</a></p></li>
 </ul>
 </section>
