@@ -408,7 +408,7 @@
 
 </section>
 <section id="quest-ce-que-le-webscraping" class="slide level2" data-background-size="contain">
-<h2>Qu’est-ce que le webscraping ?</h2>
+<h2>Qu’est-ce que le <a href="https://librarycarpentry.org/lc-webscraping/01-introduction/index.html">webscraping</a> ?</h2>
 <ul>
 <li><p>Le <a href="https://en.wikipedia.org/wiki/Web_scraping">webscraping</a> désigne un ensemble de techniques d’extraction de contenu sur des sites internet.</p></li>
 <li><p>Le terme fait généralement référence à l’usage de <a href="https://en.wikipedia.org/wiki/Internet_bot">bots</a> pour collecter ces contenus automatiquement.</p></li>
@@ -461,7 +461,7 @@
 </ul>
 </section>
 <section id="cas-dusage-pour-un-ins" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage pour un INS :</h2>
+<h2>Cas d’usage pour un INS</h2>
 <ul>
 <li><p>Scraper divers sites de ventes afin d’obtenir des données de prix pour le calcul de l’indice des prix à la consommation</p></li>
 <li><p>Compléter des données de statistiques d’entreprises avec des informations disponibles en ligne</p></li>
@@ -477,14 +477,14 @@
 <h2>Le webscraping, est-ce légal ?</h2>
 <ul>
 <li><p>Le webscraping en lui-même n’est pas une pratique illégale, mais l’utilisation faite des données scrapées peut être soumise à règlementation. Ces règles dépendent alors du pays dans lequel on se trouve.</p></li>
-<li><p>Ainsi, scraper un site pour conserver les données sur son ordinateur est légal.</p></li>
+<li><p>Ainsi, scraper un site pour conserver les données sur son ordinateur est légal (tant qu’on ne casse pas le site en question). Un bot de scraping n’a en effet pas accès à davantage qu’un utilisateur lambda.</p></li>
 <li><p>En revanche, diffuser ou commercialiser ces données ou un quelconque travail réutilisant ces données n’est pas sans conséquence.</p></li>
 </ul>
 </section>
 <section id="une-frontière-floue" class="slide level2" data-background-size="contain">
 <h2>Une frontière floue</h2>
 <ul>
-<li><p>Les législations spécifiques au webscraping sont peu nombreuses. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.</p></li>
+<li><p>Les législations spécifiques au webscraping sont peu nombreuses et différentes d’un pays à l’autre. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.</p></li>
 <li><p>Les <a href="https://devm.io/law-net-culture/data-scraping-cases-165385">cas portés en justice</a> ont des dénouements parfois différents les uns les autres, notamment d’un pays à l’autre, montrant bien qu’il s’agit là d’une zone parfois grise.</p></li>
 </ul>
 </section>
@@ -511,9 +511,10 @@
 <h2>Les principales règlementations autour du webscraping - En Europe</h2>
 <ul>
 <li><p>Le droit <a href="https://fr.wikipedia.org/wiki/Sui_generis">sui generis</a>, à l’échelle européenne, protégeant les bases de données ayant nécessité un “investissement substantiel”</p></li>
-<li><p>Certaines directives relatives à la protection des bases de données en Europe.</p>
+<li><p>Certains règlements et directives relatifs à la protection des bases de données en Europe</p>
 <ul>
-<li>Ex : <a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML">Directive 96/9/CE du Parlement Européen et du conseil</a></li>
+<li>[Directive 96/9/CE] du Parlement Européen et du conseil(https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009<span class="emoji" data-emoji="fr">🇫🇷</span>HTML)</li>
+<li><a href="https://info.haas-avocats.com/droit-digital/data-governance-act-reglement-europeen">Data Governance Act</a>, prévu pour septembre 2023</li>
 </ul></li>
 <li><p>Le <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">RGPD</a>, sur l’utilisation des données (parfois personnelles)</p></li>
 </ul>
@@ -523,14 +524,14 @@
 <ul>
 <li><p>Les jurisprudences issues des procès d’entreprises liés au webscraping</p></li>
 <li><p>Les mentions légales, conditions d’utilisation et autres consignes des sites concernés</p></li>
-<li><p>Aux États-Unis, plusieurs textes peuvent s’appliquer : le California <a href="https://oag.ca.gov/privacy/ccpa">Consumer Privacy Act</a>, le <a href="https://www.nacdl.org/Landing/ComputerFraudandAbuseAct">Computer Fraud and Abuse Act</a>, …</p></li>
+<li><p>Aux États-Unis, plusieurs textes peuvent s’appliquer : le <a href="https://oag.ca.gov/privacy/ccpa">California Consumer Privacy Act</a>, le <a href="https://www.nacdl.org/Landing/ComputerFraudandAbuseAct">Computer Fraud and Abuse Act</a>, …</p></li>
 </ul>
 </section>
 <section id="outre-les-protections-légales-les-sites-se-protègent-eux-mêmes" class="slide level2" data-background-size="contain">
 <h2>Outre les protections légales, les sites se protègent eux-mêmes</h2>
 <ul>
 <li><p>Afin d’éviter la réutilisation de leur contenu par des concurrents et lutter contre l’espionnage</p></li>
-<li><p>Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l’accès au site, et qui peuvent s’assimiler à une <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service">attaque DDoS</a></p></li>
+<li><p>Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l’accès au site, et qui peuvent s’assimiler à une <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service">attaque par déni de service (DoS)</a></p></li>
 </ul>
 </section>
 <section id="les-méthodes-mises-en-place-pour-se-protéger-du-scraping-12" class="slide level2" data-background-size="contain">
@@ -566,20 +567,23 @@
 <li>Chercher des alternatives, comme accéder à des données similaires via un moyen moins contraignant</li>
 </ul>
 </section>
-<section id="pour-un-scraping-éthique" class="slide level2" data-background-size="contain">
-<h2>Pour un scraping “éthique”</h2>
+<section id="pour-un-scraping-éthique-et-légal" class="slide level2" data-background-size="contain">
+<h2>Pour un scraping éthique (et légal !)</h2>
 <ul>
-<li><p>Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s’en priver.</p></li>
+<li><p>Le webscraping reste malgré tout une nouvelle source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s’en priver.</p></li>
 <li><p>Cependant, il existe des moyens de scraper de façon “éthique” et en minimisant la charge sur le site scrapé.</p></li>
-<li><p>Cela passe par exemple par demander la permission aux sites à scraper.</p></li>
+<li><p>Cela passe par exemple par <strong>demander la permission</strong> aux sites à scraper, ce qui peut aussi conduire à un éventuel partenariat.</p></li>
 </ul>
 </section>
 <section id="les-guidelines-du-système-statistique-européen-transparence" class="slide level2" data-background-size="contain">
 <h2>Les guidelines du Système Statistique Européen : transparence</h2>
 <ul>
 <li><p>Rendre publique la liste des collectes de données par scraping de l’INS, autrement dit être transparent</p></li>
-<li><p>Si l’impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné</p></li>
-<li><p>S’identifier auprès du site lors de l’opération de scraping (sauf cas particuliers)</p></li>
+<li><p>Si l’impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné</p>
+<ul>
+<li>Plus généralement, prendre le réflexe de demander la permission</li>
+</ul></li>
+<li><p>S’identifier auprès du site lors de l’opération de scraping</p></li>
 </ul>
 </section>
 <section id="les-guidelines-du-système-statistique-européen-minimiser-limpact" class="slide level2" data-background-size="contain">
@@ -601,8 +605,27 @@
 <section id="ce-quil-ne-faut-pas-faire" class="slide level2" data-background-size="contain">
 <h2>Ce qu’il ne faut pas faire</h2>
 <ul>
-<li><p>Consciemment déroger aux règlementations données et manquer de transparence</p></li>
-<li><p>Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois</p></li>
+<li><p>Consciemment déroger aux règlementations applicables et manquer de transparence</p></li>
+<li><p>Surcharger les requêtes sur le site concerné (assimilable à une attaque DoS) ou multiplier les mêmes requêtes plusieurs fois</p></li>
+<li><p>Paralléliser les requêtes ou faire ces dernières en heures pleines</p></li>
+<li><p>Diffuser de façon non autorisée des données scrapées non publiques ou soumises à droit d’auteur</p></li>
+</ul>
+</section>
+<section id="avertissements" class="slide level2" data-background-size="contain">
+<h2>Avertissements</h2>
+<ul>
+<li>Selon les pays, il existe des données, même si publiques, dont le scraping est illégal. Il faut donc bien se renseigner sur les lois locales.
+<ul>
+<li>Par exemple, les données de contact en Australie</li>
+</ul></li>
+<li>Dans le doute, ne pas hésiter à se documenter davantage.
+<ul>
+<li>Exemples de ressources : <a href="https://librarycarpentry.org/lc-webscraping/05-conclusion/index.html">librarycarpentry</a>, <a href="https://rubyroidlabs.com/blog/2016/04/web-scraping-1/">Rubyroidlabs</a>, …</li>
+</ul></li>
+<li>Il existe parfois des structures dont le rôle est justement d’évaluer l’aspect juridique de pratiques comme le webscraping.
+<ul>
+<li>A l’INSEE, c’est la responsabilité de l’<a href="https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532">UAJC</a></li>
+</ul></li>
 </ul>
 </section></section>
 <section>
@@ -759,6 +782,17 @@ Gangster
 <li><p>Il est aussi possible de récupérer d’autres url sur une page pour s’y rendre et les scraper ensuite.</p></li>
 <li><p>Dans certains cas plus complexes, lire le contenu <em>HTML</em> ne suffit pas, par exemple s’il faut cliquer sur des boutons pour faire apparaître le contenu désiré.</p></li>
 </ul>
+</section>
+<section id="xpath" class="slide level2" data-background-size="contain">
+<h2><a href="https://librarycarpentry.org/lc-webscraping/02-xpath/index.html">XPath</a></h2>
+<ul>
+<li><p>Une page web peut aussi se présenter sous le format XML, proche du HTML.</p></li>
+<li><p>Afin de justement naviguer dans une page HTML ou XML, on fait appel à un langage d’expressions appelé XPath.</p>
+<ul>
+<li>Ce sont des expressions XPath qui seront utilisées en appel des fonctions.</li>
+<li>XPath permet ainsi de se déplacer de noeud en noeud dans la structure arborescente d’une page.</li>
+</ul></li>
+</ul>
 </section></section>
 <section id="ii.-mise-en-pratique" class="title-slide slide level1 center" data-background-size="contain">
 <h1>II. Mise en pratique</h1>
@@ -818,6 +852,7 @@ Gangster
 <li>Un outil plus plus complet mais aussi plus complexe</li>
 <li>Très utile pour les opérations de web crawling</li>
 <li>Davantage recommandé pour de gros projets</li>
+<li>Un tutoriel par <a href="https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html">Library Carpentry</a></li>
 </ul>
 </section>
 <section id="quelques-librairies-sur-r" class="slide level2" data-background-size="contain">
@@ -846,17 +881,17 @@ Gangster
 <h1>Partie pratique</h1>
 
 </section>
-<section id="une-plateforme-de-travail-onyxia" class="slide level2" data-background-size="contain">
-<h2>Une plateforme de travail : Onyxia</h2>
-<p>xxx</p>
+<section id="une-plateforme-de-travail-onyxia-et-le-ssp-cloud" class="slide level2" data-background-size="contain">
+<h2>Une plateforme de travail : Onyxia et le SSP Cloud</h2>
+<p>Insérer courte présentation SSP Cloud + Onyxia</p>
 </section>
-<section id="comment-utiliser-onyxia" class="slide level2" data-background-size="contain">
-<h2>Comment utiliser Onyxia ?</h2>
-<p>xxx</p>
+<section id="comment-utiliser-le-ssp-cloud" class="slide level2" data-background-size="contain">
+<h2>Comment utiliser le SSP Cloud ?</h2>
+<p>Insérer rapides explications utilisation</p>
 </section>
 <section id="mise-en-pratique-se-familiariser-à-beautifulsoup-et-selenium" class="slide level2" data-background-size="contain">
 <h2>Mise en pratique : se familiariser à BeautifulSoup et Selenium</h2>
-<p>xxx</p>
+<p>Insérer TP webscraping Lino cours Python</p>
 </section></section>
 <section>
 <section id="aspects-techniques-du-scraping-éthique" class="title-slide slide level1 center" data-background-size="contain">
@@ -961,7 +996,7 @@ Gangster
 </ul>
 </section>
 <section id="ryanair-v.-opodo-2010---les-conclusions" class="slide level2" data-background-size="contain">
-<h2><a href="https://www.legalis.net/jurisprudences/tribunal-de-grande-instance-de-paris-3eme-chambre-2eme-section-jugement-du-09-avril-2010/">Ryanair v. Opodo (2010)</a> - Les conclusions</h2>
+<h2>Ryanair v. Opodo (2010) - Les conclusions</h2>
 <ul>
 <li>Le Tribunal de Paris :
 <ul>
@@ -1007,7 +1042,7 @@ Gangster
 </ul>
 </section>
 <section id="ryanair-v.-kiwi.com-2021---les-conclusions" class="slide level2" data-background-size="contain">
-<h2><a href="https://www.expats.cz/czech-news/article/czech-ticket-seller-kiwi-com-wins-dispute-with-ryanair-over-handling-of-passenger-data">Ryanair v. Kiwi.com (2021)</a> - Les conclusions</h2>
+<h2>Ryanair v. Kiwi.com (2021) - Les conclusions</h2>
 <ul>
 <li><p>La cour régionale de Brno avait imposé à Kiwi.com de se plier aux CGU de Ryanair. Cela impliquait notamment que Kiwi.com devait transmettre à Ryanair plusieurs données personnelles sur ses clients ayant acheté un billet de la compagnie sur la plateforme.</p></li>
 <li><p>En cour d’appel, la décision avait été révoquée pour les raisons suivantes :</p>
@@ -1034,6 +1069,17 @@ Gangster
 <li><p>Verdict : La cour d’appel de Paris prend le parti de Ryanair et ordonne la cessation immédiate des activités de scraping de Lastminute, en plus de lourdes amendes</p></li>
 </ul>
 </section>
+<section id="affaire-bluetouff---france-2015" class="slide level2" data-background-size="contain">
+<h2>Affaire “Bluetouff” - France (2015)</h2>
+<ul>
+<li><p><a href="https://www.legifrance.gouv.fr/juri/id/JURITEXT000030635061/">Cour de cassation, Chambre criminelle, 20 mai 2015, 14-81.336</a></p>
+<ul>
+<li><a href="https://www.securitecloud.com/juridique/laffaire-bluetouff-decryptee-par-un-expert-judiciaire/">Un exemple de décryptage</a></li>
+</ul></li>
+<li><p>Olivier Laurelli, alias Bluetouff, condamné à 3000 euros d’amende pour avoir téléchargé et réutilisé en 2012 (pour diffusion) des données de l’Anses accessibles publiquement sur leur site, là où elles n’auraient pas dû l’être.</p></li>
+<li><p>Bluetoof relaxé par le tribunal de Créteil en 2012 puis condamné auprès de la Cour d’appel de Paris en 2015.</p></li>
+</ul>
+</section>
 <section id="dautres-litiges-légaux-en-europe" class="slide level2" data-background-size="contain">
 <h2>D’autres litiges légaux en Europe</h2>
 <ul>
@@ -1056,8 +1102,9 @@ Gangster
 <section id="conclusions-des-jurisprudences---en-europe" class="slide level2" data-background-size="contain">
 <h2>Conclusions des jurisprudences - En Europe</h2>
 <ul>
-<li><p>Les CGU d’un site peuvent être contractuelles auprès d’un jury pour interdire toute pratique de webscraping, au moins dans le contexte d’agrégateurs d’offres, sauf si mention contraire par les lois nationales. Cela peut arriver dans certains pays qui prônent plutôt le droit à la concurrence (ex: Italie, République Tchèque).</p></li>
-<li><p>Republier des données scrapées à usage commercial sans qu’un travail notable de réutilisation soit fait, créant ainsi un préjudice pour le site initial, n’est pas autorisé.</p></li>
+<li><p>Les CGU d’un site peuvent être contractuelles auprès d’un jury pour interdire toute pratique de webscraping, sauf si mention contraire par les lois nationales (ex : si supériorité du droit à la concurrence).</p></li>
+<li><p>Republier des données scrapées à des fins commerciales sans qu’un travail notable de réutilisation soit fait, et pouvant créer un préjudice pour le site initial, n’est pas autorisé.</p></li>
+<li><p>Un contenu accessible publiquement, mais sans que ce ne soit manifestement un choix du site, ne peut pas forcément être légalement scrapé.</p></li>
 </ul>
 </section>
 <section id="conclusions-des-jurisprudences---aux-etats-unis" class="slide level2" data-background-size="contain">
@@ -1067,36 +1114,112 @@ Gangster
 <li><p>L’activité de webscraping en elle-même ne viole pas le Computer Fraud and Abuse Act.</p></li>
 <li><p>Lors d’un litige, bloquer l’adresse IP d’un utilisateur et lui adresser une mise en demeure interdisant le scraping du site peuvent éventuellement suffire à invoquer le CFAA pour protéger les bases de données du site.</p></li>
 </ul>
-</section></section>
-<section id="et-pour-un-ins-alors" class="title-slide slide level1 center" data-background-size="contain">
-<h1>Et pour un INS alors ?</h1>
-
 </section>
-
+<section id="et-pour-un-ins-alors" class="slide level2" data-background-size="contain">
+<h2>Et pour un INS alors ?</h2>
+<ul>
+<li>Quid des prérogatives de puissance publique pour recueillir de l’information ?</li>
+</ul>
+</section></section>
 <section>
 <section id="le-scraping-à-linsee" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Le scraping à l’INSEE</h1>
 
 </section>
-<section id="le-webscraping-à-linsee" class="slide level2" data-background-size="contain">
-<h2>Le webscraping à l’INSEE</h2>
-<p>xxx</p>
+<section id="quand-lutiliser" class="slide level2" data-background-size="contain">
+<h2>Quand l’utiliser ?</h2>
+<ul>
+<li>Le webscraping utilisé en dernier recours, l’INSEE favorisera :
+<ul>
+<li>Accords avec des partenaires (ex : seloger.com)</li>
+<li>Utilisation d’API (ex : Qwant)</li>
+<li>Sources de données publiques</li>
+</ul></li>
+<li>Le webscraping devient cependant une source de données grandissante.</li>
+</ul>
 </section>
 <section id="les-utilisations-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
 <h2>Les utilisations du scraping à l’INSEE</h2>
-<p>xxx</p>
+<ul>
+<li>Enquêtes ménages
+<ul>
+<li>Récupérer coordonnées téléphoniques via les pages blanches</li>
+</ul></li>
+<li>Indices des prix
+<ul>
+<li>Prix des transports (trains via le site de la SNCF, domaine maritime)</li>
+<li>Prix de produits divers (ex : électronique)</li>
+<li>Prix dans le domaine de l’hôtellerie, avec booking.com</li>
+</ul></li>
+</ul>
+</section>
+<section id="organisation-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
+<h2>Organisation du scraping à l’INSEE</h2>
+<ul>
+<li><p>Un scraping par cas d’usage, avec une gestion plus globale en cours de maturité</p></li>
+<li><p>Beaucoup de Python, un peu de R et de Java</p></li>
+</ul>
 </section></section>
 <section>
 <section id="cas-dusage-à-linsee" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Cas d’usage à l’INSEE</h1>
 
 </section>
-<section id="cas-dusage-à-linsee-1" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage à l’INSEE</h2>
-<p>xxx</p>
+<section id="les-prix-dans-le-domaine-de-lhôtellerie-booking.com" class="slide level2" data-background-size="contain">
+<h2>Les prix dans le domaine de l’hôtellerie : Booking.com</h2>
+<ul>
+<li>Un travail ayant donné lieu à une <a href="https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf">publication</a>
+<ul>
+<li><em>Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index</em></li>
+<li>Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon</li>
+</ul></li>
+<li>Une <a href="http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf">présentation</a> plus accessible</li>
+</ul>
+</section>
+<section id="scraping-de-booking.com-le-code" class="slide level2" data-background-size="contain">
+<h2>Scraping de Booking.com : le code</h2>
+<ul>
+<li><p>La partie ‘scraping’ du projet est disponible <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-hotel">ici</a>.</p></li>
+<li><p>Pour plus d’informations, contacter <script type="text/javascript">
+<!--
+h='&#x69;&#110;&#x73;&#x65;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x61;&#100;&#114;&#x69;&#x65;&#110;&#46;&#x6d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x41;&#100;&#114;&#x69;&#x65;&#110;&#32;&#x4d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</p></li>
+<li><p>La conférence associée aux présentations : <a href="https://www.ottawagroup.org/ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/c7e600e0bec85d82ca25888400059a93?OpenDocument#Meeting%2017%20Rome">ici</a></p>
+<ul>
+<li>D’autres projets similaires de scraping mentionnés</li>
+</ul></li>
+</ul>
+</section>
+<section id="ventes-darticles-électroniques" class="slide level2" data-background-size="contain">
+<h2>Ventes d’articles électroniques</h2>
+<ul>
+<li><p>Scraping de <a href="https://www.boulanger.com/">Boulanger</a> : <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/boulanger">ici</a></p></li>
+<li><p>Scraping de <a href="https://www.rueducommerce.fr/">Rue du Commerce</a> : <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/rue-du-commerce">ici</a></p></li>
+<li><p>Pour plus d’informations, contacter <script type="text/javascript">
+<!--
+h='&#x69;&#110;&#x73;&#x65;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x61;&#100;&#114;&#x69;&#x65;&#110;&#46;&#x6d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x41;&#100;&#114;&#x69;&#x65;&#110;&#32;&#x4d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</p></li>
+</ul>
+</section>
+<section id="scraping-de-la-sncf" class="slide level2" data-background-size="contain">
+<h2>Scraping de la SNCF</h2>
+<p>Si autorisé, insérer slides scraping SNCF</p>
+</section>
+<section id="dautres-ressources-pour-le-scraping-lié-à-lipc" class="slide level2" data-background-size="contain">
+<h2>D’autres ressources pour le scraping lié à l’IPC</h2>
+<ul>
+<li><a href="https://ec.europa.eu/eurostat/documents/272892/12032198/Guidelines-web-scraping-HICP-11-2020.pdf/">Guidelines d’Eurostat</a> sur le scraping lié à l’indice des prix à la consommation
+<ul>
+<li>Annexe 3 consacrée aux travaux de l’INSEE sur Boulanger et Rue du Commerce</li>
+</ul></li>
+</ul>
 </section></section>
-<section id="iv.-le-webscraping-chez-eurostat" class="title-slide slide level1 center" data-background-size="contain">
-<h1>IV. Le webscraping chez Eurostat</h1>
+<section id="iv.-dautres-organisations-adeptes-de-scraping" class="title-slide slide level1 center" data-background-size="contain">
+<h1>IV. D’autres organisations adeptes de scraping</h1>
 
 </section>
 

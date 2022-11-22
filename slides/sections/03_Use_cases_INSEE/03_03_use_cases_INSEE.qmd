@@ -1,6 +1,6 @@
 ## Les prix dans le domaine de l'hôtellerie : Booking.com
 
-- Un travail ayant donné lieu à une [publication](https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf) :
+- Un travail ayant donné lieu à une [publication](https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf)
     - *Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index*
     - Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon
 
@@ -11,7 +11,7 @@
 
 - La partie 'scraping' du projet est disponible [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-hotel).
 
-- Pour plus d'informations, contacter Adrien Montbroussous (adrien.montbroussous@insee.fr), INSEE.
+- Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr), INSEE.
 
 - La conférence associée aux présentations : [ici](https://www.ottawagroup.org/ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/c7e600e0bec85d82ca25888400059a93?OpenDocument#Meeting%2017%20Rome)
     - D'autres projets similaires de scraping mentionnés
@@ -23,7 +23,7 @@
 
 - Scraping de [Rue du Commerce](https://www.rueducommerce.fr/) : [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/rue-du-commerce)
 
-- Pour plus d'informations, contacter Adrien Montbroussous (adrien.montbroussous@insee.fr), INSEE.
+- Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr), INSEE.
 
 
 ## Scraping de la SNCF

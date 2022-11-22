@@ -37,8 +37,9 @@
 
 - Le droit [sui generis](https://fr.wikipedia.org/wiki/Sui_generis), à l'échelle européenne, protégeant les bases de données ayant nécessité un "investissement substantiel"
 
-- Certaines directives relatives à la protection des bases de données en Europe.
-    - Ex : [Directive 96/9/CE du Parlement Européen et du conseil](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML)
+- Certains règlements et directives relatifs à la protection des bases de données en Europe
+    - [Directive 96/9/CE] du Parlement Européen et du conseil(https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML)
+    - [Data Governance Act](https://info.haas-avocats.com/droit-digital/data-governance-act-reglement-europeen), prévu pour septembre 2023
 
 - Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données (parfois personnelles)
 
@@ -49,14 +50,14 @@
 
 - Les mentions légales, conditions d'utilisation et autres consignes des sites concernés
 
-- Aux États-Unis, plusieurs textes peuvent s'appliquer : le California [Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa), le [Computer Fraud and Abuse Act](https://www.nacdl.org/Landing/ComputerFraudandAbuseAct), ...
+- Aux États-Unis, plusieurs textes peuvent s'appliquer : le [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa), le [Computer Fraud and Abuse Act](https://www.nacdl.org/Landing/ComputerFraudandAbuseAct), ...
 
 
 ## Outre les protections légales, les sites se protègent eux-mêmes
 
 - Afin d'éviter la réutilisation de leur contenu par des concurrents et lutter contre l'espionnage
 
-- Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l'accès au site, et qui peuvent s'assimiler à une [attaque DDoS](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service)
+- Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l'accès au site, et qui peuvent s'assimiler à une [attaque par déni de service (DoS)](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service)
 
 
 ## Les méthodes mises en place pour se protéger du scraping (1/2)
@@ -95,9 +96,9 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Chercher des alternatives, comme accéder à des données similaires via un moyen moins contraignant
 
 
-## Pour un scraping "éthique" (et légal !)
+## Pour un scraping éthique (et légal !)
 
-- Le webscraping reste malgré tout une source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s'en priver.
+- Le webscraping reste malgré tout une nouvelle source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s'en priver.
 
 - Cependant, il existe des moyens de scraper de façon "éthique" et en minimisant la charge sur le site scrapé.
 
@@ -111,7 +112,7 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Si l'impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné
     - Plus généralement, prendre le réflexe de demander la permission
 
-- S'identifier auprès du site lors de l'opération de scraping (sauf cas particuliers)
+- S'identifier auprès du site lors de l'opération de scraping
 
 
 ## Les guidelines du Système Statistique Européen : minimiser l'impact
@@ -134,9 +135,9 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 
 ## Ce qu'il ne faut pas faire
 
-- Consciemment déroger aux règlementations données et manquer de transparence
+- Consciemment déroger aux règlementations applicables et manquer de transparence
 
-- Surcharger les requêtes sur le site concerné (assimilable à une attaque DDoS) ou multiplier les mêmes requêtes plusieurs fois
+- Surcharger les requêtes sur le site concerné (assimilable à une attaque DoS) ou multiplier les mêmes requêtes plusieurs fois
 
 - Paralléliser les requêtes ou faire ces dernières en heures pleines
 
@@ -148,5 +149,8 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Selon les pays, il existe des données, même si publiques, dont le scraping est illégal. Il faut donc bien se renseigner sur les lois locales.
     - Par exemple, les données de contact en Australie
 
-- Dans le doute, ne pas hésiter à se renseigner davantage.
+- Dans le doute, ne pas hésiter à se documenter davantage.
     - Exemples de ressources : [librarycarpentry](https://librarycarpentry.org/lc-webscraping/05-conclusion/index.html), [Rubyroidlabs](https://rubyroidlabs.com/blog/2016/04/web-scraping-1/), ...
+
+- Il existe parfois des structures dont le rôle est justement d'évaluer l'aspect juridique de pratiques comme le webscraping.
+    - A l'INSEE, c'est la responsabilité de l'[UAJC](https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532)

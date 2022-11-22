@@ -4,8 +4,6 @@
 
 - Le terme fait généralement référence à l'usage de [bots](https://en.wikipedia.org/wiki/Internet_bot) pour collecter ces contenus automatiquement.
 
-- Plusieurs
-
 
 ## Exemples introductifs
 
@@ -52,7 +50,7 @@
 - Dans le domaine des paris sportifs, il est courant de scraper les sites de statistiques sportives afin d'adapter l'offre des paris.
 
 
-## Cas d'usage pour un INS : 
+## Cas d'usage pour un INS
 
 - Scraper divers sites de ventes afin d'obtenir des données de prix pour le calcul de l'indice des prix à la consommation
 

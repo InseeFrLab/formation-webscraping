@@ -98,6 +98,16 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 - Verdict : La cour d'appel de Paris prend le parti de Ryanair et ordonne la cessation immédiate des activités de scraping de Lastminute, en plus de lourdes amendes
 
 
+## Affaire "Bluetouff" - France (2015)
+
+- [Cour de cassation, Chambre criminelle, 20 mai 2015, 14-81.336](https://www.legifrance.gouv.fr/juri/id/JURITEXT000030635061/)
+    - [Un exemple de décryptage](https://www.securitecloud.com/juridique/laffaire-bluetouff-decryptee-par-un-expert-judiciaire/)
+
+- Olivier Laurelli, alias Bluetouff, condamné à 3000 euros d'amende pour avoir téléchargé et réutilisé en 2012 (pour diffusion) des données de l'Anses accessibles publiquement sur leur site, là où elles n'auraient pas dû l'être.
+
+- Bluetoof relaxé par le tribunal de Créteil en 2012 puis condamné auprès de la Cour d'appel de Paris en 2015.
+
+
 ## D'autres litiges légaux en Europe
 
 - [AutoTrack v. GasPedaal](https://curia.europa.eu/juris/document/document.jsf?docid=145914&doclang=FR) (2013 - Pays-Bas)
@@ -113,9 +123,11 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 ## Conclusions des jurisprudences - En Europe
 
-- Les CGU d'un site peuvent être contractuelles auprès d'un jury pour interdire toute pratique de webscraping, au moins dans le contexte d'agrégateurs d'offres, sauf si mention contraire par les lois nationales. Cela peut arriver dans certains pays qui prônent plutôt le droit à la concurrence (ex: Italie, République Tchèque).
+- Les CGU d'un site peuvent être contractuelles auprès d'un jury pour interdire toute pratique de webscraping, sauf si mention contraire par les lois nationales (ex : si supériorité du droit à la concurrence).
 
-- Republier des données scrapées à usage commercial sans qu'un travail notable de réutilisation soit fait, créant ainsi un préjudice pour le site initial, n'est pas autorisé.
+- Republier des données scrapées à des fins commerciales sans qu'un travail notable de réutilisation soit fait, et pouvant créer un préjudice pour le site initial, n'est pas autorisé.
+
+- Un contenu accessible publiquement, mais sans que ce ne soit manifestement un choix du site, ne peut pas forcément être légalement scrapé.
 
 
 ## Conclusions des jurisprudences - Aux Etats-Unis
@@ -127,4 +139,6 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 - Lors d'un litige, bloquer l'adresse IP d'un utilisateur et lui adresser une mise en demeure interdisant le scraping du site peuvent éventuellement suffire à invoquer le CFAA pour protéger les bases de données du site.
 
 
-# Et pour un INS alors ?
+## Et pour un INS alors ?
+
+- Quid des prérogatives de puissance publique pour recueillir de l'information ?
