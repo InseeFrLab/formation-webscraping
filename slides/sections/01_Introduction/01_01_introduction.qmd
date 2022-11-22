@@ -16,7 +16,13 @@
 
 ## Webscraping, webcrawling, screen scraping, quelles différences ?
 
-- xxx
+- Le webscraping se réfère à l'extraction des données d'une ou plusieurs pages web.
+
+- Le [webcrawling](https://en.wikipedia.org/wiki/Web_crawler) correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.
+
+- Les deux peuvent aller ensemble : d'abord utiliser un crawler pour récupérer tous les urls d'un site, puis scraper chacune des pages.
+
+- Quant au [screen scraping](https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping), proche du webscraping, il consiste plutôt à extraire le contenu visuel d'un site apparaissant à l'écran, comme des images.
 
 
 ## Cas d'usage pratiques : études de marché et intelligence économique

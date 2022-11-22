@@ -18,7 +18,7 @@
 
 - Les cas d'usage, y compris dans de grandes entreprises, sont très nombreux.
 
-- Les articles discutant de webscraping et de leur légalité sont tout aussi proliférant, mais pas toujours d'accord les uns avec les autres.
+- Les articles discutant de webscraping et de leur légalité sont tout aussi proliférants, mais pas toujours d'accord les uns avec les autres.
     - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL), ...
 
 
@@ -38,7 +38,7 @@
 - Le droit [sui generis](https://fr.wikipedia.org/wiki/Sui_generis), à l'échelle européenne, protégeant les bases de données ayant nécessité un "investissement substantiel"
 
 - Certains règlements et directives relatifs à la protection des bases de données en Europe
-    - [Directive 96/9/CE] du Parlement Européen et du conseil(https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML)
+    - [Directive 96/9/CE](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML) du Parlement Européen et du conseil
     - [Data Governance Act](https://info.haas-avocats.com/droit-digital/data-governance-act-reglement-europeen), prévu pour septembre 2023
 
 - Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données (parfois personnelles)
@@ -48,7 +48,7 @@
 
 - Les jurisprudences issues des procès d'entreprises liés au webscraping
 
-- Les mentions légales, conditions d'utilisation et autres consignes des sites concernés
+- Les mentions légales, conditions d'utilisation et autres consignes des sites concernés, d'autant plus engageantes quand accéder au contenu nécessite d'accepter explicitement les conditions du site (par exemple en appuyant sur un bouton)
 
 - Aux États-Unis, plusieurs textes peuvent s'appliquer : le [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa), le [Computer Fraud and Abuse Act](https://www.nacdl.org/Landing/ComputerFraudandAbuseAct), ...
 
@@ -121,7 +121,7 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 
 - Privilégier les heures creuses du site pour les opérations de scraping
 
-- Étaler les requêtes en laissant un temps de 'pause' entre chaque requête sur site
+- Étaler les requêtes en laissant un temps de 'pause' entre chaque requête sur site, surtout sur un même domaine
 
 
 ## Les guidelines du Système Statistique Européen : confiance

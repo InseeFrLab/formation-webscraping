@@ -18,7 +18,7 @@ The target audience for the WIH are organisations that produce national statisti
 - Adopting new practices
 
 
-## Les webinaires des prochains mois
+## Les webinaires du WIN des prochains mois
 
 - Début 2023 :
     - "Web Scraped Data to Enhance the Quality of the Statistical Business Register"
@@ -29,10 +29,22 @@ The target audience for the WIH are organisations that produce national statisti
 - Davantage d'informations à venir pour la suite
 
 
-## D'autres interlocuteurs : l'ONS
+## L'INS du Royaume-Uni : l'[ONS](https://www.ons.gov.uk/)
 
-xxx
+- Un [blog](https://datasciencecampus.ons.gov.uk/) consacré à la data science alimenté régulièrement
+
+- Une politique de webscraping très mature, disponible [ici](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy) et [ici](https://www.ons.gov.uk/file?uri=/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy/webscrapingpolicy.pdf)
+    - Ne pas hésiter à lire leur liste des bonnes pratiques, très bien faite
+
+- Prompts à multiplier les [partenariats](https://datasciencecampus.ons.gov.uk/partnerships/)
+
 
 ## Quid de recourir à des acteurs privés spécialisés ?
 
-xxx
+- Il existe de nombreuses entreprises proposant des services de scraping.
+
+- En revanche, aucune garantie que les guidelines présentées soient appliquées
+
+- Possibles problématiques de transparence sur la collecte
+
+Ce n'est donc pas une recommandation. Ce n'est ni une pratique à l'INSEE ni à Eurostat.

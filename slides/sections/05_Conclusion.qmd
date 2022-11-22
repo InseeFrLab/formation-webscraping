@@ -1,8 +1,15 @@
-## Mot de la fin
+## Le mot de la fin
 
-xxx
+- Le webscraping est une nouvelle source de données très prometteuse.
+    - Les cas d'usage sont nombreux, y compris pour les INS.
+
+- En revanche attention, même à des fins statistiques, tout n'est pas permis.
+    - Bien respecter les bonnes pratiques.
+
+- Un réseau d'interlocuteurs à disposition
+    - A travers le WIN ou entre INS
 
 
-## Merci pour votre attention !
+# Merci pour votre attention !
 
-xxx
+Des questions ?
