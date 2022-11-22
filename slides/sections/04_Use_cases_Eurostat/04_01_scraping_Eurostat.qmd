@@ -1,11 +1,32 @@
 ## Les investissements d'Eurostat en webscraping
 
-xxx
+- Eurostat investit dans divers projets nommés [ESSnets](https://ec.europa.eu/eurostat/cros/page/essnet_en).
+    - "An ESSnet project is a network of several ESS organisations aimed at providing results that will be beneficial to the whole ESS."
 
-## Les ESS Big data I & II
+- Parmi ces investissements, plusieurs liés aux nouvelles sources de données, dont le webscraping.
+    - ESSnet Big Data I & II
+    - Trusted Smart Statistics – Web Intelligence Network (WIN)
 
-xxx
 
-## Le Web Intelligence Network
+## Une continuité de projets
 
-xxx
+3 ESSnets dans la continuité les uns des autres :
+
+- [Big Data I](https://ec.europa.eu/eurostat/cros/essnet-big-data-1_en) de février 2016 à mai 2018
+- [Big Data II](https://ec.europa.eu/eurostat/cros/essnet-big-data-2_en) de novembre 2018 à juin 2021
+- Le [Web Intelligence Network](https://ec.europa.eu/eurostat/cros/content/project-overview_en) (WIN) d'avril 2020 à mars 2025
+    - Le WIN fait notamment la promotion du Web Intelligence Hub (WIH), dédié à l'acquisition de nouvelles données en ligne.
+    - Ce sont 17 organisations de 14 pays européens qui travaillent ensemble.
+
+
+## Un découpage en work packages
+
+Ces ESSnets couvrent une variété de projets. Ceux-ci sont organisés par work packages, chacun avec ses propres objectifs.
+
+- Pour le WIN, on compte 4 work packages :
+    - [Work package 1](https://ec.europa.eu/eurostat/cros/content/work-package-1-%E2%80%93-coordination-support-and-dissemination_en) : Coordination, support et dissémination
+    - [Work package 2](https://ec.europa.eu/eurostat/cros/content/work-package-2-%E2%80%93-oja-and-obec-software_en) : Les projets OJA et OBEC
+    - [Work package 3](https://ec.europa.eu/eurostat/cros/content/work-package-3-%E2%80%93-new-use-cases_en) : Nouveaux cas d'usage
+    - [Work package 4](https://ec.europa.eu/eurostat/cros/content/work-package-4-%E2%80%93-methodology-and-quality_en) : Méthodologie et qualité
+
+- L'INSEE est engagé dans les work packages 3 et 4.

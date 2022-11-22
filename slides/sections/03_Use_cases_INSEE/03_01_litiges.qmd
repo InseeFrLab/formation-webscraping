@@ -29,10 +29,11 @@
 
 ## Ryanair v. Opodo (2010) - Les conclusions
 
-- Le Tribunal de Paris :
-    - Rejette l'intégralité des demandes de Ryanair
-    - Condamne Ryanair à d'importantes amendes pour préjudice
-    - Maintient le droit d'Opodo à scraper les données publiques du site de Ryanair
+Le Tribunal de Paris :
+
+- Rejette l'intégralité des demandes de Ryanair
+- Condamne Ryanair à d'importantes amendes pour préjudice
+- Maintient le droit d'Opodo à scraper les données publiques du site de Ryanair
 
 
 ## [Ryanair v. PR Aviation (2015)](https://prezi.com/po5tmteybziv/ryanair-ltd-v-pr-aviation-bv/) - Le litige

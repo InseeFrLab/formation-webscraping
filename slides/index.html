@@ -806,15 +806,13 @@ Gangster
 </section>
 <section id="les-librairies-principales-sur-python" class="slide level2" data-background-size="contain">
 <h2>Les <a href="https://www.projectpro.io/article/python-libraries-for-web-scraping/625#mcetoc_1gb5hj7o81i">librairies principales</a> sur Python</h2>
-<ul>
-<li>Plusieurs librairies permettent de faire du scraping en Python. Les principales sont :
+<p>Plusieurs librairies permettent de faire du scraping en Python. Les principales sont :</p>
 <ul>
 <li><a href="https://requests.readthedocs.io/en/latest/">Requests</a></li>
 <li><a href="https://docs.python.org/fr/3/library/urllib.html">Urllib</a></li>
 <li><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a></li>
 <li><a href="https://selenium-python.readthedocs.io/">Selenium</a></li>
 <li><a href="https://scrapy.org/">Scrapy</a></li>
-</ul></li>
 </ul>
 </section>
 <section id="extraire-les-codes-sources-html-requests-et-urllib" class="slide level2" data-background-size="contain">
@@ -843,7 +841,7 @@ Gangster
 <ul>
 <li>Ex: Appuyer sur un bouton, rentrer ses identifiants, …</li>
 </ul></li>
-<li>Selenium permet de simuler un navigateur puis d’interagir avec les éléments Javascript du site “comme un utilisateur”</li>
+<li>Selenium permet de simuler un navigateur (<a href="https://en.wikipedia.org/wiki/Headless_browser">headless browser</a>) puis d’interagir avec les éléments Javascript du site “comme un utilisateur”</li>
 </ul>
 </section>
 <section id="un-outil-plus-complet-scrapy" class="slide level2" data-background-size="contain">
@@ -942,7 +940,7 @@ Gangster
 <section id="automatiser-et-industrialiser-les-processus-de-scraping" class="slide level2" data-background-size="contain">
 <h2>Automatiser et industrialiser les processus de scraping</h2>
 <ul>
-<li>En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièrement),
+<li>En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièremen, blocage des adresses IP),
 <ul>
 <li>Minimiser les interactions humaines est quasiment impossible</li>
 <li>Industrialiser les processus nécessite des révisions régulières</li>
@@ -957,6 +955,7 @@ Gangster
 <li><p>Problème méthodologique courant : différencier le stock du flux.</p>
 <ul>
 <li>La page web que je viens de scraper est-elle nouvelle ou est-ce la même que celle d’hier ?</li>
+<li>Enjeux de déduplication</li>
 </ul></li>
 </ul>
 </section></section>
@@ -997,13 +996,11 @@ Gangster
 </section>
 <section id="ryanair-v.-opodo-2010---les-conclusions" class="slide level2" data-background-size="contain">
 <h2>Ryanair v. Opodo (2010) - Les conclusions</h2>
-<ul>
-<li>Le Tribunal de Paris :
+<p>Le Tribunal de Paris :</p>
 <ul>
 <li>Rejette l’intégralité des demandes de Ryanair</li>
 <li>Condamne Ryanair à d’importantes amendes pour préjudice</li>
 <li>Maintient le droit d’Opodo à scraper les données publiques du site de Ryanair</li>
-</ul></li>
 </ul>
 </section>
 <section id="ryanair-v.-pr-aviation-2015---le-litige" class="slide level2" data-background-size="contain">
@@ -1230,45 +1227,111 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </section>
 <section id="les-investissements-deurostat-en-webscraping" class="slide level2" data-background-size="contain">
 <h2>Les investissements d’Eurostat en webscraping</h2>
-<p>xxx</p>
+<ul>
+<li>Eurostat investit dans divers projets nommés <a href="https://ec.europa.eu/eurostat/cros/page/essnet_en">ESSnets</a>.
+<ul>
+<li>“An ESSnet project is a network of several ESS organisations aimed at providing results that will be beneficial to the whole ESS.”</li>
+</ul></li>
+<li>Parmi ces investissements, plusieurs liés aux nouvelles sources de données, dont le webscraping.
+<ul>
+<li>ESSnet Big Data I &amp; II</li>
+<li>Trusted Smart Statistics – Web Intelligence Network (WIN)</li>
+</ul></li>
+</ul>
 </section>
-<section id="les-ess-big-data-i-ii" class="slide level2" data-background-size="contain">
-<h2>Les ESS Big data I &amp; II</h2>
-<p>xxx</p>
+<section id="une-continuité-de-projets" class="slide level2" data-background-size="contain">
+<h2>Une continuité de projets</h2>
+<p>3 ESSnets dans la continuité les uns des autres :</p>
+<ul>
+<li><a href="https://ec.europa.eu/eurostat/cros/essnet-big-data-1_en">Big Data I</a> de février 2016 à mai 2018</li>
+<li><a href="https://ec.europa.eu/eurostat/cros/essnet-big-data-2_en">Big Data II</a> de novembre 2018 à juin 2021</li>
+<li>Le <a href="https://ec.europa.eu/eurostat/cros/content/project-overview_en">Web Intelligence Network</a> (WIN) d’avril 2020 à mars 2025
+<ul>
+<li>Le WIN fait notamment la promotion du Web Intelligence Hub (WIH), dédié à l’acquisition de nouvelles données en ligne.</li>
+<li>Ce sont 17 organisations de 14 pays européens qui travaillent ensemble.</li>
+</ul></li>
+</ul>
 </section>
-<section id="le-web-intelligence-network" class="slide level2" data-background-size="contain">
-<h2>Le Web Intelligence Network</h2>
-<p>xxx</p>
+<section id="un-découpage-en-work-packages" class="slide level2" data-background-size="contain">
+<h2>Un découpage en work packages</h2>
+<p>Ces ESSnets couvrent une variété de projets. Ceux-ci sont organisés par work packages, chacun avec ses propres objectifs.</p>
+<ul>
+<li>Pour le WIN, on compte 4 work packages :
+<ul>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/work-package-1-%E2%80%93-coordination-support-and-dissemination_en">Work package 1</a> : Coordination, support et dissémination</li>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/work-package-2-%E2%80%93-oja-and-obec-software_en">Work package 2</a> : Les projets OJA et OBEC</li>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/work-package-3-%E2%80%93-new-use-cases_en">Work package 3</a> : Nouveaux cas d’usage</li>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/work-package-4-%E2%80%93-methodology-and-quality_en">Work package 4</a> : Méthodologie et qualité</li>
+</ul></li>
+<li>L’INSEE est engagé dans les work packages 3 et 4.</li>
+</ul>
 </section></section>
 <section>
 <section id="cas-dusage-deurostat" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Cas d’usage d’Eurostat</h1>
 
 </section>
-<section id="cas-dusage-deurostat-oja" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage d’Eurostat : OJA</h2>
+<section id="le-work-package-2-du-win" class="slide level2" data-background-size="contain">
+<h2>Le work package 2 du WIN</h2>
+<ul>
+<li>Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
+<ul>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en">Online Job Advertisements</a> (OJA)</li>
+<li><a href="https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en">Online-Based Enterprise Characteristics</a> (OBEC)</li>
+</ul></li>
+<li>Les deux projets faisaient également partie du ‘<a href="https://ec.europa.eu/eurostat/cros/content/implementation-track-0_en">Implementation Track</a>’ de l’ESSnet Big Data II.
+<ul>
+<li>Au sein du même track, on pourra aussi citer le projet ‘<a href="https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en">Process and architecture</a>’, qui a donné naissance au <a href="https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en">BREAL</a>. Cela représente désormais le work package 4 du WIN.</li>
+</ul></li>
+</ul>
+</section>
+<section id="online-job-advertisements-online-job-vacancies" class="slide level2" data-background-size="contain">
+<h2>Online Job Advertisements / Online Job Vacancies</h2>
 <p>xxx</p>
 </section>
-<section id="cas-dusage-deurostat-obec" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage d’Eurostat : OBEC</h2>
-<p>xxx</p>
-</section>
-<section id="cas-dusage-deurostat-breal" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage d’Eurostat : BREAL</h2>
-<p>xxx</p>
-</section>
-<section id="autres-cas-dusage" class="slide level2" data-background-size="contain">
-<h2>Autres cas d’usage</h2>
+<section id="online-based-enterprise-characteristics" class="slide level2" data-background-size="contain">
+<h2>Online-Based Enterprise Characteristics</h2>
 <p>xxx</p>
 </section></section>
 <section>
-<section id="interlocuteurs-à-privilégier" class="title-slide slide level1 center" data-background-size="contain">
-<h1>Interlocuteurs à privilégier</h1>
+<section id="quelques-interlocuteurs" class="title-slide slide level1 center" data-background-size="contain">
+<h1>Quelques interlocuteurs</h1>
 
 </section>
-<section id="qui-contacter-chez-eurostat" class="slide level2" data-background-size="contain">
-<h2>Qui contacter chez Eurostat ?</h2>
-<p>xxx</p>
+<section id="le-web-intelligence-network" class="slide level2" data-background-size="contain">
+<h2>Le <a href="https://ec.europa.eu/eurostat/cros/WIN_en">Web Intelligence Network</a></h2>
+<ul>
+<li><p>Présents sur plusieurs media : <a href="https://www.linkedin.com/company/essnet-project-web-intelligence-network/">LinkedIn</a>, <a href="https://twitter.com/EssnetWin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>, <a href="https://www.eventbrite.co.uk/o/essnet-web-intelligence-network-project-54944960133?utm_source=eventbrite&amp;utm_medium=email&amp;utm_campaign=event_reminder&amp;utm_term=orgname">Eventbrite</a>, <a href="https://www.youtube.com/channel/UC5fUzazBu7d1Arl17LdC4zQ">Youtube</a></p></li>
+<li><p>Souhaitent également communiquer auprès d’INS hors Europe</p></li>
+<li><p>Un calendrier très complet d’événements, de webinaires, …</p></li>
+</ul>
+</section>
+<section id="pour-reprendre-les-mots-du-win" class="slide level2" data-background-size="contain">
+<h2>Pour reprendre les mots du WIN …</h2>
+<p>The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for:</p>
+<ul>
+<li>Exploring new and emerging data sources</li>
+<li>Building competences</li>
+<li>Building and strengthening collaborations</li>
+<li>Developing new frameworks</li>
+<li>Adopting new practices</li>
+</ul>
+</section>
+<section id="les-webinaires-des-prochains-mois" class="slide level2" data-background-size="contain">
+<h2>Les webinaires des prochains mois</h2>
+<ul>
+<li>Début 2023 :
+<ul>
+<li>“Web Scraped Data to Enhance the Quality of the Statistical Business Register”</li>
+<li>“Method of Processing and Analysing Web Scraped Tourism Data”</li>
+<li>“Web Intelligence in Practice. How to use content form the web for enterprise statistics?”</li>
+</ul></li>
+<li>Mi 2023 :
+<ul>
+<li>“Web Scraping of Real Estate Portals”</li>
+</ul></li>
+<li>Davantage d’informations à venir pour la suite</li>
+</ul>
 </section>
 <section id="dautres-interlocuteurs-lons" class="slide level2" data-background-size="contain">
 <h2>D’autres interlocuteurs : l’ONS</h2>

@@ -1,15 +1,18 @@
-## Cas d'usage d'Eurostat : OJA
+## Le work package 2 du WIN
+
+- Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
+    - [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (OJA)
+    - [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (OBEC)
+
+- Les deux projets faisaient également partie du '[Implementation Track](https://ec.europa.eu/eurostat/cros/content/implementation-track-0_en)' de l'ESSnet Big Data II.
+    - Au sein du même track, on pourra aussi citer le projet '[Process and architecture](https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en)', qui a donné naissance au [BREAL](https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en). Cela représente désormais le work package 4 du WIN.
+
+
+## Online Job Advertisements / Online Job Vacancies
 
 xxx
 
-## Cas d'usage d'Eurostat : OBEC
 
-xxx
-
-## Cas d'usage d'Eurostat : BREAL
-
-xxx
-
-## Autres cas d'usage
+## Online-Based Enterprise Characteristics
 
 xxx

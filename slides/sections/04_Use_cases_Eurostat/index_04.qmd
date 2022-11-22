@@ -6,6 +6,6 @@
 
 {{< include 04_02_use_cases_Eurostat.qmd >}}
 
-# Interlocuteurs à privilégier
+# Quelques interlocuteurs
 
 {{< include 04_03_interlocuteurs.qmd >}}

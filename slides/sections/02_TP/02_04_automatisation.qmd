@@ -7,7 +7,7 @@
 
 ## Automatiser et industrialiser les processus de scraping
 
-- En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièrement),
+- En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièremen, blocage des adresses IP),
     - Minimiser les interactions humaines est quasiment impossible
     - Industrialiser les processus nécessite des révisions régulières
 
@@ -20,3 +20,4 @@
 
 - Problème méthodologique courant : différencier le stock du flux.
     - La page web que je viens de scraper est-elle nouvelle ou est-ce la même que celle d’hier ?
+    - Enjeux de déduplication

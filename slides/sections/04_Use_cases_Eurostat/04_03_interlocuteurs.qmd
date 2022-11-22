@@ -1,6 +1,33 @@
-## Qui contacter chez Eurostat ?
+## Le [Web Intelligence Network](https://ec.europa.eu/eurostat/cros/WIN_en)
 
-xxx
+- Présents sur plusieurs media : [LinkedIn](https://www.linkedin.com/company/essnet-project-web-intelligence-network/), [Twitter](https://twitter.com/EssnetWin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Eventbrite](https://www.eventbrite.co.uk/o/essnet-web-intelligence-network-project-54944960133?utm_source=eventbrite&utm_medium=email&utm_campaign=event_reminder&utm_term=orgname), [Youtube](https://www.youtube.com/channel/UC5fUzazBu7d1Arl17LdC4zQ)
+
+- Souhaitent également communiquer auprès d'INS hors Europe
+
+- Un calendrier très complet d'événements, de webinaires, ...
+
+
+## Pour reprendre les mots du WIN ...
+
+The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for:
+
+- Exploring new and emerging data sources
+- Building competences
+- Building and strengthening collaborations
+- Developing new frameworks
+- Adopting new practices
+
+
+## Les webinaires des prochains mois
+
+- Début 2023 :
+    - "Web Scraped Data to Enhance the Quality of the Statistical Business Register"
+    - "Method of Processing and Analysing Web Scraped Tourism Data"
+    - "Web Intelligence in Practice. How to use content form the web for enterprise statistics?"
+- Mi 2023 :
+    - "Web Scraping of Real Estate Portals"
+- Davantage d'informations à venir pour la suite
+
 
 ## D'autres interlocuteurs : l'ONS
 
