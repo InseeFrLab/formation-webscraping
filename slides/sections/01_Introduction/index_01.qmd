@@ -1,10 +1,17 @@
+# I. Sommaire
+
+Insérer sommaire cliquable
+
+
 # Présentation générale et usages courants
 
 {{< include 01_01_introduction.qmd >}}
 
+
 # Risques juridiques et scraping éthique
 
 {{< include 01_02_juridique.qmd >}}
+
 
 # Rappels sur HTML
 

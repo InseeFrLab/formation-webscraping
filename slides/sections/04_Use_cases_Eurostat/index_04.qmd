@@ -1,10 +1,17 @@
+# IV. Sommaire
+
+Insérer sommaire cliquable
+
+
 # Le scraping chez Eurostat
 
 {{< include 04_01_scraping_Eurostat.qmd >}}
 
+
 # Cas d'usage d'Eurostat
 
 {{< include 04_02_use_cases_Eurostat.qmd >}}
+
 
 # Webscraping dans un INS - Quelques interlocuteurs
 

@@ -1,10 +1,17 @@
+# III. Sommaire
+
+Insérer sommaire cliquable
+
+
 # Quelques litiges légaux
 
 {{< include 03_01_litiges.qmd >}}
 
+
 # Le scraping à l'INSEE
 
 {{< include 03_02_scraping_INSEE.qmd >}}
+
 
 # Cas d'usage à l'INSEE
 

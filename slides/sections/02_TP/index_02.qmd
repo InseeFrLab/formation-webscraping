@@ -1,14 +1,22 @@
+# II. Sommaire
+
+Insérer sommaire cliquable
+
+
 # Présentation des différentes librairies
 
 {{< include 02_01_librairies.qmd >}}
+
 
 # Partie pratique
 
 {{< include 02_02_TP.qmd >}}
 
+
 # Aspects techniques du scraping éthique
 
 {{< include 02_03_ethique.qmd >}}
+
 
 # Automatisation et industrialisation
 
