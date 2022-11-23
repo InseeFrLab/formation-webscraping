@@ -5,6 +5,7 @@
 - Souhaitent également communiquer auprès d'INS hors Europe
 
 - Un calendrier très complet d'événements, de webinaires, ...
+    - Dernier webinaire le 23/11 sur le work package 4 : BREAL et user stories, qualité et méthodologie
 
 
 ## Pour reprendre les mots du WIN ...

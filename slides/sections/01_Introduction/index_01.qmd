@@ -1,9 +1,8 @@
 # I. Sommaire
 
-Insérer sommaire cliquable
+1. [Présentation générale](#presentation-generale)
 
-
-# Présentation générale et usages courants
+# Présentation générale et usages courants {#presentation-generale}
 
 {{< include 01_01_introduction.qmd >}}
 

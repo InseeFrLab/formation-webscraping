@@ -409,75 +409,156 @@
 
 <section id="i.-sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>I. Sommaire</h1>
-<p>Insérer sommaire cliquable</p>
+<ol type="1">
+<li><a href="#/presentation-generale">Présentation générale</a></li>
+</ol>
 </section>
 
 <section>
-<section id="présentation-générale-et-usages-courants" class="title-slide slide level1 center" data-background-size="contain">
+<section id="presentation-generale" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Présentation générale et usages courants</h1>
 
 </section>
 <section id="quest-ce-que-le-webscraping" class="slide level2" data-background-size="contain">
 <h2>Qu’est-ce que le <a href="https://librarycarpentry.org/lc-webscraping/01-introduction/index.html">webscraping</a> ?</h2>
+<p><br></p>
 <ul>
-<li><p>Le <a href="https://en.wikipedia.org/wiki/Web_scraping">webscraping</a> désigne un ensemble de techniques d’extraction de contenu sur des sites internet.</p></li>
-<li><p>Le terme fait généralement référence à l’usage de <a href="https://en.wikipedia.org/wiki/Internet_bot">bots</a> pour collecter ces contenus automatiquement.</p></li>
+<li>Le <a href="https://en.wikipedia.org/wiki/Web_scraping">webscraping</a> désigne un ensemble de techniques d’extraction de contenu sur des sites internet.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Le terme fait généralement référence à l’usage de <a href="https://en.wikipedia.org/wiki/Internet_bot">bots</a> pour collecter ces contenus automatiquement.</li>
+</ul>
+</div>
 </section>
 <section id="exemples-introductifs" class="slide level2" data-background-size="contain">
 <h2>Exemples introductifs</h2>
 <ul>
-<li><p>On souhaite accéder à la <a href="https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis">liste des présidents des États-Unis</a> et réunir les dates de mandat dans un Excel.</p></li>
-<li><p>On souhaite télécharger le <a href="https://www.universityrankings.ch/results/QS/2023">classement QS 2023 des universités</a> et filtrer les universités italiennes.</p></li>
-<li><p>On souhaite accéder à un <a href="https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais">répertoire d’expressions idiomatiques</a> et trouver toutes celles contenant le mot “nez”.</p></li>
+<li>On souhaite accéder à la <a href="https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis">liste des présidents des États-Unis</a> et réunir les dates de mandat dans un <code>Excel</code>.</li>
 </ul>
-</section>
-<section id="webscraping-webcrawling-screen-scraping-quelles-différences" class="slide level2" data-background-size="contain">
-<h2>Webscraping, webcrawling, screen scraping, quelles différences ?</h2>
+<div class="fragment">
 <ul>
-<li><p>Le webscraping se réfère à l’extraction des données d’une ou plusieurs pages web.</p></li>
-<li><p>Le <a href="https://en.wikipedia.org/wiki/Web_crawler">webcrawling</a> correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.</p></li>
-<li><p>Les deux peuvent aller ensemble : d’abord utiliser un crawler pour récupérer tous les urls d’un site, puis scraper chacune des pages.</p></li>
-<li><p>Quant au <a href="https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping">screen scraping</a>, proche du webscraping, il consiste plutôt à extraire le contenu visuel d’un site apparaissant à l’écran, comme des images.</p></li>
+<li>On souhaite télécharger le <a href="https://www.universityrankings.ch/results/QS/2023">classement QS 2023 des universités</a> et filtrer les universités italiennes.</li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li>On souhaite accéder à un <a href="https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais">répertoire d’expressions idiomatiques</a> et trouver toutes celles contenant le mot “nez”.</li>
+</ul>
+</div>
 </section>
-<section id="cas-dusage-pratiques-études-de-marché-et-intelligence-économique" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage pratiques : études de marché et intelligence économique</h2>
+<section id="webscraping-webcrawling-screen-scraping-quelles-différences" class="slide level2 smaller" data-background-size="contain">
+<h2><code>Webscraping</code>, <code>webcrawling</code>, <code>screen scraping</code>, quelles différences ?</h2>
+<p><br></p>
 <ul>
-<li><p>Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement</p></li>
-<li><p>Glaner des informations sur les sites d’entreprises concurrentes</p>
+<li>Le <span class="orange">webscraping</span> se réfère à l’extraction des données d’une ou plusieurs pages web.</li>
+</ul>
+<div class="fragment">
 <ul>
-<li>Ex : Dans les répertoires d’expressions idiomatiques, il est facile de “dérober” les contenus les uns des autres (<a href="https://www.expressio.fr/toutes-les-expressions">Expressio</a>, <a href="https://www.expressions-francaises.fr/">Expressions Françaises</a>, <a href="https://www.linternaute.fr/expression/">L’internaute</a>, …)</li>
+<li>Le <a href="https://en.wikipedia.org/wiki/Web_crawler">webcrawling</a> correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Quant au <a href="https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping">screen scraping</a>, proche du webscraping, il consiste plutôt à extraire le contenu visuel d’un site apparaissant à l’écran, comme des images.</li>
+</ul>
+<div class="callout callout-note callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><code>webscraping</code> et <code>webcrawling</code> peuvent aller ensemble :</p>
+<ul>
+<li>d’abord utiliser un crawler pour récupérer tous les urls d’un site,</li>
+<li>puis scraper chacune des pages.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="cas-dusage-pratiques" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques</h2>
+<h4 data-background-size="contain" id="etudes-de-marché-et-intelligence-économique">Etudes de marché et intelligence économique</h4>
+<ul>
+<li>Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Glaner des informations sur les sites d’entreprises concurrentes</li>
+</ul>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Exemple</strong></p>
+</div>
+<div class="callout-content">
+<p>Dans les répertoires d’expressions idiomatiques, il est facile de “dérober” les contenus les uns des autres (<a href="https://www.expressio.fr/toutes-les-expressions">Expressio</a>, <a href="https://www.expressions-francaises.fr/">Expressions Françaises</a>, <a href="https://www.linternaute.fr/expression/">L’internaute</a>, …)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="cas-dusage-pratiques-1" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques</h2>
+<h4 data-background-size="contain" id="analyses-de-sentiment-et-génération-de-leads">Analyses de sentiment et génération de <em>leads</em></h4>
+<ul>
+<li>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus et faire du sentiment analysis</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Obtenir une liste de clients potentiels ou répondant à des critères spécifiques
+<ul>
+<li>A partir de sites comme les <a href="https://www.pagesjaunes.fr/pagesblanches">Pages Jaunes</a> ou <a href="https://www.google.com/business/">Google Maps</a> pour les entreprises</li>
 </ul></li>
 </ul>
+</div>
 </section>
-<section id="cas-dusage-pratiques-analyses-de-sentiment-et-génération-de-leads" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage pratiques : analyses de sentiment et génération de leads</h2>
+<section id="cas-dusage-pratiques-2" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques</h2>
+<h4 data-background-size="contain" id="obtenir-des-données-pour-alimenter-des-modèles-de-ml">Obtenir des données pour alimenter des modèles de ML</h4>
 <ul>
-<li><p>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus et faire du sentiment analysis</p></li>
-<li><p>Obtenir une liste de clients potentiels ou plus généralement de contacts répondant à des critères spécifiques à partir de sites comme les <a href="https://www.pagesjaunes.fr/pagesblanches">Pages Jaunes</a> ou <a href="https://www.google.com/business/">Google Maps</a> pour les entreprises</p></li>
+<li>Regrouper divers indicateurs et séries temporelles via les <a href="https://trends.google.fr/trends/?geo=FR">Google Trends</a> pour améliorer les performances de modèles de prédiction</li>
 </ul>
-</section>
-<section id="cas-dusage-pratiques-obtenir-des-données-pour-alimenter-des-modèles-de-ml" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage pratiques : obtenir des données pour alimenter des modèles de ML</h2>
+<div class="fragment">
 <ul>
-<li><p>Regrouper divers indicateurs et séries temporelles via les <a href="https://trends.google.fr/trends/?geo=FR">Google Trends</a> pour améliorer les performances de modèles de prédiction</p></li>
-<li><p>Surveiller les valeurs de stocks boursiers et mouvements de marché sur <a href="https://fr.finance.yahoo.com/">Yahoo Finance</a> et les inclure dans des modèles</p></li>
+<li>Surveiller les valeurs de stocks boursiers et mouvements de marché sur <a href="https://fr.finance.yahoo.com/">Yahoo Finance</a> et les inclure dans des modèles</li>
 </ul>
+</div>
 </section>
-<section id="cas-dusage-pratiques-très-utiles-dans-des-domaines-précis" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage pratiques : très utiles dans des domaines précis</h2>
+<section id="cas-dusage-pratiques-3" class="slide level2 smaller" data-background-size="contain">
+<h2>Cas d’usage pratiques</h2>
+<h4 data-background-size="contain" id="très-utiles-dans-des-domaines-précis">Très utiles dans des domaines précis</h4>
 <ul>
-<li><p>Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer.</p></li>
-<li><p>Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies. Ce n’est d’ailleurs pas spécifique qu’au domaine du transport (ex: hébergement touristique).</p></li>
-<li><p>Dans le domaine des paris sportifs, il est courant de scraper les sites de statistiques sportives afin d’adapter l’offre des paris.</p></li>
+<li>Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies.
+<ul>
+<li>Ce n’est d’ailleurs pas spécifique qu’au domaine du transport (ex: hébergement touristique).</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Dans le domaine des paris sportifs, il est courant de scraper les sites de statistiques sportives afin d’adapter l’offre des paris.</li>
+</ul>
+</div>
 </section>
-<section id="cas-dusage-pratiques-dans-le-domaine-de-la-recherche" class="slide level2" data-background-size="contain">
-<h2>Cas d’usage pratiques : dans le domaine de la recherche</h2>
+<section id="cas-dusage-pratiques-4" class="slide level2" data-background-size="contain">
+<h2>Cas d’usage pratiques</h2>
+<h4 data-background-size="contain" id="dans-le-domaine-de-la-recherche">Dans le domaine de la recherche</h4>
 <ul>
 <li><p>Pour des chercheurs, le webscraping peut représenter une importance source de données, et ce dans des domaines très variés.</p></li>
-<li><p>Un exemple <a href="https://www.nature.com/articles/s41597-022-01369-4">ici</a> avec une équipe ayant scrapé Wikipedia et Wikidata afin d’établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe.</p></li>
+<li><p>Un exemple <a href="https://www.nature.com/articles/s41597-022-01369-4">ici</a> avec une équipe ayant scrapé <code>Wikipedia</code> et <code>Wikidata</code> afin d’établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe.</p></li>
 </ul>
 </section>
 <section id="cas-dusage-pour-un-ins" class="slide level2" data-background-size="contain">
@@ -493,20 +574,55 @@
 <h1>Risques juridiques et scraping éthique</h1>
 
 </section>
-<section id="le-webscraping-est-ce-légal" class="slide level2" data-background-size="contain">
+<section id="le-webscraping-est-ce-légal" class="slide level2 smaller" data-background-size="contain">
 <h2>Le webscraping, est-ce légal ?</h2>
 <ul>
-<li><p>Le webscraping en lui-même n’est pas une pratique illégale, mais l’utilisation faite des données scrapées peut être soumise à règlementation. Ces règles dépendent alors du pays dans lequel on se trouve.</p></li>
-<li><p>Ainsi, scraper un site pour conserver les données sur son ordinateur est légal (tant qu’on ne casse pas le site en question). Un bot de scraping n’a en effet pas accès à davantage qu’un utilisateur lambda.</p></li>
-<li><p>En revanche, diffuser ou commercialiser ces données ou un quelconque travail réutilisant ces données n’est pas sans conséquence.</p></li>
+<li>Le webscraping en soi n’est pas une pratique illégale
+<ul>
+<li>mais l’utilisation faite des données scrapées peut être soumise à règlementation.</li>
+<li>ces règles dépendent alors du pays dans lequel on se trouve.</li>
+</ul></li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Ainsi, scraper un site pour conserver les données sur son ordinateur est légal (tant qu’on ne casse pas le site en question).
+<ul>
+<li>Un <code>bot</code> de scraping n’a pas accès à davantage qu’un utilisateur lambda.</li>
+</ul></li>
+</ul>
+<div class="callout callout-important callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Attention</strong></p>
+</div>
+<div class="callout-content">
+<p>Diffuser ou commercialiser ces données ou un quelconque travail réutilisant ces données n’est pas sans conséquence.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="une-frontière-floue" class="slide level2" data-background-size="contain">
 <h2>Une frontière floue</h2>
 <ul>
-<li><p>Les législations spécifiques au webscraping sont peu nombreuses et différentes d’un pays à l’autre. En revanche, la réutilisation des données est encadrée, par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.</p></li>
-<li><p>Les <a href="https://devm.io/law-net-culture/data-scraping-cases-165385">cas portés en justice</a> ont des dénouements parfois différents les uns les autres, notamment d’un pays à l’autre, montrant bien qu’il s’agit là d’une zone parfois grise.</p></li>
+<li>Les législations spécifiques au webscraping sont peu nombreuses et différentes d’un pays à l’autre.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>En revanche, la réutilisation des données est encadrée
+<ul>
+<li>Par exemple par le code de la propriété intellectuelle ou en Europe par le RGPD.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Les <a href="https://devm.io/law-net-culture/data-scraping-cases-165385">cas portés en justice</a> ont des dénouements parfois différents les uns les autres, notamment d’un pays à l’autre, montrant bien qu’il s’agit là d’une zone parfois grise.</li>
+</ul>
+</div>
 </section>
 <section id="une-pratique-pourtant-très-répandue" class="slide level2" data-background-size="contain">
 <h2>Une pratique pourtant très répandue</h2>
@@ -514,23 +630,28 @@
 <li><p>Les cas d’usage, y compris dans de grandes entreprises, sont très nombreux.</p></li>
 <li><p>Les articles discutant de webscraping et de leur légalité sont tout aussi proliférants, mais pas toujours d’accord les uns avec les autres.</p>
 <ul>
-<li>Quelques ressources : <a href="https://www.imperva.com/blog/is-web-scraping-illegal/">Imperva</a>, <a href="https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/">Islean Consulting</a>, <a href="https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL">TechCrunch</a>, …</li>
+<li>Quelques ressources : <a href="https://www.imperva.com/blog/is-web-scraping-illegal/">Imperva</a>, <a href="https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/">Islean Consulting</a>, <a href="https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL">TechCrunch</a>…</li>
 </ul></li>
 </ul>
 </section>
-<section id="les-principales-règlementations-autour-du-webscraping---en-france" class="slide level2" data-background-size="contain">
-<h2>Les principales règlementations autour du webscraping - En France</h2>
+<section id="les-principales-règlementations-autour-du-webscraping" class="slide level2 smaller" data-background-size="contain">
+<h2>Les principales règlementations autour du webscraping</h2>
+<h4 data-background-size="contain" id="en-france">En France</h4>
 <ul>
 <li><p><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279247">L’article L342-1 du code de la propriété intellectuelle</a></p></li>
-<li><p>L’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939448">article 323-3 du Code Pénal</a> : “Le fait […] d’extraire, de détenir, de reproduire […] frauduleusement les données qu’il [le site] contient est puni de cinq ans d’emprisonnement et de 150 000 € d’amende”</p></li>
+<li><p>L’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939448">article 323-3 du Code Pénal</a> :</p>
+<blockquote>
+<p>“Le fait […] d’extraire, de détenir, de reproduire […] frauduleusement les données qu’il [le site] contient est puni de cinq ans d’emprisonnement et de 150 000 € d’amende”</p>
+</blockquote></li>
 <li><p>En termes de droit de la concurrence, on pourra aussi parler de concurrence déloyale avec l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227301/">article L121-1 du Code de la Consommation</a></p></li>
-<li><p>La CNIL a également publié en 2020 un ensemble de <a href="https://www.cnil.fr/fr/la-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial">nouvelles directives</a>, limitant l’usage de données personnelles, même si publiques, à usage commercial</p></li>
+<li><p>La <code>CNIL</code> a également publié en 2020 un ensemble de <a href="https://www.cnil.fr/fr/la-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial">nouvelles directives</a>, limitant l’usage de données personnelles, même si publiques, à usage commercial</p></li>
 </ul>
 </section>
-<section id="les-principales-règlementations-autour-du-webscraping---en-europe" class="slide level2" data-background-size="contain">
-<h2>Les principales règlementations autour du webscraping - En Europe</h2>
+<section id="les-principales-règlementations-autour-du-webscraping-1" class="slide level2 smaller" data-background-size="contain">
+<h2>Les principales règlementations autour du webscraping</h2>
+<h4 data-background-size="contain" id="en-europe">En Europe</h4>
 <ul>
-<li><p>Le droit <a href="https://fr.wikipedia.org/wiki/Sui_generis">sui generis</a>, à l’échelle européenne, protégeant les bases de données ayant nécessité un “investissement substantiel”</p></li>
+<li><p>Le droit <a href="https://fr.wikipedia.org/wiki/Sui_generis">sui generis</a>, à l’échelle européenne, protégeant les bases de données ayant nécessité un <em>“investissement substantiel”</em></p></li>
 <li><p>Certains règlements et directives relatifs à la protection des bases de données en Europe</p>
 <ul>
 <li><a href="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML">Directive 96/9/CE</a> du Parlement Européen et du conseil</li>
@@ -539,64 +660,127 @@
 <li><p>Le <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">RGPD</a>, sur l’utilisation des données (parfois personnelles)</p></li>
 </ul>
 </section>
-<section id="les-principales-règlementations-autour-du-webscraping---encore-dautres" class="slide level2" data-background-size="contain">
-<h2>Les principales règlementations autour du webscraping - Encore d’autres</h2>
+<section id="les-principales-règlementations-autour-du-webscraping-2" class="slide level2 smaller" data-background-size="contain">
+<h2>Les principales règlementations autour du webscraping</h2>
+<h4 data-background-size="contain" id="encore-dautres">Encore d’autres</h4>
 <ul>
 <li><p>Les jurisprudences issues des procès d’entreprises liés au webscraping</p></li>
-<li><p>Les mentions légales, conditions d’utilisation et autres consignes des sites concernés, d’autant plus engageantes quand accéder au contenu nécessite d’accepter explicitement les conditions du site (par exemple en appuyant sur un bouton)</p></li>
-<li><p>Aux États-Unis, plusieurs textes peuvent s’appliquer : le <a href="https://oag.ca.gov/privacy/ccpa">California Consumer Privacy Act</a>, le <a href="https://www.nacdl.org/Landing/ComputerFraudandAbuseAct">Computer Fraud and Abuse Act</a>, …</p></li>
+<li><p>Les mentions légales, conditions d’utilisation et autres consignes des sites concernés,</p>
+<ul>
+<li>d’autant plus engageantes quand accéder au contenu nécessite d’accepter explicitement les conditions du site (par exemple en appuyant sur un bouton)</li>
+</ul></li>
+<li><p>Aux États-Unis, plusieurs textes peuvent s’appliquer : le <a href="https://oag.ca.gov/privacy/ccpa">California Consumer Privacy Act</a>, le <a href="https://www.nacdl.org/Landing/ComputerFraudandAbuseAct">Computer Fraud and Abuse Act</a>…</p></li>
 </ul>
 </section>
-<section id="outre-les-protections-légales-les-sites-se-protègent-eux-mêmes" class="slide level2" data-background-size="contain">
-<h2>Outre les protections légales, les sites se protègent eux-mêmes</h2>
+<section id="les-sites-se-protègent-eux-mêmes" class="slide level2" data-background-size="contain">
+<h2>Les sites se protègent eux-mêmes</h2>
 <ul>
 <li><p>Afin d’éviter la réutilisation de leur contenu par des concurrents et lutter contre l’espionnage</p></li>
-<li><p>Afin de bloquer les bots qui occupent une partie significative du trafic, ralentissant ainsi l’accès au site, et qui peuvent s’assimiler à une <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service">attaque par déni de service (DoS)</a></p></li>
+<li><p>Afin de bloquer les <code>bots</code> qui occupent une partie significative du trafic, ralentissant ainsi l’accès au site,</p>
+<ul>
+<li>peuvent s’assimiler à une <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service">attaque par déni de service (<code>DoS</code>)</a></li>
+</ul></li>
 </ul>
 </section>
 <section id="les-méthodes-mises-en-place-pour-se-protéger-du-scraping-12" class="slide level2" data-background-size="contain">
 <h2>Les méthodes mises en place pour se protéger du scraping (1/2)</h2>
 <ul>
-<li><p>Mettre en place des conditions d’utilisation contraignantes et instructions explicites pour se protéger d’un point de vue légal</p></li>
-<li><p>Repérer les adresses IP suspectes et bloquer leur accès au site, temporairement ou de façon permanente</p></li>
-<li><p>Identifier les bots et leur afficher un contenu différent des utilisateurs classiques, pour par exemple renvoyer de fausses données</p></li>
+<li>Mettre en place des <span class="blue2"><strong>conditions d’utilisation contraignantes</strong></span> et <span class="blue2"><strong>instructions explicites</strong></span> pour se protéger d’un point de vue légal</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Repérer les adresses IP suspectes et <span class="blue2"><strong>bloquer leur accès</strong></span> au site, temporairement ou de façon permanente</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Identifier les bots</strong></span> et leur afficher un contenu différent des utilisateurs classiques, pour par exemple <span class="blue2"><strong>renvoyer de fausses données</strong></span></li>
+</ul>
+</div>
 </section>
 <section id="les-méthodes-mises-en-place-pour-se-protéger-du-scraping-22" class="slide level2" data-background-size="contain">
 <h2>Les méthodes mises en place pour se protéger du scraping (2/2)</h2>
 <ul>
-<li><p>Modifier régulièrement le format HTML du contenu pour empêcher l’automatisation du scraping par autrui</p></li>
-<li><p>Créer des pages “Honeypot” qu’un humain ne visiterait jamais pour identifier puis bloquer des bots</p></li>
-<li><p>Utiliser des CAPTCHAs lorsqu’une activité suspecte est repérée ou bien nécessiter une connexion au site</p></li>
+<li><span class="blue2"><strong>Modifier régulièrement le format HTML</strong></span> du contenu pour empêcher l’automatisation du scraping par autrui</li>
 </ul>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Créer des pages <em>“Honeypot”</em></strong></span> qu’un humain ne visiterait jamais pour identifier puis bloquer des bots</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Utiliser des CAPTCHAs</strong></span> lorsqu’une activité suspecte est repérée ou bien nécessiter une connexion au site</li>
+</ul>
+</div>
 </section>
-<section id="les-limites-du-webscraping" class="slide level2" data-background-size="contain">
+<section id="les-limites-du-webscraping" class="slide level2 smaller" data-background-size="contain">
 <h2>Les limites du webscraping</h2>
 <ul>
-<li><p>La qualité des données obtenues par scraping n’est pas toujours au rendez-vous.</p></li>
-<li><p>Il faut ‘lutter’ contre les sites qui se défendent contre le scraping, ce qui n’est pas sans effort.</p></li>
-<li><p>Les risques légaux sont existants, et plus généralement cela peut nuire à l’image d’un INS. De plus, il vaut mieux favoriser des relations de confiance avec les sites concernés.</p></li>
+<li>La qualité des données obtenues par scraping n’est pas toujours au rendez-vous.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Il faut ‘lutter’ contre les sites qui se défendent contre le scraping, ce qui n’est pas sans effort.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Les risques légaux sont existants, et plus généralement cela peut nuire à l’image d’un INS.
+<ul>
+<li>Il vaut mieux favoriser des relations de confiance avec les sites concernés.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Difficulté à automatiser car la structure des pages web évolue</li>
+</ul>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Remarque</strong></p>
+</div>
+<div class="callout-content">
+<p>Il est préférable de privilégier d’autres modes d’accès aux données lorsque cela est possible</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="dans-ces-conditions-quand-envisager-le-webscraping" class="slide level2" data-background-size="contain">
+<section id="dans-ces-conditions-quand-envisager-le-webscraping" class="slide level2 smaller" data-background-size="contain">
 <h2>Dans ces conditions, quand envisager le webscraping ?</h2>
-<p>La politique de l’INSEE est de garder le webscraping comme dernière option. Les premières étapes recommandées sont d’abord de :</p>
+<p><br></p>
+<p>La politique de l’INSEE est de garder le webscraping comme <strong>dernière option</strong>. Les premières étapes recommandées sont d’abord de :</p>
 <ul>
 <li>Demander directement aux sites concernés l’accès à leurs données et nouer d’éventuels partenariats, par exemple avec une contrepartie</li>
-<li>Chercher s’il existe une API du site permettant d’accéder aux données</li>
+<li>Chercher s’il existe une <code>API</code> du site permettant d’accéder aux données</li>
 <li>Chercher des alternatives, comme accéder à des données similaires via un moyen moins contraignant</li>
 </ul>
 </section>
-<section id="pour-un-scraping-éthique-et-légal" class="slide level2" data-background-size="contain">
+<section id="pour-un-scraping-éthique-et-légal" class="slide level2 smaller" data-background-size="contain">
 <h2>Pour un scraping éthique (et légal !)</h2>
 <ul>
-<li><p>Le webscraping reste malgré tout une nouvelle source de données très efficiente dans le cas où aucune meilleure alternative ne se présente. Il ne faut donc pas s’en priver.</p></li>
-<li><p>Cependant, il existe des moyens de scraper de façon “éthique” et en minimisant la charge sur le site scrapé.</p></li>
-<li><p>Cela passe par exemple par <strong>demander la permission</strong> aux sites à scraper, ce qui peut aussi conduire à un éventuel partenariat.</p></li>
+<li>Le webscraping reste malgré tout une nouvelle source de données très pratique dans le cas où aucune meilleure alternative ne se présente.
+<ul>
+<li>Il ne faut donc pas s’en priver lorsque c’est techniquement et juridiquement propice.</li>
+</ul></li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Cependant, il existe des moyens de scraper de façon honnête, “éthique” et en minimisant la charge sur le site scrapé.
+<ul>
+<li>Cela passe par exemple par <strong>demander la permission</strong> aux sites à scraper, ce qui peut aussi conduire à un éventuel partenariat.</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="les-guidelines-du-système-statistique-européen-transparence" class="slide level2" data-background-size="contain">
-<h2>Les guidelines du Système Statistique Européen : transparence</h2>
+<section id="les-guidelines-du-système-statistique-européen" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du <code>Système Statistique Européen</code></h2>
+<h4 data-background-size="contain" id="transparence">Transparence</h4>
 <ul>
 <li><p>Rendre publique la liste des collectes de données par scraping de l’INS, autrement dit être transparent</p></li>
 <li><p>Si l’impact sur site va être important (par exemple un scraping fait très fréquemment), informer spécifiquement le site concerné</p>
@@ -606,16 +790,18 @@
 <li><p>S’identifier auprès du site lors de l’opération de scraping</p></li>
 </ul>
 </section>
-<section id="les-guidelines-du-système-statistique-européen-minimiser-limpact" class="slide level2" data-background-size="contain">
-<h2>Les guidelines du Système Statistique Européen : minimiser l’impact</h2>
+<section id="les-guidelines-du-système-statistique-européen-1" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du <code>Système Statistique Européen</code></h2>
+<h4 data-background-size="contain" id="minimiser-limpact">Minimiser l’impact</h4>
 <ul>
 <li><p>Toujours chercher à minimiser l’impact sur les serveurs du site scrapé, notamment en limitant les requêtes effectuées au minimum requis</p></li>
-<li><p>Privilégier les heures creuses du site pour les opérations de scraping</p></li>
+<li><p>Privilégier les heures creuses du site pour les opérations automatisées de scraping</p></li>
 <li><p>Étaler les requêtes en laissant un temps de ‘pause’ entre chaque requête sur site, surtout sur un même domaine</p></li>
 </ul>
 </section>
-<section id="les-guidelines-du-système-statistique-européen-confiance" class="slide level2" data-background-size="contain">
-<h2>Les guidelines du Système Statistique Européen : confiance</h2>
+<section id="les-guidelines-du-système-statistique-européen-2" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du <code>Système Statistique Européen</code></h2>
+<h4 data-background-size="contain" id="confiance">Confiance</h4>
 <ul>
 <li><p>Favoriser les échanges avec les propriétaires des sites : partenariats, échanges de données, requêtes d’API, …</p></li>
 <li><p>Se plier aux conditions d’utilisation des sites concernés et aux règlementations de la zone concernée</p></li>
@@ -625,8 +811,8 @@
 </ul></li>
 </ul>
 </section>
-<section id="ce-quil-ne-faut-pas-faire" class="slide level2" data-background-size="contain">
-<h2>Ce qu’il ne faut pas faire</h2>
+<section id="ce-quil-ne-faut-pas-faire" class="slide level2 smaller" data-background-size="contain">
+<h2>⚠️ Ce qu’il ne faut pas faire !</h2>
 <ul>
 <li><p>Consciemment déroger aux règlementations applicables et manquer de transparence</p></li>
 <li><p>Surcharger les requêtes sur le site concerné (assimilable à une attaque DoS) ou multiplier les mêmes requêtes plusieurs fois</p></li>
@@ -635,22 +821,41 @@
 <li><p>Pour un INS, utiliser le scraping à des fins non statistiques ou hors du champ légal</p></li>
 </ul>
 </section>
-<section id="avertissements" class="slide level2" data-background-size="contain">
+<section id="avertissements" class="slide level2 smaller" data-background-size="contain">
 <h2>Avertissements</h2>
 <ul>
-<li>Selon les pays, il existe des données, même si publiques, dont le scraping est illégal. Il faut donc bien se renseigner sur les lois locales.
+<li>Selon les pays, il existe des données, certes publiques, mais dont le scraping est illégal.
 <ul>
-<li>Par exemple, les données de contact en Australie</li>
+<li>Il faut donc bien se renseigner sur les lois locales.</li>
+<li>Par exemple, les <a href="XXXXXXXXXXXXXXXX">données de contact en Australie</a></li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li>Dans le doute, ne pas hésiter à se documenter davantage.
 <ul>
 <li>Exemples de ressources : <a href="https://librarycarpentry.org/lc-webscraping/05-conclusion/index.html">librarycarpentry</a>, <a href="https://rubyroidlabs.com/blog/2016/04/web-scraping-1/">Rubyroidlabs</a>, …</li>
 </ul></li>
-<li>Il existe parfois des structures dont le rôle est justement d’évaluer l’aspect juridique de pratiques comme le webscraping.
-<ul>
-<li>A l’INSEE, c’est la responsabilité de l’<a href="https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532">UAJC</a></li>
-</ul></li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Il existe parfois des structures dont le rôle est justement d’évaluer l’aspect juridique de pratiques comme le webscraping.</li>
+</ul>
+<div class="callout callout-note callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>A l’INSEE, c’est la responsabilité de l’<a href="https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532">UAJC</a></p>
+</div>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="rappels-sur-html" class="title-slide slide level1 center" data-background-size="contain">
@@ -1443,6 +1648,31 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul></li>
 <li><p>Derniers documents publiés en Novembre 2020, travail poursuivi aujourd’hui avec le WIN</p></li>
 </ul>
+</section>
+<section id="quelques-leçons-tirées-du-scraping-pour-obec" class="slide level2" data-background-size="contain">
+<h2>Quelques leçons tirées du scraping pour OBEC</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource {html} number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href="#cb2-1"></a>&lt;table&gt;</span>
+<span id="cb2-2"><a href="#cb2-2"></a>   &lt;tr&gt;</span>
+<span id="cb2-3"><a href="#cb2-3"></a>      &lt;th&gt;Problème rencontré&lt;/th&gt;</span>
+<span id="cb2-4"><a href="#cb2-4"></a>      &lt;th&gt;Réponse à adopter&lt;/th&gt;</span>
+<span id="cb2-5"><a href="#cb2-5"></a>   &lt;/tr&gt;</span>
+<span id="cb2-6"><a href="#cb2-6"></a>   &lt;tr&gt;</span>
+<span id="cb2-7"><a href="#cb2-7"></a>      &lt;td&gt;Liste d'URL non à jour&lt;/td&gt;</span>
+<span id="cb2-8"><a href="#cb2-8"></a>      &lt;td&gt;Lancer un crawling pour vérifier validité des liens&lt;/td&gt;</span>
+<span id="cb2-9"><a href="#cb2-9"></a>   &lt;/tr&gt;</span>
+<span id="cb2-10"><a href="#cb2-10"></a>   &lt;tr&gt;</span>
+<span id="cb2-11"><a href="#cb2-11"></a>      &lt;td&gt;Le robots.txt interdit le scraping de tout contenu&lt;/td&gt;</span>
+<span id="cb2-12"><a href="#cb2-12"></a>      &lt;td&gt;Notifier le site en amont de la collecte&lt;/td&gt;</span>
+<span id="cb2-13"><a href="#cb2-13"></a>   &lt;/tr&gt;</span>
+<span id="cb2-14"><a href="#cb2-14"></a>    &lt;tr&gt;</span>
+<span id="cb2-15"><a href="#cb2-15"></a>      &lt;td&gt;Site temporairement indisponible&lt;/td&gt;</span>
+<span id="cb2-16"><a href="#cb2-16"></a>      &lt;td&gt;Essayer de scraper le site à des jours et heures différents&lt;/td&gt;</span>
+<span id="cb2-17"><a href="#cb2-17"></a>   &lt;/tr&gt;</span>
+<span id="cb2-18"><a href="#cb2-18"></a>    &lt;tr&gt;</span>
+<span id="cb2-19"><a href="#cb2-19"></a>      &lt;td&gt;Pas d'horodatage &lt;/td&gt;</span>
+<span id="cb2-20"><a href="#cb2-20"></a>      &lt;td&gt;Essayer de scraper le site à des jours et heures différents&lt;/td&gt;</span>
+<span id="cb2-21"><a href="#cb2-21"></a>   &lt;/tr&gt;</span>
+<span id="cb2-22"><a href="#cb2-22"></a>&lt;/table&gt;</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
 <section id="webscraping-dans-un-ins---quelques-interlocuteurs" class="title-slide slide level1 center" data-background-size="contain">
@@ -1454,7 +1684,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <ul>
 <li><p>Présents sur plusieurs media : <a href="https://www.linkedin.com/company/essnet-project-web-intelligence-network/">LinkedIn</a>, <a href="https://twitter.com/EssnetWin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>, <a href="https://www.eventbrite.co.uk/o/essnet-web-intelligence-network-project-54944960133?utm_source=eventbrite&amp;utm_medium=email&amp;utm_campaign=event_reminder&amp;utm_term=orgname">Eventbrite</a>, <a href="https://www.youtube.com/channel/UC5fUzazBu7d1Arl17LdC4zQ">Youtube</a></p></li>
 <li><p>Souhaitent également communiquer auprès d’INS hors Europe</p></li>
-<li><p>Un calendrier très complet d’événements, de webinaires, …</p></li>
+<li><p>Un calendrier très complet d’événements, de webinaires, …</p>
+<ul>
+<li>Dernier webinaire le 23/11 sur le work package 4 : BREAL et user stories, qualité et méthodologie</li>
+</ul></li>
 </ul>
 </section>
 <section id="pour-reprendre-les-mots-du-win" class="slide level2" data-background-size="contain">

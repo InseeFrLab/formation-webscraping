@@ -123,3 +123,31 @@
     - Principalement issu de l'"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"
 
 - Derniers documents publiés en Novembre 2020, travail poursuivi aujourd'hui avec le WIN
+
+
+## Quelques leçons tirées du scraping pour OBEC
+
+```{html}
+<table>
+   <tr>
+      <th>Problème rencontré</th>
+      <th>Réponse à adopter</th>
+   </tr>
+   <tr>
+      <td>Liste d'URL non à jour</td>
+      <td>Lancer un crawling pour vérifier validité des liens</td>
+   </tr>
+   <tr>
+      <td>Le robots.txt interdit le scraping de tout contenu</td>
+      <td>Notifier le site en amont de la collecte</td>
+   </tr>
+    <tr>
+      <td>Site temporairement indisponible</td>
+      <td>Essayer de scraper le site à des jours et heures différents</td>
+   </tr>
+    <tr>
+      <td>Pas d'horodatage </td>
+      <td>Essayer de scraper le site à des jours et heures différents</td>
+   </tr>
+</table>
+```

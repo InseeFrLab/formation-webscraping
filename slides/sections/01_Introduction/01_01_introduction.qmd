@@ -1,66 +1,114 @@
 ## Qu'est-ce que le [webscraping](https://librarycarpentry.org/lc-webscraping/01-introduction/index.html) ?
 
+<br>
+
 - Le [webscraping](https://en.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'extraction de contenu sur des sites internet.
+
+. . .
 
 - Le terme fait généralement référence à l'usage de [bots](https://en.wikipedia.org/wiki/Internet_bot) pour collecter ces contenus automatiquement.
 
 
 ## Exemples introductifs
 
-- On souhaite accéder à la [liste des présidents des États-Unis](https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis) et réunir les dates de mandat dans un Excel.
+- On souhaite accéder à la [liste des présidents des États-Unis](https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis) et réunir les dates de mandat dans un `Excel`.
+
+. . .
 
 - On souhaite télécharger le [classement QS 2023 des universités](https://www.universityrankings.ch/results/QS/2023) et filtrer les universités italiennes.
+
+. . .
+
 
 - On souhaite accéder à un [répertoire d'expressions idiomatiques](https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais) et trouver toutes celles contenant le mot "nez".
 
 
-## Webscraping, webcrawling, screen scraping, quelles différences ?
+## `Webscraping`, `webcrawling`, `screen scraping`, quelles différences ? {.smaller}
 
-- Le webscraping se réfère à l'extraction des données d'une ou plusieurs pages web.
+<br>
+
+- Le [webscraping]{.orange} se réfère à l'extraction des données d'une ou plusieurs pages web.
+
+. . .
 
 - Le [webcrawling](https://en.wikipedia.org/wiki/Web_crawler) correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.
 
-- Les deux peuvent aller ensemble : d'abord utiliser un crawler pour récupérer tous les urls d'un site, puis scraper chacune des pages.
+. . .
 
 - Quant au [screen scraping](https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping), proche du webscraping, il consiste plutôt à extraire le contenu visuel d'un site apparaissant à l'écran, comme des images.
 
+::: {.callout-note}
 
-## Cas d'usage pratiques : études de marché et intelligence économique
+`webscraping` et `webcrawling` peuvent aller ensemble : 
+
+- d'abord utiliser un crawler pour récupérer tous les urls d'un site,
+- puis scraper chacune des pages.
+:::
+
+## Cas d'usage pratiques
+
+#### Etudes de marché et intelligence économique
 
 - Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement
+ 
+. . . 
 
 - Glaner des informations sur les sites d'entreprises concurrentes
-    - Ex : Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" les contenus les uns des autres ([Expressio](https://www.expressio.fr/toutes-les-expressions), [Expressions Françaises](https://www.expressions-francaises.fr/), [L'internaute](https://www.linternaute.fr/expression/), ...)
+
+::: {.callout-tip}
+## Exemple
+
+Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" les contenus les uns des autres ([Expressio](https://www.expressio.fr/toutes-les-expressions), [Expressions Françaises](https://www.expressions-francaises.fr/), [L'internaute](https://www.linternaute.fr/expression/), ...)
+:::
 
 
-## Cas d'usage pratiques : analyses de sentiment et génération de leads
+## Cas d'usage pratiques
+
+#### Analyses de sentiment et génération de _leads_
+
 
 - Récupérer les commentaires d'un produit ou d'une entreprise sur un site tiers afin d'analyser les retours obtenus et faire du sentiment analysis
 
-- Obtenir une liste de clients potentiels ou plus généralement de contacts répondant à des critères spécifiques à partir de sites comme les [Pages Jaunes](https://www.pagesjaunes.fr/pagesblanches) ou [Google Maps](https://www.google.com/business/) pour les entreprises
+. . .
+
+- Obtenir une liste de clients potentiels ou répondant à des critères spécifiques 
+    + A partir de sites comme les [Pages Jaunes](https://www.pagesjaunes.fr/pagesblanches) ou [Google Maps](https://www.google.com/business/) pour les entreprises
 
 
-## Cas d'usage pratiques : obtenir des données pour alimenter des modèles de ML
+## Cas d'usage pratiques
+
+#### Obtenir des données pour alimenter des modèles de ML
 
 - Regrouper divers indicateurs et séries temporelles via les [Google Trends](https://trends.google.fr/trends/?geo=FR) pour améliorer les performances de modèles de prédiction
+
+. . .
 
 - Surveiller les valeurs de stocks boursiers et mouvements de marché sur [Yahoo Finance](https://fr.finance.yahoo.com/) et les inclure dans des modèles
 
 
-## Cas d'usage pratiques : très utiles dans des domaines précis
+## Cas d'usage pratiques {.smaller}
+
+#### Très utiles dans des domaines précis 
 
 - Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer.
 
-- Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies. Ce n'est d'ailleurs pas spécifique qu'au domaine du transport (ex: hébergement touristique).
+. . .
+
+- Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies.
+    + Ce n'est d'ailleurs pas spécifique qu'au domaine du transport (ex: hébergement touristique).
+
+. . .
 
 - Dans le domaine des paris sportifs, il est courant de scraper les sites de statistiques sportives afin d'adapter l'offre des paris.
 
 
-## Cas d'usage pratiques : dans le domaine de la recherche
+## Cas d'usage pratiques
+
+#### Dans le domaine de la recherche
 
 - Pour des chercheurs, le webscraping peut représenter une importance source de données, et ce dans des domaines très variés.
 
-- Un exemple [ici](https://www.nature.com/articles/s41597-022-01369-4) avec une équipe ayant scrapé Wikipedia et Wikidata afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
+- Un exemple [ici](https://www.nature.com/articles/s41597-022-01369-4) avec une équipe ayant scrapé `Wikipedia` et `Wikidata` afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
 
 
 ## Cas d'usage pour un INS
