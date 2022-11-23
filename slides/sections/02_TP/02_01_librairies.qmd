@@ -9,7 +9,9 @@ Plusieurs librairies permettent de faire du scraping en Python. Les principales 
 - [Scrapy](https://scrapy.org/)
 
 
-## Extraire les codes sources HTML : Requests et Urllib
+## Extraire les codes sources HTML
+
+#### `Requests` et `Urllib`
 
 - Rôle :
     - Créer des requêtes HTTP pour récupérer le contenu des pages web
@@ -24,6 +26,12 @@ Plusieurs librairies permettent de faire du scraping en Python. Les principales 
 - Permet ensuite de naviguer dans la structure pour scraper le contenu désiré
 - Très intuitif à utiliser
 
+::: {.callout-tip}
+## Tip With Caption
+
+La librairie est sous le nom `bs4`
+:::
+
 
 ## Interagir avec une page : Selenium
 
@@ -34,8 +42,8 @@ Plusieurs librairies permettent de faire du scraping en Python. Les principales 
 
 ## Un outil plus complet : Scrapy
 
-- Un outil plus plus complet mais aussi plus complexe
-- Très utile pour les opérations de web crawling
+- Un outil plus complet mais aussi plus complexe
+- Très utile pour les opérations de webcrawling
 - Davantage recommandé pour de gros projets
 - Un tutoriel par [Library Carpentry](https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html)
 
