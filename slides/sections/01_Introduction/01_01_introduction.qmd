@@ -56,6 +56,13 @@
 - Dans le domaine des paris sportifs, il est courant de scraper les sites de statistiques sportives afin d'adapter l'offre des paris.
 
 
+## Cas d'usage pratiques : dans le domaine de la recherche
+
+- Pour des chercheurs, le webscraping peut représenter une importance source de données, et ce dans des domaines très variés.
+
+- Un exemple [ici](https://www.nature.com/articles/s41597-022-01369-4) avec une équipe ayant scrapé Wikipedia et Wikidata afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
+
+
 ## Cas d'usage pour un INS
 
 - Scraper divers sites de ventes afin d'obtenir des données de prix pour le calcul de l'indice des prix à la consommation
