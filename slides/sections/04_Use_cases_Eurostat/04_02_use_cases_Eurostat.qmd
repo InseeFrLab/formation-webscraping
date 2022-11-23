@@ -19,7 +19,7 @@
 - Le webscraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles
 
 
-## Online Job Advertisements - Avantages du webscraping
+## OJA - Avantages du webscraping
 
 - Possibilité de passer de données trimestrielles à des données journalières
 
@@ -28,7 +28,7 @@
 - Réduire le fardeau de réponse des entreprises
 
 
-## Online Job Advertisements - Quelques challenges (1/2)
+## OJA - Quelques challenges (1/2)
 
 - Bien définir l'étude, par exemple restreindre aux secteurs avec une offre en grande partie en ligne
 
@@ -39,7 +39,7 @@
 - Savoir travailler avec les différents niveaux de détail ou unités de mesure qu'offre chaque site
 
 
-## Online Job Advertisements - Quelques challenges (2/2)
+## OJA - Quelques challenges (2/2)
 
 - Gérer la qualité parfois assez basse des données et les erreurs de scraping qui pourraient ressortir
 
@@ -50,7 +50,7 @@
 - Gérer l'aspect "proxy" des donnés OJA et le fait qu'il manque beaucoup d'offres non publiées en ligne (biais de sélection)
 
 
-## Online Job Advertisements - Méthodes utilisées
+## OJA - Méthodes utilisées
 
 - Scraping de nombreux sites d'offre d'emploi
 
@@ -61,7 +61,7 @@
     - Classification par Machine Learning
 
 
-## Online Job Advertisements - Conclusions
+## OJA - Conclusions
 
 - En France, la [DARES](https://dares.travail-emploi.gouv.fr/) participe à ce travail.
 
@@ -70,6 +70,56 @@
     - Détails méthodologiques : [ici](https://ec.europa.eu/eurostat/cros/sites/default/files/ESSNet_II_WPB_OJV_Methodological_framework_V2.pdf)
 
 
-## Online-Based Enterprise Characteristics
+## [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Overview_en#Milestones_and_deliverables) - Le principe
 
-xxx
+- "The aim of WPC is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers."
+
+- Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.
+
+
+## OBEC - Tâche 1 : Politique de webscraping
+
+- Le projet impliquant le scraping de nombreux sites dans plusieurs pays, il y a un fort besoin de transparence.
+
+- Outre la visibilité du projet, le RGPD ajoute un certain nombres de contraintes.
+
+- Une [politique sur l'usage du webscraping](https://ec.europa.eu/eurostat/cros/system/files/wpc_deliverable_c1_ess_web-scraping_policy_template_2019_07_15.pdf) pour le projet a donc été rédigée et diffusée.
+
+
+## OBEC - Tâche 2 : [Cadre méthodologique](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C6_Reference_Methodological_Framework_v2.0.pdf)
+
+- Cadrer le design du projet :
+    - Représentation de données, process et méthodes, ...
+
+- Cadrer la phase de déploiement :
+    - Infrastructure, étapes de data processing, ...
+
+- Réfléchir le cycle de vie du projet en fonction du [GSBPM](https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf)
+
+
+## OBEC - Tâche 3 : Expérimentations
+
+- Production de statistiques expérimentales en utilisant les méthodes d'OBEC :
+    - Collecte d'URL, présence sur les réseaux sociaux, activité en ligne, e-commerce, ...
+
+- 7 pays volontaires, les rapports et résultats [ici](https://ec.europa.eu/eurostat/cros/content/wpc-experimental-statistics_en)
+    - Les résultats obtenus sont une vitrine d'OBEC mais ne peuvent pas encore être considérés comme des statistiques officielles
+
+
+## OBEC - Tâche 4 : Starter Kits
+
+- Afin que chaque INS puisse mettre en application les méthodes mises en place lors du projet, un starting kit est disponible en open source.
+
+- Le [deliverable](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C7_Starter_kit_for_NSIs_V.2.pdf) associé au starting kit
+
+- Le [repository](https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit) sur Github
+
+
+## OBEC - Tâche 5 : Evaluation de la qualité des résultats
+
+- S'assurer de la qualité des résultats pour passer de la phase expérimentale à la mise en production par les INS
+
+- Mise en place d'un [template](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf) de suivi de la qualité des résultats
+    - Principalement issu de l'"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"
+
+- Derniers documents publiés en Novembre 2020, travail poursuivi aujourd'hui avec le WIN

@@ -131,6 +131,7 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Se plier aux conditions d'utilisation des sites concernés et aux règlementations de la zone concernée
 
 - Manipuler de façon sécurisée les données scrapées
+    - Ex : En Europe, respecter le RGPD
 
 
 ## Ce qu'il ne faut pas faire
@@ -142,6 +143,8 @@ La politique de l'INSEE est de garder le webscraping comme dernière option. Les
 - Paralléliser les requêtes ou faire ces dernières en heures pleines
 
 - Diffuser de façon non autorisée des données scrapées non publiques ou soumises à droit d'auteur
+
+- Pour un INS, utiliser le scraping à des fins non statistiques ou hors du champ légal
 
 
 ## Avertissements
