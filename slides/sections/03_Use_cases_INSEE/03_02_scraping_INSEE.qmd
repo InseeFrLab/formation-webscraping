@@ -10,9 +10,6 @@
 
 ## Les utilisations du scraping à l'INSEE
 
-- Enquêtes ménages
-    - Récupérer coordonnées téléphoniques via les pages blanches
-
 - Indices des prix
     - Prix des transports (trains via le site de la SNCF, domaine maritime)
     - Prix de produits divers (ex : électronique)

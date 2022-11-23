@@ -10,4 +10,4 @@ Insérer rapides explications utilisation
 
 ## Mise en pratique : se familiariser à BeautifulSoup et Selenium
 
-Insérer TP webscraping Lino cours Python
+https://pythonds.linogaliana.fr/webscraping/

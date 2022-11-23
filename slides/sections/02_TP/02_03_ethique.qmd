@@ -1,4 +1,6 @@
-## Les guidelines du SSE : s'identifier
+## Les guidelines du SSE
+
+#### s'identifier
 
 - S'identifier via le champ ["user-agent"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent), l'un des headers renseignables lors d'une requête HTTP
 
@@ -8,6 +10,8 @@
 
 - On peut aussi inclure l'url contenant les informations liées à la collecte ou une explication sur les données prélevées
 
+Mettre box 
+Exemple en python avec param user-agent dans request
 
 ## Les guidelines du SSE : suivre les conventions
 
@@ -16,7 +20,8 @@
 - On citera le [Word Wide Web Consurtium](https://www.w3.org/TR/dwbp/) (W3C), notamment sur les protocoles de transfert hypertexte.
 
 - Essentiel pour le scraping, il est vivement recommandé de se plier au [protocole d'exclusion des robots](https://en.wikipedia.org/wiki/Robots_exclusion_standard).
-    - En tapant un url suivi de '/robots.txt', on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.
+    - En tapant la racine de l'url suivi de '/robots.txt', on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.
+    - Exemple: XXXXXX
     - Les crawlers peuvent lire ces fichiers et s'y plier d'eux-mêmes (cf [IBM](https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol)).
 
 
@@ -24,6 +29,7 @@
 
 Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 
-- Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (time.sleep() en Python)
+- Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (`time.sleep()` en `Python` <i class="fa-brands fa-python"></i>)
 
 - Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer
+

@@ -975,7 +975,6 @@
 </section>
 <section id="un-exemple-le-code-html" class="slide level2" data-background-size="contain">
 <h2>Un exemple : le code <em>HTML</em></h2>
-<h3 data-auto-animate="true" data-background-size="contain" id="section"></h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {html} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>&lt;table&gt;</span>
 <span id="cb1-2"><a href="#cb1-2"></a>&lt;caption&gt; Le Titre de mon tableau &lt;/caption&gt;</span>
 <span id="cb1-3"><a href="#cb1-3"></a>   &lt;tr&gt;</span>
@@ -997,7 +996,6 @@
 </section>
 <section id="un-exemple-le-code-html-1" class="slide level2" data-background-size="contain">
 <h2>Un exemple : le code <em>HTML</em></h2>
-<h3 data-auto-animate="true" data-background-size="contain" id="section-1"></h3>
 
 <table>
 <caption>
@@ -1044,7 +1042,7 @@ Gangster
 <ul>
 <li><p>Le webscraping consiste à naviguer parmi ces balises <em>HTML</em> pour extraire le contenu désiré (textes, tableaux, images, …).</p></li>
 <li><p>Il est aussi possible de récupérer d’autres url sur une page pour s’y rendre et les scraper ensuite.</p></li>
-<li><p>Dans certains cas plus complexes, lire le contenu <em>HTML</em> ne suffit pas, par exemple s’il faut cliquer sur des boutons pour faire apparaître le contenu désiré.</p></li>
+<li><p>Dans certains cas plus complexes, lire le contenu <em>HTML</em> ne suffit pas, + Par exemple s’il faut cliquer sur des boutons pour faire apparaître le contenu désiré.</p></li>
 </ul>
 </section>
 <section id="xpath" class="slide level2" data-background-size="contain">
@@ -1084,8 +1082,9 @@ Gangster
 <li><a href="https://scrapy.org/">Scrapy</a></li>
 </ul>
 </section>
-<section id="extraire-les-codes-sources-html-requests-et-urllib" class="slide level2" data-background-size="contain">
-<h2>Extraire les codes sources HTML : Requests et Urllib</h2>
+<section id="extraire-les-codes-sources-html" class="slide level2" data-background-size="contain">
+<h2>Extraire les codes sources HTML</h2>
+<h4 data-background-size="contain" id="requests-et-urllib"><code>Requests</code> et <code>Urllib</code></h4>
 <ul>
 <li>Rôle :
 <ul>
@@ -1102,6 +1101,19 @@ Gangster
 <li>Permet ensuite de naviguer dans la structure pour scraper le contenu désiré</li>
 <li>Très intuitif à utiliser</li>
 </ul>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip With Caption</strong></p>
+</div>
+<div class="callout-content">
+<p>La librairie est sous le nom <code>bs4</code></p>
+</div>
+</div>
+</div>
 </section>
 <section id="interagir-avec-une-page-selenium" class="slide level2" data-background-size="contain">
 <h2>Interagir avec une page : Selenium</h2>
@@ -1116,8 +1128,8 @@ Gangster
 <section id="un-outil-plus-complet-scrapy" class="slide level2" data-background-size="contain">
 <h2>Un outil plus complet : Scrapy</h2>
 <ul>
-<li>Un outil plus plus complet mais aussi plus complexe</li>
-<li>Très utile pour les opérations de web crawling</li>
+<li>Un outil plus complet mais aussi plus complexe</li>
+<li>Très utile pour les opérations de webcrawling</li>
 <li>Davantage recommandé pour de gros projets</li>
 <li>Un tutoriel par <a href="https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html">Library Carpentry</a></li>
 </ul>
@@ -1158,21 +1170,23 @@ Gangster
 </section>
 <section id="mise-en-pratique-se-familiariser-à-beautifulsoup-et-selenium" class="slide level2" data-background-size="contain">
 <h2>Mise en pratique : se familiariser à BeautifulSoup et Selenium</h2>
-<p>Insérer TP webscraping Lino cours Python</p>
+<p>https://pythonds.linogaliana.fr/webscraping/</p>
 </section></section>
 <section>
 <section id="aspects-techniques-du-scraping-éthique" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Aspects techniques du scraping éthique</h1>
 
 </section>
-<section id="les-guidelines-du-sse-sidentifier" class="slide level2" data-background-size="contain">
-<h2>Les guidelines du SSE : s’identifier</h2>
+<section id="les-guidelines-du-sse" class="slide level2" data-background-size="contain">
+<h2>Les guidelines du SSE</h2>
+<h4 data-background-size="contain" id="sidentifier">s’identifier</h4>
 <ul>
 <li><p>S’identifier via le champ <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent">“user-agent”</a>, l’un des headers renseignables lors d’une requête HTTP</p></li>
 <li><p>Un autre champ parmi les headers possible : “from”</p></li>
 <li><p>Renseigner son nom, entité, coordonnées</p></li>
 <li><p>On peut aussi inclure l’url contenant les informations liées à la collecte ou une explication sur les données prélevées</p></li>
 </ul>
+<p>Mettre box Exemple en python avec param user-agent dans request</p>
 </section>
 <section id="les-guidelines-du-sse-suivre-les-conventions" class="slide level2" data-background-size="contain">
 <h2>Les guidelines du SSE : suivre les conventions</h2>
@@ -1181,7 +1195,8 @@ Gangster
 <li><p>On citera le <a href="https://www.w3.org/TR/dwbp/">Word Wide Web Consurtium</a> (W3C), notamment sur les protocoles de transfert hypertexte.</p></li>
 <li><p>Essentiel pour le scraping, il est vivement recommandé de se plier au <a href="https://en.wikipedia.org/wiki/Robots_exclusion_standard">protocole d’exclusion des robots</a>.</p>
 <ul>
-<li>En tapant un url suivi de ‘/robots.txt’, on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.</li>
+<li>En tapant la racine de l’url suivi de ‘/robots.txt’, on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.</li>
+<li>Exemple: XXXXXX</li>
 <li>Les crawlers peuvent lire ces fichiers et s’y plier d’eux-mêmes (cf <a href="https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol">IBM</a>).</li>
 </ul></li>
 </ul>
@@ -1190,7 +1205,7 @@ Gangster
 <h2>Contourner les défenses des sites</h2>
 <p>Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :</p>
 <ul>
-<li><p>Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu’un utilisateur ne le pourrait (time.sleep() en Python)</p></li>
+<li><p>Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu’un utilisateur ne le pourrait (<code>time.sleep()</code> en <code>Python</code> <i class="fa-brands fa-python"></i>)</p></li>
 <li><p>Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer</p></li>
 </ul>
 </section></section>
@@ -1412,10 +1427,6 @@ Gangster
 <section id="les-utilisations-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
 <h2>Les utilisations du scraping à l’INSEE</h2>
 <ul>
-<li>Enquêtes ménages
-<ul>
-<li>Récupérer coordonnées téléphoniques via les pages blanches</li>
-</ul></li>
 <li>Indices des prix
 <ul>
 <li>Prix des transports (trains via le site de la SNCF, domaine maritime)</li>
