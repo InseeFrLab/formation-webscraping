@@ -1,28 +1,45 @@
-## [Comprendre la nature d'une page web](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web)
+## [Comprendre la nature d'une page web](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web) {.smaller}
 
-- Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.
+- Un site Internet est constitué de diverses pages Web.
+   + Celles-ci sont le produit de fichiers appelés codes source des pages.
+
+. . .
 
 - Les 3 langages principaux pour les coder sont :
     - [HTML](https://developer.mozilla.org/fr/docs/Web/HTML) : pour composer la structure des pages via un système de balises
     - [CSS](https://developer.mozilla.org/fr/docs/Web/CSS) : des feuilles de style pour décrire la présentation de pages HTML
     - [Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript) : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
 
+::: {.callout-tip}
+## Tip With Caption
+
+- W3C
+- Mozilla doc
+:::
 
 ## Inspecter une page web
 
 - Il est possible d'afficher le code source des pages Web, parmi lequel les scrapeurs doivent naviguer.
 
-- Clic droit sur la page +
-    - "Inspecter l'élément" pour observer un endroit spécifique de la page
-    - "Afficher le code source de la page" pour afficher le code de toute la page
+- `Clic droit` sur la page puis
+    - _"Inspecter l'élément"_ pour observer un endroit spécifique de la page
+    - _"Afficher le code source de la page"_ pour afficher le code de toute la page
 
 
-## Hiérarchisation d'une page web : les balises HTML
+## Hiérarchisation d'une page web
+
+#### Les balises HTML
 
 - Sur une page web, vous trouverez à coup sûr des éléments comme ``<head>``, ``<title>``, etc. Il  s'agit des codes qui vous permettent de structurer le contenu d'une page *HTML* et qui s'appellent des **balises**. 
-    - Citons, par exemple, les balises ``<p>``, ``<h1>``, ``<h2>``, ``<h3>``, ``<strong>`` ou ``<em>``.
+    - Par exemple, les balises ``<p>``, ``<h1>``, ``<h2>``, ``<h3>``, ``<strong>`` ou ``<em>``.
 
-- Le symbole ``< >`` est une balise : il sert à indiquer le début d'une partie. Le symbole ``</ >`` indique la fin de cette partie. La plupart des balises vont par paires, avec une *balise ouvrante* et une *balise fermante* (par exemple ``<p>`` et ``</p>``).
+. . .
+
+- Le symbole ``< >`` est une balise : il sert à indiquer le début d'une partie. Le symbole ``</ >`` indique la fin de cette partie.
+
+. . .
+
+- La plupart des balises vont par paires, avec une *balise ouvrante* et une *balise fermante* (par exemple ``<p>`` et ``</p>``).
 
 
 ## Exemple : les balises de tableau
@@ -63,7 +80,7 @@
 </table>
 ```
 
-## Un exemple : le rendu du code *HTML*
+## Un exemple : le code *HTML*
 
 <table>
 <caption> Le Titre de mon tableau </caption>
@@ -92,7 +109,8 @@
 
 - Il est aussi possible de récupérer d'autres url sur une page pour s'y rendre et les scraper ensuite.
 
-- Dans certains cas plus complexes, lire le contenu *HTML* ne suffit pas, par exemple s'il faut cliquer sur des boutons pour faire apparaître le contenu désiré.
+- Dans certains cas plus complexes, lire le contenu *HTML* ne suffit pas,
+      + Par exemple s'il faut cliquer sur des boutons pour faire apparaître le contenu désiré.
 
 
 ## [XPath](https://librarycarpentry.org/lc-webscraping/02-xpath/index.html)

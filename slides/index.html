@@ -862,38 +862,71 @@
 <h1>Rappels sur HTML</h1>
 
 </section>
-<section id="comprendre-la-nature-dune-page-web" class="slide level2" data-background-size="contain">
+<section id="comprendre-la-nature-dune-page-web" class="slide level2 smaller" data-background-size="contain">
 <h2><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web">Comprendre la nature d’une page web</a></h2>
 <ul>
-<li><p>Un site Internet est constitué de diverses pages Web. Celles-ci sont le rendus de fichiers appelés codes source des pages.</p></li>
-<li><p>Les 3 langages principaux pour les coder sont :</p>
+<li>Un site Internet est constitué de diverses pages Web.
+<ul>
+<li>Celles-ci sont le produit de fichiers appelés codes source des pages.</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Les 3 langages principaux pour les coder sont :
 <ul>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML">HTML</a> : pour composer la structure des pages via un système de balises</li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS">CSS</a> : des feuilles de style pour décrire la présentation de pages HTML</li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">Javascript</a> : pour tout ce qui est relatif à l’interactivité d’un site (ex : boutons)</li>
 </ul></li>
 </ul>
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip With Caption</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>W3C</li>
+<li>Mozilla doc</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="inspecter-une-page-web" class="slide level2" data-background-size="contain">
 <h2>Inspecter une page web</h2>
 <ul>
 <li><p>Il est possible d’afficher le code source des pages Web, parmi lequel les scrapeurs doivent naviguer.</p></li>
-<li><p>Clic droit sur la page +</p>
+<li><p><code>Clic droit</code> sur la page puis</p>
 <ul>
-<li>“Inspecter l’élément” pour observer un endroit spécifique de la page</li>
-<li>“Afficher le code source de la page” pour afficher le code de toute la page</li>
+<li><em>“Inspecter l’élément”</em> pour observer un endroit spécifique de la page</li>
+<li><em>“Afficher le code source de la page”</em> pour afficher le code de toute la page</li>
 </ul></li>
 </ul>
 </section>
-<section id="hiérarchisation-dune-page-web-les-balises-html" class="slide level2" data-background-size="contain">
-<h2>Hiérarchisation d’une page web : les balises HTML</h2>
+<section id="hiérarchisation-dune-page-web" class="slide level2" data-background-size="contain">
+<h2>Hiérarchisation d’une page web</h2>
+<h4 data-background-size="contain" id="les-balises-html">Les balises HTML</h4>
 <ul>
 <li>Sur une page web, vous trouverez à coup sûr des éléments comme <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, etc. Il s’agit des codes qui vous permettent de structurer le contenu d’une page <em>HTML</em> et qui s’appellent des <strong>balises</strong>.
 <ul>
-<li>Citons, par exemple, les balises <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;strong&gt;</code> ou <code>&lt;em&gt;</code>.</li>
+<li>Par exemple, les balises <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;strong&gt;</code> ou <code>&lt;em&gt;</code>.</li>
 </ul></li>
-<li>Le symbole <code>&lt; &gt;</code> est une balise : il sert à indiquer le début d’une partie. Le symbole <code>&lt;/ &gt;</code> indique la fin de cette partie. La plupart des balises vont par paires, avec une <em>balise ouvrante</em> et une <em>balise fermante</em> (par exemple <code>&lt;p&gt;</code> et <code>&lt;/p&gt;</code>).</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Le symbole <code>&lt; &gt;</code> est une balise : il sert à indiquer le début d’une partie. Le symbole <code>&lt;/ &gt;</code> indique la fin de cette partie.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>La plupart des balises vont par paires, avec une <em>balise ouvrante</em> et une <em>balise fermante</em> (par exemple <code>&lt;p&gt;</code> et <code>&lt;/p&gt;</code>).</li>
+</ul>
+</div>
 </section>
 <section id="exemple-les-balises-de-tableau" class="slide level2" data-background-size="contain">
 <h2>Exemple : les balises de tableau</h2>
@@ -942,6 +975,7 @@
 </section>
 <section id="un-exemple-le-code-html" class="slide level2" data-background-size="contain">
 <h2>Un exemple : le code <em>HTML</em></h2>
+<h3 data-auto-animate="true" data-background-size="contain" id="section"></h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {html} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>&lt;table&gt;</span>
 <span id="cb1-2"><a href="#cb1-2"></a>&lt;caption&gt; Le Titre de mon tableau &lt;/caption&gt;</span>
 <span id="cb1-3"><a href="#cb1-3"></a>   &lt;tr&gt;</span>
@@ -961,8 +995,9 @@
 <span id="cb1-17"><a href="#cb1-17"></a>   &lt;/tr&gt;</span>
 <span id="cb1-18"><a href="#cb1-18"></a>&lt;/table&gt;</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="un-exemple-le-rendu-du-code-html" class="slide level2" data-background-size="contain">
-<h2>Un exemple : le rendu du code <em>HTML</em></h2>
+<section id="un-exemple-le-code-html-1" class="slide level2" data-background-size="contain">
+<h2>Un exemple : le code <em>HTML</em></h2>
+<h3 data-auto-animate="true" data-background-size="contain" id="section-1"></h3>
 
 <table>
 <caption>
