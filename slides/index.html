@@ -1865,34 +1865,54 @@ Gangster
 <h1>Le scraping à l’INSEE</h1>
 
 </section>
-<section id="quand-lutiliser" class="slide level2" data-background-size="contain">
-<h2>Quand l’utiliser ?</h2>
+<section id="quand-utiliser-du-scraping" class="slide level2" data-background-size="contain">
+<h2>Quand utiliser du scraping ?</h2>
+<p><br></p>
 <ul>
-<li>Le webscraping utilisé en dernier recours, l’INSEE favorisera :
+<li>Le webscraping est utilisé en <strong>dernier recours</strong>, l’INSEE favorisera :
 <ul>
-<li>Accords avec des partenaires (ex : seloger.com)</li>
-<li>Utilisation d’API (ex : Qwant)</li>
-<li>Sources de données publiques</li>
+<li>Les <span class="blue2"><strong>accords</strong></span> avec des partenaires (ex : seloger.com)</li>
+<li>L’utilisation d’<span class="blue2"><strong>API</strong></span> (ex : Qwant, Yahoo Finance)</li>
+<li>Les sources de <span class="blue2"><strong>données publiques</strong></span></li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li>Le webscraping devient cependant une source de données grandissante.</li>
 </ul>
+</div>
 </section>
 <section id="les-utilisations-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
 <h2>Les utilisations du scraping à l’INSEE</h2>
+<p>Le scraping est notamment utilisé pour le calcul des indices des prix :</p>
+<div class="fragment">
 <ul>
-<li>Indices des prix
-<ul>
-<li>Prix des transports (trains via le site de la SNCF, domaine maritime)</li>
-<li>Prix de produits divers (ex : électronique)</li>
-<li>Prix dans le domaine de l’hôtellerie, avec booking.com</li>
-</ul></li>
+<li>Prix des transports (trains via le site de la <code>SNCF</code>, domaine maritime)</li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Prix de produits divers (surtout de l’électronique)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Prix dans le domaine de l’hôtellerie (avec <code>booking.com</code>)</li>
+</ul>
+</div>
+<div class="fragment">
+<p>D’autres utilisations ponctuelles peuvent également être faites.</p>
+</div>
 </section>
 <section id="organisation-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
 <h2>Organisation du scraping à l’INSEE</h2>
+<p><br></p>
 <ul>
-<li><p>Un scraping par cas d’usage, avec une gestion plus globale en cours de maturité</p></li>
-<li><p>Beaucoup de Python, un peu de R et de Java</p></li>
+<li>Un scraping encore par cas d’usage, avec une gestion plus globale en cours de maturité</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Beaucoup de <code>Python</code>, un peu de <code>R</code> et de <code>Java</code></li>
 </ul>
 </section></section>
 <section>
@@ -1900,20 +1920,24 @@ Gangster
 <h1>Cas d’usage à l’INSEE</h1>
 
 </section>
-<section id="les-prix-dans-le-domaine-de-lhôtellerie-booking.com" class="slide level2" data-background-size="contain">
-<h2>Les prix dans le domaine de l’hôtellerie : Booking.com</h2>
+<section id="les-prix-dans-le-domaine-de-lhôtellerie" class="slide level2" data-background-size="contain">
+<h2>Les prix dans le domaine de l’hôtellerie</h2>
+<h4 data-background-size="contain" id="booking.com"><code>Booking.com</code></h4>
 <ul>
 <li>Un travail ayant donné lieu à une <a href="https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf">publication</a>
 <ul>
 <li><em>Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index</em></li>
 <li>Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon</li>
 </ul></li>
-<li>Une <a href="http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf">présentation</a> plus accessible</li>
+<li>Une présentation plus accessible <a href="http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf">ici</a></li>
 </ul>
 </section>
-<section id="scraping-de-booking.com-le-code" class="slide level2" data-background-size="contain">
-<h2>Scraping de Booking.com : le code</h2>
+<section id="scraping-de-booking.com" class="slide level2" data-background-size="contain">
+<h2>Scraping de <code>Booking.com</code></h2>
+<h4 data-background-size="contain" id="le-code">Le code</h4>
+<p><br></p>
 <ul>
+<li><p><span class="blue2"><strong>But</strong></span> : collecter davantage de données pour calculer au mieux les indices d’évolution de prix pour l’hôtellerie.</p></li>
 <li><p>La partie ‘scraping’ du projet est disponible <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-hotel">ici</a>.</p></li>
 <li><p>Pour plus d’informations, contacter <script type="text/javascript">
 <!--
@@ -1921,31 +1945,52 @@ h='&#x69;&#110;&#x73;&#x65;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x61;&#100;&#1
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x41;&#100;&#114;&#x69;&#x65;&#110;&#32;&#x4d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;'+'<\/'+'a'+'>');
 // -->
 </script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</p></li>
-<li><p>La conférence associée aux présentations : <a href="https://www.ottawagroup.org/ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/c7e600e0bec85d82ca25888400059a93?OpenDocument#Meeting%2017%20Rome">ici</a></p>
+</ul>
+<div class="fragment">
+<ul>
+<li>La conférence associée aux présentations : <a href="https://www.ottawagroup.org/ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/c7e600e0bec85d82ca25888400059a93?OpenDocument#Meeting%2017%20Rome">ici</a>
 <ul>
 <li>D’autres projets similaires de scraping mentionnés</li>
 </ul></li>
 </ul>
+</div>
 </section>
 <section id="ventes-darticles-électroniques" class="slide level2" data-background-size="contain">
 <h2>Ventes d’articles électroniques</h2>
 <ul>
-<li><p>Scraping de <a href="https://www.boulanger.com/">Boulanger</a> : <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/boulanger">ici</a></p></li>
-<li><p>Scraping de <a href="https://www.rueducommerce.fr/">Rue du Commerce</a> : <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/rue-du-commerce">ici</a></p></li>
-<li><p>Pour plus d’informations, contacter <script type="text/javascript">
+<li><span class="blue2"><strong>But</strong></span> : collecter davantage de données pour calculer au mieux les indices de prix associés au secteur
+<ul>
+<li>Projet encore à une étape expérimentale</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Scraping de <a href="https://www.boulanger.com/">Boulanger</a> : <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/boulanger">ici</a></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Scraping de <a href="https://www.rueducommerce.fr/">Rue du Commerce</a> : <a href="https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/rue-du-commerce">ici</a></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Pour plus d’informations, contacter <script type="text/javascript">
 <!--
 h='&#x69;&#110;&#x73;&#x65;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x61;&#100;&#114;&#x69;&#x65;&#110;&#46;&#x6d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x41;&#100;&#114;&#x69;&#x65;&#110;&#32;&#x4d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;'+'<\/'+'a'+'>');
 // -->
-</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</p></li>
+</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</li>
 </ul>
+</div>
 </section>
 <section id="scraping-de-la-sncf" class="slide level2" data-background-size="contain">
 <h2>Scraping de la SNCF</h2>
+<p><br></p>
 <p>Si autorisé, insérer slides scraping SNCF</p>
 </section>
 <section id="dautres-ressources-pour-le-scraping-lié-à-lipc" class="slide level2" data-background-size="contain">
-<h2>D’autres ressources pour le scraping lié à l’IPC</h2>
+<h2>D’autres ressources pour le scraping lié à l’<code>IPC</code></h2>
 <ul>
 <li><a href="https://ec.europa.eu/eurostat/documents/272892/12032198/Guidelines-web-scraping-HICP-11-2020.pdf/">Guidelines d’Eurostat</a> sur le scraping lié à l’indice des prix à la consommation
 <ul>

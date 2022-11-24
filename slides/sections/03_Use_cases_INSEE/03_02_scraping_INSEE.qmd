@@ -1,23 +1,44 @@
-## Quand l'utiliser ?
+## Quand utiliser du scraping ?
 
-- Le webscraping utilisé en dernier recours, l'INSEE favorisera :
-    - Accords avec des partenaires (ex : seloger.com)
-    - Utilisation d'API (ex : Qwant)
-    - Sources de données publiques
+<br>
+
+- Le webscraping est utilisé en __dernier recours__, l'INSEE favorisera :
+    + Les [__accords__]{.blue2} avec des partenaires (ex : seloger.com)
+    + L'utilisation d'[__API__]{.blue2} (ex : Qwant, Yahoo Finance)
+    + Les sources de [__données publiques__]{.blue2}
+
+. . .
 
 - Le webscraping devient cependant une source de données grandissante.
 
 
 ## Les utilisations du scraping à l'INSEE
 
-- Indices des prix
-    - Prix des transports (trains via le site de la SNCF, domaine maritime)
-    - Prix de produits divers (ex : électronique)
-    - Prix dans le domaine de l'hôtellerie, avec booking.com
+Le scraping est notamment utilisé pour le calcul des indices des prix :
+
+. . .
+
+- Prix des transports (trains via le site de la `SNCF`, domaine maritime)
+
+. . .
+
+- Prix de produits divers (surtout de l'électronique)
+
+. . .
+
+- Prix dans le domaine de l'hôtellerie (avec `booking.com`)
+
+. . .
+
+D'autres utilisations ponctuelles peuvent également être faites.
 
 
 ## Organisation du scraping à l'INSEE
 
-- Un scraping par cas d'usage, avec une gestion plus globale en cours de maturité
+<br>
 
-- Beaucoup de Python, un peu de R et de Java
+- Un scraping encore par cas d'usage, avec une gestion plus globale en cours de maturité
+
+<br>
+
+- Beaucoup de `Python`, un peu de `R` et de `Java`

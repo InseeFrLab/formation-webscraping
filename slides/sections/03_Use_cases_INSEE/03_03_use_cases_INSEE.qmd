@@ -1,17 +1,27 @@
-## Les prix dans le domaine de l'hôtellerie : Booking.com
+## Les prix dans le domaine de l'hôtellerie
+
+#### `Booking.com`
 
 - Un travail ayant donné lieu à une [publication](https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf)
-    - *Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index*
-    - Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon
+    + *Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index*
+    + Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon
 
-- Une [présentation](http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf) plus accessible
+- Une présentation plus accessible [ici](http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf)
 
 
-## Scraping de Booking.com : le code
+## Scraping de `Booking.com`
+
+#### Le code
+
+<br>
+
+- [__But__]{.blue2} : collecter davantage de données pour calculer au mieux les indices d'évolution de prix pour l'hôtellerie.
 
 - La partie 'scraping' du projet est disponible [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-hotel).
 
 - Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr), INSEE.
+
+. . .
 
 - La conférence associée aux présentations : [ici](https://www.ottawagroup.org/ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/c7e600e0bec85d82ca25888400059a93?OpenDocument#Meeting%2017%20Rome)
     - D'autres projets similaires de scraping mentionnés
@@ -19,19 +29,32 @@
 
 ## Ventes d'articles électroniques
 
+- [__But__]{.blue2} : collecter davantage de données pour calculer au mieux les indices de prix associés au secteur
+    + Projet encore à une étape expérimentale
+
+. . .
+
 - Scraping de [Boulanger](https://www.boulanger.com/) : [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/boulanger)
 
+. . .
+
 - Scraping de [Rue du Commerce](https://www.rueducommerce.fr/) : [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-biens-electroniques/-/tree/master/rue-du-commerce)
+
+. . .
 
 - Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr), INSEE.
 
 
 ## Scraping de la SNCF
 
+<br>
+
 Si autorisé, insérer slides scraping SNCF
 
 
-## D'autres ressources pour le scraping lié à l'IPC
+## D'autres ressources pour le scraping lié à l'`IPC`
+
+<br>
 
 - [Guidelines d'Eurostat](https://ec.europa.eu/eurostat/documents/272892/12032198/Guidelines-web-scraping-HICP-11-2020.pdf/) sur le scraping lié à l'indice des prix à la consommation
     - Annexe 3 consacrée aux travaux de l'INSEE sur Boulanger et Rue du Commerce
