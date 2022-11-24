@@ -3,13 +3,38 @@
 - Le webscraping est une nouvelle source de données très prometteuse.
     - Les cas d'usage sont nombreux, y compris pour les INS.
 
+. . .
+
 - En revanche attention, même à des fins statistiques, tout n'est pas permis.
     - Bien respecter les bonnes pratiques.
 
+. . .
+
 - Un réseau d'interlocuteurs à disposition
-    - A travers le WIN ou entre INS
+    - A travers le `WIN` ou entre INS
+
+
+## Remerciements aux contributeurs
+
+<br>
+
+- [Lino Galiana](https://github.com/linogaliana/), INSEE
+- [Romain Lesur](https://github.com/RLesur/), INSEE
+- [Romain Avouac](https://github.com/avouacr/), INSEE
+
+. . .
+
+Le repository de la formation sur Github accessible [ici](https://github.com/antoine-palazz/webscraping_formation)
+
+. . .
+
+<br>
+
+[Retour au début](#index)
 
 
 # Merci pour votre attention !
+
+<br>
 
 Des questions ?

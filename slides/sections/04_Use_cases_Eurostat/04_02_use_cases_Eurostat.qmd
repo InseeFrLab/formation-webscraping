@@ -3,7 +3,7 @@
 - Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
     + [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (`OJA`)
         - Aussi appelé Online Job Vacancies (`OJV`)
-    - [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (`OBEC`)
+    + [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (`OBEC`)
 
 . . .
 
@@ -107,10 +107,10 @@
 . . .
 
 - Méthodes poussées de NLP :
-    - Détection de langue
-    - Traitements divers de texte
-    - Comparaisons de texte
-    - Classification par Machine Learning
+    + Détection de langue
+    + Traitements divers de texte
+    + Comparaisons de texte
+    + Classification par Machine Learning
 
 
 ## Online Job Advertisements
@@ -124,19 +124,21 @@
 . . .
 
 - Projet encore en cours, mais résultats très encourageants
-    - Les rapports publiés : [ici](https://ec.europa.eu/eurostat/cros/content/wpb-milestones-and-deliverables-0_en)
-    - Détails méthodologiques : [ici](https://ec.europa.eu/eurostat/cros/sites/default/files/ESSNet_II_WPB_OJV_Methodological_framework_V2.pdf)
+    + Les rapports publiés : [ici](https://ec.europa.eu/eurostat/cros/content/wpb-milestones-and-deliverables-0_en)
+    + Détails méthodologiques : [ici](https://ec.europa.eu/eurostat/cros/sites/default/files/ESSNet_II_WPB_OJV_Methodological_framework_V2.pdf)
 
 
-## [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Overview_en#Milestones_and_deliverables)
+## [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Overview_en#Milestones_and_deliverables) {.smaller}
 
 #### Le principe
 
-- "The aim of WPC is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers."
+<br>
+
+> "The aim of WPC is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers."
 
 . . .
 
-- Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.
+Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.
 
 
 ## Les différents étapes d'OBEC
@@ -163,12 +165,12 @@
 <br>
 
 - Cadrer le design du projet :
-    - Représentation de données, process et méthodes, ...
+    + Représentation de données, process et méthodes, ...
 
 . . .
 
 - Cadrer la phase de déploiement :
-    - Infrastructure, étapes de data processing, ...
+    + Infrastructure, étapes de data processing, ...
 
 . . .
 
@@ -180,12 +182,12 @@
 #### 3- Expérimentations
 
 - Production de statistiques expérimentales en utilisant les méthodes d'`OBEC` :
-    - Collecte d'URL, présence sur les réseaux sociaux, activité en ligne, e-commerce, ...
+    + Collecte d'URL, présence sur les réseaux sociaux, activité en ligne, e-commerce, ...
 
 . . .
 
 - 7 pays volontaires, les rapports et résultats [ici](https://ec.europa.eu/eurostat/cros/content/wpc-experimental-statistics_en)
-    - Les résultats obtenus sont une vitrine d'`OBEC` mais ne peuvent pas encore être considérés comme des statistiques officielles
+    + Les résultats obtenus sont une vitrine d'`OBEC` mais ne peuvent pas encore être considérés comme des statistiques officielles
 
 
 ## Les différents étapes d'OBEC
@@ -210,7 +212,7 @@
 . . .
 
 - Mise en place d'un [template](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf) de suivi de la qualité des résultats
-    - Principalement issu de l'"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"
+    + Principalement issu de l'"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"
 
 . . .
 

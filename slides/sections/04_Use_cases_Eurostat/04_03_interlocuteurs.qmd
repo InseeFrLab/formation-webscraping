@@ -1,41 +1,66 @@
-## Le [Web Intelligence Network](https://ec.europa.eu/eurostat/cros/WIN_en)
+## Le [Web Intelligence Network](https://ec.europa.eu/eurostat/cros/WIN_en) {.smaller}
 
-- Présents sur plusieurs media : [LinkedIn](https://www.linkedin.com/company/essnet-project-web-intelligence-network/), [Twitter](https://twitter.com/EssnetWin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Eventbrite](https://www.eventbrite.co.uk/o/essnet-web-intelligence-network-project-54944960133?utm_source=eventbrite&utm_medium=email&utm_campaign=event_reminder&utm_term=orgname), [Youtube](https://www.youtube.com/channel/UC5fUzazBu7d1Arl17LdC4zQ)
+<br>
+
+- Présents sur plusieurs media :
+    + [LinkedIn](https://www.linkedin.com/company/essnet-project-web-intelligence-network/)
+    + [Twitter](https://twitter.com/EssnetWin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+    + [Eventbrite](https://www.eventbrite.co.uk/o/essnet-web-intelligence-network-project-54944960133?utm_source=eventbrite&utm_medium=email&utm_campaign=event_reminder&utm_term=orgname)
+    + [Youtube](https://www.youtube.com/channel/UC5fUzazBu7d1Arl17LdC4zQ)
+
+. . .
 
 - Souhaitent également communiquer auprès d'INS hors Europe
 
-- Un calendrier très complet d'événements, de webinaires, ...
-    - Dernier webinaire le 23/11 sur le work package 4 : BREAL et user stories, qualité et méthodologie
+. . .
+
+- Un calendrier très complet d'événements, de webinaires...
+    + Dernier webinaire le 23/11 sur le work package 4 : BREAL et user stories, qualité et méthodologie
 
 
 ## Pour reprendre les mots du WIN ...
 
-The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for:
+<br>
 
-- Exploring new and emerging data sources
-- Building competences
-- Building and strengthening collaborations
-- Developing new frameworks
-- Adopting new practices
+> The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for: <br>
+    - Exploring new and emerging data sources <br>
+    - Building competences <br>
+    - Building and strengthening collaborations <br>
+    - Developing new frameworks <br>
+    - Adopting new practices
 
 
-## Les webinaires du WIN des prochains mois
+## Les webinaires du WIN des prochains mois {.smaller}
+
+<br>
 
 - Début 2023 :
-    - "Web Scraped Data to Enhance the Quality of the Statistical Business Register"
-    - "Method of Processing and Analysing Web Scraped Tourism Data"
-    - "Web Intelligence in Practice. How to use content form the web for enterprise statistics?"
+    + "Web Scraped Data to Enhance the Quality of the Statistical Business Register"
+    + "Method of Processing and Analysing Web Scraped Tourism Data"
+    + "Web Intelligence in Practice. How to use content form the web for enterprise statistics?"
+
+. . .
+
 - Mi 2023 :
-    - "Web Scraping of Real Estate Portals"
+    + "Web Scraping of Real Estate Portals"
+
+. . .
+
 - Davantage d'informations à venir pour la suite
 
 
 ## L'INS du Royaume-Uni : l'[ONS](https://www.ons.gov.uk/)
 
+<br>
+
 - Un [blog](https://datasciencecampus.ons.gov.uk/) consacré à la data science alimenté régulièrement
+
+. . .
 
 - Une politique de webscraping très mature, disponible [ici](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy) et [ici](https://www.ons.gov.uk/file?uri=/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy/webscrapingpolicy.pdf)
     - Ne pas hésiter à lire leur liste des bonnes pratiques, très bien faite
+
+. . .
 
 - Prompts à multiplier les [partenariats](https://datasciencecampus.ons.gov.uk/partnerships/)
 
@@ -44,8 +69,14 @@ The target audience for the WIH are organisations that produce national statisti
 
 - Il existe de nombreuses entreprises proposant des services de scraping.
 
-- En revanche, aucune garantie que les guidelines présentées soient appliquées
+. . .
 
-- Possibles problématiques de transparence sur la collecte
+- En revanche, aucune garantie que les guidelines présentées soient appliquées.
+
+. . .
+
+- Possibles problématiques de transparence sur la collecte.
+
+. . .
 
 Ce n'est donc pas une recommandation. Ce n'est ni une pratique à l'INSEE ni à Eurostat.

@@ -23,7 +23,7 @@ from: markdown+emoji
 ascii: true
 ---
 
-# Sommaire
+# Sommaire {#index}
 
 <br>
 
