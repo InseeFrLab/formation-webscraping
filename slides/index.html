@@ -685,7 +685,8 @@
 <h2>Les principales règlementations autour du webscraping</h2>
 <h4 data-background-size="contain" id="en-france">En France</h4>
 <ul>
-<li><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279247">L’article L342-1 du code de la propriété intellectuelle</a></li>
+<li><p><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279247">L’article L342-1 du code de la propriété intellectuelle</a></p></li>
+<li><p><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279250">L’article L342-2 du code de la propriété intellectuelle</a></p></li>
 </ul>
 <div class="fragment">
 <ul>
@@ -1502,7 +1503,7 @@ Gangster
 <li>Problèmes méthodologiques courants :
 <ul>
 <li><strong>Différencier le stock du flux</strong> : la page web que je viens de scraper est-elle nouvelle ou est-ce la même que celle d’hier ?</li>
-<li><strong>Dédoublonner le contenu</strong> lorsque par exemple le scraping se fait sur plusieurs sites dont le contenu peut s’intersecter</li>
+<li><strong>Dédoublonner le contenu</strong> lorsque par exemple le scraping se fait sur plusieurs sites dont le contenu peut s’intersecter.</li>
 </ul></li>
 </ul>
 </div>
@@ -1514,130 +1515,279 @@ Gangster
 
 <section id="iii.-sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>III. Sommaire</h1>
-<p>Insérer sommaire cliquable</p>
+<p><a href="#/03_01">Quelques litiges légaux</a></p>
+<p><a href="#/03_02">Le scraping à l’INSEE</a></p>
+<p><a href="#/03_03">Cas d’usage à l’INSEE</a></p>
 </section>
 
 <section>
-<section id="quelques-litiges-légaux" class="title-slide slide level1 center" data-background-size="contain">
+<section id="03_01" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Quelques litiges légaux</h1>
 
 </section>
-<section id="linkedin-v.-hiq-labs-2019---le-litige" class="slide level2" data-background-size="contain">
-<h2><a href="https://www.silicon.fr/linkedin-cour-supreme-americaine-linkedin-410279.html">LinkedIn v. HiQ Labs (2019)</a> - Le litige</h2>
+<section id="linkedin-v.-hiq-labs-2019" class="slide level2 smaller" data-background-size="contain">
+<h2><a href="https://www.silicon.fr/linkedin-cour-supreme-americaine-linkedin-410279.html">LinkedIn v. HiQ Labs (2019)</a></h2>
+<h4 data-background-size="contain" id="le-litige">Le litige</h4>
+<p><br></p>
 <ul>
-<li><p>Contexte : HiQ scrape les données des utilisateurs (accessibles publiquement) pour nourrir un outil de prédiction de l’attrition, commercialisé ensuite</p></li>
-<li><p>Cas : LinkedIn tente d’interdire la collecte au nom du <a href="https://www.nacdl.org/Landing/ComputerFraudandAbuseAct">CFAA</a> et d’une violation des conditions d’utilisation du site, et HiQ saisit la justice pour se défendre</p></li>
-<li><p>Verdict : Deux victoires (tribunal californien et Cour Suprême) pour HiQ, dont le maintien de l’activité de scraping est autorisé</p></li>
+<li><span class="blue2"><strong>Contexte</strong></span> : HiQ scrape les données des utilisateurs LinkedIn (accessibles publiquement) pour nourrir un outil de prédiction de l’attrition, commercialisé ensuite.</li>
 </ul>
-</section>
-<section id="linkedin-v.-hiq-labs-2019---les-conclusions" class="slide level2" data-background-size="contain">
-<h2><a href="https://www.csoonline.com/article/3662039/hiq-v-linkedin-court-ruling-will-have-a-material-effect-on-privacy.html">LinkedIn v. HiQ Labs (2019)</a> - Les conclusions</h2>
+<div class="fragment">
 <ul>
-<li><p>LinkedIn n’est pas propriétaire des données : ce sont en réalité les membres eux-mêmes. Les utilisateurs qui choisissent un profil public attendent « évidemment » qu’il soit accessible par des tiers.</p></li>
-<li><p>Laisser à LinkedIn le contrôle sur l’utilisation des données publiques pourrait engendrer un « monopole de l’information » préjudiciable à l’intérêt public.</p></li>
-<li><p>Le CFAA est inadapté pour ce type de cas.</p></li>
-<li><p>HiQ n’a scrapé que des données auxquelles n’importe quel utilisateur a accès, et LinkedIn ne peut pas les leur interdire spécifiquement.</p></li>
-</ul>
-</section>
-<section id="ryanair-v.-opodo-2010---le-litige" class="slide level2" data-background-size="contain">
-<h2><a href="https://www.legalis.net/jurisprudences/tribunal-de-grande-instance-de-paris-3eme-chambre-2eme-section-jugement-du-09-avril-2010/">Ryanair v. Opodo (2010)</a> - Le litige</h2>
+<li><span class="blue2"><strong>Cas</strong></span> :
 <ul>
-<li><p>Contexte : Opodo scrape les données du site de Ryanair (entre autres) pour les agréger en un comparateur de prix de billets</p></li>
-<li><p>Cas : Ryanair attaque Opodo en justice dans plusieurs pays européens, notamment en France, pour non respect des CGU, concurrence déloyale et parasitisme</p></li>
-<li><p>Verdict : Différent selon les pays, mais en France Rayanair a été débouté à deux reprises</p></li>
+<li>LinkedIn tente d’interdire la collecte au nom du <a href="https://www.nacdl.org/Landing/ComputerFraudandAbuseAct">CFAA</a> et d’une violation des conditions d’utilisation du site.</li>
+<li>HiQ saisit la justice pour se défendre.</li>
+</ul></li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Verdict</strong></span> : Deux victoires (tribunal californien et Cour Suprême) pour HiQ, dont le maintien de l’activité de scraping est autorisé.</li>
+</ul>
+</div>
 </section>
-<section id="ryanair-v.-opodo-2010---les-conclusions" class="slide level2" data-background-size="contain">
-<h2>Ryanair v. Opodo (2010) - Les conclusions</h2>
+<section id="linkedin-v.-hiq-labs-2019-1" class="slide level2 smaller" data-background-size="contain">
+<h2><a href="https://www.csoonline.com/article/3662039/hiq-v-linkedin-court-ruling-will-have-a-material-effect-on-privacy.html">LinkedIn v. HiQ Labs (2019)</a></h2>
+<h4 data-background-size="contain" id="les-conclusions">Les conclusions</h4>
+<p><br></p>
+<ul>
+<li>LinkedIn n’est pas propriétaire des données : ce sont en réalité les membres eux-mêmes. Les utilisateurs qui choisissent un profil public attendent « évidemment » qu’il soit accessible par des tiers.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Laisser à LinkedIn le contrôle sur l’utilisation des données publiques pourrait engendrer un « monopole de l’information » préjudiciable à l’intérêt public.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Le <code>CFAA</code> est inadapté pour ce type de cas.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>HiQ n’a scrapé que des données auxquelles n’importe quel utilisateur a accès, et LinkedIn ne peut pas les leur interdire spécifiquement.</li>
+</ul>
+</div>
+</section>
+<section id="ryanair-v.-opodo-2010" class="slide level2" data-background-size="contain">
+<h2><a href="https://www.legalis.net/jurisprudences/tribunal-de-grande-instance-de-paris-3eme-chambre-2eme-section-jugement-du-09-avril-2010/">Ryanair v. Opodo (2010)</a></h2>
+<h4 data-background-size="contain" id="le-litige-1">Le litige</h4>
+<ul>
+<li><span class="blue2"><strong>Contexte</strong></span> : Opodo scrape (entre autres) les données du site de Ryanair pour les agréger en un comparateur de prix de billets.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Cas</strong></span> : Ryanair attaque Opodo en justice dans plusieurs pays européens, notamment en France, pour non respect des CGU, concurrence déloyale et parasitisme.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Verdict</strong></span> : Différent selon les pays, mais en France Ryanair a été débouté à deux reprises.</li>
+</ul>
+</div>
+</section>
+<section id="ryanair-v.-opodo-2010-1" class="slide level2" data-background-size="contain">
+<h2><span class="orange">Ryanair v. Opodo (2010)</span></h2>
+<h4 data-background-size="contain" id="les-conclusions-1">Les conclusions</h4>
+<p><br></p>
 <p>Le Tribunal de Paris :</p>
+<div class="fragment">
 <ul>
 <li>Rejette l’intégralité des demandes de Ryanair</li>
-<li>Condamne Ryanair à d’importantes amendes pour préjudice</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Condamne Ryanair à d’importantes sommes à Opodo pour préjudice</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Maintient le droit d’Opodo à scraper les données publiques du site de Ryanair</li>
 </ul>
+</div>
 </section>
-<section id="ryanair-v.-pr-aviation-2015---le-litige" class="slide level2" data-background-size="contain">
-<h2><a href="https://prezi.com/po5tmteybziv/ryanair-ltd-v-pr-aviation-bv/">Ryanair v. PR Aviation (2015)</a> - Le litige</h2>
+<section id="ryanair-v.-pr-aviation-2015" class="slide level2" data-background-size="contain">
+<h2><a href="https://prezi.com/po5tmteybziv/ryanair-ltd-v-pr-aviation-bv/">Ryanair v. PR Aviation (2015)</a></h2>
+<h4 data-background-size="contain" id="le-litige-2">Le litige</h4>
+<p><br></p>
 <ul>
-<li><p>Contexte : PR Aviation scrape les données du site de Ryanair (entre autres) pour les agréger en un comparateur de prix de billets</p></li>
-<li><p>Cas : Ryanair attaque PR Aviation en justice aux Pays-Bas pour ne pas avoir respecté les termes contractuels d’utilisation du site et pour infraction aux directives européennes de protection des données</p></li>
+<li><span class="blue2"><strong>Contexte</strong></span> : PR Aviation scrape (entre autres) les données du site de Ryanair pour les agréger en un comparateur de prix de billets.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Cas</strong></span> : Ryanair attaque PR Aviation en justice aux Pays-Bas pour ne pas avoir respecté les termes contractuels d’utilisation du site et pour infraction aux directives européennes de protection des données.</li>
+</ul>
+</div>
 </section>
-<section id="ryanair-v.-pr-aviation-2015---les-conclusions" class="slide level2" data-background-size="contain">
-<h2><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62014CJ0030">Ryanair v. PR Aviation (2015)</a> - Les conclusions</h2>
+<section id="ryanair-v.-pr-aviation-2015-1" class="slide level2 smaller" data-background-size="contain">
+<h2><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62014CJ0030">Ryanair v. PR Aviation (2015)</a></h2>
+<h4 data-background-size="contain" id="les-conclusions-2">Les conclusions</h4>
+<p><br></p>
 <p>Décision préliminaire de la <a href="https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/institutions-and-bodies-profiles/court-justice-european-union-cjeu_en">CJEU</a> :</p>
 <ul>
-<li>La Directive 96/9/EC ne s’applique pas dans ce cas, car les bases de données ne qualifient pas :
+<li>La <code>Directive 96/9/EC</code> ne s’applique pas dans ce cas, car les bases de données ne qualifient pas :
 <ul>
-<li>Pour le droit au copyright</li>
-<li>Pour la protection sui generis</li>
+<li>Pour le droit au <strong>copyright</strong></li>
+<li>Pour la protection <strong>sui generis</strong></li>
 </ul></li>
-<li>Ryanair est autorisé à instaurer des limitations contractuelles sur l’autorisation de son site, tant qu’elles ne contradisent pas le droit national</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>En revanche, Ryanair est <strong>autorisé à instaurer des limitations contractuelles</strong> sur l’utilisation de son site, tant qu’elles ne contradisent pas le droit national
+<ul>
+<li>On notera que pour pouvoir lancer une recherche et visualiser les vols Ryanair disponibles en ligne, il faut explicitement accepter les CGU du site en cliquant sur un bouton</li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="ryanair-v.-expedia-2019" class="slide level2" data-background-size="contain">
 <h2><a href="https://skift.com/2019/09/24/ryanair-and-expedia-settle-screen-scraping-lawsuits-on-2-continents/">Ryanair v. Expedia (2019)</a></h2>
 <ul>
-<li><p>Contexte : Expedia scrape les données du site de Ryanair (entre autres) pour les agréger sur son comparateur en ligne</p></li>
-<li><p>Cas : Ryanair attaque PR Aviation en justice aux Etats-Unis et en Irlande pour ne pas avoir respecté les termes contractuels d’utilisation du site et au nom du CFAA aux Etats-Unis</p></li>
-<li><p>Verdict : Accord “à l’amiable” entre les deux géants, mais les vols de Ryanair n’apparaissent plus sur le site d’Expedia</p></li>
+<li><span class="blue2"><strong>Contexte</strong></span> : Expedia scrape (entre autres) les données du site de Ryanair pour les agréger sur son comparateur en ligne.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Cas</strong></span> : Ryanair attaque PR Aviation en justice aux Etats-Unis et en Irlande pour ne pas avoir respecté les termes contractuels d’utilisation du site et au nom du CFAA aux Etats-Unis.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Verdict</strong></span> : Accord “à l’amiable” entre les deux géants, mais les vols de Ryanair n’apparaissent plus sur le site d’Expedia.</li>
+</ul>
+</div>
+</section>
+<section id="ryanair-v.-kiwi.com-2021" class="slide level2" data-background-size="contain">
+<h2><a href="https://www.expats.cz/czech-news/article/czech-ticket-seller-kiwi-com-wins-dispute-with-ryanair-over-handling-of-passenger-data">Ryanair v. Kiwi.com (2021)</a></h2>
+<h4 data-background-size="contain" id="le-litige-3">Le litige</h4>
+<p><br></p>
+<ul>
+<li><p><span class="blue2"><strong>Contexte</strong></span> : Kiwi.com scrape (entre autres) les données du site de Ryanair pour les agréger sur son comparateur en ligne.</p></li>
+<li><p><span class="blue2"><strong>Cas</strong></span> : Ryanair attaque Kiwi.com en justice en République Tchèque pour ne pas avoir respecté les termes contractuels d’utilisation du site.</p></li>
+<li><p><span class="blue2"><strong>Verdict</strong></span> : Première défaite de Kiwi.com, puis victoire en appel auprès de la Cour Constitutionnelle Tchèque.</p></li>
 </ul>
 </section>
-<section id="ryanair-v.-kiwi.com-2021---le-litige" class="slide level2" data-background-size="contain">
-<h2><a href="https://www.expats.cz/czech-news/article/czech-ticket-seller-kiwi-com-wins-dispute-with-ryanair-over-handling-of-passenger-data">Ryanair v. Kiwi.com (2021)</a> - Le litige</h2>
+<section id="ryanair-v.-kiwi.com-2021-1" class="slide level2 smaller" data-background-size="contain">
+<h2><span class="orange">Ryanair v. Kiwi.com (2021)</span></h2>
+<h4 data-background-size="contain" id="les-conclusions-3">Les conclusions</h4>
+<p><br></p>
 <ul>
-<li><p>Contexte : Kiwi.com scrape les données du site de Ryanair (entre autres) pour les agréger sur son comparateur en ligne</p></li>
-<li><p>Cas : Ryanair attaque Kiwi.com en justice en République Tchèque pour ne pas avoir respecté les termes contractuels d’utilisation du site</p></li>
-<li><p>Verdict : Première défaite de Kiwi.com, puis victoire en appel auprès de la Cour Constitutionnelle Tchèque</p></li>
+<li>La cour régionale de Brno avait imposé à Kiwi.com de se plier aux CGU de Ryanair. Cela impliquait notamment que Kiwi.com devait transmettre à Ryanair plusieurs données personnelles sur ses clients ayant acheté un billet de la compagnie sur la plateforme (dont par exemple leurs coordonnées).</li>
 </ul>
-</section>
-<section id="ryanair-v.-kiwi.com-2021---les-conclusions" class="slide level2" data-background-size="contain">
-<h2>Ryanair v. Kiwi.com (2021) - Les conclusions</h2>
+<div class="fragment">
 <ul>
-<li><p>La cour régionale de Brno avait imposé à Kiwi.com de se plier aux CGU de Ryanair. Cela impliquait notamment que Kiwi.com devait transmettre à Ryanair plusieurs données personnelles sur ses clients ayant acheté un billet de la compagnie sur la plateforme.</p></li>
-<li><p>En cour d’appel, la décision avait été révoquée pour les raisons suivantes :</p>
+<li>En cour d’appel, la décision avait été révoquée pour les raisons suivantes :
 <ul>
 <li>Droit national à la protection judiciaire</li>
 <li>Liberté de conduire son entreprise</li>
 <li>Le procès initial n’aurait pas suffisamment tenu compte du contexte</li>
 </ul></li>
 </ul>
+</div>
 </section>
-<section id="ryanair-v.-lastminute---italie-2019" class="slide level2" data-background-size="contain">
+<section id="ryanair-v.-lastminute---italie-2019" class="slide level2 smaller" data-background-size="contain">
 <h2><a href="https://www.travelmole.com/news/italian-supreme-court-rules-against-ryanair-in-favour-of-lastminute-com-owner/">Ryanair v. Lastminute - Italie (2019)</a></h2>
+<p><br></p>
 <ul>
-<li><p>Contexte : Lastminute scrape les données du site de Ryanair (entre autres) pour les agréger sur son comparateur en ligne.</p></li>
-<li><p>Cas : Ryanair attaque Lastminute en justice en Italie pour ne pas avoir respecté les CGU du site et le droit à la propriété intellectuelle. Ryanair demande également un accès aux données de Lastminute liées aux tickets de la compagnie.</p></li>
-<li><p>Verdict : La cour Suprême prend le parti de Lastminute et n’autorise pas l’aspect contractuel des CGU de Ryanair ni l’accès aux données demandées.</p></li>
+<li><span class="blue2"><strong>Contexte</strong></span> : Lastminute scrape (entre autres) les données du site de Ryanair pour les agréger sur son comparateur en ligne.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Cas</strong></span> :
+<ul>
+<li>Ryanair attaque Lastminute en justice en Italie pour ne pas avoir respecté les CGU du site et le droit à la propriété intellectuelle.</li>
+<li>Ryanair demande également un accès aux données de Lastminute liées aux tickets de la compagnie.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="blue2"><strong>Verdict</strong></span> : La Cour Suprême prend le parti de Lastminute et n’autorise pas l’aspect contractuel des CGU de Ryanair ni l’accès aux données demandées.</li>
+</ul>
+</div>
 </section>
 <section id="ryanair-v.-lastminute---france-2022" class="slide level2" data-background-size="contain">
 <h2><a href="https://www.tourmag.com/Ryanair-la-justice-interdit-a-Lastminute-de-vendre-les-billets-de-la-compagnie-_a114106.html">Ryanair v. Lastminute - France (2022)</a></h2>
 <ul>
-<li><p>Contexte : Lastminute scrape les données du site de Ryanair (entre autres) pour les agréger sur son comparateur en ligne</p></li>
-<li><p>Cas : Ryanair attaque Lastminute en justice en France pour ne pas avoir respecté les termes contractuels d’utilisation du site</p></li>
-<li><p>Verdict : La cour d’appel de Paris prend le parti de Ryanair et ordonne la cessation immédiate des activités de scraping de Lastminute, en plus de lourdes amendes</p></li>
+<li><p><span class="blue2"><strong>Contexte</strong></span> : Lastminute scrape (entre autres) les données du site de Ryanair pour les agréger sur son comparateur en ligne.</p></li>
+<li><p><span class="blue2"><strong>Cas</strong></span> : Ryanair attaque Lastminute en justice en France pour ne pas avoir respecté les termes contractuels d’utilisation du site.</p></li>
+<li><p><span class="blue2"><strong>Verdict</strong></span> : La cour d’appel de Paris prend le parti de Ryanair et ordonne la cessation immédiate des activités de scraping de Lastminute, en plus de lourds dommages et intérêts.</p></li>
 </ul>
 </section>
 <section id="affaire-bluetouff---france-2015" class="slide level2" data-background-size="contain">
-<h2>Affaire “Bluetouff” - France (2015)</h2>
+<h2><span class="orange">Affaire “Bluetouff” - France (2015)</span></h2>
 <ul>
-<li><p><a href="https://www.legifrance.gouv.fr/juri/id/JURITEXT000030635061/">Cour de cassation, Chambre criminelle, 20 mai 2015, 14-81.336</a></p>
+<li><a href="https://www.legifrance.gouv.fr/juri/id/JURITEXT000030635061/">Cour de cassation, Chambre criminelle, 20 mai 2015, 14-81.336</a>
 <ul>
 <li><a href="https://www.securitecloud.com/juridique/laffaire-bluetouff-decryptee-par-un-expert-judiciaire/">Un exemple de décryptage</a></li>
 </ul></li>
-<li><p>Olivier Laurelli, alias Bluetouff, condamné à 3000 euros d’amende pour avoir téléchargé et réutilisé en 2012 (pour diffusion) des données de l’Anses accessibles publiquement sur leur site, là où elles n’auraient pas dû l’être.</p></li>
-<li><p>Bluetoof relaxé par le tribunal de Créteil en 2012 puis condamné auprès de la Cour d’appel de Paris en 2015.</p></li>
+<li>Olivier Laurelli, alias Bluetouff, condamné à 3000 euros d’amende pour avoir téléchargé et réutilisé en 2012 (pour diffusion) des données de l’Anses accessibles publiquement sur leur site, là où elles n’auraient pas dû l’être.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Bluetoof relaxé par le tribunal de Créteil en 2012 puis condamné auprès de la Cour d’appel de Paris en 2015.</li>
+</ul>
+</div>
+</section>
+<section id="leboncoin-v.-entreparticuliers-2021" class="slide level2" data-background-size="contain">
+<h2><a href="https://cms.law/fr/fra/news-information/arret-leboncoin-web-scraping-droit-sui-generis-sur-les-bases-de-donnees">LeBonCoin v. Entreparticuliers (2021)</a></h2>
+<h4 data-background-size="contain" id="le-litige-4">Le litige</h4>
+<ul>
+<li><p><span class="blue2"><strong>Contexte</strong></span> : Entreparticuliers.com scrape quotidiennement les annonces immobilières présentes sur leboncoin.fr afin de les republier sur son propre site</p></li>
+<li><p><span class="blue2"><strong>Cas</strong></span> : LeBonCoin attaque en justice Entreparticuliers.com en France pour non respect du droit <code>sui generis</code> de ses bases de données</p></li>
+<li><p><span class="blue2"><strong>Verdict</strong></span> : Entreparticuliers.com condamné à deux reprises (par le Tribunal puis la Cour d’appel de Paris)</p></li>
+</ul>
+</section>
+<section id="leboncoin-v.-entreparticuliers-2021-1" class="slide level2 smaller" data-background-size="contain">
+<h2><a href="https://www.doctrine.fr/d/CA/Paris/2021/C0E3F30A13EA86EFBEE37">LeBonCoin v. Entreparticuliers (2021)</a></h2>
+<h4 data-background-size="contain" id="les-conclusions-12">Les conclusions (1/2)</h4>
+<ul>
+<li>Accéder au contenu du site LeBonCoin.fr ne nécessite pas d’accepter explicitement les CGU, LeBonCoin n’a donc pas invoqué le côté contractuel de ces dernières mais seulement le droit <code>sui generis</code>.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Pour en bénéficier, LeBonCoin a dû témoigner d’un <em>investissement substantiel</em> dans la constitution, la vérification ou la présentation de ses bases de données.
+<ul>
+<li>En pratique, c’est un point bloquant pour nombre de producteurs de données dans de telles affaires.</li>
+<li>En l’occurrence, il a été prouvé les moyens humains et financiers investis dans ces bases étaient bien substantiels.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Entreparticuliers a donc été condamné à deux reprises :
+<ul>
+<li>Par le tribunal au nom de <em>l’article L.342-1 du Code de la propriété intellectuelle</em></li>
+<li>Par la Cour d’appel au nom de <em>l’article L.342-2 du même Code</em></li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="leboncoin-v.-entreparticuliers-2021-2" class="slide level2 smaller" data-background-size="contain">
+<h2><span class="orange">LeBonCoin v. Entreparticuliers (2021)</span></h2>
+<h4 data-background-size="contain" id="les-conclusions-22">Les conclusions (2/2)</h4>
+<ul>
+<li>La Cour d’appel souligne que le but poursuivi lors du scraping est sans incidence pour caractériser l’atteinte au droit <code>sui generis</code>.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Entreparticuliers.com condamné à verser d’importants dommages et intérêts à leboncoin.fr pour :
+<ul>
+<li><strong>Préjudice financier</strong> : LeBonCoin témoignant d’importants investissements dans la lutte contre le webscraping</li>
+<li><strong>Préjudice d’image</strong> : LeBonCoin démontrait un nombre important de plaintes de ses utilisateurs</li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="dautres-litiges-légaux-en-europe" class="slide level2" data-background-size="contain">
 <h2>D’autres litiges légaux en Europe</h2>
+<p><br></p>
 <ul>
 <li><a href="https://curia.europa.eu/juris/document/document.jsf?docid=145914&amp;doclang=FR">AutoTrack v. GasPedaal</a> (2013 - Pays-Bas)
 <ul>
 <li>Le métamoteur de recherche GasPedaal est interdit de scraper GasPedaal, notamment car les données scrapées sont réutilisées sans modification notoire.</li>
 </ul></li>
-<li>https://cms.law/fr/fra/news-information/arret-leboncoin-web-scraping-droit-sui-generis-sur-les-bases-de-donnees</li>
 </ul>
 </section>
 <section id="dautres-litiges-légaux-aux-etats-unis" class="slide level2" data-background-size="contain">
@@ -1645,35 +1795,73 @@ Gangster
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Craigslist_Inc._v._3Taps_Inc.">Craigslist Inc.&nbsp;v. 3Taps Inc.</a> ( 2013 - Etats-Unis)
 <ul>
-<li>Suite à un accord mutuel, 3Taps et PadMapper ne pourront plus scraper les données de Craiglist et devront lui verser une amende importante.</li>
+<li>Suite à un accord mutuel, 3Taps et PadMapper ne pourront plus scraper les données de Craiglist et devront lui verser une somme importante d’argent.</li>
 <li>Le CFAA a été invoqué par Craiglist et accepté par la Cour suite au blocage des adresses IP des deux entreprises et les multiples mises en demeure envoyées pour cesser les activités de collecte. 3Taps avait continué ses activités de scraping en utilisant un VPN (et PadMapper les leur avait scrapées).</li>
 </ul></li>
 </ul>
 </section>
-<section id="conclusions-des-jurisprudences---en-europe" class="slide level2" data-background-size="contain">
-<h2>Conclusions des jurisprudences - En Europe</h2>
+<section id="conclusions-des-jurisprudences" class="slide level2 smaller" data-background-size="contain">
+<h2>Conclusions des jurisprudences</h2>
+<h4 data-background-size="contain" id="en-europe-12">En Europe (1/2)</h4>
 <ul>
-<li><p>Les CGU d’un site peuvent être contractuelles auprès d’un jury pour interdire toute pratique de webscraping, sauf si mention contraire par les lois nationales (ex : si supériorité du droit à la concurrence).</p></li>
-<li><p>Republier des données scrapées à des fins commerciales sans qu’un travail notable de réutilisation soit fait, et pouvant créer un préjudice pour le site initial, n’est pas autorisé.</p></li>
-<li><p>Un contenu accessible publiquement, mais sans que ce ne soit manifestement un choix du site, ne peut pas forcément être légalement scrapé.</p></li>
+<li>Les CGU d’un site sont contractuelles auprès d’un jury pour interdire toute pratique de webscraping …
+<ul>
+<li>… au moins dès lors qu’elles sont acceptées explicitement (par exemple en appuyant sur un bouton) …</li>
+<li>… sauf si mention contraire par les lois nationales (ex : si supériorité du droit à la concurrence, déjà invoqué en Italie ou en République Tchèque).</li>
+</ul></li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Republier des données scrapées …
+<ul>
+<li>au moins à des fins commerciales</li>
+<li>sans qu’un travail notable de réutilisation soit fait</li>
+<li>pouvant créer un préjudice pour le site initial</li>
+</ul>
+… <strong>n’est pas autorisé</strong>.</li>
+</ul>
+</div>
+</section>
+<section id="conclusions-des-jurisprudences-1" class="slide level2" data-background-size="contain">
+<h2>Conclusions des jurisprudences</h2>
+<h4 data-background-size="contain" id="en-europe-22">En Europe (2/2)</h4>
+<ul>
+<li>Un contenu accessible publiquement, mais sans que ce ne soit manifestement un choix du site, ne peut pas forcément être légalement scrapé.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Le droit <code>sui generis</code> protège les bases de données nécessitant des investissements substantiels par les producteurs, indépendamment de l’intention des scrapeurs.
+<ul>
+<li>En revanche, prouver la qualification à ce droit n’est pas tâche aisée.</li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="conclusions-des-jurisprudences---aux-etats-unis" class="slide level2" data-background-size="contain">
 <h2>Conclusions des jurisprudences - Aux Etats-Unis</h2>
 <ul>
-<li><p>Un site affichant des données publiques dont il n’est pas propriétaire ne peut pas en empêcher le scraping.</p></li>
-<li><p>L’activité de webscraping en elle-même ne viole pas le Computer Fraud and Abuse Act.</p></li>
-<li><p>Lors d’un litige, bloquer l’adresse IP d’un utilisateur et lui adresser une mise en demeure interdisant le scraping du site peuvent éventuellement suffire à invoquer le CFAA pour protéger les bases de données du site.</p></li>
+<li>Un site affichant des données publiques dont il n’est pas propriétaire ne peut pas en empêcher le scraping.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>L’activité de webscraping en elle-même ne viole pas le Computer Fraud and Abuse Act.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Lors d’un litige, bloquer l’adresse IP d’un utilisateur et lui adresser une mise en demeure interdisant le scraping du site peuvent éventuellement suffire à invoquer le CFAA pour protéger les bases de données du site.</li>
+</ul>
+</div>
 </section>
 <section id="et-pour-un-ins-alors" class="slide level2" data-background-size="contain">
 <h2>Et pour un INS alors ?</h2>
+<p><br></p>
 <ul>
 <li>Quid des prérogatives de puissance publique pour recueillir de l’information ?</li>
 </ul>
 </section></section>
 <section>
-<section id="le-scraping-à-linsee" class="title-slide slide level1 center" data-background-size="contain">
+<section id="03_02" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Le scraping à l’INSEE</h1>
 
 </section>
@@ -1708,7 +1896,7 @@ Gangster
 </ul>
 </section></section>
 <section>
-<section id="cas-dusage-à-linsee" class="title-slide slide level1 center" data-background-size="contain">
+<section id="03_03" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Cas d’usage à l’INSEE</h1>
 
 </section>
