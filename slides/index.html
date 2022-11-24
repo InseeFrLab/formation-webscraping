@@ -1230,17 +1230,22 @@ Gangster
 
 <section id="ii.-sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>II. Sommaire</h1>
-<p>Insérer sommaire cliquable</p>
+<p><br></p>
+<p><a href="#/02_01">Présentation des différentes librairies</a></p>
+<p><a href="#/02_02">Partie pratique</a></p>
+<p><a href="#/02_03">Aspects techniques du scraping éthique</a></p>
+<p><a href="#/02_04">Automatisation et industrialisation</a></p>
 </section>
 
 <section>
-<section id="présentation-des-différentes-librairies" class="title-slide slide level1 center" data-background-size="contain">
+<section id="02_01" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Présentation des différentes librairies</h1>
 
 </section>
 <section id="les-librairies-principales-sur-python" class="slide level2" data-background-size="contain">
-<h2>Les <a href="https://www.projectpro.io/article/python-libraries-for-web-scraping/625#mcetoc_1gb5hj7o81i">librairies principales</a> sur Python</h2>
-<p>Plusieurs librairies permettent de faire du scraping en Python. Les principales sont :</p>
+<h2>Les <a href="https://www.projectpro.io/article/python-libraries-for-web-scraping/625#mcetoc_1gb5hj7o81i">librairies principales</a> sur <code>Python</code></h2>
+<p><br></p>
+<p>Plusieurs librairies permettent de faire du scraping en <code>Python</code>. Les principales sont :</p>
 <ul>
 <li><a href="https://requests.readthedocs.io/en/latest/">Requests</a></li>
 <li><a href="https://docs.python.org/fr/3/library/urllib.html">Urllib</a></li>
@@ -1252,19 +1257,20 @@ Gangster
 <section id="extraire-les-codes-sources-html" class="slide level2" data-background-size="contain">
 <h2>Extraire les codes sources HTML</h2>
 <h4 data-background-size="contain" id="requests-et-urllib"><code>Requests</code> et <code>Urllib</code></h4>
+<p><br></p>
 <ul>
 <li>Rôle :
 <ul>
-<li>Créer des requêtes HTTP pour récupérer le contenu des pages web</li>
+<li>Créer des requêtes <code>HTTP</code> pour récupérer le contenu des pages web</li>
 <li>Des headers peuvent être ajoutés aux requêtes pour s’identifier auprès du site</li>
 </ul></li>
-<li>Requests un peu plus simpliste que Urllib</li>
+<li><code>Requests</code> un peu plus simpliste que <code>Urllib</code></li>
 </ul>
 </section>
 <section id="analyser-les-codes-html-beautifulsoup" class="slide level2" data-background-size="contain">
-<h2>Analyser les codes HTML : BeautifulSoup</h2>
+<h2>Analyser les codes <em>HTML</em> : <code>BeautifulSoup</code></h2>
 <ul>
-<li>Permet de formater des documents HTML ou XML en une structure arborescente</li>
+<li>Permet de formater des documents <code>HTML</code> ou <code>XML</code> en une structure arborescente</li>
 <li>Permet ensuite de naviguer dans la structure pour scraper le contenu désiré</li>
 <li>Très intuitif à utiliser</li>
 </ul>
@@ -1274,26 +1280,28 @@ Gangster
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip With Caption</strong></p>
+<p><strong>Remarque</strong></p>
 </div>
 <div class="callout-content">
-<p>La librairie est sous le nom <code>bs4</code></p>
+<p>La librairie se trouve généralement sous le nom de <code>bs4</code>.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="interagir-avec-une-page-selenium" class="slide level2" data-background-size="contain">
-<h2>Interagir avec une page : Selenium</h2>
+<h2>Interagir avec une page : <code>Selenium</code></h2>
+<p><br></p>
 <ul>
-<li>Les librairies précédentes ne permettent pas d’interagir avec une page utilisant Javascript
+<li>Les librairies précédentes ne permettent pas d’interagir avec une page utilisant <code>Javascript</code>
 <ul>
 <li>Ex: Appuyer sur un bouton, rentrer ses identifiants, …</li>
 </ul></li>
-<li>Selenium permet de simuler un navigateur (<a href="https://en.wikipedia.org/wiki/Headless_browser">headless browser</a>) puis d’interagir avec les éléments Javascript du site “comme un utilisateur”</li>
+<li><code>Selenium</code> permet de simuler un navigateur (aussi appelé <a href="https://en.wikipedia.org/wiki/Headless_browser">headless browser</a>) puis d’interagir avec les éléments <code>Javascript</code> du site “comme un utilisateur”</li>
 </ul>
 </section>
 <section id="un-outil-plus-complet-scrapy" class="slide level2" data-background-size="contain">
-<h2>Un outil plus complet : Scrapy</h2>
+<h2>Un outil plus complet : <code>Scrapy</code></h2>
+<p><br></p>
 <ul>
 <li>Un outil plus complet mais aussi plus complexe</li>
 <li>Très utile pour les opérations de webcrawling</li>
@@ -1302,28 +1310,38 @@ Gangster
 </ul>
 </section>
 <section id="quelques-librairies-sur-r" class="slide level2" data-background-size="contain">
-<h2>Quelques librairies sur R</h2>
+<h2>Quelques librairies sur <code>R</code></h2>
+<p><br></p>
 <ul>
 <li><a href="https://cran.r-project.org/web/packages/polite/index.html">polite</a>
 <ul>
 <li>Particulièrement orienté scraping éthique</li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li><a href="https://thinkr.fr/rvest/">rvest</a>
 <ul>
 <li>Librairie la plus utilisée et donc documentée</li>
 </ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>D’autres librairies : <a href="https://cran.r-project.org/web/packages/Rcrawler/Rcrawler.pdf">RCrawler</a>, <a href="https://cran.r-project.org/web/packages/RSelenium/index.html">RSelenium</a></li>
 </ul>
+</div>
 </section>
 <section id="quelques-librairies-en-java" class="slide level2" data-background-size="contain">
-<h2>Quelques librairies en Java</h2>
+<h2>Quelques librairies en <code>Java</code></h2>
+<p><br></p>
 <ul>
-<li><p>Java est également beaucoup utilisé dans le domaine du webscraping</p></li>
+<li><p><code>Java</code> est également beaucoup utilisé dans le domaine du webscraping</p></li>
 <li><p>Documentation extensive disponible sur Internet</p></li>
 </ul>
 </section></section>
 <section>
-<section id="partie-pratique" class="title-slide slide level1 center" data-background-size="contain">
+<section id="02_02" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Partie pratique</h1>
 
 </section>
@@ -1340,7 +1358,7 @@ Gangster
 <p>https://pythonds.linogaliana.fr/webscraping/</p>
 </section></section>
 <section>
-<section id="aspects-techniques-du-scraping-éthique" class="title-slide slide level1 center" data-background-size="contain">
+<section id="02_03" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Aspects techniques du scraping éthique</h1>
 
 </section>
@@ -1377,7 +1395,7 @@ Gangster
 </ul>
 </section></section>
 <section>
-<section id="automatisation-et-industrialisation" class="title-slide slide level1 center" data-background-size="contain">
+<section id="02_04" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Automatisation et industrialisation</h1>
 
 </section>

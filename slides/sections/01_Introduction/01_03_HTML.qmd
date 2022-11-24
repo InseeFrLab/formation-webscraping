@@ -143,5 +143,5 @@ Deux ressources-clés :
 . . .
 
 - Afin de justement naviguer dans une page `HTML` ou `XML`, on fait appel à un langage d'expressions appelé `XPath`.
-   - Ce sont des expressions `XPath` qui seront utilisées en appel des fonctions.
-   - `XPath` permet ainsi de se déplacer de noeud en noeud dans la structure arborescente d'une page.
+   + Ce sont des expressions `XPath` qui seront utilisées en appel des fonctions.
+   + `XPath` permet ainsi de se déplacer de noeud en noeud dans la structure arborescente d'une page.
