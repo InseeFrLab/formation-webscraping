@@ -1,35 +1,63 @@
-## Les guidelines du SSE
+## Les guidelines du `SSE` {.smaller}
 
-#### s'identifier
+#### S'identifier
 
-- S'identifier via le champ ["user-agent"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent), l'un des headers renseignables lors d'une requête HTTP
+- S'identifier via le champ ["user-agent"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent), l'un des headers renseignables lors d'une requête `HTTP`
 
-- Un autre champ parmi les headers possible : "from"
+- Un autre champ parmi les headers possible : `from`
+
+. . .
 
 - Renseigner son nom, entité, coordonnées
 
 - On peut aussi inclure l'url contenant les informations liées à la collecte ou une explication sur les données prélevées
 
-Mettre box 
-Exemple en python avec param user-agent dans request
+. . .
 
-## Les guidelines du SSE : suivre les conventions
+::: {.callout-tip}
+## Exemple avec `Python` et `requests`
+
+```{python}
+#| echo: true
+#| eval: false
+
+url = 'abc.com'
+
+headers = {
+    'User-Agent': 'Antoine Palazzolo - antoine.palazzolo@insee.fr - INSEE - Collect xxx in order to do yyy',
+    'From': 'More information on insee.fr/zzz'
+}
+
+request_text = requests.get(url, headers=headers).text
+```
+:::
+
+## Les guidelines du `SSE` {.smaller}
+
+#### Suivre les conventions
 
 - Il existe plusieurs conventions liées à l'utilisation d'Internet et du scraping qu'il faut tâcher de respecter.
 
-- On citera le [Word Wide Web Consurtium](https://www.w3.org/TR/dwbp/) (W3C), notamment sur les protocoles de transfert hypertexte.
+- On citera le [Word Wide Web Consurtium](https://www.w3.org/TR/dwbp/) (`W3C`), notamment sur les protocoles de transfert hypertexte.
+
+. . .
 
 - Essentiel pour le scraping, il est vivement recommandé de se plier au [protocole d'exclusion des robots](https://en.wikipedia.org/wiki/Robots_exclusion_standard).
-    - En tapant la racine de l'url suivi de '/robots.txt', on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.
-    - Exemple: XXXXXX
-    - Les crawlers peuvent lire ces fichiers et s'y plier d'eux-mêmes (cf [IBM](https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol)).
+    + En tapant la racine de l'url suivi de '/robots.txt', on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.
+    + Exemple: [https://fr.wikipedia.org/__robots.txt__]{.orange}
+    + Les crawlers peuvent lire ces fichiers et s'y plier d'eux-mêmes (cf [IBM](https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol)).
 
 
 ## Contourner les défenses des sites
 
+<br>
+
 Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 
-- Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (`time.sleep()` en `Python` <i class="fa-brands fa-python"></i>)
+. . .
+
+- Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (`time.sleep()` en `Python`)
+
+. . .
 
 - Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer
-

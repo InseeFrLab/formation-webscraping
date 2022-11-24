@@ -1,23 +1,32 @@
 ## Pré-requis
 
+<br>
+
 - Accès Internet au sein de l'INS avec un proxy bien configuré si existant
+
+. . .
 
 - Les sites scrapés doivent être dans l'allow-list et ne doivent pas avoir déjà bloqué l'adresse IP
 
 
 ## Automatiser et industrialiser les processus de scraping
 
-- En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièremen, blocage des adresses IP),
-    - Minimiser les interactions humaines est quasiment impossible
-    - Industrialiser les processus nécessite des révisions régulières
+- En raison des efforts des sites contre le scraping (ex : format des sites changeant régulièrement, blocage des adresses IP),
+    + Limiter les interactions humaines est quasiment impossible
+    + Industrialiser les processus nécessite des révisions régulières
 
-- Automatiser les méthodes peut reposer sur un cronjob ou autre orchestrateur
+. . .
+
+- Automatiser les méthodes peut reposer sur un [cronjob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) ou autre orchestrateur
 
 
 ## Stocker les données
 
-- En général, les données brutes (ex : les pages web) sont stockées dans une base NoSQL et sont traitées ensuite.
+- En général, les données brutes (ex : les pages web) sont stockées dans une base `NoSQL` et sont traitées ensuite.
+    - Les code `HTML` peuvent par exemple être stockés dans une base `MongoDB`.
 
-- Problème méthodologique courant : différencier le stock du flux.
-    - La page web que je viens de scraper est-elle nouvelle ou est-ce la même que celle d’hier ?
-    - Enjeux de déduplication
+. . .
+
+- Problèmes méthodologiques courants :
+    - __Différencier le stock du flux__ : la page web que je viens de scraper est-elle nouvelle ou est-ce la même que celle d’hier ?
+    - __Dédoublonner le contenu__ lorsque par exemple le scraping se fait sur plusieurs sites dont le contenu peut s'intersecter.
