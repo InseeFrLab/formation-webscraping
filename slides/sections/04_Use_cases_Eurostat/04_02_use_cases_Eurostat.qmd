@@ -1,58 +1,110 @@
-## Le work package 2 du WIN
+## Le work package 2 du `WIN` {.smaller}
 
 - Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
-    - [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (OJA) / Online Job Vacancies (OJV)
-    - [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (OBEC)
+    + [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (`OJA`)
+        - Aussi appelé Online Job Vacancies (`OJV`)
+    - [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (`OBEC`)
+
+. . .
 
 - Les deux projets faisaient également partie du '[Implementation Track](https://ec.europa.eu/eurostat/cros/content/implementation-track-0_en)' de l'ESSnet Big Data II.
-    - Au sein du même track, on pourra aussi citer le projet '[Process and architecture](https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en)', qui a donné naissance au [BREAL](https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en). Cela représente désormais le work package 4 du WIN. Tous les rapports disponibles [ici](https://ec.europa.eu/eurostat/cros/content/wpf-milestones-and-deliverables_en).
+
+. . .
+
+::: {.callout-tip}
+## BREAL: Big data REference Architecture and Layers
+
+- Au sein du même track, on pourra aussi citer le projet '[Process and architecture](https://ec.europa.eu/eurostat/cros/content/WPF_Process_and_architecture_en)', qui a donné naissance au [BREAL](https://ec.europa.eu/eurostat/cros/content/wpf-deliverable-f2-breal-big-data-reference-architecture-and-layers-application-layer-and-information-layer-31-03-2021-finalpdf_en).
+
+- Cela représente désormais le work package 4 du WIN. Tous les rapports disponibles [ici](https://ec.europa.eu/eurostat/cros/content/wpf-milestones-and-deliverables_en).
+:::
 
 
-## Online Job Advertisements - Contexte
+## Online Job Advertisements {.smaller}
+
+#### Contexte
+
+<br>
 
 - Besoin de statistiques sur les offres d'emploi les plus à jour possible pour adapter les politiques d'emploi et d'éducation
 
+. . .
+
 - Les offres d'emploi étant de plus en plus en ligne, collecter ces données sur Internet devient particulièrement intéressant
 
+. . .
+
 - Les collectes de données traditionelles sur les offres d'emploi sont assez peu efficaces
+
+. . .
 
 - Le webscraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles
 
 
-## OJA - Avantages du webscraping
+## Online Job Advertisements
+
+#### Avantages du webscraping
+
+<br>
 
 - Possibilité de passer de données trimestrielles à des données journalières
 
-- Sur les sites d'offres, celles-ci sont souvent déjà découpées par secteur, région, niveau d'éducation, ...
+. . .
+
+- Sur les sites d'offres, celles-ci sont souvent déjà découpées par secteur, région, niveau d'éducation...
+
+. . .
 
 - Réduire le fardeau de réponse des entreprises
 
 
-## OJA - Quelques challenges (1/2)
+## Online Job Advertisements
+
+#### Quelques challenges (1/2)
 
 - Bien définir l'étude, par exemple restreindre aux secteurs avec une offre en grande partie en ligne
 
+. . .
+
 - Dédoublonner les offres présentes sur plusieurs plateformes (ex : les champs différant légèrement d'un site à l'autre à offre égale)
 
+. . .
+
 - Traiter à la fois des données structurées et non structurées (selon les sites)
+
+. . .
 
 - Savoir travailler avec les différents niveaux de détail ou unités de mesure qu'offre chaque site
 
 
-## OJA - Quelques challenges (2/2)
+## Online Job Advertisements
+
+#### Quelques challenges (2/2)
 
 - Gérer la qualité parfois assez basse des données et les erreurs de scraping qui pourraient ressortir
 
+. . .
+
 - Bien respecter les règles en vigueur pour chaque site et pays au sujet du webscraping
+
+. . .
 
 - Gérer l'aspect temporel : comparer les données du jour A à celles collectées la veille ou évaluer la durée de validité des offres
 
-- Gérer l'aspect "proxy" des donnés OJA et le fait qu'il manque beaucoup d'offres non publiées en ligne (biais de sélection)
+. . .
+
+- Gérer l'aspect "proxy" des donnés `OJA` et le fait qu'il manque beaucoup d'offres non publiées en ligne
 
 
-## OJA - Méthodes utilisées
+## Online Job Advertisements
+
+#### Méthodes utilisées
+
+<br>
 
 - Scraping de nombreux sites d'offre d'emploi
+
+. . .
 
 - Méthodes poussées de NLP :
     - Détection de langue
@@ -61,73 +113,112 @@
     - Classification par Machine Learning
 
 
-## OJA - Conclusions
+## Online Job Advertisements
+
+#### Conclusions
+
+<br>
 
 - En France, la [DARES](https://dares.travail-emploi.gouv.fr/) participe à ce travail.
+
+. . .
 
 - Projet encore en cours, mais résultats très encourageants
     - Les rapports publiés : [ici](https://ec.europa.eu/eurostat/cros/content/wpb-milestones-and-deliverables-0_en)
     - Détails méthodologiques : [ici](https://ec.europa.eu/eurostat/cros/sites/default/files/ESSNet_II_WPB_OJV_Methodological_framework_V2.pdf)
 
 
-## [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Overview_en#Milestones_and_deliverables) - Le principe
+## [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Overview_en#Milestones_and_deliverables)
+
+#### Le principe
 
 - "The aim of WPC is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers."
+
+. . .
 
 - Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.
 
 
-## OBEC - Tâche 1 : Politique de webscraping
+## Les différents étapes d'OBEC
+
+#### 1- Politique de webscraping
+
+<br>
 
 - Le projet impliquant le scraping de nombreux sites dans plusieurs pays, il y a un fort besoin de transparence.
 
-- Outre la visibilité du projet, le RGPD ajoute un certain nombres de contraintes.
+. . .
+
+- Outre la visibilité du projet, le `RGPD` ajoute un certain nombres de contraintes.
+
+. . .
 
 - Une [politique sur l'usage du webscraping](https://ec.europa.eu/eurostat/cros/system/files/wpc_deliverable_c1_ess_web-scraping_policy_template_2019_07_15.pdf) pour le projet a donc été rédigée et diffusée.
 
 
-## OBEC - Tâche 2 : [Cadre méthodologique](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C6_Reference_Methodological_Framework_v2.0.pdf)
+## Les différents étapes d'OBEC
+
+#### 2- [Cadre méthodologique](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C6_Reference_Methodological_Framework_v2.0.pdf)
+
+<br>
 
 - Cadrer le design du projet :
     - Représentation de données, process et méthodes, ...
 
+. . .
+
 - Cadrer la phase de déploiement :
     - Infrastructure, étapes de data processing, ...
+
+. . .
 
 - Réfléchir le cycle de vie du projet en fonction du [GSBPM](https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf)
 
 
-## OBEC - Tâche 3 : Expérimentations
+## Les différents étapes d'OBEC
 
-- Production de statistiques expérimentales en utilisant les méthodes d'OBEC :
+#### 3- Expérimentations
+
+- Production de statistiques expérimentales en utilisant les méthodes d'`OBEC` :
     - Collecte d'URL, présence sur les réseaux sociaux, activité en ligne, e-commerce, ...
 
+. . .
+
 - 7 pays volontaires, les rapports et résultats [ici](https://ec.europa.eu/eurostat/cros/content/wpc-experimental-statistics_en)
-    - Les résultats obtenus sont une vitrine d'OBEC mais ne peuvent pas encore être considérés comme des statistiques officielles
+    - Les résultats obtenus sont une vitrine d'`OBEC` mais ne peuvent pas encore être considérés comme des statistiques officielles
 
 
-## OBEC - Tâche 4 : Starter Kits
+## Les différents étapes d'OBEC
+
+#### 4- Starter Kits
+
+<br>
 
 - Afin que chaque INS puisse mettre en application les méthodes mises en place lors du projet, un starting kit est disponible en open source.
 
 - Le [deliverable](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C7_Starter_kit_for_NSIs_V.2.pdf) associé au starting kit
 
-- Le [repository](https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit) sur Github
+- Le [repository](https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit) sur `Github`
 
 
-## OBEC - Tâche 5 : Evaluation de la qualité des résultats
+## Les différents étapes d'OBEC
+
+#### 5- Evaluation de la qualité des résultats
 
 - S'assurer de la qualité des résultats pour passer de la phase expérimentale à la mise en production par les INS
+
+. . .
 
 - Mise en place d'un [template](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf) de suivi de la qualité des résultats
     - Principalement issu de l'"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"
 
-- Derniers documents publiés en Novembre 2020, travail poursuivi aujourd'hui avec le WIN
+. . .
+
+- Derniers documents publiés en Novembre 2020, travail poursuivi aujourd'hui avec le `WIN`
 
 
-## Quelques leçons tirées du scraping pour OBEC
+## Quelques leçons tirées du scraping pour OBEC {.smaller}
 
-```{html}
 <table>
    <tr>
       <th>Problème rencontré</th>
@@ -139,15 +230,18 @@
    </tr>
    <tr>
       <td>Le robots.txt interdit le scraping de tout contenu</td>
-      <td>Notifier le site en amont de la collecte</td>
+      <td>Notifier le site plus en amont de la collecte</td>
    </tr>
     <tr>
       <td>Site temporairement indisponible</td>
-      <td>Essayer de scraper le site à des jours et heures différents</td>
+      <td>Essayer de scraper le site à des moments différents</td>
    </tr>
     <tr>
-      <td>Pas d'horodatage </td>
-      <td>Essayer de scraper le site à des jours et heures différents</td>
+      <td>Pas d'horodatage sur le site</td>
+      <td>Scraper le site régulièrement et comparer les sorties</td>
+   </tr>
+    <tr>
+      <td>Informations extraites du site insuffisantes</td>
+      <td>Le site a pu évoluer : revoir le code du scraping</td>
    </tr>
 </table>
-```
