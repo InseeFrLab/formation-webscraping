@@ -1,13 +1,28 @@
 ## Une plateforme de travail : Onyxia et le SSP Cloud
 
+<br>
+
 Insérer courte présentation SSP Cloud + Onyxia
 
 
 ## Comment utiliser le SSP Cloud ?
+
+<br>
 
 Insérer rapides explications utilisation
 
 
 ## Mise en pratique : se familiariser à BeautifulSoup et Selenium
 
-https://pythonds.linogaliana.fr/webscraping/
+- Une mise en pratique créée à destination des étudiants de Master de l'[ENSAE Paris](https://www.ensae.fr/)
+    + Incluant notamment les Administrateurs de l'INSEE en formation
+
+- Le lien pour accéder au TP de webscraping [ici](https://pythonds.linogaliana.fr/webscraping/)
+
+::: {.callout-tip}
+## Pour aller plus loin
+
+- Un [site](https://pythonds.linogaliana.fr/course/) dédié à l'utilisation de Python pour la data science
+
+- Créé et entretenu par [Lino Galiana](https://github.com/linogaliana/), data scientist à l'INSEE
+:::
