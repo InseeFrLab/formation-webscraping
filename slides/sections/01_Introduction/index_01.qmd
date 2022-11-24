@@ -6,7 +6,7 @@
 
 [Risques juridiques et scraping éthique](#01_02)
 
-[Rappels sur HTML](#01_03)
+[Rappels sur _HTML_](#01_03)
 
 
 # Présentation générale et usages courants {#01_01}
@@ -19,6 +19,6 @@
 {{< include 01_02_juridique.qmd >}}
 
 
-# Rappels sur HTML {#01_03}
+# Rappels sur `HTML` {#01_03}
 
 {{< include 01_03_HTML.qmd >}}

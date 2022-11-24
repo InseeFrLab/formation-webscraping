@@ -417,7 +417,7 @@
 <p><br></p>
 <p><a href="#/01_01">Présentation générale et usages courants</a></p>
 <p><a href="#/01_02">Risques juridiques et scraping éthique</a></p>
-<p><a href="#/01_03">Rappels sur HTML</a></p>
+<p><a href="#/01_03">Rappels sur <em>HTML</em></a></p>
 </section>
 
 <section>
@@ -1001,15 +1001,15 @@
 </section></section>
 <section>
 <section id="01_03" class="title-slide slide level1 center" data-background-size="contain">
-<h1>Rappels sur HTML</h1>
+<h1>Rappels sur <code>HTML</code></h1>
 
 </section>
 <section id="comprendre-la-nature-dune-page-web" class="slide level2 smaller" data-background-size="contain">
-<h2><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web">Comprendre la nature d’une page web</a></h2>
+<h2>Comprendre la nature d’une page web</h2>
 <ul>
-<li>Un site Internet est constitué de diverses pages Web.
+<li>Un site Internet est constitué de diverses <strong>pages Web</strong>.
 <ul>
-<li>Celles-ci sont le produit de fichiers appelés codes source des pages.</li>
+<li>Celles-ci sont le produit de fichiers appelés <strong>codes source</strong> des pages.</li>
 </ul></li>
 </ul>
 <div class="fragment">
@@ -1017,22 +1017,25 @@
 <li>Les 3 langages principaux pour les coder sont :
 <ul>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML">HTML</a> : pour composer la structure des pages via un système de balises</li>
-<li><a href="https://developer.mozilla.org/fr/docs/Web/CSS">CSS</a> : des feuilles de style pour décrire la présentation de pages HTML</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/CSS">CSS</a> : des feuilles de style pour décrire la présentation de pages <code>HTML</code></li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">Javascript</a> : pour tout ce qui est relatif à l’interactivité d’un site (ex : boutons)</li>
 </ul></li>
 </ul>
+</div>
+<div class="fragment">
 <div class="callout callout-tip callout-captioned callout-style-default">
 <div class="callout-body">
 <div class="callout-caption">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip With Caption</strong></p>
+<p><strong>Pour en apprendre plus</strong></p>
 </div>
 <div class="callout-content">
+<p>Deux ressources-clés :</p>
 <ul>
-<li>W3C</li>
-<li>Mozilla doc</li>
+<li><a href="https://www.w3.org/">W3C</a> : World Wide Web Consortium</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web">MDN Web Docs</a> : Mozilla Developer Network</li>
 </ul>
 </div>
 </div>
@@ -1041,20 +1044,25 @@
 </section>
 <section id="inspecter-une-page-web" class="slide level2" data-background-size="contain">
 <h2>Inspecter une page web</h2>
+<p><br></p>
 <ul>
-<li><p>Il est possible d’afficher le code source des pages Web, parmi lequel les scrapeurs doivent naviguer.</p></li>
-<li><p><code>Clic droit</code> sur la page puis</p>
+<li>Il est possible d’afficher le <strong>code source</strong> des pages Web, au sein duquel les scrapeurs doivent naviguer.</li>
+</ul>
+<p><br></p>
+<ul>
+<li><code>Clic droit</code> sur la page puis
 <ul>
 <li><em>“Inspecter l’élément”</em> pour observer un endroit spécifique de la page</li>
 <li><em>“Afficher le code source de la page”</em> pour afficher le code de toute la page</li>
 </ul></li>
 </ul>
 </section>
-<section id="hiérarchisation-dune-page-web" class="slide level2" data-background-size="contain">
+<section id="hiérarchisation-dune-page-web" class="slide level2 smaller" data-background-size="contain">
 <h2>Hiérarchisation d’une page web</h2>
-<h4 data-background-size="contain" id="les-balises-html">Les balises HTML</h4>
+<h4 data-background-size="contain" id="les-balises-html">Les balises <code>HTML</code></h4>
+<p><br></p>
 <ul>
-<li>Sur une page web, vous trouverez à coup sûr des éléments comme <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, etc. Il s’agit des codes qui vous permettent de structurer le contenu d’une page <em>HTML</em> et qui s’appellent des <strong>balises</strong>.
+<li>Sur une page web, vous trouverez à coup sûr des éléments comme <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, etc. Il s’agit des codes qui vous permettent de structurer le contenu d’une page <code>HTML</code> et qui s’appellent des <strong>balises</strong>.
 <ul>
 <li>Par exemple, les balises <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;strong&gt;</code> ou <code>&lt;em&gt;</code>.</li>
 </ul></li>
@@ -1072,6 +1080,7 @@
 </section>
 <section id="exemple-les-balises-de-tableau" class="slide level2" data-background-size="contain">
 <h2>Exemple : les balises de tableau</h2>
+<p><br></p>
 <table>
 <thead>
 <tr class="header">
@@ -1115,8 +1124,9 @@
 </tbody>
 </table>
 </section>
-<section id="un-exemple-le-code-html" class="slide level2" data-background-size="contain">
-<h2>Un exemple : le code <em>HTML</em></h2>
+<section id="un-exemple-un-tableau-html" class="slide level2" data-background-size="contain">
+<h2>Un exemple : un tableau <code>HTML</code></h2>
+<p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {html} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>&lt;table&gt;</span>
 <span id="cb1-2"><a href="#cb1-2"></a>&lt;caption&gt; Le Titre de mon tableau &lt;/caption&gt;</span>
 <span id="cb1-3"><a href="#cb1-3"></a>   &lt;tr&gt;</span>
@@ -1136,8 +1146,9 @@
 <span id="cb1-17"><a href="#cb1-17"></a>   &lt;/tr&gt;</span>
 <span id="cb1-18"><a href="#cb1-18"></a>&lt;/table&gt;</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="un-exemple-le-code-html-1" class="slide level2" data-background-size="contain">
-<h2>Un exemple : le code <em>HTML</em></h2>
+<section id="un-exemple-un-tableau-html-1" class="slide level2" data-background-size="contain">
+<h2>Un exemple : un tableau <code>HTML</code></h2>
+<p><br></p>
 
 <table>
 <caption>
@@ -1181,22 +1192,36 @@ Gangster
 </section>
 <section id="scraping-dune-page-web" class="slide level2" data-background-size="contain">
 <h2>Scraping d’une page web</h2>
+<p><br></p>
 <ul>
-<li><p>Le webscraping consiste à naviguer parmi ces balises <em>HTML</em> pour extraire le contenu désiré (textes, tableaux, images, …).</p></li>
-<li><p>Il est aussi possible de récupérer d’autres url sur une page pour s’y rendre et les scraper ensuite.</p></li>
-<li><p>Dans certains cas plus complexes, lire le contenu <em>HTML</em> ne suffit pas, + Par exemple s’il faut cliquer sur des boutons pour faire apparaître le contenu désiré.</p></li>
+<li>Le webscraping consiste à naviguer parmi ces balises <code>HTML</code> pour extraire le contenu désiré (textes, tableaux, images, …).</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Il est aussi possible de récupérer d’autres url sur une page pour s’y rendre et les scraper ensuite.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Dans certains cas plus complexes, lire le contenu <code>HTML</code> ne suffit pas, + Par exemple s’il faut cliquer sur des boutons pour faire apparaître le contenu désiré.</li>
+</ul>
+</div>
 </section>
 <section id="xpath" class="slide level2" data-background-size="contain">
 <h2><a href="https://librarycarpentry.org/lc-webscraping/02-xpath/index.html">XPath</a></h2>
+<p><br></p>
 <ul>
-<li><p>Une page web peut aussi se présenter sous le format XML, proche du HTML.</p></li>
-<li><p>Afin de justement naviguer dans une page HTML ou XML, on fait appel à un langage d’expressions appelé XPath.</p>
+<li>Une page web peut aussi se présenter sous le format <code>XML</code>, proche du <code>HTML</code>.</li>
+</ul>
+<div class="fragment">
 <ul>
-<li>Ce sont des expressions XPath qui seront utilisées en appel des fonctions.</li>
-<li>XPath permet ainsi de se déplacer de noeud en noeud dans la structure arborescente d’une page.</li>
+<li>Afin de justement naviguer dans une page <code>HTML</code> ou <code>XML</code>, on fait appel à un langage d’expressions appelé <code>XPath</code>.
+<ul>
+<li>Ce sont des expressions <code>XPath</code> qui seront utilisées en appel des fonctions.</li>
+<li><code>XPath</code> permet ainsi de se déplacer de noeud en noeud dans la structure arborescente d’une page.</li>
 </ul></li>
 </ul>
+</div>
 </section></section>
 <section id="index_02" class="title-slide slide level1 center" data-background-size="contain">
 <h1>II. Mise en pratique</h1>
