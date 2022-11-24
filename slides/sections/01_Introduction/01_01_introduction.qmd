@@ -129,7 +129,7 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 
 <br>
 
-- Scraper divers sites de ventes afin d'obtenir des données de prix pour le __calcul de l'indice des prix à la consommation__ (IPC)
+- Scraper divers sites de ventes afin d'obtenir des données de prix pour le __calcul de l'indice des prix à la consommation__ (`IPC`)
 
 . . .
 

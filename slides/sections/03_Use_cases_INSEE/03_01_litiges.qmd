@@ -114,6 +114,8 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 - [AutoTrack v. GasPedaal](https://curia.europa.eu/juris/document/document.jsf?docid=145914&doclang=FR) (2013 - Pays-Bas)
     - Le métamoteur de recherche GasPedaal est interdit de scraper GasPedaal, notamment car les données scrapées sont réutilisées sans modification notoire.
 
+- https://cms.law/fr/fra/news-information/arret-leboncoin-web-scraping-droit-sui-generis-sur-les-bases-de-donnees
+
 
 ## D'autres litiges légaux aux Etats-Unis
 
