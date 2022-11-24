@@ -25,29 +25,39 @@ ascii: true
 
 # Sommaire
 
-Insérer sommaire cliquable
+<br>
+
+[I. Introduction au webscraping](#index_01)
+
+[II. Mise en pratique](#index_02)
+
+[III. Divers cas d'usage](#index_03)
+
+[IV. D'autres organisations adeptes de scraping](#index_04)
+
+[V. Conclusion](#index_05)
 
 
-# I. Introduction au webscraping
+# I. Introduction au webscraping {#index_01}
 
 {{< include sections/01_Introduction/index_01.qmd >}}
 
 
-# II. Mise en pratique
+# II. Mise en pratique {#index_02}
 
 {{< include sections/02_TP/index_02.qmd >}}
 
 
-# III. Divers cas d'usage
+# III. Divers cas d'usage {#index_03}
 
 {{< include sections/03_Use_cases_INSEE/index_03.qmd >}}
 
 
-# IV. D'autres organisations adeptes de scraping
+# IV. D'autres organisations adeptes de scraping {#index_04}
 
 {{< include sections/04_Use_cases_Eurostat/index_04.qmd >}}
 
 
-# V. Conclusion
+# V. Conclusion {#index_05}
 
 {{< include sections/05_Conclusion.qmd >}}

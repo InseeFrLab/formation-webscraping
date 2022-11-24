@@ -399,23 +399,29 @@
 
 <section id="sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Sommaire</h1>
-<p>Insérer sommaire cliquable</p>
+<p><br></p>
+<p><a href="#/index_01">I. Introduction au webscraping</a></p>
+<p><a href="#/index_02">II. Mise en pratique</a></p>
+<p><a href="#/index_03">III. Divers cas d’usage</a></p>
+<p><a href="#/index_04">IV. D’autres organisations adeptes de scraping</a></p>
+<p><a href="#/index_05">V. Conclusion</a></p>
 </section>
 
-<section id="i.-introduction-au-webscraping" class="title-slide slide level1 center" data-background-size="contain">
+<section id="index_01" class="title-slide slide level1 center" data-background-size="contain">
 <h1>I. Introduction au webscraping</h1>
 
 </section>
 
 <section id="i.-sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>I. Sommaire</h1>
-<ol type="1">
-<li><a href="#/presentation-generale">Présentation générale</a></li>
-</ol>
+<p><br></p>
+<p><a href="#/01_01">Présentation générale et usages courants</a></p>
+<p><a href="#/01_02">Risques juridiques et scraping éthique</a></p>
+<p><a href="#/01_03">Rappels sur HTML</a></p>
 </section>
 
 <section>
-<section id="presentation-generale" class="title-slide slide level1 center" data-background-size="contain">
+<section id="01_01" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Présentation générale et usages courants</h1>
 
 </section>
@@ -423,7 +429,7 @@
 <h2>Qu’est-ce que le <a href="https://librarycarpentry.org/lc-webscraping/01-introduction/index.html">webscraping</a> ?</h2>
 <p><br></p>
 <ul>
-<li>Le <a href="https://en.wikipedia.org/wiki/Web_scraping">webscraping</a> désigne un ensemble de techniques d’extraction de contenu sur des sites internet.</li>
+<li>Le <a href="https://fr.wikipedia.org/wiki/Web_scraping">webscraping</a> désigne un ensemble de techniques d’<strong>extraction de contenu</strong> sur des sites internet.</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -433,6 +439,7 @@
 </section>
 <section id="exemples-introductifs" class="slide level2" data-background-size="contain">
 <h2>Exemples introductifs</h2>
+<p><br></p>
 <ul>
 <li>On souhaite accéder à la <a href="https://fr.wikipedia.org/wiki/Liste_des_pr%C3%A9sidents_des_%C3%89tats-Unis">liste des présidents des États-Unis</a> et réunir les dates de mandat dans un <code>Excel</code>.</li>
 </ul>
@@ -451,7 +458,7 @@
 <h2><code>Webscraping</code>, <code>webcrawling</code>, <code>screen scraping</code>, quelles différences ?</h2>
 <p><br></p>
 <ul>
-<li>Le <span class="orange">webscraping</span> se réfère à l’extraction des données d’une ou plusieurs pages web.</li>
+<li>Le <a href="https://en.wikipedia.org/wiki/Web_scraping">webscraping</a> se réfère à l’extraction des données d’une ou plusieurs pages web.</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -462,6 +469,8 @@
 <ul>
 <li>Quant au <a href="https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping">screen scraping</a>, proche du webscraping, il consiste plutôt à extraire le contenu visuel d’un site apparaissant à l’écran, comme des images.</li>
 </ul>
+</div>
+<div class="fragment">
 <div class="callout callout-note callout-captioned callout-style-default">
 <div class="callout-body">
 <div class="callout-caption">
@@ -471,10 +480,10 @@
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p><code>webscraping</code> et <code>webcrawling</code> peuvent aller ensemble :</p>
+<p><code>Webscraping</code> et <code>webcrawling</code> peuvent aller ensemble :</p>
 <ul>
-<li>d’abord utiliser un crawler pour récupérer tous les urls d’un site,</li>
-<li>puis scraper chacune des pages.</li>
+<li>On utile d’abord un crawler pour récupérer tous les urls d’un site …</li>
+<li>… Puis on scrape chacune des pages les unes après les autres</li>
 </ul>
 </div>
 </div>
@@ -483,9 +492,12 @@
 </section>
 <section id="cas-dusage-pratiques" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pratiques</h2>
-<h4 data-background-size="contain" id="etudes-de-marché-et-intelligence-économique">Etudes de marché et intelligence économique</h4>
+<h4 data-background-size="contain" id="études-de-marché-et-intelligence-économique">Études de marché et intelligence économique</h4>
 <ul>
-<li>Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement</li>
+<li>Faire un suivi des prix sur des site de ventes (possiblement concurrents) en les scrapant régulièrement
+<ul>
+<li>On peut alors parler de <a href="https://www.minderest.com/fr/blog/qu-est-ce-que-price-scraping">price scraping</a></li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
@@ -500,7 +512,7 @@
 <p><strong>Exemple</strong></p>
 </div>
 <div class="callout-content">
-<p>Dans les répertoires d’expressions idiomatiques, il est facile de “dérober” les contenus les uns des autres (<a href="https://www.expressio.fr/toutes-les-expressions">Expressio</a>, <a href="https://www.expressions-francaises.fr/">Expressions Françaises</a>, <a href="https://www.linternaute.fr/expression/">L’internaute</a>, …)</p>
+<p>Dans les répertoires d’expressions idiomatiques, il est facile de “dérober” les contenus les uns des autres (<a href="https://www.expressio.fr/toutes-les-expressions">Expressio</a>, <a href="https://www.expressions-francaises.fr/">Expressions Françaises</a>, <a href="https://www.linternaute.fr/expression/">L’internaute</a>…)</p>
 </div>
 </div>
 </div>
@@ -509,14 +521,18 @@
 <section id="cas-dusage-pratiques-1" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pratiques</h2>
 <h4 data-background-size="contain" id="analyses-de-sentiment-et-génération-de-leads">Analyses de sentiment et génération de <em>leads</em></h4>
+<p><br></p>
 <ul>
-<li>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus et faire du sentiment analysis</li>
+<li>Récupérer les commentaires d’un produit ou d’une entreprise sur un site tiers afin d’analyser les retours obtenus et faire du <em>sentiment analysis</em>
+<ul>
+<li>Un <a href="https://www.researchgate.net/publication/332409969_Sentiment_Analysis_for_Scraping_of_Product_Reviews_from_Multiple_Web_Pages_Using_Machine_Learning_Algorithms">papier de recherche</a> sur le sujet</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
 <li>Obtenir une liste de clients potentiels ou répondant à des critères spécifiques
 <ul>
-<li>A partir de sites comme les <a href="https://www.pagesjaunes.fr/pagesblanches">Pages Jaunes</a> ou <a href="https://www.google.com/business/">Google Maps</a> pour les entreprises</li>
+<li>À partir de sites comme les <a href="https://www.pagesjaunes.fr/pagesblanches">Pages Jaunes</a> ou <a href="https://www.google.com/business/">Google Maps</a> pour les entreprises</li>
 </ul></li>
 </ul>
 </div>
@@ -525,25 +541,36 @@
 <h2>Cas d’usage pratiques</h2>
 <h4 data-background-size="contain" id="obtenir-des-données-pour-alimenter-des-modèles-de-ml">Obtenir des données pour alimenter des modèles de ML</h4>
 <ul>
-<li>Regrouper divers indicateurs et séries temporelles via les <a href="https://trends.google.fr/trends/?geo=FR">Google Trends</a> pour améliorer les performances de modèles de prédiction</li>
+<li>Regrouper divers indicateurs et séries temporelles via les <a href="https://trends.google.fr/trends/?geo=FR">Google Trends</a> pour améliorer les performances de modèles de prédiction
+<ul>
+<li>En phase expérimentale à l’INSEE, par exemple pour des problématiques de <a href="https://statistics-awards.eu/competitions/3">nowcasting</a></li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
-<li>Surveiller les valeurs de stocks boursiers et mouvements de marché sur <a href="https://fr.finance.yahoo.com/">Yahoo Finance</a> et les inclure dans des modèles</li>
+<li>Surveiller les valeurs de stocks boursiers et mouvements de marché sur <a href="https://fr.finance.yahoo.com/">Yahoo Finance</a> et les inclure dans des modèles
+<ul>
+<li>En l’occurrence, <code>Yahoo Finance</code> offre aussi une <a href="https://algotrading101.com/learn/yahoo-finance-api-guide/">API</a> pour l’extraction de données</li>
+</ul></li>
 </ul>
 </div>
 </section>
 <section id="cas-dusage-pratiques-3" class="slide level2 smaller" data-background-size="contain">
 <h2>Cas d’usage pratiques</h2>
-<h4 data-background-size="contain" id="très-utiles-dans-des-domaines-précis">Très utiles dans des domaines précis</h4>
+<h4 data-background-size="contain" id="dans-des-domaines-spécifiques">Dans des domaines spécifiques</h4>
+<p><br></p>
 <ul>
-<li>Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer.</li>
+<li>Dans le domaine immobilier, de nombreuses agences utilisent le scraping pour alimenter leur propre base de biens à vendre ou à louer.
+<ul>
+<li>On peut aussi trouver de nombreux agrégateurs d’annonces en ligne.</li>
+</ul></li>
 </ul>
 <div class="fragment">
 <ul>
-<li>Dans le domaine aérien, nombreux sont les comparateurs en lignes qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies.
+<li>Dans le domaine aérien, nombreux sont les comparateurs en ligne qui ont recours au scraping pour présenter des offres de trajets issues de plusieurs compagnies.
 <ul>
-<li>Ce n’est d’ailleurs pas spécifique qu’au domaine du transport (ex: hébergement touristique).</li>
+<li>Ex : <a href="https://www.kiwi.com/fr/">kiwi.com</a>, <a href="https://www.fr.lastminute.com/">lastminute.com</a>…</li>
+<li>Ce n’est d’ailleurs pas le cas que dans le domaine du transport (ex: hébergement touristique).</li>
 </ul></li>
 </ul>
 </div>
@@ -556,21 +583,31 @@
 <section id="cas-dusage-pratiques-4" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pratiques</h2>
 <h4 data-background-size="contain" id="dans-le-domaine-de-la-recherche">Dans le domaine de la recherche</h4>
+<p><br></p>
 <ul>
 <li><p>Pour des chercheurs, le webscraping peut représenter une importance source de données, et ce dans des domaines très variés.</p></li>
-<li><p>Un exemple <a href="https://www.nature.com/articles/s41597-022-01369-4">ici</a> avec une équipe ayant scrapé <code>Wikipedia</code> et <code>Wikidata</code> afin d’établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe.</p></li>
+<li><p>Un exemple <a href="https://www.nature.com/articles/s41597-022-01369-4">ici</a> avec une équipe ayant scrapé <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Wikipedia</a> et <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> afin d’établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe.</p></li>
 </ul>
 </section>
 <section id="cas-dusage-pour-un-ins" class="slide level2" data-background-size="contain">
 <h2>Cas d’usage pour un INS</h2>
+<p><br></p>
 <ul>
-<li><p>Scraper divers sites de ventes afin d’obtenir des données de prix pour le calcul de l’indice des prix à la consommation</p></li>
-<li><p>Compléter des données de statistiques d’entreprises avec des informations disponibles en ligne</p></li>
-<li><p>Minimiser les fardeaux de réponse lors des enquêtes en favorisant le scraping</p></li>
+<li>Scraper divers sites de ventes afin d’obtenir des données de prix pour le <strong>calcul de l’indice des prix à la consommation</strong> (IPC)</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Compléter des données de statistiques d’entreprises avec des informations disponibles en ligne</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Minimiser les fardeaux de réponse lors des enquêtes en favorisant le scraping</li>
+</ul>
+</div>
 </section></section>
 <section>
-<section id="risques-juridiques-et-scraping-éthique" class="title-slide slide level1 center" data-background-size="contain">
+<section id="01_02" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Risques juridiques et scraping éthique</h1>
 
 </section>
@@ -858,7 +895,7 @@
 </div>
 </section></section>
 <section>
-<section id="rappels-sur-html" class="title-slide slide level1 center" data-background-size="contain">
+<section id="01_03" class="title-slide slide level1 center" data-background-size="contain">
 <h1>Rappels sur HTML</h1>
 
 </section>
@@ -1056,7 +1093,7 @@ Gangster
 </ul></li>
 </ul>
 </section></section>
-<section id="ii.-mise-en-pratique" class="title-slide slide level1 center" data-background-size="contain">
+<section id="index_02" class="title-slide slide level1 center" data-background-size="contain">
 <h1>II. Mise en pratique</h1>
 
 </section>
@@ -1243,7 +1280,7 @@ Gangster
 </ul></li>
 </ul>
 </section></section>
-<section id="iii.-divers-cas-dusage" class="title-slide slide level1 center" data-background-size="contain">
+<section id="index_03" class="title-slide slide level1 center" data-background-size="contain">
 <h1>III. Divers cas d’usage</h1>
 
 </section>
@@ -1500,7 +1537,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul></li>
 </ul>
 </section></section>
-<section id="iv.-dautres-organisations-adeptes-de-scraping" class="title-slide slide level1 center" data-background-size="contain">
+<section id="index_04" class="title-slide slide level1 center" data-background-size="contain">
 <h1>IV. D’autres organisations adeptes de scraping</h1>
 
 </section>
@@ -1784,7 +1821,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <p>Ce n’est donc pas une recommandation. Ce n’est ni une pratique à l’INSEE ni à Eurostat.</p>
 </section></section>
 <section>
-<section id="v.-conclusion" class="title-slide slide level1 center" data-background-size="contain">
+<section id="index_05" class="title-slide slide level1 center" data-background-size="contain">
 <h1>V. Conclusion</h1>
 
 </section>
