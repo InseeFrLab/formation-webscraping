@@ -21,6 +21,8 @@ Plusieurs librairies permettent de faire du scraping en `Python`. Les principale
     + Créer des requêtes `HTTP` pour récupérer le contenu des pages web
     + Des headers peuvent être ajoutés aux requêtes pour s'identifier auprès du site
 
+. . .
+
 - `Requests` un peu plus simpliste que `Urllib`
 
 
@@ -43,6 +45,9 @@ La librairie se trouve généralement sous le nom de `bs4`.
 
 - Les librairies précédentes ne permettent pas d'interagir avec une page utilisant `Javascript`
     - Ex: Appuyer sur un bouton, rentrer ses identifiants, ...
+
+. . .
+
 - `Selenium` permet de simuler un navigateur (aussi appelé [headless browser](https://en.wikipedia.org/wiki/Headless_browser)) puis d'interagir avec les éléments `Javascript` du site "comme un utilisateur"
 
 

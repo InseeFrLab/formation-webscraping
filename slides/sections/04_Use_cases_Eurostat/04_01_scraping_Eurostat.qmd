@@ -1,7 +1,8 @@
 ## Les investissements d'Eurostat en webscraping
 
 - Eurostat investit dans divers projets nommés [ESSnets](https://ec.europa.eu/eurostat/cros/page/essnet_en).
-    + "An ESSnet project is a network of several `ESS` organisations aimed at providing results that will be beneficial to the whole `ESS`."
+
+    > "An ESSnet project is a network of several `ESS` organisations aimed at providing results that will be beneficial to the whole `ESS`."
 
 . . .
 

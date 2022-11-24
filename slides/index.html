@@ -917,7 +917,7 @@
 </div>
 <div class="fragment">
 <ul>
-<li><span class="blue2"><strong>Étaler les requêtes</strong></span> en laissant un temps de ‘pause’ entre chaque requête sur site, surtout sur un même domaine</li>
+<li><span class="blue2"><strong>Étaler les requêtes</strong></span> en laissant un temps de ‘pause’ entre chaque requête, surtout sur un même domaine</li>
 </ul>
 </div>
 </section>
@@ -1265,8 +1265,12 @@ Gangster
 <li>Créer des requêtes <code>HTTP</code> pour récupérer le contenu des pages web</li>
 <li>Des headers peuvent être ajoutés aux requêtes pour s’identifier auprès du site</li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li><code>Requests</code> un peu plus simpliste que <code>Urllib</code></li>
 </ul>
+</div>
 </section>
 <section id="analyser-les-codes-html-beautifulsoup" class="slide level2" data-background-size="contain">
 <h2>Analyser les codes <em>HTML</em> : <code>BeautifulSoup</code></h2>
@@ -1297,8 +1301,12 @@ Gangster
 <ul>
 <li>Ex: Appuyer sur un bouton, rentrer ses identifiants, …</li>
 </ul></li>
+</ul>
+<div class="fragment">
+<ul>
 <li><code>Selenium</code> permet de simuler un navigateur (aussi appelé <a href="https://en.wikipedia.org/wiki/Headless_browser">headless browser</a>) puis d’interagir avec les éléments <code>Javascript</code> du site “comme un utilisateur”</li>
 </ul>
+</div>
 </section>
 <section id="un-outil-plus-complet-scrapy" class="slide level2" data-background-size="contain">
 <h2>Un outil plus complet : <code>Scrapy</code></h2>
@@ -1363,7 +1371,7 @@ Gangster
 <ul>
 <li>Incluant notamment les Administrateurs de l’INSEE en formation</li>
 </ul></li>
-<li>Le lien pour accéder au TP de webscraping <a href="https://pythonds.linogaliana.fr/webscraping/">ici</a></li>
+<li>Le lien pour accéder au TP de webscraping <a href="https://pythonds.linogaliana.fr/webscraping/"><strong>ici</strong></a></li>
 </ul>
 <div class="callout callout-tip callout-captioned callout-style-default">
 <div class="callout-body">
@@ -1515,6 +1523,7 @@ Gangster
 
 <section id="iii.-sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>III. Sommaire</h1>
+<p><br></p>
 <p><a href="#/03_01">Quelques litiges légaux</a></p>
 <p><a href="#/03_02">Le scraping à l’INSEE</a></p>
 <p><a href="#/03_03">Cas d’usage à l’INSEE</a></p>
@@ -1910,10 +1919,11 @@ Gangster
 <ul>
 <li>Un scraping encore par cas d’usage, avec une gestion plus globale en cours de maturité</li>
 </ul>
-<p><br></p>
+<div class="fragment">
 <ul>
 <li>Beaucoup de <code>Python</code>, un peu de <code>R</code> et de <code>Java</code></li>
 </ul>
+</div>
 </section></section>
 <section>
 <section id="03_03" class="title-slide slide level1 center" data-background-size="contain">
@@ -2006,6 +2016,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 
 <section id="iv.-sommaire" class="title-slide slide level1 center" data-background-size="contain">
 <h1>IV. Sommaire</h1>
+<p><br></p>
 <p><a href="#/04_01">Le scraping chez Eurostat</a></p>
 <p><a href="#/04_02">Cas d’usage d’Eurostat</a></p>
 <p><a href="#/04_03">Webscraping dans un INS - Quelques interlocuteurs</a></p>
@@ -2019,10 +2030,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <section id="les-investissements-deurostat-en-webscraping" class="slide level2" data-background-size="contain">
 <h2>Les investissements d’Eurostat en webscraping</h2>
 <ul>
-<li>Eurostat investit dans divers projets nommés <a href="https://ec.europa.eu/eurostat/cros/page/essnet_en">ESSnets</a>.
-<ul>
-<li>“An ESSnet project is a network of several <code>ESS</code> organisations aimed at providing results that will be beneficial to the whole <code>ESS</code>.”</li>
-</ul></li>
+<li><p>Eurostat investit dans divers projets nommés <a href="https://ec.europa.eu/eurostat/cros/page/essnet_en">ESSnets</a>.</p>
+<blockquote>
+<p>“An ESSnet project is a network of several <code>ESS</code> organisations aimed at providing results that will be beneficial to the whole <code>ESS</code>.”</p>
+</blockquote></li>
 </ul>
 <div class="fragment">
 <ul>
@@ -2250,8 +2261,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <p>Autrement dit, de nombreux sites d’entreprises sont scrapés afin d’en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.</p>
 </div>
 </section>
-<section id="les-différents-étapes-dobec" class="slide level2" data-background-size="contain">
-<h2>Les différents étapes d’OBEC</h2>
+<section id="les-différentes-étapes-dobec" class="slide level2" data-background-size="contain">
+<h2>Les différentes étapes d’OBEC</h2>
 <h4 data-background-size="contain" id="politique-de-webscraping">1- Politique de webscraping</h4>
 <p><br></p>
 <ul>
@@ -2268,8 +2279,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul>
 </div>
 </section>
-<section id="les-différents-étapes-dobec-1" class="slide level2" data-background-size="contain">
-<h2>Les différents étapes d’OBEC</h2>
+<section id="les-différentes-étapes-dobec-1" class="slide level2" data-background-size="contain">
+<h2>Les différentes étapes d’OBEC</h2>
 <h4 data-background-size="contain" id="cadre-méthodologique">2- <a href="https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C6_Reference_Methodological_Framework_v2.0.pdf">Cadre méthodologique</a></h4>
 <p><br></p>
 <ul>
@@ -2292,8 +2303,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul>
 </div>
 </section>
-<section id="les-différents-étapes-dobec-2" class="slide level2" data-background-size="contain">
-<h2>Les différents étapes d’OBEC</h2>
+<section id="les-différentes-étapes-dobec-2" class="slide level2" data-background-size="contain">
+<h2>Les différentes étapes d’OBEC</h2>
 <h4 data-background-size="contain" id="expérimentations">3- Expérimentations</h4>
 <ul>
 <li>Production de statistiques expérimentales en utilisant les méthodes d’<code>OBEC</code> :
@@ -2310,8 +2321,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul>
 </div>
 </section>
-<section id="les-différents-étapes-dobec-3" class="slide level2" data-background-size="contain">
-<h2>Les différents étapes d’OBEC</h2>
+<section id="les-différentes-étapes-dobec-3" class="slide level2" data-background-size="contain">
+<h2>Les différentes étapes d’OBEC</h2>
 <h4 data-background-size="contain" id="starter-kits">4- Starter Kits</h4>
 <p><br></p>
 <ul>
@@ -2320,8 +2331,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <li><p>Le <a href="https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit">repository</a> sur <code>Github</code></p></li>
 </ul>
 </section>
-<section id="les-différents-étapes-dobec-4" class="slide level2" data-background-size="contain">
-<h2>Les différents étapes d’OBEC</h2>
+<section id="les-différentes-étapes-dobec-4" class="slide level2" data-background-size="contain">
+<h2>Les différentes étapes d’OBEC</h2>
 <h4 data-background-size="contain" id="evaluation-de-la-qualité-des-résultats">5- Evaluation de la qualité des résultats</h4>
 <ul>
 <li>S’assurer de la qualité des résultats pour passer de la phase expérimentale à la mise en production par les INS</li>

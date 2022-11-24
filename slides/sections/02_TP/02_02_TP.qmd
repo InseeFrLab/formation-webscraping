@@ -17,7 +17,7 @@ Insérer rapides explications utilisation
 - Une mise en pratique créée à destination des étudiants de Master de l'[ENSAE Paris](https://www.ensae.fr/)
     + Incluant notamment les Administrateurs de l'INSEE en formation
 
-- Le lien pour accéder au TP de webscraping [ici](https://pythonds.linogaliana.fr/webscraping/)
+- Le lien pour accéder au TP de webscraping [__ici__](https://pythonds.linogaliana.fr/webscraping/)
 
 ::: {.callout-tip}
 ## Pour aller plus loin

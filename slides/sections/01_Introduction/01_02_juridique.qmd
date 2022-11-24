@@ -231,7 +231,7 @@ La politique de l'INSEE est de garder le webscraping comme __dernière option__.
 
 . . .
 
-- [__Étaler les requêtes__]{.blue2} en laissant un temps de 'pause' entre chaque requête sur site, surtout sur un même domaine
+- [__Étaler les requêtes__]{.blue2} en laissant un temps de 'pause' entre chaque requête, surtout sur un même domaine
 
 
 ## Les guidelines du `Système Statistique Européen`

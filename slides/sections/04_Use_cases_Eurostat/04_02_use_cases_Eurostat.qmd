@@ -141,7 +141,7 @@
 Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.
 
 
-## Les différents étapes d'OBEC
+## Les différentes étapes d'OBEC
 
 #### 1- Politique de webscraping
 
@@ -158,7 +158,7 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 - Une [politique sur l'usage du webscraping](https://ec.europa.eu/eurostat/cros/system/files/wpc_deliverable_c1_ess_web-scraping_policy_template_2019_07_15.pdf) pour le projet a donc été rédigée et diffusée.
 
 
-## Les différents étapes d'OBEC
+## Les différentes étapes d'OBEC
 
 #### 2- [Cadre méthodologique](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C6_Reference_Methodological_Framework_v2.0.pdf)
 
@@ -177,7 +177,7 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 - Réfléchir le cycle de vie du projet en fonction du [GSBPM](https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf)
 
 
-## Les différents étapes d'OBEC
+## Les différentes étapes d'OBEC
 
 #### 3- Expérimentations
 
@@ -190,7 +190,7 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
     + Les résultats obtenus sont une vitrine d'`OBEC` mais ne peuvent pas encore être considérés comme des statistiques officielles
 
 
-## Les différents étapes d'OBEC
+## Les différentes étapes d'OBEC
 
 #### 4- Starter Kits
 
@@ -203,7 +203,7 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 - Le [repository](https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit) sur `Github`
 
 
-## Les différents étapes d'OBEC
+## Les différentes étapes d'OBEC
 
 #### 5- Evaluation de la qualité des résultats
 

@@ -39,6 +39,6 @@ D'autres utilisations ponctuelles peuvent également être faites.
 
 - Un scraping encore par cas d'usage, avec une gestion plus globale en cours de maturité
 
-<br>
+. . .
 
 - Beaucoup de `Python`, un peu de `R` et de `Java`
