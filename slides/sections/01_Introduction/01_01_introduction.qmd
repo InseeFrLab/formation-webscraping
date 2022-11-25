@@ -120,7 +120,7 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 
 <br>
 
-- Pour des chercheurs, le webscraping peut représenter une importance source de données, et ce dans des domaines très variés.
+- Pour des chercheurs, le web scraping peut représenter une importance source de données, et ce dans des domaines très variés.
 
     + Un exemple [ici](https://www.nature.com/articles/s41597-022-01369-4) avec une équipe ayant scrapé [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal) et [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
 
