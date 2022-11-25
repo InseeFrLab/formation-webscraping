@@ -22,7 +22,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 ## Une frontière floue
 
-- Les législations spécifiques au webscraping sont peu nombreuses et différentes d'un pays à l'autre.
+- Les législations spécifiques au web scraping sont peu nombreuses et différentes d'un pays à l'autre.
 
 . . .
 
@@ -42,7 +42,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 . . .
 
-- Les articles discutant de webscraping et de leur légalité sont tout aussi proliférants, mais pas toujours d'accord les uns avec les autres.
+- Les articles discutant de web scraping et de leur légalité sont tout aussi proliférants, mais pas toujours d'accord les uns avec les autres.
     - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL)...
 
 
