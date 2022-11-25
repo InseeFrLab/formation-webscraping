@@ -1874,8 +1874,9 @@ Gangster
 <h1>Le scraping à l’INSEE</h1>
 
 </section>
-<section id="quand-utiliser-du-scraping" class="slide level2" data-background-size="contain">
-<h2>Quand utiliser du scraping ?</h2>
+<section id="scraping-à-linsee" class="slide level2" data-background-size="contain">
+<h2>Scraping à l’INSEE</h2>
+<h4 data-background-size="contain" id="quand">Quand ?</h4>
 <p><br></p>
 <ul>
 <li>Le webscraping est utilisé en <strong>dernier recours</strong>, l’INSEE favorisera :
@@ -1891,30 +1892,33 @@ Gangster
 </ul>
 </div>
 </section>
-<section id="les-utilisations-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
-<h2>Les utilisations du scraping à l’INSEE</h2>
-<p>Le scraping est notamment utilisé pour le calcul des indices des prix :</p>
+<section id="scraping-à-linsee-1" class="slide level2" data-background-size="contain">
+<h2>Scraping à l’INSEE</h2>
+<h4 data-background-size="contain" id="utilisation">Utilisation</h4>
+<p><br></p>
+<p>Le scraping est notamment utilisé pour le calcul des <span class="blue2"><strong>indices des prix</strong></span> :</p>
 <div class="fragment">
 <ul>
-<li>Prix des transports (trains via le site de la <code>SNCF</code>, domaine maritime)</li>
+<li>Prix des transports (trains via site de la <code>SNCF</code>, domaine maritime) ;</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>Prix de produits divers (surtout de l’électronique)</li>
+<li>Prix de produits divers (surtout de l’électronique) ;</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>Prix dans le domaine de l’hôtellerie (avec <code>booking.com</code>)</li>
+<li>Prix dans le domaine de l’hôtellerie (avec <code>booking.com</code>).</li>
 </ul>
 </div>
 <div class="fragment">
 <p>D’autres utilisations ponctuelles peuvent également être faites.</p>
 </div>
 </section>
-<section id="organisation-du-scraping-à-linsee" class="slide level2" data-background-size="contain">
-<h2>Organisation du scraping à l’INSEE</h2>
+<section id="scraping-à-linsee-2" class="slide level2" data-background-size="contain">
+<h2>Scraping à l’INSEE</h2>
+<h4 data-background-size="contain" id="organisation">Organisation</h4>
 <p><br></p>
 <ul>
 <li>Un scraping encore par cas d’usage, avec une gestion plus globale en cours de maturité</li>
@@ -1930,20 +1934,19 @@ Gangster
 <h1>Cas d’usage à l’INSEE</h1>
 
 </section>
-<section id="les-prix-dans-le-domaine-de-lhôtellerie" class="slide level2" data-background-size="contain">
-<h2>Les prix dans le domaine de l’hôtellerie</h2>
-<h4 data-background-size="contain" id="booking.com"><code>Booking.com</code></h4>
+<section id="les-prix-dans-le-domaine-de-lhôtellerie-booking.com" class="slide level2" data-background-size="contain">
+<h2>Les prix dans le domaine de l’hôtellerie (<code>Booking.com</code>)</h2>
+<h4 data-background-size="contain" id="références">Références</h4>
 <ul>
 <li>Un travail ayant donné lieu à une <a href="https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf">publication</a>
 <ul>
-<li><em>Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index</em></li>
-<li>Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon</li>
+<li>Adrien <span class="blue2">Montbroussous</span>, Camille <span class="blue2">Freppel</span> and Ombéline <span class="blue2">Guillon</span>, <em>“Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index”</em>, <em>Paper for the 17th International Conference of the Ottawa Group Rome</em></li>
 </ul></li>
 <li>Une présentation plus accessible <a href="http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf">ici</a></li>
 </ul>
 </section>
-<section id="scraping-de-booking.com" class="slide level2" data-background-size="contain">
-<h2>Scraping de <code>Booking.com</code></h2>
+<section id="les-prix-dans-le-domaine-de-lhôtellerie-booking.com-1" class="slide level2" data-background-size="contain">
+<h2>Les prix dans le domaine de l’hôtellerie (<code>Booking.com</code>)</h2>
 <h4 data-background-size="contain" id="le-code">Le code</h4>
 <p><br></p>
 <ul>
@@ -1954,7 +1957,7 @@ Gangster
 h='&#x69;&#110;&#x73;&#x65;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x61;&#100;&#114;&#x69;&#x65;&#110;&#46;&#x6d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x41;&#100;&#114;&#x69;&#x65;&#110;&#32;&#x4d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;'+'<\/'+'a'+'>');
 // -->
-</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</p></li>
+</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript> (INSEE).</p></li>
 </ul>
 <div class="fragment">
 <ul>
@@ -1990,7 +1993,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 h='&#x69;&#110;&#x73;&#x65;&#x65;&#46;&#102;&#114;';a='&#64;';n='&#x61;&#100;&#114;&#x69;&#x65;&#110;&#46;&#x6d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x41;&#100;&#114;&#x69;&#x65;&#110;&#32;&#x4d;&#x6f;&#110;&#116;&#98;&#114;&#x6f;&#x75;&#x73;&#x73;&#x6f;&#x75;&#x73;'+'<\/'+'a'+'>');
 // -->
-</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript>, INSEE.</li>
+</script><noscript>Adrien Montbroussous (adrien.montbroussous at insee dot fr)</noscript> (INSEE).</li>
 </ul>
 </div>
 </section>
@@ -2134,7 +2137,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <h4 data-background-size="contain" id="contexte">Contexte</h4>
 <p><br></p>
 <ul>
-<li>Besoin de statistiques sur les offres d’emploi les plus à jour possible pour adapter les politiques d’emploi et d’éducation</li>
+<li>Besoin de statistiques sur les offres d’emploi les plus à jour possibles pour adapter les politiques d’emploi et d’éducation</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -2143,7 +2146,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </div>
 <div class="fragment">
 <ul>
-<li>Les collectes de données traditionelles sur les offres d’emploi sont assez peu efficaces</li>
+<li>Les collectes de données traditionnelles sur les offres d’emploi sont assez peu efficaces</li>
 </ul>
 </div>
 <div class="fragment">
@@ -2174,11 +2177,11 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <h2>Online Job Advertisements</h2>
 <h4 data-background-size="contain" id="quelques-challenges-12">Quelques challenges (1/2)</h4>
 <ul>
-<li>Bien définir l’étude, par exemple restreindre aux secteurs avec une offre en grande partie en ligne</li>
+<li>Bien définir le <span class="blue2"><strong>champ d’étude</strong></span>, par exemple restreindre aux secteurs avec une offre en grande partie en ligne</li>
 </ul>
 <div class="fragment">
 <ul>
-<li>Dédoublonner les offres présentes sur plusieurs plateformes (ex : les champs différant légèrement d’un site à l’autre à offre égale)</li>
+<li><span class="blue2"><strong>Dédoublonner les offres</strong></span> présentes sur plusieurs plateformes (ex : les champs différant légèrement d’un site à l’autre à offre égale)</li>
 </ul>
 </div>
 <div class="fragment">
@@ -2192,11 +2195,11 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul>
 </div>
 </section>
-<section id="online-job-advertisements-3" class="slide level2" data-background-size="contain">
+<section id="online-job-advertisements-3" class="slide level2 smaller" data-background-size="contain">
 <h2>Online Job Advertisements</h2>
 <h4 data-background-size="contain" id="quelques-challenges-22">Quelques challenges (2/2)</h4>
 <ul>
-<li>Gérer la qualité parfois assez basse des données et les erreurs de scraping qui pourraient ressortir</li>
+<li>Gérer la qualité variable des données et les erreurs de scraping qui pourraient ressortir</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -2205,12 +2208,16 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </div>
 <div class="fragment">
 <ul>
-<li>Gérer l’aspect temporel : comparer les données du jour A à celles collectées la veille ou évaluer la durée de validité des offres</li>
+<li>Gérer l’aspect temporel :
+<ul>
+<li>comparer les données du jour A à celles collectées la veille</li>
+<li>évaluer la durée de validité des offres</li>
+</ul></li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>Gérer l’aspect “proxy” des donnés <code>OJA</code> et le fait qu’il manque beaucoup d’offres non publiées en ligne</li>
+<li>Gérer la représentativité des données <code>OJA</code> et le fait qu’il manque beaucoup d’offres non publiées en ligne</li>
 </ul>
 </div>
 </section>
@@ -2225,9 +2232,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <ul>
 <li>Méthodes poussées de NLP :
 <ul>
-<li>Détection de langue</li>
-<li>Traitements divers de texte</li>
-<li>Comparaisons de texte</li>
+<li>Détection des langues</li>
+<li>Normalisations des textes</li>
+<li>Déduplications</li>
 <li>Classification par Machine Learning</li>
 </ul></li>
 </ul>
@@ -2238,7 +2245,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <h4 data-background-size="contain" id="conclusions">Conclusions</h4>
 <p><br></p>
 <ul>
-<li>En France, la <a href="https://dares.travail-emploi.gouv.fr/">DARES</a> participe à ce travail.</li>
+<li>En France, la <a href="https://dares.travail-emploi.gouv.fr/">DARES</a> (Ministère du Travail) participe à ce travail.</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -2255,9 +2262,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <h4 data-background-size="contain" id="le-principe">Le principe</h4>
 <p><br></p>
 <blockquote>
-<p>“The aim of WPC is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers.”</p>
+<p>“The aim of WPC [Work Package XXXXX] is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers.”</p>
 </blockquote>
 <div class="fragment">
+<p><br></p>
 <p>Autrement dit, de nombreux sites d’entreprises sont scrapés afin d’en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.</p>
 </div>
 </section>
@@ -2286,20 +2294,20 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <ul>
 <li>Cadrer le design du projet :
 <ul>
-<li>Représentation de données, process et méthodes, …</li>
+<li>Représentation de données, <em>process</em> et méthodes…</li>
 </ul></li>
 </ul>
 <div class="fragment">
 <ul>
 <li>Cadrer la phase de déploiement :
 <ul>
-<li>Infrastructure, étapes de data processing, …</li>
+<li>Infrastructure, étapes de data processing…</li>
 </ul></li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>Réfléchir le cycle de vie du projet en fonction du <a href="https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf">GSBPM</a></li>
+<li>Réfléchir au cycle de vie du projet en fonction du <a href="https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf">GSBPM</a></li>
 </ul>
 </div>
 </section>
@@ -2309,14 +2317,15 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <ul>
 <li>Production de statistiques expérimentales en utilisant les méthodes d’<code>OBEC</code> :
 <ul>
-<li>Collecte d’URL, présence sur les réseaux sociaux, activité en ligne, e-commerce, …</li>
+<li>Collecte d’URL, présence sur les réseaux sociaux, activité en ligne, e-commerce…</li>
 </ul></li>
 </ul>
 <div class="fragment">
 <ul>
 <li>7 pays volontaires, les rapports et résultats <a href="https://ec.europa.eu/eurostat/cros/content/wpc-experimental-statistics_en">ici</a>
 <ul>
-<li>Les résultats obtenus sont une vitrine d’<code>OBEC</code> mais ne peuvent pas encore être considérés comme des statistiques officielles</li>
+<li>Les résultats obtenus sont une vitrine d’<code>OBEC</code>…</li>
+<li>Mais ne peuvent pas encore être considérés comme des statistiques officielles</li>
 </ul></li>
 </ul>
 </div>
@@ -2326,9 +2335,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 <h4 data-background-size="contain" id="starter-kits">4- Starter Kits</h4>
 <p><br></p>
 <ul>
-<li><p>Afin que chaque INS puisse mettre en application les méthodes mises en place lors du projet, un starting kit est disponible en open source.</p></li>
-<li><p>Le <a href="https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C7_Starter_kit_for_NSIs_V.2.pdf">deliverable</a> associé au starting kit</p></li>
-<li><p>Le <a href="https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit">repository</a> sur <code>Github</code></p></li>
+<li><p>Afin que chaque INS puisse mettre en application les méthodes mises en place lors du projet, un <em>starting kit</em> est disponible en open source.</p></li>
+<li><p>Le <a href="https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C7_Starter_kit_for_NSIs_V.2.pdf"><em>deliverable</em></a> associé au starting kit</p></li>
+<li><p>Le <a href="https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit">code source</a> sur <code>Github</code></p></li>
 </ul>
 </section>
 <section id="les-différentes-étapes-dobec-4" class="slide level2" data-background-size="contain">
@@ -2339,9 +2348,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </ul>
 <div class="fragment">
 <ul>
-<li>Mise en place d’un <a href="https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf">template</a> de suivi de la qualité des résultats
+<li>Mise en place d’un <a href="https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf">modèle</a> de suivi de la qualité des résultats
 <ul>
-<li>Principalement issu de l’“<a href="https://unece.org/fr">UNECE</a> Framework for the Quality of Big Data”</li>
+<li>Principalement issu de l’<em>“<a href="https://unece.org/fr">UNECE</a> Framework for the Quality of Big Data”</em></li>
 </ul></li>
 </ul>
 </div>
@@ -2432,7 +2441,7 @@ Le site a pu évoluer : revoir le code du scraping
 <ul>
 <li>Un calendrier très complet d’événements, de webinaires…
 <ul>
-<li>Dernier webinaire le 23/11 sur le work package 4 : BREAL et user stories, qualité et méthodologie</li>
+<li>Dernier webinaire le 23/11 sur le work package 4 : “BREAL et <em>user stories</em>”, qualité et méthodologie</li>
 </ul></li>
 </ul>
 </div>
@@ -2441,14 +2450,21 @@ Le site a pu évoluer : revoir le code du scraping
 <h2>Pour reprendre les mots du WIN …</h2>
 <p><br></p>
 <blockquote>
-<p>The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for: <br> - Exploring new and emerging data sources <br> - Building competences <br> - Building and strengthening collaborations <br> - Developing new frameworks <br> - Adopting new practices</p>
+<p>The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for:</p>
+<ul>
+<li>Exploring new and emerging data sources <br></li>
+<li>Building competences <br></li>
+<li>Building and strengthening collaborations <br></li>
+<li>Developing new frameworks <br></li>
+<li>Adopting new practices</li>
+</ul>
 </blockquote>
 </section>
 <section id="les-webinaires-du-win-des-prochains-mois" class="slide level2 smaller" data-background-size="contain">
 <h2>Les webinaires du WIN des prochains mois</h2>
 <p><br></p>
 <ul>
-<li>Début 2023 :
+<li><span class="blue2">Début 2023</span> :
 <ul>
 <li>“Web Scraped Data to Enhance the Quality of the Statistical Business Register”</li>
 <li>“Method of Processing and Analysing Web Scraped Tourism Data”</li>
@@ -2457,7 +2473,7 @@ Le site a pu évoluer : revoir le code du scraping
 </ul>
 <div class="fragment">
 <ul>
-<li>Mi 2023 :
+<li><span class="blue2">Mi 2023</span> :
 <ul>
 <li>“Web Scraping of Real Estate Portals”</li>
 </ul></li>
@@ -2496,7 +2512,7 @@ Le site a pu évoluer : revoir le code du scraping
 </ul>
 <div class="fragment">
 <ul>
-<li>En revanche, aucune garantie que les guidelines présentées soient appliquées.</li>
+<li>En revanche, aucune garantie que les <em>guidelines</em> présentées soient appliquées.</li>
 </ul>
 </div>
 <div class="fragment">
@@ -2547,7 +2563,7 @@ Le site a pu évoluer : revoir le code du scraping
 <li><a href="https://github.com/avouacr/">Romain Avouac</a>, INSEE</li>
 </ul>
 <div class="fragment">
-<p>Le repository de la formation sur Github accessible <a href="https://github.com/antoine-palazz/webscraping_formation">ici</a></p>
+<p>Le code source de la formation sur <code>Github</code> accessible <a href="https://github.com/antoine-palazz/webscraping_formation">ici</a></p>
 </div>
 <div class="fragment">
 <p><br></p>

@@ -26,7 +26,7 @@
 
 <br>
 
-- Besoin de statistiques sur les offres d'emploi les plus à jour possible pour adapter les politiques d'emploi et d'éducation
+- Besoin de statistiques sur les offres d'emploi les plus à jour possibles pour adapter les politiques d'emploi et d'éducation
 
 . . .
 
@@ -34,7 +34,7 @@
 
 . . .
 
-- Les collectes de données traditionelles sur les offres d'emploi sont assez peu efficaces
+- Les collectes de données traditionnelles sur les offres d'emploi sont assez peu efficaces
 
 . . .
 
@@ -62,11 +62,11 @@
 
 #### Quelques challenges (1/2)
 
-- Bien définir l'étude, par exemple restreindre aux secteurs avec une offre en grande partie en ligne
+- Bien définir le [__champ d'étude__]{.blue2}, par exemple restreindre aux secteurs avec une offre en grande partie en ligne
 
 . . .
 
-- Dédoublonner les offres présentes sur plusieurs plateformes (ex : les champs différant légèrement d'un site à l'autre à offre égale)
+- [__Dédoublonner les offres__]{.blue2} présentes sur plusieurs plateformes (ex : les champs différant légèrement d'un site à l'autre à offre égale)
 
 . . .
 
@@ -77,11 +77,11 @@
 - Savoir travailler avec les différents niveaux de détail ou unités de mesure qu'offre chaque site
 
 
-## Online Job Advertisements
+## Online Job Advertisements {.smaller}
 
 #### Quelques challenges (2/2)
 
-- Gérer la qualité parfois assez basse des données et les erreurs de scraping qui pourraient ressortir
+- Gérer la qualité variable des données et les erreurs de scraping qui pourraient ressortir
 
 . . .
 
@@ -89,11 +89,13 @@
 
 . . .
 
-- Gérer l'aspect temporel : comparer les données du jour A à celles collectées la veille ou évaluer la durée de validité des offres
+- Gérer l'aspect temporel : 
+    + comparer les données du jour A à celles collectées la veille 
+    + évaluer la durée de validité des offres
 
 . . .
 
-- Gérer l'aspect "proxy" des donnés `OJA` et le fait qu'il manque beaucoup d'offres non publiées en ligne
+- Gérer la représentativité des données `OJA` et le fait qu'il manque beaucoup d'offres non publiées en ligne
 
 
 ## Online Job Advertisements
@@ -107,9 +109,9 @@
 . . .
 
 - Méthodes poussées de NLP :
-    + Détection de langue
-    + Traitements divers de texte
-    + Comparaisons de texte
+    + Détection des langues
+    + Normalisations des textes
+    + Déduplications
     + Classification par Machine Learning
 
 
@@ -119,7 +121,7 @@
 
 <br>
 
-- En France, la [DARES](https://dares.travail-emploi.gouv.fr/) participe à ce travail.
+- En France, la [DARES](https://dares.travail-emploi.gouv.fr/) (Ministère du Travail) participe à ce travail.
 
 . . .
 
@@ -134,9 +136,11 @@
 
 <br>
 
-> "The aim of WPC is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers."
+> "The aim of WPC [Work Package XXXXX] is to use web scraping, text mining and inference techniques for collecting and processing enterprise information, in order to improve or update existing information, such as Internet presence, kind of activity, address information, ownership structure, etc., in the national business registers."
 
 . . .
+
+<br>
 
 Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire des informations complémentaires aux enquêtes menées par les INS dans chaque pays.
 
@@ -165,16 +169,16 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 <br>
 
 - Cadrer le design du projet :
-    + Représentation de données, process et méthodes, ...
+    + Représentation de données, _process_ et méthodes...
 
 . . .
 
 - Cadrer la phase de déploiement :
-    + Infrastructure, étapes de data processing, ...
+    + Infrastructure, étapes de data processing...
 
 . . .
 
-- Réfléchir le cycle de vie du projet en fonction du [GSBPM](https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf)
+- Réfléchir au cycle de vie du projet en fonction du [GSBPM](https://unece.org/fileadmin/DAM/stats/documents/ece/ces/ge.58/2020/mtg2/MWW2020_GSBPM_Introduction.pdf)
 
 
 ## Les différentes étapes d'OBEC
@@ -182,12 +186,13 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 #### 3- Expérimentations
 
 - Production de statistiques expérimentales en utilisant les méthodes d'`OBEC` :
-    + Collecte d'URL, présence sur les réseaux sociaux, activité en ligne, e-commerce, ...
+    + Collecte d'URL, présence sur les réseaux sociaux, activité en ligne, e-commerce...
 
 . . .
 
 - 7 pays volontaires, les rapports et résultats [ici](https://ec.europa.eu/eurostat/cros/content/wpc-experimental-statistics_en)
-    + Les résultats obtenus sont une vitrine d'`OBEC` mais ne peuvent pas encore être considérés comme des statistiques officielles
+    + Les résultats obtenus sont une vitrine d'`OBEC`...
+    + Mais ne peuvent pas encore être considérés comme des statistiques officielles
 
 
 ## Les différentes étapes d'OBEC
@@ -196,11 +201,11 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 
 <br>
 
-- Afin que chaque INS puisse mettre en application les méthodes mises en place lors du projet, un starting kit est disponible en open source.
+- Afin que chaque INS puisse mettre en application les méthodes mises en place lors du projet, un _starting kit_ est disponible en open source.
 
-- Le [deliverable](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C7_Starter_kit_for_NSIs_V.2.pdf) associé au starting kit
+- Le [_deliverable_](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C7_Starter_kit_for_NSIs_V.2.pdf) associé au starting kit
 
-- Le [repository](https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit) sur `Github`
+- Le [code source](https://github.com/EnterpriseCharacteristicsESSnetBigData/StarterKit) sur `Github`
 
 
 ## Les différentes étapes d'OBEC
@@ -211,8 +216,8 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 
 . . .
 
-- Mise en place d'un [template](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf) de suivi de la qualité des résultats
-    + Principalement issu de l'"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"
+- Mise en place d'un [modèle](https://ec.europa.eu/eurostat/cros/sites/default/files/WPC_Deliverable_C5_Quality_template_for_statistical_outputs_2020_09_18_final.pdf) de suivi de la qualité des résultats
+    + Principalement issu de l'_"[UNECE](https://unece.org/fr) Framework for the Quality of Big Data"_
 
 . . .
 

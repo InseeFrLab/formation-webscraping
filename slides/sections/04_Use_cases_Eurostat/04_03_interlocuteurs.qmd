@@ -15,33 +15,34 @@
 . . .
 
 - Un calendrier très complet d'événements, de webinaires...
-    + Dernier webinaire le 23/11 sur le work package 4 : BREAL et user stories, qualité et méthodologie
+    + Dernier webinaire le 23/11 sur le work package 4 : "BREAL et _user stories_", qualité et méthodologie
 
 
 ## Pour reprendre les mots du WIN ...
 
 <br>
 
-> The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for: <br>
-    - Exploring new and emerging data sources <br>
-    - Building competences <br>
-    - Building and strengthening collaborations <br>
-    - Developing new frameworks <br>
-    - Adopting new practices
+> The target audience for the WIH are organisations that produce national statistics and want to modernise the production of national statistics and are looking for:
+>
+>   * Exploring new and emerging data sources <br>
+>   * Building competences <br>
+>   * Building and strengthening collaborations <br>
+>   * Developing new frameworks <br>
+>   * Adopting new practices
 
 
 ## Les webinaires du WIN des prochains mois {.smaller}
 
 <br>
 
-- Début 2023 :
+- [Début 2023]{.blue2} :
     + "Web Scraped Data to Enhance the Quality of the Statistical Business Register"
     + "Method of Processing and Analysing Web Scraped Tourism Data"
     + "Web Intelligence in Practice. How to use content form the web for enterprise statistics?"
 
 . . .
 
-- Mi 2023 :
+- [Mi 2023]{.blue2} :
     + "Web Scraping of Real Estate Portals"
 
 . . .
@@ -71,7 +72,7 @@
 
 . . .
 
-- En revanche, aucune garantie que les guidelines présentées soient appliquées.
+- En revanche, aucune garantie que les _guidelines_ présentées soient appliquées.
 
 . . .
 

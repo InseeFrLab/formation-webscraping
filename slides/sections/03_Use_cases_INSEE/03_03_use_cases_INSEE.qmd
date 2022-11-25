@@ -1,15 +1,14 @@
-## Les prix dans le domaine de l'hôtellerie
+## Les prix dans le domaine de l'hôtellerie (`Booking.com`)
 
-#### `Booking.com`
+#### Références
 
 - Un travail ayant donné lieu à une [publication](https://www.ottawagroup.org/Ottawa/ottawagroup.nsf/4a256353001af3ed4b2562bb00121564/90eefd961765454eca25886a00042203/$FILE/Web%20scraping%20of%20booking.com_Paper.pdf)
-    + *Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index*
-    + Par Adrien Montbroussous, avec le travail de Camille Freppel et Ombéline Guillon
+    + Adrien [Montbroussous]{.blue2}, Camille [Freppel]{.blue2} and Ombéline [Guillon]{.blue2}, *"Web scraping of a booking platform: exploring new data and methodology for the hotel service consumer price index"*, _Paper for the 17th International Conference of the Ottawa Group Rome_
 
 - Une présentation plus accessible [ici](http://www.jms-insee.fr/2022/S14_1_PPT_MONTBROUSSOUS_JMS2022.pdf)
 
 
-## Scraping de `Booking.com`
+## Les prix dans le domaine de l'hôtellerie (`Booking.com`)
 
 #### Le code
 
@@ -19,7 +18,7 @@
 
 - La partie 'scraping' du projet est disponible [ici](https://git.lab.sspcloud.fr/methodo-ipc/webscraping-hotel).
 
-- Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr), INSEE.
+- Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr) (INSEE).
 
 . . .
 
@@ -42,7 +41,7 @@
 
 . . .
 
-- Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr), INSEE.
+- Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr) (INSEE).
 
 
 ## Scraping de la SNCF

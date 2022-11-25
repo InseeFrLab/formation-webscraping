@@ -1,4 +1,6 @@
-## Quand utiliser du scraping ?
+## Scraping à l'INSEE
+
+#### Quand ? 
 
 <br>
 
@@ -12,28 +14,35 @@
 - Le webscraping devient cependant une source de données grandissante.
 
 
-## Les utilisations du scraping à l'INSEE
+## Scraping à l'INSEE
 
-Le scraping est notamment utilisé pour le calcul des indices des prix :
+#### Utilisation
 
-. . .
+<br>
 
-- Prix des transports (trains via le site de la `SNCF`, domaine maritime)
-
-. . .
-
-- Prix de produits divers (surtout de l'électronique)
+Le scraping est notamment utilisé pour le calcul des [__indices des prix__]{.blue2} :
 
 . . .
 
-- Prix dans le domaine de l'hôtellerie (avec `booking.com`)
+- Prix des transports (trains via site de la `SNCF`, domaine maritime) ;
+
+. . .
+
+- Prix de produits divers (surtout de l'électronique) ;
+
+. . .
+
+- Prix dans le domaine de l'hôtellerie (avec `booking.com`).
 
 . . .
 
 D'autres utilisations ponctuelles peuvent également être faites.
 
 
-## Organisation du scraping à l'INSEE
+## Scraping à l'INSEE
+
+#### Organisation
+
 
 <br>
 

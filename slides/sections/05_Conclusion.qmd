@@ -24,7 +24,7 @@
 
 . . .
 
-Le repository de la formation sur Github accessible [ici](https://github.com/antoine-palazz/webscraping_formation)
+Le code source de la formation sur `Github` accessible [ici](https://github.com/antoine-palazz/webscraping_formation)
 
 . . .
 
