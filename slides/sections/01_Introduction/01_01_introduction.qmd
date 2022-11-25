@@ -73,7 +73,7 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 <br>
 
 - Récupérer les commentaires d'un produit ou d'une entreprise sur un site tiers afin d'analyser les retours obtenus et faire du _sentiment analysis_
-    + Un [papier de recherche](https://www.researchgate.net/publication/332409969_Sentiment_Analysis_for_Scraping_of_Product_Reviews_from_Multiple_Web_Pages_Using_Machine_Learning_Algorithms) sur le sujet
+    + Un [papier de recherche](https://doi.org/10.1007/978-3-030-16660-1_66) sur le sujet
 
 . . .
 
