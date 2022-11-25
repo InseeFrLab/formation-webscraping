@@ -16,9 +16,9 @@
 
 # Risques juridiques et scraping éthique {#01_02}
 
-{{< include 01_02_juridique.qmd >}}
+{{< include sections/01_Introduction/01_02_juridique.qmd >}}
 
 
 # Rappels sur `HTML` {#01_03}
 
-{{< include 01_03_HTML.qmd >}}
+{{< include sections/01_Introduction/01_03_HTML.qmd >}}
