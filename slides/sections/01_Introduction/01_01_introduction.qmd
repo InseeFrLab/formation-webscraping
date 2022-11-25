@@ -137,4 +137,4 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 
 . . .
 
-- Minimiser les fardeaux de réponse lors des enquêtes en favorisant le scraping
+- Minimiser la charge de réponse lors des enquêtes en favorisant le scraping
