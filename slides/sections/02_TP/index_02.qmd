@@ -13,19 +13,19 @@
 
 # Présentation des différentes librairies {#02_01}
 
-{{< include 02_01_librairies.qmd >}}
+{{< include sections/02_TP/02_01_librairies.qmd >}}
 
 
 # Partie pratique {#02_02}
 
-{{< include 02_02_TP.qmd >}}
+{{< include sections/02_TP/02_02_TP.qmd >}}
 
 
 # Aspects techniques du scraping éthique {#02_03}
 
-{{< include 02_03_ethique.qmd >}}
+{{< include sections/02_TP/02_03_ethique.qmd >}}
 
 
 # Automatisation et industrialisation {#02_04}
 
-{{< include 02_04_automatisation.qmd >}}
+{{< include sections/02_TP/02_04_automatisation.qmd >}}

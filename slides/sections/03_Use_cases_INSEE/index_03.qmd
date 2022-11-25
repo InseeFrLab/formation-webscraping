@@ -11,14 +11,14 @@
 
 # Quelques litiges légaux {#03_01}
 
-{{< include 03_01_litiges.qmd >}}
+{{< include sections/03_Use_cases_INSEE/03_01_litiges.qmd >}}
 
 
 # Le scraping à l'INSEE {#03_02}
 
-{{< include 03_02_scraping_INSEE.qmd >}}
+{{< include sections/03_Use_cases_INSEE/03_02_scraping_INSEE.qmd >}}
 
 
 # Cas d'usage à l'INSEE {#03_03}
 
-{{< include 03_03_use_cases_INSEE.qmd >}}
+{{< include sections/03_Use_cases_INSEE/03_03_use_cases_INSEE.qmd >}}
