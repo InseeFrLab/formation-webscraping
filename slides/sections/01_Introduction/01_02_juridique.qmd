@@ -3,7 +3,7 @@
 <br>
 
 - Le web scraping en lui-même n'est pas une pratique illégale ...
-    - ... Mais l'utilisation faite des données scrapées peut être soumise à règlementation.
+    - ... Mais l'utilisation faite des données scrapées peut être soumise à réglementation.
     - Ces règles dépendent alors du pays dans lequel on se trouve.
 
 . . .
