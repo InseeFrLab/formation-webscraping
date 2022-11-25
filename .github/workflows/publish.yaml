@@ -19,6 +19,7 @@ jobs:
           # version: 0.9.600
       - name: Build to md
         run: |
+          python3 -m pip install jupyter
           cd slides
           quarto render index.qmd
       - name: Install npm
