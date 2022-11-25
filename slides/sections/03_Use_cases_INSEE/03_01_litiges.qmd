@@ -219,6 +219,8 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 #### Les conclusions (2/2)
 
+<br>
+
 - La Cour d'appel souligne que le but poursuivi lors du scraping est sans incidence pour caractériser l’atteinte au droit `sui generis`.
 
 . . .

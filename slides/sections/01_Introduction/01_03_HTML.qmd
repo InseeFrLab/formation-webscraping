@@ -131,7 +131,7 @@ Deux ressources-clés :
 . . .
 
 - Dans certains cas plus complexes, lire le contenu `HTML` ne suffit pas,
-      + Par exemple s'il faut cliquer sur des boutons pour faire apparaître le contenu désiré.
+   + Par exemple s'il faut cliquer sur des boutons pour faire apparaître le contenu désiré.
 
 
 ## [XPath](https://librarycarpentry.org/lc-webscraping/02-xpath/index.html)

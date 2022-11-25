@@ -18,21 +18,19 @@
 
 #### Utilisation
 
-<br>
-
 Le scraping est notamment utilisé pour le calcul des [__indices des prix__]{.blue2} :
 
 . . .
 
-- Prix des transports (trains via site de la `SNCF`, domaine maritime) ;
+- Prix des __transports__ (trains via site de la `SNCF`, domaine maritime) ;
 
 . . .
 
-- Prix de produits divers (surtout de l'électronique) ;
+- Prix de __produits divers__ (surtout de l'électronique) ;
 
 . . .
 
-- Prix dans le domaine de l'hôtellerie (avec `booking.com`).
+- Prix dans le domaine de l'__hôtellerie__ (avec `booking.com`).
 
 . . .
 

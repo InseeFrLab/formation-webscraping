@@ -84,4 +84,6 @@ La librairie se trouve généralement sous le nom de `bs4`.
 
 - `Java` est également beaucoup utilisé dans le domaine du webscraping
 
+<br>
+
 - Documentation extensive disponible sur Internet

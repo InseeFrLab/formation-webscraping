@@ -35,14 +35,14 @@
 
 <br>
 
-- [Début 2023]{.blue2} :
+- [__Début 2023__]{.blue2} :
     + "Web Scraped Data to Enhance the Quality of the Statistical Business Register"
     + "Method of Processing and Analysing Web Scraped Tourism Data"
     + "Web Intelligence in Practice. How to use content form the web for enterprise statistics?"
 
 . . .
 
-- [Mi 2023]{.blue2} :
+- [__Mi 2023__]{.blue2} :
     + "Web Scraping of Real Estate Portals"
 
 . . .
