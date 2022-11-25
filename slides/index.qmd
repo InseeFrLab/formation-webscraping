@@ -4,7 +4,8 @@ subtitle: |
   **[Rabat - Coopération internationale]{.orange}**
 author: |
   [Antoine Palazzolo, INSEE](https://github.com/antoine-palazz/),
-date: Décembre 2022
+date: 01/12/2022
+date-format: long
 slide-number: true
 # uncomment for French presentations:
 lang: fr-FR

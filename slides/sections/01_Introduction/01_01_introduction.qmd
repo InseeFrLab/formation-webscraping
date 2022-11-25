@@ -33,7 +33,7 @@
 
 . . .
 
-- Le [webcrawling](https://en.wikipedia.org/wiki/Web_crawler) correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.
+- Le [webcrawling](https://en.wikipedia.org/wiki/Web_crawler), ou [spidering]{.blue2} correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.
 
 . . .
 
