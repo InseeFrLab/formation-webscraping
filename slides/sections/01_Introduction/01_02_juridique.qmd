@@ -1,8 +1,8 @@
-## Le webscraping, est-ce légal ? {.smaller}
+## Le web scraping, est-ce légal ? {.smaller}
 
 <br>
 
-- Le webscraping en lui-même n'est pas une pratique illégale ...
+- Le web scraping en lui-même n'est pas une pratique illégale ...
     - ... Mais l'utilisation faite des données scrapées peut être soumise à règlementation.
     - Ces règles dépendent alors du pays dans lequel on se trouve.
 
