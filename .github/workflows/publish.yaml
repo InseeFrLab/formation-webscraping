@@ -1,22 +1,41 @@
-name: Publish slides
-
-on: 
+on:
   push:
-    branches:
-      - main
+    branches: main
+
+name: Render and Publish
 
 jobs:
-  publish:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v3
-      - name: Set up quarto
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      - name: Publish slides
-        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages
-          path: slides/index.qmd
+          # To install LaTeX to build PDF book 
+          tinytex: false
+          # uncomment below and fill to pin a version
+          # version: 0.9.600
+      - name: Build to md
+        run: |
+          cd slides
+          quarto render index.qmd        
+      - name: Install npm
+        uses: actions/setup-node@v2          
+        with:
+          node-version: '14'        
+      - name: Deploy to Netlify
+        # NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID added in the repo's secrets
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          BRANCHE_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          npm init -y
+          npm install --unsafe-perm=true netlify-cli -g
+          netlify init
+          netlify deploy --prod --dir="slides" --message "Deploy master"
+      
+
+      
