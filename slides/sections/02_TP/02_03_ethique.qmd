@@ -17,9 +17,7 @@
 ::: {.callout-tip}
 ## Exemple avec `Python` et `requests`
 
-```{python}
-#| echo: true
-#| eval: false
+```python
 
 url = 'abc.com'
 

@@ -20,7 +20,7 @@ jobs:
       - name: Build to md
         run: |
           cd slides
-          quarto render index.qmd        
+          quarto render index.qmd
       - name: Install npm
         uses: actions/setup-node@v2          
         with:
@@ -36,6 +36,3 @@ jobs:
           npm install --unsafe-perm=true netlify-cli -g
           netlify init
           netlify deploy --prod --dir="slides" --message "Deploy master"
-      
-
-      
