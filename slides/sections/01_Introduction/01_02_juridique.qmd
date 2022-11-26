@@ -294,5 +294,5 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 . . .
 
-- Il existe parfois des structures dont le rôle est justement d'évaluer l'aspect juridique de pratiques comme le webscraping.
+- Il existe parfois des structures dont le rôle est justement d'évaluer l'aspect juridique de pratiques comme le web scraping.
     + A l'INSEE, c'est la responsabilité de l'[UAJC](https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532)
