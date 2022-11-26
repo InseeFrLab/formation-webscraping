@@ -1,12 +1,12 @@
 ## Les investissements d'Eurostat en web scraping
 
-- Eurostat investit dans divers projets nommés [ESSnets](https://ec.europa.eu/eurostat/cros/page/essnet_en).
+- Eurostat investit dans divers projets communs nommés [ESSnets](https://ec.europa.eu/eurostat/cros/page/essnet_en).
 
     > "An ESSnet project is a network of several `ESS` organisations aimed at providing results that will be beneficial to the whole `ESS`."
 
 . . .
 
-- Parmi ces investissements, plusieurs liés aux nouvelles sources de données, dont le webscraping.
+- Parmi ces investissements, plusieurs liés aux nouvelles sources de données, dont le web scraping.
     + ESSnet Big Data I & II
     + Trusted Smart Statistics – Web Intelligence Network (`WIN`)
 

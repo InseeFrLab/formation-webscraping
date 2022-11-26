@@ -87,7 +87,7 @@
 
 . . .
 
-- Bien respecter les règles en vigueur pour chaque site et pays au sujet du webscraping
+- Bien respecter les règles en vigueur pour chaque site et pays au sujet du web scraping
 
 . . .
 
