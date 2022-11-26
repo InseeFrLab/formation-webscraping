@@ -87,7 +87,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 . . .
 
-- Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données (notamment personnelles)
+- Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données à caractère personnel
 
 
 ## Les principales règlementations autour du webscraping {.smaller}
