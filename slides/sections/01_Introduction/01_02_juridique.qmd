@@ -256,7 +256,7 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 <br>
 
-- Consciemment déroger aux règlementations applicables et manquer de transparence
+- Consciemment déroger aux réglementations applicables et manquer de transparence
 
 . . .
 
