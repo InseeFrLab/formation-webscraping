@@ -211,8 +211,8 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 . . .
 
 - Entreparticuliers a donc été condamné à deux reprises :
-    + Par le tribunal au nom de _l’article L.342-1 du Code de la propriété intellectuelle_
-    + Par la Cour d'appel au nom de _l’article L.342-2 du même Code_
+    + Par le tribunal au nom de _l’article L.\ 342-1 du Code de la propriété intellectuelle_
+    + Par la Cour d'appel au nom de _l’article L.\ 342-2 du même Code_
 
 
 ## [LeBonCoin v. Entreparticuliers (2021)]{.orange} {.smaller}
