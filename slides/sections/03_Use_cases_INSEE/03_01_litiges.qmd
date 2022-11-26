@@ -282,7 +282,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 . . .
 
-- L'activité de webscraping en elle-même ne viole pas le Computer Fraud and Abuse Act.
+- L'activité de web scraping en elle-même ne viole pas le Computer Fraud and Abuse Act.
 
 . . .
 
