@@ -96,7 +96,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 <br>
 
-- Les __jurisprudences__ issues des procès d'entreprises liés au webscraping
+- Les __jurisprudences__ issues des procès d'entreprises liés au web scraping
 
 . . .
 
