@@ -152,7 +152,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 - [__Nécessiter une identification__]{.blue2} pour accéder au contenu du site
 
 
-## Les limites du webscraping {.smaller}
+## Les limites du web scraping {.smaller}
 
 - La qualité des données obtenues par scraping n'est pas toujours au rendez-vous.
     + De plus, vérification manuelle à faire pour vérifier qu'un faux contenu n'a pas été renvoyé par le site.
