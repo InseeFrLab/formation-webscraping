@@ -71,7 +71,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 - La `CNIL` a également publié en 2020 un ensemble de [nouvelles directives](https://www.cnil.fr/fr/la-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial), limitant l'usage de données personnelles, même si publiques, à usage commercial
 
 
-## Les principales règlementations autour du webscraping {.smaller}
+## Les principales règlementations autour du web scraping {.smaller}
 
 #### En Europe
 
