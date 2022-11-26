@@ -6,7 +6,7 @@
 
 [Cas d'usage d'Eurostat](#04_02)
 
-[Webscraping dans un INS - Quelques interlocuteurs](#04_03)
+[Web scraping dans un INS - Quelques interlocuteurs](#04_03)
 
 
 # Le scraping chez Eurostat {#04_01}
@@ -19,6 +19,6 @@
 {{< include sections/04_Use_cases_Eurostat/04_02_use_cases_Eurostat.qmd >}}
 
 
-# Webscraping dans un INS - Quelques interlocuteurs {#04_03}
+# Web scraping dans un INS - Quelques interlocuteurs {#04_03}
 
 {{< include sections/04_Use_cases_Eurostat/04_03_interlocuteurs.qmd >}}

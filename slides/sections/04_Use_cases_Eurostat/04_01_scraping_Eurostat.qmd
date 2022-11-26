@@ -1,4 +1,4 @@
-## Les investissements d'Eurostat en webscraping
+## Les investissements d'Eurostat en web scraping
 
 - Eurostat investit dans divers projets nommés [ESSnets](https://ec.europa.eu/eurostat/cros/page/essnet_en).
 
