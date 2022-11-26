@@ -4,14 +4,14 @@
 
 <br>
 
-- Le webscraping est utilisé en __dernier recours__, l'INSEE favorisera :
+- Le web scraping est utilisé en __dernier recours__, l'INSEE favorisera :
     + Les [__accords__]{.blue2} avec des partenaires (ex : seloger.com)
     + L'utilisation d'[__API__]{.blue2} (ex : Qwant, Yahoo Finance)
     + Les sources de [__données publiques__]{.blue2}
 
 . . .
 
-- Le webscraping devient cependant une source de données grandissante.
+- Le web scraping devient cependant une source de données grandissante.
 
 
 ## Scraping à l'INSEE
