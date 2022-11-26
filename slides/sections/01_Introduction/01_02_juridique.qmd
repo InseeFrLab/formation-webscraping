@@ -176,11 +176,11 @@ Il est préférable de privilégier d'autres modes d'accès aux données lorsque
 :::
 
 
-## Dans ces conditions, quand envisager le webscraping ? {.smaller}
+## Dans ces conditions, quand envisager le web scraping ? {.smaller}
 
 <br>
 
-La politique de l'INSEE est de garder le webscraping comme __dernière option__. Les premières étapes recommandées sont d'abord de :
+La politique de l'INSEE est de garder le web scraping comme __dernière option__. Les premières étapes recommandées sont d'abord de :
 
 - Demander directement aux sites concernés l'accès à leurs données et nouer d'éventuels partenariats, par exemple modulo une contrepartie
 
@@ -195,7 +195,7 @@ La politique de l'INSEE est de garder le webscraping comme __dernière option__.
 
 ## Pour un scraping éthique (et légal !)
 
-- Le webscraping reste malgré tout une nouvelle source de données très pratique dans le cas où aucune meilleure alternative ne se présente.
+- Le web scraping reste malgré tout une nouvelle source de données très pratique dans le cas où aucune meilleure alternative ne se présente.
     + Il ne faut donc pas s'en priver lorsque c'est techniquement et juridiquement propice.
 
 . . .
