@@ -56,9 +56,9 @@ La librairie se trouve généralement sous le nom de `bs4`.
 <br>
 
 - Un outil plus complet mais aussi plus complexe
-- Très utile pour les opérations de webcrawling
+- Très utile pour les opérations de web crawling
 - Davantage recommandé pour de gros projets
-- Un tutoriel par [Library Carpentry](https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html)
+- Un tutoriel des [Carpentries](https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html)
 
 
 ## Quelques librairies sur `R`
