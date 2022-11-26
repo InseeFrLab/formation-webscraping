@@ -56,7 +56,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 . . .
 
-- L'[article 323-3 du Code Pénal](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939448) : _"Le fait [...] d'extraire, de détenir, de reproduire [...] frauduleusement les données qu'il [le site] contient est puni de cinq ans d'emprisonnement et de 150 000 € d'amende"_
+- L'[article 323-3 du code pénal](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939448) : _"Le fait [...] d'extraire, de détenir, de reproduire [...] frauduleusement les données qu'il [le site] contient est puni de cinq ans d'emprisonnement et de 150 000 € d'amende"_
 
 . . .
 
