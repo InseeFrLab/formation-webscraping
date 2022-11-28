@@ -1,8 +1,69 @@
-## Une plateforme de travail : Onyxia et le SSP Cloud
+## Une plateforme de travail : le [SSP Cloud](https://datalab.sspcloud.fr/home)
 
 <br>
 
-Insérer courte présentation SSP Cloud + Onyxia
+![](img/macbook_onyxia.png){fig-align="center"}
+
+
+## Un Datalab pour l'expérimentation et la formation
+
+- Plateforme de datascience dimensionnée pour les usages innovants
+
+. . .
+
+- Des technologies modernes qui favorisent la reproductibilité
+
+. . .
+
+- Lieu de formation et d'expérimentation
+
+. . .
+
+- Ouverte et collaborative
+
+
+## Du libre-service à la mise en production
+
+![](img/onyxia_galaxy.png){fig-align="center"}
+
+
+## Le projet [Onyxia](https://github.com/InseeFrLab/onyxia)
+
+- Un projet open-source pour déployer des plateformes de datascience modernes
+
+![](img/onyxia_instances.png){fig-align="center"}
+
+. . . 
+
+- Bientôt des instances de production internes à l'Insee !
+
+
+## De la formation
+
+- Le [catalogue de formation](https://www.sspcloud.fr/formation) du SSP Cloud
+  - Des formations reproductibles
+  - Un catalogue contributif
+
+. . . 
+
+- Innover sur les modes de formation
+  - Vers de l'auto-formation tutorée
+
+
+## De l'open-source
+
+- Comptes GitHub institutionnels
+  - [InseeFr](https://github.com/InseeFr)
+  - [InseeFrLab](https://github.com/InseeFrLab)
+
+. . . 
+
+- Pourquoi ouvrir ses codes ?
+  - Auditabilité des agents publics
+  - Meilleur qualité du code et reproductibilité
+  - Une vitrine pour l'auteur.e et pour l'INS
+
+- Pour plus d'informations, contacter [innovation@insee.fr](innovation@insee.fr)
 
 
 ## Comment utiliser le SSP Cloud ?
