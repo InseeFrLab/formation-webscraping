@@ -22,7 +22,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 . . .
 
 - En revanche, la réutilisation des données est encadrée.
-    + Par exemple par le code de la propriété intellectuelle ou en Europe par le `RGPD`.
+    + Par exemple par le code de la propriété intellectuelle ou par le `RGPD`.
 
 . . .
 
@@ -41,7 +41,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
     - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/)...
 
 
-## Les principales règlementations autour du web scraping {.smaller}
+## Les principales réglementations autour du web scraping {.smaller}
 
 #### En France
 
@@ -66,23 +66,34 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 - La `CNIL` a également publié en 2020 un ensemble de [nouvelles directives](https://www.cnil.fr/fr/la-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial), limitant l'usage de données personnelles, même si publiques, à usage commercial
 
 
-## Les principales règlementations autour du web scraping {.smaller}
+## Les principales réglementations autour du web scraping {.smaller}
 
-#### En Europe
+#### En Europe (1/2)
 
-<br>
+- La [Directive 96/9/CE](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML) du Parlement Européen et du conseil
+    + Elle introduit notamment le droit [sui generis](https://fr.wikipedia.org/wiki/Sui_generis), protégeant les bases de données ayant nécessité un _"investissement substantiel"_
 
-- Le droit [sui generis](https://fr.wikipedia.org/wiki/Sui_generis), protégeant les bases de données ayant nécessité un _"investissement substantiel"_
+    + >  Les États membres prévoient pour le fabricant d’une base de données le droit d’interdire l’extraction et/ou la réutilisation de la totalité ou d’une partie substantielle, évaluée de façon qualitative ou quantitative, du contenu de celle-ci, lorsque l’obtention, la vérification ou la présentation de ce contenu attestent un investissement substantiel du point de vue qualitatif ou quantitatif
 
-. . .
+    + > l’extraction et/ou la réutilisation répétées et systématiques de parties non substantielles du contenu de la base de données qui supposeraient des actes contraires à une exploitation normale de cette base, ou qui causeraient un préjudice injustifié aux intérêts légitimes du fabricant de la base, ne sont pas autorisées
 
-- Certains règlements et directives relatifs à la protection des bases de données en Europe
-    - [Directive 96/9/CE](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML) du Parlement Européen et du conseil
-    - [Data Governance Act](https://info.haas-avocats.com/droit-digital/data-governance-act-reglement-europeen), prévu pour septembre 2023
 
-. . .
+## Les principales réglementations autour du web scraping
+
+#### En Europe (2/2)
 
 - Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données à caractère personnel
+    + Règlement européen mais d'application extraterritoriale
+    + [5 grands principes](https://www.cnil.fr/fr/cnil-direct/question/quels-sont-les-grands-principes-des-regles-de-protection-des-donnees) :
+        - Le principe de finalité
+        - Le principe de proportionnalité et de pertinence
+        - Le principe d'une durée de conservation limitée
+        - Le principe de sécurité et de confidentialité
+        - Les droits des personnes 
+
+. . .
+
+- Le [Data Governance Act](https://info.haas-avocats.com/droit-digital/data-governance-act-reglement-europeen), prévu pour septembre 2023
 
 
 ## Les principales réglementations autour du web scraping {.smaller}
@@ -117,7 +128,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
     + Un scraping mal fait peut s'assimiler à une [attaque par déni de service](https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service) (`DoS`)
 
 
-## Les méthodes mises en place pour se protéger du scraping (1/2)
+## Les méthodes mises en place pour se protéger du scraping (1/2) {.smaller}
 
 - Mettre en place des [__conditions d'utilisation__]{.blue2} contraignantes et instructions explicites pour se protéger d'un point de vue légal
 
@@ -128,6 +139,10 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 . . .
 
 - [__Identifier les bots__]{.blue2} et leur afficher un contenu différent des utilisateurs classiques, pour par exemple [__renvoyer de fausses données__]{.blue2}
+
+. . .
+
+- [__Limiter les requêtes ou la bande passante consommée__]{.blue2} par une même source, pouvant ainsi conduire à des collectes partielles ou interrompues
 
 
 ## Les méthodes mises en place pour se protéger du scraping (2/2)
@@ -156,6 +171,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 - Il faut 'lutter' contre les sites qui se défendent contre le scraping, ce qui n'est pas sans effort.
     + Modifications manuelles des codes à faire régulièrement, rendant l'__automatisation très difficile__.
+    + Pérennité de la collecte au fil du temps compliquée.
 
 . . .
 
@@ -199,6 +215,21 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
     + Cela passe par exemple par __demander la permission__ aux sites à scraper, ce qui peut aussi conduire à un éventuel partenariat.
 
 
+## Les guidelines du `Système Statistique Européen` {.smaller}
+
+<br>
+
+- Un ensemble de recommandations principalement à destination des INS sur le point d'être publié
+
+. . .
+
+- Une [première version](https://ec.europa.eu/eurostat/cros/system/files/04_-_web_scraping_policy.doc) datant de février 2020 disponible en ligne
+
+. . .
+
+> In the context of the work on Big Data and Trusted Smart Statistics, the European Statistical System (ESS) increasingly utilises information published on the World Wide Web. To ensure that web scraping activities of European Statistical System (ESS) members, namely Eurostat and the national statistical institutes (NSIs) are carried out transparently, and in line with ethical and legal provision, this document proposes guidelines for an ESS wide web scraping policy. Once adopted, these guidelines not only foster nationally sound practices but also ensure a consistent approach across the ESS.
+
+
 ## Les guidelines du `Système Statistique Européen`
 
 #### Transparence
@@ -239,12 +270,12 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 . . .
 
-- [__Se plier aux conditions d'utilisation__]{.blue2} des sites concernés et aux règlementations de la zone concernée
+- [__Se plier aux conditions d'utilisation__]{.blue2} des sites concernés et aux réglementations de la zone concernée
 
 . . .
 
 - Manipuler de façon sécurisée les données scrapées, notamment les données personnelles
-    + Ex : En Europe, [__respecter le RGPD__]{.blue2}
+    + Ex : [__Respecter le RGPD__]{.blue2}, d'application extraterritoriale
 
 
 ## ⚠️ Ce qu'il ne faut pas faire ! {.smaller}
@@ -276,8 +307,6 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 ## Avertissements {.smaller}
 
-<br>
-
 - Selon les pays, il existe des données qui sont publiques mais dont le scraping est illégal.
     + Il faut donc bien se renseigner sur les lois locales.
     + Par exemple, la collecte d'adresses mail par scraping est illégale en Australie, en raison du [Spam Act](https://en.wikipedia.org/wiki/Spam_Act_2003) de 2003.
@@ -291,3 +320,7 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 - Il existe parfois des structures dont le rôle est justement d'évaluer l'aspect juridique de pratiques comme le web scraping.
     + A l'INSEE, c'est la responsabilité de l'[UAJC](https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532)
+
+. . .
+
+- Outre l'aspect juridique, il faut bien passer en revue les impacts méthodologiques liés aux risques techniques du web scraping (collecte incomplète, rupture de collecte).

@@ -41,21 +41,30 @@ request_text = requests.get(url, headers=headers).text
 . . .
 
 - Essentiel pour le scraping, il est vivement recommandé de se plier au [protocole d'exclusion des robots](https://en.wikipedia.org/wiki/Robots_exclusion_standard).
-    + En tapant la racine de l'url suivi de '/robots.txt', on peut accéder à une page du site indiquant quels sont les contenus autorisés par le site à scraper ou non.
+    + En tapant la racine de l'url suivi de '/robots.txt', on peut accéder à une page du site indiquant les règles que doit respecter un programme pour accéder au site, les pages pouvant être scrapées, celles qui ne doivent pas l’être, la charge acceptable de scraping (fréquence des requêtes par exemple)...
     + Exemple: [https://fr.wikipedia.org/__robots.txt__]{.orange}
     + Les crawlers peuvent lire ces fichiers et s'y plier d'eux-mêmes (cf [IBM](https://www.ibm.com/docs/en/wca/3.5.0?topic=crawlers-how-web-crawler-uses-robots-exclusion-protocol)).
+    + Davantages d'informations et explications techniques [ici](https://www.robotstxt.org/robotstxt.html)
 
 
 ## Contourner les défenses des sites
-
-<br>
 
 Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 
 . . .
 
 - Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (`time.sleep()` en `Python`)
+    + C'est également une bonne pratique de scraping éthique
+    + Un délai de 2 et 5 secondes par requête est la préconisation usuelle
 
 . . .
 
 - Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer
+
+
+## Autres recommandations pour un INS
+
+- Faire en sorte de pouvoir tracer l’activité d’un programme, afin de notamment pouvoir en auditer le fonctionnement.
+    + Les logs doivent contenir des informations sur l’utilisateur ou le compte système effectuant l’action, le résultat de l’action et le temps qu’elle a mis à s’exécuter.
+
+- En cas de passage en production, il est nécessaire que le programme fasse l’objet d’une revue de code (entre pairs ou externe), voire, selon la nature de son intégration, relève d’une démarche d’homologation de sécurité.

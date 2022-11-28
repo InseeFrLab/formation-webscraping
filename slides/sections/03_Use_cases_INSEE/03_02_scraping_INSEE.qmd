@@ -45,6 +45,8 @@ D'autres utilisations ponctuelles peuvent également être faites.
 <br>
 
 - Un scraping encore par cas d'usage, avec une gestion plus globale en cours de maturité
+    + Objectif de mutualisation entre les équipes statistiques
+    + La logique open source comme moyen de mutualisation
 
 . . .
 
