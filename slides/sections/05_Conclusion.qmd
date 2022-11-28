@@ -1,6 +1,6 @@
 ## Le mot de la fin
 
-- Le webscraping est une nouvelle source de données très prometteuse.
+- Le web scraping est une nouvelle source de données très prometteuse.
     - Les cas d'usage sont nombreux, y compris pour les INS.
 
 . . .

@@ -58,7 +58,7 @@
 
 . . .
 
-- Une politique de webscraping très mature, disponible [ici](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy) et [ici](https://www.ons.gov.uk/file?uri=/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy/webscrapingpolicy.pdf)
+- Une politique de web scraping très mature, disponible [ici](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy) et [ici](https://www.ons.gov.uk/file?uri=/aboutus/transparencyandgovernance/datastrategy/datapolicies/webscrapingpolicy/webscrapingpolicy.pdf)
     - Ne pas hésiter à lire leur liste des bonnes pratiques, très bien faite
 
 . . .

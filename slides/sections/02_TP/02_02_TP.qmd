@@ -27,18 +27,20 @@
 ![](img/onyxia_galaxy.png){fig-align="center"}
 
 
-## Le projet [Onyxia](https://github.com/InseeFrLab/onyxia)
+## Le projet [Onyxia](https://www.onyxia.sh/)
 
 - Un projet open-source pour déployer des plateformes de datascience modernes
 
 ![](img/onyxia_instances.png){fig-align="center"}
 
-. . . 
+. . .
 
-- Bientôt des instances de production internes à l'Insee !
+- Le dépôt Github [ici](https://github.com/InseeFrLab/onyxia)
 
 
 ## De la formation
+
+<br>
 
 - Le [catalogue de formation](https://www.sspcloud.fr/formation) du SSP Cloud
   - Des formations reproductibles
@@ -63,14 +65,22 @@
   - Meilleur qualité du code et reproductibilité
   - Une vitrine pour l'auteur.e et pour l'INS
 
+. . .
+
 - Pour plus d'informations, contacter [innovation@insee.fr](innovation@insee.fr)
 
 
-## Comment utiliser le SSP Cloud ?
+## Comment utiliser le [SSP Cloud](https://datalab.sspcloud.fr/home) ?
 
 <br>
 
-Insérer rapides explications utilisation
+- Une [documentation](https://docs.sspcloud.fr/onyxia-guide/decouverte-du-datalab) très complète
+
+. . .
+
+<br>
+
+- Démonstration en direct !
 
 
 ## Mise en pratique : se familiariser à BeautifulSoup et Selenium

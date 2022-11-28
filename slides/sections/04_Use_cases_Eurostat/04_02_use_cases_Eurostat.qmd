@@ -1,6 +1,6 @@
 ## Le work package 2 du `WIN` {.smaller}
 
-- Il y a notamment deux gros projets de webscraping qui se sont poursuivis dans ces ESSnets :
+- Il y a notamment deux gros projets de web scraping qui se sont poursuivis dans ces ESSnets :
     + [Online Job Advertisements](https://ec.europa.eu/eurostat/cros/content/WPB_Online_job_vacancies_en) (`OJA`)
         - Aussi appelé Online Job Vacancies (`OJV`)
     + [Online-Based Enterprise Characteristics](https://ec.europa.eu/eurostat/cros/content/WPC_Enterprise_characteristics_en) (`OBEC`)
@@ -38,12 +38,12 @@
 
 . . .
 
-- Le webscraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles
+- Le web scraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles
 
 
 ## Online Job Advertisements
 
-#### Avantages du webscraping
+#### Avantages du web scraping
 
 <br>
 
@@ -149,7 +149,7 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 
 ## Les différentes étapes d'OBEC
 
-#### 1- Politique de webscraping
+#### 1- Politique de web scraping
 
 <br>
 
@@ -161,7 +161,7 @@ Autrement dit, de nombreux sites d'entreprises sont scrapés afin d'en extraire 
 
 . . .
 
-- Une [politique sur l'usage du webscraping](https://ec.europa.eu/eurostat/cros/system/files/wpc_deliverable_c1_ess_web-scraping_policy_template_2019_07_15.pdf) pour le projet a donc été rédigée et diffusée.
+- Une [politique sur l'usage du web scraping](https://ec.europa.eu/eurostat/cros/system/files/wpc_deliverable_c1_ess_web-scraping_policy_template_2019_07_15.pdf) pour le projet a donc été rédigée et diffusée.
 
 
 ## Les différentes étapes d'OBEC

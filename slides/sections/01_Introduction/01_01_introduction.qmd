@@ -118,11 +118,11 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 
 #### Dans le domaine de la recherche
 
-<br>
-
 - Pour des chercheurs, le web scraping peut représenter une importante source de données, et ce dans des domaines très variés.
 
-    + Un exemple [ici](https://doi.org/10.1038/s41597-022-01369-4) avec une équipe ayant scrapé [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal) pour compléter des données extraites de [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
+    + Un exemple [ici](https://doi.org/10.1038/s41597-022-01369-4) avec une équipe ayant scrapé [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal) pour compléter des données extraites de [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe.
+
+    + Un [code](https://data.sciencespo.fr/dataset.xhtml?persistentId=doi:10.21410/7E4/YLG6YR) en open source
 
 
 ## Cas d'usage pour un INS

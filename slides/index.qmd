@@ -1,5 +1,5 @@
 ---
-title: Formation au webscraping 
+title: Formation au web scraping 
 subtitle: |
   **[Rabat - Coopération internationale]{.orange}**
 author:
@@ -28,7 +28,7 @@ ascii: true
 
 <br>
 
-[I. Introduction au webscraping](#index_01)
+[I. Introduction au web scraping](#index_01)
 
 [II. Mise en pratique](#index_02)
 
@@ -39,7 +39,7 @@ ascii: true
 [V. Conclusion](#index_05)
 
 
-# I. Introduction au webscraping {#index_01}
+# I. Introduction au web scraping {#index_01}
 
 {{< include sections/01_Introduction/index_01.qmd >}}
 
