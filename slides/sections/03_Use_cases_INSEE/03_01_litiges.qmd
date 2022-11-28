@@ -236,10 +236,10 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 <br>
 
 - [AutoTrack v. GasPedaal](https://curia.europa.eu/juris/document/document.jsf?docid=145914&doclang=FR) (2013 - Pays-Bas)
+    + Aussi connu sous le nom de [Innoweb BV v. Wegener ICT Media BV](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62012CA0202)
     + Le métamoteur de recherche GasPedaal est interdit de scraper GasPedaal, notamment car :
         - Les données scrapées sont réutilisées sans modification notoire
         - AutoTrack bénéficie du droit `sui generis` sur ses données
-    + 
 
 
 ## D'autres litiges légaux aux Etats-Unis
@@ -297,6 +297,11 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 <br>
 
-- La [loi n° 633 du 22 avril 1941](https://wipolex-res.wipo.int/edocs/lexdocs/laws/fr/it/it099fr.html), pour la protection du droit d’auteur prévoit une exception en cas d’utilisation d’une base de données à des fins de recherche scientifique à but non lucratif (art. 64-sexies de la loi n° 633/1941 modifié).
+Quid des prérogatives de puissance publique pour recueillir de l'information ?
 
-- Bien que la recherche et la production statistiques ne soient pas explicitement mentionnées, ces dispositions apportent un cadre raisonnable pour permettre aux statisticiens publics d’accéder aux informations des bases de données en ligne et pour traiter ces informations afin de produire des résultats statistiques anonymisés.
+. . .
+
+<br>
+
+- En Europe, la [loi n° 633 du 22 avril 1941](https://wipolex-res.wipo.int/edocs/lexdocs/laws/fr/it/it099fr.html), pour la protection du droit d’auteur, prévoit une exception en cas d’utilisation d’une base de données à des fins de recherche scientifique à but non lucratif (art. 64-sexies de la loi n° 633/1941 modifié).
+    + Bien que la recherche et la production statistiques ne soient pas explicitement mentionnées, ces dispositions apportent un cadre raisonnable pour permettre aux statisticiens publics d’accéder aux informations des bases de données en ligne et pour traiter ces informations afin de produire des résultats statistiques anonymisés.

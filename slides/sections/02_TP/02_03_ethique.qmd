@@ -47,7 +47,9 @@ request_text = requests.get(url, headers=headers).text
     + Davantages d'informations et explications techniques [ici](https://www.robotstxt.org/robotstxt.html)
 
 
-## Contourner les défenses des sites
+## Contourner les défenses des sites {.smaller}
+
+<br>
 
 Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 
@@ -62,9 +64,13 @@ Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 - Modifier régulièrement le champ user-agent (par exemple avec un compteur) avant que celui-ci ne se fasse bloquer
 
 
-## Autres recommandations pour un INS
+## Autres recommandations pour un INS {.smaller}
+
+<br>
 
 - Faire en sorte de pouvoir tracer l’activité d’un programme, afin de notamment pouvoir en auditer le fonctionnement.
     + Les logs doivent contenir des informations sur l’utilisateur ou le compte système effectuant l’action, le résultat de l’action et le temps qu’elle a mis à s’exécuter.
+
+. . .
 
 - En cas de passage en production, il est nécessaire que le programme fasse l’objet d’une revue de code (entre pairs ou externe), voire, selon la nature de son intégration, relève d’une démarche d’homologation de sécurité.

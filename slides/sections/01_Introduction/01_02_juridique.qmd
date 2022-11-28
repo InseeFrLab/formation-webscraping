@@ -73,14 +73,16 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 - La [Directive 96/9/CE](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996L0009:fr:HTML) du Parlement Européen et du conseil
     + Elle introduit notamment le droit [sui generis](https://fr.wikipedia.org/wiki/Sui_generis), protégeant les bases de données ayant nécessité un _"investissement substantiel"_
 
-    + >  Les États membres prévoient pour le fabricant d’une base de données le droit d’interdire l’extraction et/ou la réutilisation de la totalité ou d’une partie substantielle, évaluée de façon qualitative ou quantitative, du contenu de celle-ci, lorsque l’obtention, la vérification ou la présentation de ce contenu attestent un investissement substantiel du point de vue qualitatif ou quantitatif
+    + >  Le fabricant d’une base de données [a] le droit d’interdire l’extraction et/ou la réutilisation de la totalité ou d’une partie substantielle, évaluée de façon qualitative ou quantitative, du contenu de celle-ci, lorsque l’obtention, la vérification ou la présentation de ce contenu attestent un investissement substantiel du point de vue qualitatif ou quantitatif
 
-    + > l’extraction et/ou la réutilisation répétées et systématiques de parties non substantielles du contenu de la base de données qui supposeraient des actes contraires à une exploitation normale de cette base, ou qui causeraient un préjudice injustifié aux intérêts légitimes du fabricant de la base, ne sont pas autorisées
+    + > L’extraction et/ou la réutilisation répétées et systématiques de parties non substantielles du contenu de la base de données qui supposeraient des actes contraires à une exploitation normale de cette base, ou qui causeraient un préjudice injustifié aux intérêts légitimes du fabricant de la base, ne sont pas autorisées
 
 
-## Les principales réglementations autour du web scraping
+## Les principales réglementations autour du web scraping {.smaller}
 
 #### En Europe (2/2)
+
+<br>
 
 - Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données à caractère personnel
     + Règlement européen mais d'application extraterritoriale
@@ -130,6 +132,8 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 ## Les méthodes mises en place pour se protéger du scraping (1/2) {.smaller}
 
+<br>
+
 - Mettre en place des [__conditions d'utilisation__]{.blue2} contraignantes et instructions explicites pour se protéger d'un point de vue légal
 
 . . .
@@ -171,7 +175,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 - Il faut 'lutter' contre les sites qui se défendent contre le scraping, ce qui n'est pas sans effort.
     + Modifications manuelles des codes à faire régulièrement, rendant l'__automatisation très difficile__.
-    + Pérennité de la collecte au fil du temps compliquée.
+    + Pérennité de la collecte au fil du temps incertaine.
 
 . . .
 

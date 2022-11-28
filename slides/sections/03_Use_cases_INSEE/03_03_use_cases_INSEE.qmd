@@ -44,11 +44,43 @@
 - Pour plus d'informations, contacter [Adrien Montbroussous](mailto:adrien.montbroussous@insee.fr) (INSEE).
 
 
-## Scraping de la SNCF
+## Scraping de la SNCF {.smaller}
+
+#### Contexte
 
 <br>
 
-Si autorisé, insérer slides scraping SNCF
+- Le calcul de l'IPC tient compte de :
+    + L’indice des prix des trains Grandes Lignes
+    + Le transport des passagers en train
+
+. . .
+
+- Les prix utilisés étaient fondés sur un document publié annuellement par la SNCF. Mais cette méthode :
+    + Ne reflète pas les variations infra-annuelles réelles, en particulier pour les TGV
+    + Ne reflète pas les prix effectivement payés par les consommateurs
+    + Ne suit pas les recommandations des institutions internationales
+
+
+## Scraping de la SNCF {.smaller}
+
+#### Introduction du webscraping
+
+<br>
+
+- Sous forme expérimentale depuis 2018, indices publiés depuis 2020
+
+. . .
+
+- Collecte quotidienne pour capter la volatilité des prix
+
+- Requêtes effectuées pour plusieurs couples origine-destination, types de train, antériorités, profils passagers et horaires
+
+- Près de 20 000 requêtes par nuit
+
+. . .
+
+- Un important travail statistique avec les données ainsi obtenues s'ensuit.
 
 
 ## D'autres ressources pour le scraping lié à l'`IPC`
