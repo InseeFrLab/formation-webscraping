@@ -285,7 +285,7 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 . . .
 
 - Dans le doute, ne pas hésiter à se documenter davantage.
-    - Exemples de ressources : [librarycarpentry](https://librarycarpentry.org/lc-webscraping/05-conclusion/index.html), [Rubyroidlabs](https://rubyroidlabs.com/blog/2016/04/web-scraping-1/)...
+    - Exemples de ressources : [Carpentries](https://librarycarpentry.org/lc-webscraping/05-conclusion/index.html), [Rubyroidlabs](https://rubyroidlabs.com/blog/2016/04/web-scraping-1/)...
 
 . . .
 

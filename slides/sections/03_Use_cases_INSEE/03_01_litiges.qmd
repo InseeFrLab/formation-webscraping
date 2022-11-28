@@ -226,7 +226,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 . . .
 
 - Entreparticuliers.com condamné à verser d'importants dommages et intérêts à leboncoin.fr pour :
-    + __Préjudice financier__ : LeBonCoin témoignant d'importants investissements dans la lutte contre le webscraping
+    + __Préjudice financier__ : LeBonCoin témoignant d'importants investissements dans la lutte contre le web scraping
     + __Préjudice d'image__ : LeBonCoin démontrait un nombre important de plaintes de ses utilisateurs
 
 
@@ -250,7 +250,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 #### En Europe (1/2)
 
-- Les CGU d'un site sont juridiquement contractuels pour interdire toute pratique de webscraping ...
+- Les CGU d'un site sont juridiquement contractuels pour interdire toute pratique de web scraping ...
     + ... au moins dès lors qu'elles sont acceptées explicitement (par exemple en appuyant sur un bouton) ...
     + ... sauf si mention contraire par les lois nationales (ex : si supériorité du droit à la concurrence, déjà invoqué en Italie ou en République Tchèque).
 

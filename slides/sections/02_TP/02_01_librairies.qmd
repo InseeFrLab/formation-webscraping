@@ -82,7 +82,7 @@ La librairie se trouve généralement sous le nom de `bs4`.
 
 <br>
 
-- `Java` est également beaucoup utilisé dans le domaine du webscraping
+- `Java` est également beaucoup utilisé dans le domaine du web scraping
 
 <br>
 
