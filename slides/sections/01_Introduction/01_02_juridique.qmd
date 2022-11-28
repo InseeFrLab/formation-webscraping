@@ -1,15 +1,10 @@
-## Le web scraping, est-ce légal ? {.smaller}
+## Le web scraping, est-ce légal ?
 
 <br>
 
 - Le web scraping en lui-même n'est pas une pratique illégale ...
     - ... Mais l'utilisation faite des données scrapées peut être soumise à réglementation.
-    - Ces règles dépendent alors du pays dans lequel on se trouve.
-
-. . .
-
-- Ainsi, scraper un site pour conserver les données sur son ordinateur est légal (tant qu'on ne casse pas le site en question).
-    - En effet, un `bot` de scraping n'a pas accès à davantage qu'un utilisateur lambda.
+    - Ces règles dépendent alors du pays dans lequel on se trouve ainsi que des données scrapées. 
 
 . . .
 
@@ -46,7 +41,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
     - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/)...
 
 
-## Les principales règlementations autour du webscraping {.smaller}
+## Les principales règlementations autour du web scraping {.smaller}
 
 #### En France
 
