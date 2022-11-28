@@ -1,8 +1,8 @@
-## Qu'est-ce que le [webscraping](https://librarycarpentry.org/lc-webscraping/01-introduction/index.html) ?
+## Qu'est-ce que le [web scraping](https://librarycarpentry.org/lc-webscraping/01-introduction/index.html) ?
 
 <br>
 
-- Le [webscraping](https://fr.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'__extraction de contenu__ sur des sites internet.
+- Le [web scraping](https://fr.wikipedia.org/wiki/Web_scraping) désigne un ensemble de techniques d'__extraction de contenu__ sur des sites internet.
 
 . . .
 
@@ -25,24 +25,24 @@
 - On souhaite accéder à un [répertoire d'expressions idiomatiques](https://fr.wiktionary.org/wiki/Annexe:Expressions_en_fran%C3%A7ais) et trouver toutes celles contenant le mot "nez".
 
 
-## `Webscraping`, `webcrawling`, `screen scraping`, quelles différences ? {.smaller}
+## `Web scraping`, `web crawling`, `screen scraping`, quelles différences ? {.smaller}
 
 <br>
 
-- Le [webscraping](https://en.wikipedia.org/wiki/Web_scraping) se réfère à l'extraction des données d'une ou plusieurs pages web.
+- Le [web scraping](https://en.wikipedia.org/wiki/Web_scraping) se réfère à l'extraction des données d'une ou plusieurs pages web.
 
 . . .
 
-- Le [webcrawling](https://en.wikipedia.org/wiki/Web_crawler), ou [spidering]{.blue2} correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.
+- Le [web crawling](https://en.wikipedia.org/wiki/Web_crawler), ou [spidering]{.blue2} correspond à la recherche (ou la navigation parmi) de nouveaux URLs sur Internet ou sur un site spécifique.
 
 . . .
 
-- Quant au [screen scraping](https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping), proche du webscraping, il consiste plutôt à extraire le contenu visuel d'un site apparaissant à l'écran, comme des images.
+- Quant au [screen scraping](https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping), proche du web scraping, il consiste plutôt à extraire le contenu visuel d'un site apparaissant à l'écran, comme des images.
 
 . . .
 
 ::: {.callout-note}
-`Webscraping` et `webcrawling` peuvent aller ensemble : 
+`Web scraping` et `web crawling` peuvent aller ensemble : 
 
 - On utile d'abord un crawler pour récupérer tous les urls d'un site ...
 - ... Puis on scrape chacune des pages les unes après les autres
@@ -73,7 +73,7 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 <br>
 
 - Récupérer les commentaires d'un produit ou d'une entreprise sur un site tiers afin d'analyser les retours obtenus et faire du _sentiment analysis_
-    + Un [papier de recherche](https://www.researchgate.net/publication/332409969_Sentiment_Analysis_for_Scraping_of_Product_Reviews_from_Multiple_Web_Pages_Using_Machine_Learning_Algorithms) sur le sujet
+    + Un [papier de recherche](https://doi.org/10.1007/978-3-030-16660-1_66) sur le sujet
 
 . . .
 
@@ -120,9 +120,9 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 
 <br>
 
-- Pour des chercheurs, le webscraping peut représenter une importance source de données, et ce dans des domaines très variés.
+- Pour des chercheurs, le web scraping peut représenter une importante source de données, et ce dans des domaines très variés.
 
-    + Un exemple [ici](https://www.nature.com/articles/s41597-022-01369-4) avec une équipe ayant scrapé [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal) et [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
+    + Un exemple [ici](https://doi.org/10.1038/s41597-022-01369-4) avec une équipe ayant scrapé [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal) et [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) afin d'établir une base de données de tous les individus ayant leur propre page, pour ensuite établir des statistiques par période, par domaine ou par sexe. 
 
 
 ## Cas d'usage pour un INS
@@ -137,4 +137,4 @@ Dans les répertoires d'expressions idiomatiques, il est facile de "dérober" le
 
 . . .
 
-- Minimiser les fardeaux de réponse lors des enquêtes en favorisant le scraping
+- Minimiser la charge de réponse lors des enquêtes en favorisant le scraping

@@ -23,7 +23,7 @@
 ## Stocker les données
 
 - En général, les données brutes (ex : les pages web) sont stockées dans une base `NoSQL` et sont traitées ensuite.
-    - Les code `HTML` peuvent par exemple être stockés dans une base `MongoDB`.
+    - Les codes `HTML` peuvent par exemple être stockés dans une base `MongoDB`.
 
 . . .
 

@@ -48,7 +48,7 @@ La librairie se trouve généralement sous le nom de `bs4`.
 
 . . .
 
-- `Selenium` permet de simuler un navigateur (aussi appelé [headless browser](https://en.wikipedia.org/wiki/Headless_browser)) puis d'interagir avec les éléments `Javascript` du site "comme un utilisateur"
+- `Selenium` permet de simuler un navigateur (aussi appelé [headless browser](https://en.wikipedia.org/wiki/Headless_browser)) puis d'interagir avec les éléments `JavaScript` du site "comme un utilisateur"
 
 
 ## Un outil plus complet : `Scrapy`
@@ -56,9 +56,9 @@ La librairie se trouve généralement sous le nom de `bs4`.
 <br>
 
 - Un outil plus complet mais aussi plus complexe
-- Très utile pour les opérations de webcrawling
+- Très utile pour les opérations de web crawling
 - Davantage recommandé pour de gros projets
-- Un tutoriel par [Library Carpentry](https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html)
+- Un tutoriel des [Carpentries](https://librarycarpentry.org/lc-webscraping/04-scrapy/index.html)
 
 
 ## Quelques librairies sur `R`

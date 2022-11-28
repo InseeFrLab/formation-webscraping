@@ -1,9 +1,9 @@
-## Le webscraping, est-ce légal ? {.smaller}
+## Le web scraping, est-ce légal ? {.smaller}
 
 <br>
 
-- Le webscraping en lui-même n'est pas une pratique illégale ...
-    - ... Mais l'utilisation faite des données scrapées peut être soumise à règlementation.
+- Le web scraping en lui-même n'est pas une pratique illégale ...
+    - ... Mais l'utilisation faite des données scrapées peut être soumise à réglementation.
     - Ces règles dépendent alors du pays dans lequel on se trouve.
 
 . . .
@@ -22,7 +22,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 ## Une frontière floue
 
-- Les législations spécifiques au webscraping sont peu nombreuses et différentes d'un pays à l'autre.
+- Les législations spécifiques au web scraping sont peu nombreuses et différentes d'un pays à l'autre.
 
 . . .
 
@@ -42,36 +42,36 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 . . .
 
-- Les articles discutant de webscraping et de leur légalité sont tout aussi proliférants, mais pas toujours d'accord les uns avec les autres.
-    - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHKyxBPQT3OjdH-GZcMTIuzyt5qWfCZEFzl20DcXDw3qj3-8b7BWO4w758nkxE7ZEJ_moEqIr50FF8LU0F7lAqnPKGaT3Jt27YU7NJ5WClf9TgXxnEBEahJrPBE4oi9KGsmCtsfS5rlDzgDhBAzOzbkrIskSDjRNggw4TKHJ5oKL)...
+- Les articles discutant de web scraping et de leur légalité sont tout aussi proliférants, mais pas toujours d'accord les uns avec les autres.
+    - Quelques ressources : [Imperva](https://www.imperva.com/blog/is-web-scraping-illegal/), [Islean Consulting](https://islean-consulting.fr/fr/transformation-digitale/scraping-pages-web-legal/), [TechCrunch](https://techcrunch.com/2022/04/18/web-scraping-legal-court/)...
 
 
 ## Les principales règlementations autour du webscraping {.smaller}
 
 #### En France
 
-- [L'article L342-1 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279247)
+- [L'article L.\ 342-1 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279247)
 
-- [L'article L342-2 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279250)
-
-. . .
-
-- L'[article 323-3 du Code Pénal](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939448) : _"Le fait [...] d'extraire, de détenir, de reproduire [...] frauduleusement les données qu'il [le site] contient est puni de cinq ans d'emprisonnement et de 150 000 € d'amende"_
+- [L'article L.\ 342-2 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279250)
 
 . . .
 
-- En termes de droit de la concurrence, on pourra aussi parler de concurrence déloyale avec l'[article L121-1 du Code de la Consommation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227301/)
+- L'[article 323-3 du code pénal](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939448) : _"Le fait [...] d'extraire, de détenir, de reproduire [...] frauduleusement les données qu'il [le site] contient est puni de cinq ans d'emprisonnement et de 150 000 € d'amende"_
 
 . . .
 
-- Il serait même possible de parler de parasitisme et invoquer l’[article 1240 du Code civil](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032041571)
+- En termes de droit de la concurrence, on pourra aussi parler de concurrence déloyale avec l'[article L.\ 121-1 du code de la consommation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227301/)
+
+. . .
+
+- Il serait même possible de parler de parasitisme et invoquer l’[article 1240 du code civil](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032041571)
 
 . . .
 
 - La `CNIL` a également publié en 2020 un ensemble de [nouvelles directives](https://www.cnil.fr/fr/la-reutilisation-des-donnees-publiquement-accessibles-en-ligne-des-fins-de-demarchage-commercial), limitant l'usage de données personnelles, même si publiques, à usage commercial
 
 
-## Les principales règlementations autour du webscraping {.smaller}
+## Les principales règlementations autour du web scraping {.smaller}
 
 #### En Europe
 
@@ -87,16 +87,16 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 . . .
 
-- Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données (notamment personnelles)
+- Le [RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), sur l'utilisation des données à caractère personnel
 
 
-## Les principales règlementations autour du webscraping {.smaller}
+## Les principales réglementations autour du web scraping {.smaller}
 
 #### Encore d'autres
 
 <br>
 
-- Les __jurisprudences__ issues des procès d'entreprises liés au webscraping
+- Les __jurisprudences__ issues des procès d'entreprises liés au web scraping
 
 . . .
 
@@ -114,7 +114,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 <br>
 
-- Afin d'éviter la réutilisation de leur contenu par des concurrents et lutter contre l'espionnage
+- Afin d'éviter la réutilisation de leurs contenus par des concurrents et lutter contre l'espionnage
 
 . . .
 
@@ -152,7 +152,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 - [__Nécessiter une identification__]{.blue2} pour accéder au contenu du site
 
 
-## Les limites du webscraping {.smaller}
+## Les limites du web scraping {.smaller}
 
 - La qualité des données obtenues par scraping n'est pas toujours au rendez-vous.
     + De plus, vérification manuelle à faire pour vérifier qu'un faux contenu n'a pas été renvoyé par le site.
@@ -176,11 +176,11 @@ Il est préférable de privilégier d'autres modes d'accès aux données lorsque
 :::
 
 
-## Dans ces conditions, quand envisager le webscraping ? {.smaller}
+## Dans ces conditions, quand envisager le web scraping ? {.smaller}
 
 <br>
 
-La politique de l'INSEE est de garder le webscraping comme __dernière option__. Les premières étapes recommandées sont d'abord de :
+La politique de l'INSEE est de garder le web scraping comme __dernière option__. Les premières étapes recommandées sont d'abord de :
 
 - Demander directement aux sites concernés l'accès à leurs données et nouer d'éventuels partenariats, par exemple modulo une contrepartie
 
@@ -195,7 +195,7 @@ La politique de l'INSEE est de garder le webscraping comme __dernière option__.
 
 ## Pour un scraping éthique (et légal !)
 
-- Le webscraping reste malgré tout une nouvelle source de données très pratique dans le cas où aucune meilleure alternative ne se présente.
+- Le web scraping reste malgré tout une nouvelle source de données très pratique dans le cas où aucune meilleure alternative ne se présente.
     + Il ne faut donc pas s'en priver lorsque c'est techniquement et juridiquement propice.
 
 . . .
@@ -256,7 +256,7 @@ La politique de l'INSEE est de garder le webscraping comme __dernière option__.
 
 <br>
 
-- Consciemment déroger aux règlementations applicables et manquer de transparence
+- Consciemment déroger aux réglementations applicables et manquer de transparence
 
 . . .
 
@@ -294,5 +294,5 @@ La politique de l'INSEE est de garder le webscraping comme __dernière option__.
 
 . . .
 
-- Il existe parfois des structures dont le rôle est justement d'évaluer l'aspect juridique de pratiques comme le webscraping.
+- Il existe parfois des structures dont le rôle est justement d'évaluer l'aspect juridique de pratiques comme le web scraping.
     + A l'INSEE, c'est la responsabilité de l'[UAJC](https://lannuaire.service-public.fr/gouvernement/bd0be1df-7153-44b0-ab29-43d125837532)

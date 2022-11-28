@@ -8,7 +8,7 @@
 - Les 3 langages principaux pour les coder sont :
     + [HTML](https://developer.mozilla.org/fr/docs/Web/HTML) : pour composer la structure des pages via un système de balises
     + [CSS](https://developer.mozilla.org/fr/docs/Web/CSS) : des feuilles de style pour décrire la présentation de pages `HTML`
-    + [Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript) : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
+    + [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript) : pour tout ce qui est relatif à l'interactivité d'un site (ex : boutons)
 
 . . .
 
@@ -122,7 +122,7 @@ Deux ressources-clés :
 
 <br>
 
-- Le webscraping consiste à naviguer parmi ces balises `HTML` pour extraire le contenu désiré (textes, tableaux, images, ...).
+- Le web scraping consiste à naviguer parmi ces balises `HTML` pour extraire le contenu désiré (textes, tableaux, images, ...).
 
 . . .
 
