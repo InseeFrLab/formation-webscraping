@@ -67,7 +67,7 @@
 
 . . .
 
-- Pour plus d'informations, contacter [innovation@insee.fr](innovation@insee.fr)
+- Pour plus d'informations, contacter [innovation@insee.fr](mailto:innovation@insee.fr)
 
 
 ## Comment utiliser le [SSP Cloud](https://datalab.sspcloud.fr/home) ?

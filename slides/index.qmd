@@ -6,7 +6,7 @@ author:
   - name : "[[Antoine Palazzolo, INSEE](https://github.com/antoine-palazz/)]{.orange}"
 # uncomment for French presentations:
 lang: fr-FR
-date: Décembre 2022
+date: 12/01/2022
 date-format: long
 slide-number: true
 # for blind readers:
