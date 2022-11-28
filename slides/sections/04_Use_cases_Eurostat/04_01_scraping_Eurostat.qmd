@@ -8,7 +8,7 @@
 
 - Parmi ces investissements, plusieurs liés aux nouvelles sources de données, dont le web scraping.
     + ESSnet Big Data I & II
-    + Trusted Smart Statistics – Web Intelligence Network (`WIN`)
+    + Trusted Smart Statistics – Web Intelligence Network
 
 
 ## Une continuité de projets
