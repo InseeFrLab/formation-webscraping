@@ -63,8 +63,6 @@ La librairie se trouve généralement sous le nom de `bs4`.
 
 ## Quelques librairies sur `R`
 
-<br>
-
 - [polite](https://cran.r-project.org/web/packages/polite/index.html)
     - Particulièrement orienté scraping éthique
 
@@ -76,6 +74,11 @@ La librairie se trouve généralement sous le nom de `bs4`.
 . . .
 
 - D'autres librairies : [RCrawler](https://cran.r-project.org/web/packages/Rcrawler/Rcrawler.pdf), [RSelenium](https://cran.r-project.org/web/packages/RSelenium/index.html)
+
+. . .
+
+- Pour manipuler des headless browsers à très bas niveau, voir [Chromote](https://github.com/rstudio/chromote)
+    + Aussi disponbile sur Python [ici](https://pypi.org/project/chromote/)
 
 
 ## Quelques librairies en `Java`
