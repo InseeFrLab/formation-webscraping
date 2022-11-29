@@ -76,11 +76,21 @@
 
 - Requêtes effectuées pour plusieurs couples origine-destination, types de train, antériorités, profils passagers et horaires
 
-- Près de 20 000 requêtes par nuit
+- Près de 23 000 requêtes par nuit
 
 . . .
 
 - Un important travail statistique avec les données ainsi obtenues s'ensuit.
+    + Stratification en cellules homogènes de prix
+    + Un micro-indice calculé par cellule
+    + Agrégation des micro-indices avec un indice de Laspeyres arithmétique
+
+
+## Scraping de la SNCF {.smaller}
+
+#### Comparaison des résultats
+
+![](img/scraping_sncf.png){fig-align="center"}
 
 
 ## D'autres ressources pour le scraping lié à l'`IPC`
