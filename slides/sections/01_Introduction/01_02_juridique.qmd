@@ -201,7 +201,7 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 . . .
 
-- Chercher s'il existe une `API` du site permettant d'accéder aux données (ou la demander)
+- Chercher s'il existe une [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) du site permettant d'accéder aux données (ou la demander)
 
 . . .
 
