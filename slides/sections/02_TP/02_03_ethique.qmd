@@ -2,9 +2,9 @@
 
 #### S'identifier
 
-- S'identifier via le champ ["user-agent"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent), l'un des headers renseignables lors d'une requête `HTTP`
+- S'identifier via le champ ["user-agent"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent), l'un des _headers_ renseignables lors d'une requête `HTTP`
 
-- Un autre champ parmi les headers possible : `from`
+- Un autre champ parmi les _headers_ possible : `from`
 
 . . .
 

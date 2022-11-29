@@ -19,7 +19,7 @@ Plusieurs librairies permettent de faire du scraping en `Python`. Les principale
 
 - Rôle :
     + Créer des requêtes `HTTP` pour récupérer le contenu des pages web
-    + Des headers peuvent être ajoutés aux requêtes pour s'identifier auprès du site
+    + Des _headers_ peuvent être ajoutés aux requêtes pour s'identifier auprès du site
 
 . . .
 
