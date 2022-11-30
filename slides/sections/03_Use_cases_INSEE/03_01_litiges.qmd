@@ -206,7 +206,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 - Pour en bénéficier, LeBonCoin a dû témoigner d'un _investissement substantiel_ dans la constitution, la vérification ou la présentation de ses bases de données.
     + En pratique, c'est un point bloquant pour nombre de producteurs de données dans de telles affaires.
-    + En l'occurrence, il a été prouvé les moyens humains et financiers investis dans ces bases étaient bien substantiels.
+    + En l'occurrence, il a été prouvé que les moyens humains et financiers investis dans ces bases étaient bien substantiels.
 
 . . .
 
@@ -237,7 +237,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 - [AutoTrack v. GasPedaal](https://curia.europa.eu/juris/document/document.jsf?docid=145914&doclang=FR) (2013 - Pays-Bas)
     + Aussi connu sous le nom de [Innoweb BV v. Wegener ICT Media BV](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62012CA0202)
-    + Le métamoteur de recherche GasPedaal est interdit de scraper GasPedaal, notamment car :
+    + Le méta-moteur de recherche GasPedaal est interdit de scraper GasPedaal, notamment car :
         - Les données scrapées sont réutilisées sans modification notoire
         - AutoTrack bénéficie du droit `sui generis` sur ses données
 
@@ -246,14 +246,14 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 - [Craigslist Inc. v. 3Taps Inc.](https://en.wikipedia.org/wiki/Craigslist_Inc._v._3Taps_Inc.) ( 2013 - Etats-Unis)
     - Suite à un accord mutuel, 3Taps et PadMapper ne pourront plus scraper les données de Craiglist et devront lui verser une somme importante d'argent.
-    - Le CFAA a été invoqué par Craiglist et accepté par la Cour suite au blocage des adresses IP des deux entreprises et les multiples mises en demeure envoyées pour cesser les activités de collecte. 3Taps avait continué ses activités de scraping en utilisant un VPN (et PadMapper les leur avait scrapées).
+    - Le CFAA a été invoqué par Craiglist et accepté par la Cour suite au blocage des adresses IP des deux entreprises et les multiples mises en demeure envoyées pour faire cesser les activités de collecte. 3Taps avait continué ses activités de scraping en utilisant un VPN (et PadMapper les leur avait scrapées).
 
 
 ## Conclusions des jurisprudences {.smaller}
 
 #### En Europe (1/2)
 
-- Les CGU d'un site sont juridiquement contractuels pour interdire toute pratique de web scraping ...
+- Les CGU d'un site sont juridiquement contractuelles pour interdire toute pratique de web scraping ...
     + ... au moins dès lors qu'elles sont acceptées explicitement (par exemple en appuyant sur un bouton) ...
     + ... sauf si mention contraire par les lois nationales (ex : si supériorité du droit à la concurrence, déjà invoqué en Italie ou en République Tchèque).
 

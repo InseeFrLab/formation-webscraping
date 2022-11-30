@@ -26,7 +26,7 @@
 
 <br>
 
-- Besoin de statistiques sur les offres d'emploi les plus à jour possibles pour adapter les politiques d'emploi et d'éducation
+- Besoin de statistiques sur les offres d'emploi les plus à jour possible pour adapter les politiques d'emploi et d'éducation
 
 . . .
 
@@ -38,7 +38,7 @@
 
 . . .
 
-- Le web scraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possibles
+- Le web scraping estimé comme la solution la plus appropriée pour obtenir des données les plus complètes possible
 
 
 ## Online Job Advertisements

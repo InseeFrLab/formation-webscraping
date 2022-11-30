@@ -62,7 +62,7 @@
 
 - Pourquoi ouvrir ses codes ?
   - Auditabilité des agents publics
-  - Meilleur qualité du code et reproductibilité
+  - Meilleure qualité du code et reproductibilité
   - Une vitrine pour l'auteur.e et pour l'INS
 
 . . .

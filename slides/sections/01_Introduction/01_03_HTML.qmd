@@ -126,7 +126,7 @@ Deux ressources-clés :
 
 . . .
 
-- Il est aussi possible de récupérer d'autres url sur une page pour s'y rendre et les scraper ensuite.
+- Il est aussi possible de récupérer d'autres URLs sur une page pour s'y rendre et les scraper ensuite.
 
 . . .
 

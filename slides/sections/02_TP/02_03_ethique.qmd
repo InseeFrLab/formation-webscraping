@@ -57,7 +57,7 @@ Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 
 - Ajouter des pauses entre chaque requête, pour ne pas aller plus vite qu'un utilisateur ne le pourrait (`time.sleep()` en `Python`)
     + C'est également une bonne pratique de scraping éthique
-    + Un délai de 2 et 5 secondes par requête est la préconisation usuelle
+    + Un délai de 2 à 5 secondes par requête est la préconisation usuelle
 
 . . .
 

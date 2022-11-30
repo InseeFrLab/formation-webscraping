@@ -44,7 +44,7 @@ La librairie se trouve généralement sous le nom de `bs4`.
 <br>
 
 - Les librairies précédentes ne permettent pas d'interagir avec une page utilisant `Javascript`
-    - Ex: Appuyer sur un bouton, rentrer ses identifiants, ...
+    - Ex: Appuyer sur un bouton, rentrer ses identifiants...
 
 . . .
 
@@ -78,7 +78,7 @@ La librairie se trouve généralement sous le nom de `bs4`.
 . . .
 
 - Pour manipuler des headless browsers à très bas niveau, voir [Chromote](https://github.com/rstudio/chromote)
-    + Aussi disponbile sur Python [ici](https://pypi.org/project/chromote/)
+    + Aussi disponible sur Python [ici](https://pypi.org/project/chromote/)
 
 
 ## Quelques librairies en `Java`

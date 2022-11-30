@@ -26,7 +26,7 @@ Diffuser ou commercialiser des données scrapées ou un quelconque travail réut
 
 . . .
 
-- Les [cas portés en justice](https://devm.io/law-net-culture/data-scraping-cases-165385) ont des dénouements parfois différents les uns les autres, notamment d'un pays à l'autre, montrant bien qu'il s'agit là d'une zone parfois grise.
+- Les [cas portés en justice](https://devm.io/law-net-culture/data-scraping-cases-165385) ont des dénouements parfois différents les uns des autres, notamment d'un pays à l'autre, montrant bien qu'il s'agit là d'une zone parfois grise.
 
 
 ## Une pratique pourtant très répandue
@@ -270,7 +270,7 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 #### Confiance
 
-- [__Favoriser les échanges__]{.blue2} avec les propriétaires des sites : partenariats, échanges de données, requêtes d'API, ...
+- [__Favoriser les échanges__]{.blue2} avec les propriétaires des sites : partenariats, échanges de données, requêtes d'API...
 
 . . .
 
