@@ -1,4 +1,4 @@
-# Dépôt pour formation au webscraping
+# Formation au webscraping
 
 ## SSP Lab, INSEE
 
