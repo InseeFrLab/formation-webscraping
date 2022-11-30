@@ -2,7 +2,7 @@
 
 ## SSP Lab, INSEE
 
-__Le lien du support__ : https://formation-webscraping-insee.netlify.app/
+__Le lien du support__ : https://inseefrlab.github.io/formation_webscraping/#/title-slide
 
 <br>
 
