@@ -9,6 +9,7 @@ Plusieurs librairies permettent de faire du scraping en `Python`. Les principale
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Selenium](https://selenium-python.readthedocs.io/)
 - [Scrapy](https://scrapy.org/)
+- [lxml](https://lxml.de/)
 
 
 ## Extraire les codes sources HTML
@@ -37,6 +38,17 @@ Plusieurs librairies permettent de faire du scraping en `Python`. Les principale
 
 La librairie se trouve généralement sous le nom de `bs4`.
 :::
+
+## Analyser les codes _HTML_ et _XML_ : `lxml`
+
+- Permet de formater des documents `HTML` ou `XML` en une structure arborescente
+
+- Permet de naviguer dans l'arborescence des balises lorsque celles-ci ne sont pas clairement identifiées
+    + Si par exemple il n'y a pas d'_id_ ou de _class_
+
+- Repose notamment sur `XPath`, permettant d'accéder à des balises enfouies profondément dans l'arborescence
+
+- Particulièrement utile pour des pages avec de nombreux éléments emboîtés peu identifiés
 
 
 ## Interagir avec une page : `Selenium`
