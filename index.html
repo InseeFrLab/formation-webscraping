@@ -1328,6 +1328,46 @@ Gangster
 </ul>
 </div>
 </section>
+<section id="extraire-les-codes-sources-html-1" class="slide level2 smaller" data-background-size="contain">
+<h2>Extraire les codes sources HTML</h2>
+<h4 data-background-size="contain" id="bonne-pratique">Bonne pratique</h4>
+<ul>
+<li>Lorsque l’on scrape plusieurs pages d’un même site, il vaut mieux <span class="blue2"><strong>ouvrir une seule session</strong></span> sur le site et faire les requêtes à partir de là que réouvrir une nouvelle session à chaque requête.
+<ul>
+<li>Si l’on scrape plusieurs sites différents, on ouvre <strong>une session par site distinct</strong>.</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Cela permet notamment d’<span class="blue2"><strong>éviter la saturation des serveurs</strong></span> en <strong>limitant le nombre de ports utilisés</strong> lorsque de larges volumes sont scrapés.
+<ul>
+<li>Cela <strong>réduit également le délai des requêtes successives</strong>, puisqu’il n’y a pas à ouvrir une nouvelle session à chaque requête.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-captioned callout-style-default">
+<div class="callout-body">
+<div class="callout-caption">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Exemple avec <code>requests</code></strong></p>
+</div>
+<div class="callout-content">
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2"></a>sessions <span class="op">=</span> {}</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="cf">for</span> url <span class="kw">in</span> sites_distincts:</span>
+<span id="cb2-4"><a href="#cb2-4"></a>    sessions[url] <span class="op">=</span> requests.Session()</span>
+<span id="cb2-5"><a href="#cb2-5"></a></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="cf">for</span> url <span class="kw">in</span> sites_distincts:</span>
+<span id="cb2-7"><a href="#cb2-7"></a>    <span class="cf">for</span> page <span class="kw">in</span> pages[url]:</span>
+<span id="cb2-8"><a href="#cb2-8"></a>        request_text <span class="op">=</span> sessions[url].get(url<span class="op">+</span>page, params<span class="op">=</span>params).text</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="analyser-les-codes-html-beautifulsoup" class="slide level2" data-background-size="contain">
 <h2>Analyser les codes <em>HTML</em> : <code>BeautifulSoup</code></h2>
 <ul>
@@ -1335,6 +1375,7 @@ Gangster
 <li>Permet ensuite de naviguer dans la structure pour scraper le contenu désiré</li>
 <li>Très intuitif à utiliser</li>
 </ul>
+<!-- Ajouter une slide sur les fonctions de BeautifulSoup, comme find et findAll -->
 <div class="callout callout-tip callout-captioned callout-style-default">
 <div class="callout-body">
 <div class="callout-caption">
@@ -1590,15 +1631,15 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 <p><strong>Exemple avec <code>Python</code> et <code>requests</code></strong></p>
 </div>
 <div class="callout-content">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a></span>
-<span id="cb2-2"><a href="#cb2-2"></a>url <span class="op">=</span> <span class="st">'abc.com'</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a></span>
-<span id="cb2-4"><a href="#cb2-4"></a>headers <span class="op">=</span> {</span>
-<span id="cb2-5"><a href="#cb2-5"></a>    <span class="st">'User-Agent'</span>: <span class="st">'Antoine Palazzolo - antoine.palazzolo@insee.fr - INSEE - Collect xxx in order to do yyy'</span>,</span>
-<span id="cb2-6"><a href="#cb2-6"></a>    <span class="st">'From'</span>: <span class="st">'More information on insee.fr/zzz'</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a>}</span>
-<span id="cb2-8"><a href="#cb2-8"></a></span>
-<span id="cb2-9"><a href="#cb2-9"></a>request_text <span class="op">=</span> requests.get(url, headers<span class="op">=</span>headers).text</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a></span>
+<span id="cb3-2"><a href="#cb3-2"></a>url <span class="op">=</span> <span class="st">'abc.com'</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a></span>
+<span id="cb3-4"><a href="#cb3-4"></a>headers <span class="op">=</span> {</span>
+<span id="cb3-5"><a href="#cb3-5"></a>    <span class="st">'User-Agent'</span>: <span class="st">'Antoine Palazzolo - antoine.palazzolo@insee.fr - INSEE - Collect xxx in order to do yyy'</span>,</span>
+<span id="cb3-6"><a href="#cb3-6"></a>    <span class="st">'From'</span>: <span class="st">'More information on insee.fr/zzz'</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a>}</span>
+<span id="cb3-8"><a href="#cb3-8"></a></span>
+<span id="cb3-9"><a href="#cb3-9"></a>request_text <span class="op">=</span> requests.get(url, headers<span class="op">=</span>headers).text</span></code><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -1644,7 +1685,6 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 </section>
 <section id="autres-recommandations-pour-un-ins" class="slide level2 smaller" data-background-size="contain">
 <h2>Autres recommandations pour un INS</h2>
-<p><br></p>
 <ul>
 <li>Faire en sorte de pouvoir tracer l’activité d’un programme, afin de notamment pouvoir en auditer le fonctionnement.
 <ul>
@@ -1654,6 +1694,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 <div class="fragment">
 <ul>
 <li>En cas de passage en production, il est nécessaire que le programme fasse l’objet d’une revue de code (entre pairs ou externe), voire, selon la nature de son intégration, relève d’une démarche d’homologation de sécurité.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Bien faire attention à la documentation et à la transmission des codes lors de projets de scraping, pour éviter les pertes de connaissance au sein d’une équipe lors d’un changement de poste.
+<ul>
+<li>Il est déjà arrivé que des collectes soient freinées en raison du départ de la personne à les avoir mises en place.</li>
+</ul></li>
 </ul>
 </div>
 </section></section>
