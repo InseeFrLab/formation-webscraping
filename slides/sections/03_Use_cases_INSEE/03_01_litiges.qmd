@@ -101,7 +101,7 @@ Décision préliminaire de la [CJEU](https://european-union.europa.eu/institutio
 
 . . .
 
-- En revanche, Ryanair est __autorisé à instaurer des limitations contractuelles__ sur l'utilisation de son site, tant qu'elles ne contradisent pas le droit national
+- En revanche, Ryanair est __autorisé à instaurer des limitations contractuelles__ sur l'utilisation de son site, tant qu'elles ne contredisent pas le droit national
     + On notera que pour pouvoir lancer une recherche et visualiser les vols Ryanair disponibles en ligne, il faut explicitement accepter les CGU du site en cliquant sur un bouton
 
 
