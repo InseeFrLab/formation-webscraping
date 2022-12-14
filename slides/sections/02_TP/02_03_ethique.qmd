@@ -18,7 +18,6 @@
 ## Exemple avec `Python` et `requests`
 
 ```python
-
 url = 'abc.com'
 
 headers = {
