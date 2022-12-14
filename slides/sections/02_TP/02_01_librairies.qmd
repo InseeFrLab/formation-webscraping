@@ -27,11 +27,43 @@ Plusieurs librairies permettent de faire du scraping en `Python`. Les principale
 - `Requests` un peu plus simpliste que `Urllib`
 
 
+## Extraire les codes sources HTML {.smaller}
+
+#### Bonne pratique
+
+- Lorsque l'on scrape plusieurs pages d'un même site, il vaut mieux [__ouvrir une seule session__]{.blue2} sur le site et faire les requêtes à partir de là que réouvrir une nouvelle session à chaque requête.
+    + Si l'on scrape plusieurs sites différents, on ouvre __une session par site distinct__.
+
+. . .
+
+- Cela permet notamment d'[__éviter la saturation des serveurs__]{.blue2} en __limitant le nombre de ports utilisés__ lorsque de larges volumes sont scrapés.
+    + Cela __réduit également le délai des requêtes successives__, puisqu'il n'y a pas à ouvrir une nouvelle session à chaque requête.
+
+. . .
+
+::: {.callout-tip}
+## Exemple avec `requests`
+
+```python
+
+sessions = {}
+for url in sites_distincts:
+    sessions[url] = requests.Session()
+
+for url in sites_distincts:
+    for page in pages[url]:
+        request_text = sessions[url].get(url+page, params=params).text
+```
+:::
+
+
 ## Analyser les codes _HTML_ : `BeautifulSoup`
 
 - Permet de formater des documents `HTML` ou `XML` en une structure arborescente
 - Permet ensuite de naviguer dans la structure pour scraper le contenu désiré
 - Très intuitif à utiliser
+
+<!-- Ajouter une slide sur les fonctions de BeautifulSoup, comme find et findAll -->
 
 ::: {.callout-tip}
 ## Remarque

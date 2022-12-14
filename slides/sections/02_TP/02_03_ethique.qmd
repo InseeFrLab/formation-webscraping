@@ -66,11 +66,14 @@ Quelques pratiques admises pour ne pas être bloqué par les sites scrapés :
 
 ## Autres recommandations pour un INS {.smaller}
 
-<br>
-
 - Faire en sorte de pouvoir tracer l’activité d’un programme, afin de notamment pouvoir en auditer le fonctionnement.
     + Les logs doivent contenir des informations sur l’utilisateur ou le compte système effectuant l’action, le résultat de l’action et le temps qu’elle a mis à s’exécuter.
 
 . . .
 
 - En cas de passage en production, il est nécessaire que le programme fasse l’objet d’une revue de code (entre pairs ou externe), voire, selon la nature de son intégration, relève d’une démarche d’homologation de sécurité.
+
+. . .
+
+- Bien faire attention à la documentation et à la transmission des codes lors de projets de scraping, pour éviter les pertes de connaissance au sein d'une équipe lors d'un changement de poste.
+    + Il est déjà arrivé que des collectes soient freinées en raison du départ de la personne à les avoir mises en place.
