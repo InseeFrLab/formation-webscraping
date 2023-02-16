@@ -223,11 +223,11 @@ La politique de l'INSEE est de garder le web scraping comme __dernière option__
 
 <br>
 
-- Un ensemble de recommandations principalement à destination des INS sur le point d'être publié
+- Un [ensemble de recommandations](https://ec.europa.eu/eurostat/cros/content/web-content-retrieval-guidelines-0_en) principalement à destination des INS publié durant l'été 2022
 
 . . .
 
-- Une [première version](https://ec.europa.eu/eurostat/cros/system/files/04_-_web_scraping_policy.doc) datant de février 2020 disponible en ligne
+- La [version précédente](https://ec.europa.eu/eurostat/cros/system/files/04_-_web_scraping_policy.doc) datant de février 2020 également disponible
 
 . . .
 
