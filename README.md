@@ -13,3 +13,5 @@ Pour plus d'informations, contacter [Antoine Palazzolo](mailto:antoine.palazzolo
 ### Contribuer
 
 N'hésitez pas à proposer des ajouts ou corrections si besoin s'en fait !
+
+La dernière mise à jour du contenu date de décembre 2022.
