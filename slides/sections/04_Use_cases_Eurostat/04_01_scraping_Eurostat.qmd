@@ -25,7 +25,7 @@
 
 . . .
 
-- Le [Web Intelligence Network](https://ec.europa.eu/eurostat/cros/content/project-overview_en) (`WIN`) d'avril 2020 à mars 2025
+- Le [Web Intelligence Network](https://ec.europa.eu/eurostat/cros/content/project-overview_en) (`WIN`) d'avril 2021 à mars 2025
     + Le `WIN` fait notamment la promotion du Web Intelligence Hub (`WIH`), dédié au thème de l'acquisition et l'utilisation de nouvelles données venant du Web.
     + Ce sont 17 organisations de 14 pays européens qui travaillent ensemble.
 
